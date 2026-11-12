@@ -1,0 +1,496 @@
+{
+ "clip": "v2_420",
+ "annotator": "A",
+ "runners": [
+  {
+   "bib": "6?",
+   "status": "partial",
+   "t_first": 420.0,
+   "t_best": 420.5,
+   "t_last": 421.5,
+   "note": "黑白外套條紋毛帽女 護膝"
+  },
+  {
+   "bib": "1376",
+   "status": "sure",
+   "t_first": 420.5,
+   "t_best": 422.0,
+   "t_last": 422.5,
+   "note": "紅UA上衣毛帽男"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 420.0,
+   "t_best": 421.0,
+   "t_last": 422.0,
+   "note": "黑衣小男孩"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 420.5,
+   "t_best": 422.0,
+   "t_last": 423.5,
+   "note": "粉紅連帽墨鏡女"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 420.5,
+   "t_best": 422.0,
+   "t_last": 423.5,
+   "note": "螢光黃上衣紅外套綁腰女"
+  },
+  {
+   "bib": "802",
+   "status": "sure",
+   "t_first": 421.5,
+   "t_best": 423.5,
+   "t_last": 423.5,
+   "note": "粉紅外套毛帽女孩"
+  },
+  {
+   "bib": "81?",
+   "status": "partial",
+   "t_first": 421.5,
+   "t_best": 423.5,
+   "t_last": 423.5,
+   "note": "薄荷綠帽T女"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 421.5,
+   "t_best": 423.0,
+   "t_last": 424.0,
+   "note": "螢光黃外套黑褲毛帽男"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 421.5,
+   "t_best": 424.0,
+   "t_last": 427.0,
+   "note": "綠K上衣光頭男 推單人推車"
+  },
+  {
+   "bib": "17?",
+   "status": "partial",
+   "t_first": 423.0,
+   "t_best": 425.0,
+   "t_last": 425.5,
+   "note": "Bruins黑帽T男 推雙人推車(號碼牌掛在推車上)"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 423.0,
+   "t_best": 424.5,
+   "t_last": 424.5,
+   "note": "黑外套女 粉紅鞋"
+  },
+  {
+   "bib": "1217",
+   "status": "sure",
+   "t_first": 423.0,
+   "t_best": 425.5,
+   "t_last": 426.5,
+   "note": "紫外套花紋毛帽墨鏡女"
+  },
+  {
+   "bib": "927?",
+   "status": "partial",
+   "t_first": 425.0,
+   "t_best": 425.0,
+   "t_last": 426.5,
+   "note": "黑衣紅腰小男孩(紫外套女旁)"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 424.0,
+   "t_best": 425.5,
+   "t_last": 426.5,
+   "note": "酒紅上衣帽女 推推車"
+  },
+  {
+   "bib": "?388",
+   "status": "partial",
+   "t_first": 425.5,
+   "t_best": 427.0,
+   "t_last": 428.0,
+   "note": "螢光綠外套男孩"
+  },
+  {
+   "bib": "938?",
+   "status": "partial",
+   "t_first": 426.0,
+   "t_best": 427.5,
+   "t_last": 428.5,
+   "note": "深藍上衣白圍巾頭帶女"
+  },
+  {
+   "bib": "107?",
+   "status": "partial",
+   "t_first": 426.5,
+   "t_best": 426.5,
+   "t_last": 427.5,
+   "note": "黑外套白毛帽墨鏡黃領女 號碼牌在腿"
+  },
+  {
+   "bib": "587",
+   "status": "sure",
+   "t_first": 426.0,
+   "t_best": 427.5,
+   "t_last": 428.0,
+   "note": "藍上衣黑外套黑帽女"
+  },
+  {
+   "bib": "14?",
+   "status": "partial",
+   "t_first": 425.0,
+   "t_best": 428.5,
+   "t_last": 428.5,
+   "note": "桃色上衣女 推黃色雙人推車"
+  },
+  {
+   "bib": "?24",
+   "status": "partial",
+   "t_first": 427.0,
+   "t_best": 429.0,
+   "t_last": 430.0,
+   "note": "湖水綠外套女孩 花褲(像524)"
+  },
+  {
+   "bib": "13?",
+   "status": "partial",
+   "t_first": 428.0,
+   "t_best": 429.0,
+   "t_last": 429.5,
+   "note": "紫色外套馬尾女"
+  },
+  {
+   "bib": "9?0",
+   "status": "partial",
+   "t_first": 428.0,
+   "t_best": 429.0,
+   "t_last": 429.5,
+   "note": "白毛帽薄荷外套墨鏡女"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 427.0,
+   "t_best": 429.0,
+   "t_last": 431.5,
+   "note": "Happy New Year背心紫裙女"
+  },
+  {
+   "bib": "118?",
+   "status": "partial",
+   "t_first": 430.0,
+   "t_best": 431.5,
+   "t_last": 432.0,
+   "note": "紅外套條紋毛帽女 腿上號碼"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 430.0,
+   "t_best": 431.5,
+   "t_last": 432.0,
+   "note": "黑外套毛帽小孩(紅外套女旁) 腿上號碼"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 430.5,
+   "t_best": 431.5,
+   "t_last": 432.5,
+   "note": "黑帽T戴帽男 胸前號碼"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 430.0,
+   "t_best": 431.0,
+   "t_last": 432.5,
+   "note": "深灰長袖眼鏡男 酒紅短褲"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 430.0,
+   "t_best": 432.0,
+   "t_last": 432.5,
+   "note": "粉紅外套條紋毛帽女 膝上號碼"
+  },
+  {
+   "bib": "440",
+   "status": "sure",
+   "t_first": 431.0,
+   "t_best": 434.5,
+   "t_last": 434.5,
+   "note": "紅毛衣眼鏡毛帽男"
+  },
+  {
+   "bib": "33?",
+   "status": "partial",
+   "t_first": 431.0,
+   "t_best": 434.0,
+   "t_last": 434.5,
+   "note": "灰色Snowflake上衣女"
+  },
+  {
+   "bib": "40?",
+   "status": "partial",
+   "t_first": 431.5,
+   "t_best": 434.0,
+   "t_last": 435.5,
+   "note": "湖水綠外套毛帽女"
+  },
+  {
+   "bib": "40?",
+   "status": "partial",
+   "t_first": 431.5,
+   "t_best": 434.5,
+   "t_last": 434.5,
+   "note": "綠外套毛帽小孩"
+  },
+  {
+   "bib": "5?4",
+   "status": "partial",
+   "t_first": 432.0,
+   "t_best": 436.0,
+   "t_last": 437.0,
+   "note": "藍外套毛帽墨鏡女"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 433.0,
+   "t_best": 436.0,
+   "t_last": 437.0,
+   "note": "灰帽T大鬍子男 白短褲"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 434.0,
+   "t_best": 437.0,
+   "t_last": 438.0,
+   "note": "黑上衣墨鏡女 腿上號碼"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 435.5,
+   "t_best": 436.5,
+   "t_last": 438.0,
+   "note": "橘衣紅褲小孩"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 436.5,
+   "t_best": 437.5,
+   "t_last": 438.5,
+   "note": "大鬍子男 黑衣白袖毛帽"
+  },
+  {
+   "bib": "21?",
+   "status": "partial",
+   "t_first": 436.0,
+   "t_best": 438.0,
+   "t_last": 439.5,
+   "note": "紅黑外套條紋毛帽女"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 437.0,
+   "t_best": 438.5,
+   "t_last": 441.5,
+   "note": "深藍外套毛帽女 酒紅褲"
+  },
+  {
+   "bib": "17?",
+   "status": "partial",
+   "t_first": 437.0,
+   "t_best": 438.5,
+   "t_last": 440.5,
+   "note": "灰背心條紋毛帽男"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 437.5,
+   "t_best": 439.5,
+   "t_last": 439.5,
+   "note": "橘外套毛帽小孩"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 437.0,
+   "t_best": 438.5,
+   "t_last": 439.5,
+   "note": "黑帽T少年 綠短褲"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 438.0,
+   "t_best": 441.5,
+   "t_last": 442.0,
+   "note": "綠T女"
+  },
+  {
+   "bib": "?41",
+   "status": "partial",
+   "t_first": 439.5,
+   "t_best": 440.5,
+   "t_last": 441.5,
+   "note": "黑上衣條紋毛帽墨鏡女(像641)"
+  },
+  {
+   "bib": "?31",
+   "status": "partial",
+   "t_first": 439.0,
+   "t_best": 440.5,
+   "t_last": 441.5,
+   "note": "灰外套毛帽紅手套女 腿上號碼"
+  },
+  {
+   "bib": "14?",
+   "status": "partial",
+   "t_first": 440.0,
+   "t_best": 441.5,
+   "t_last": 442.5,
+   "note": "藍衣男孩"
+  },
+  {
+   "bib": "102?",
+   "status": "partial",
+   "t_first": 440.5,
+   "t_best": 443.0,
+   "t_last": 443.5,
+   "note": "GAP迷彩上衣毛帽小孩"
+  },
+  {
+   "bib": "84?",
+   "status": "partial",
+   "t_first": 441.0,
+   "t_best": 443.0,
+   "t_last": 444.5,
+   "note": "灰UA上衣老伯(像847)"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 440.5,
+   "t_best": 443.0,
+   "t_last": 444.0,
+   "note": "黑上衣淺藍緊身褲女"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 442.0,
+   "t_best": 443.5,
+   "t_last": 444.5,
+   "note": "黑上衣粉紅頭帶墨鏡女"
+  },
+  {
+   "bib": "1194",
+   "status": "sure",
+   "t_first": 442.0,
+   "t_best": 444.5,
+   "t_last": 446.5,
+   "note": "黑色Bobby上衣長髮女孩 灰褲"
+  },
+  {
+   "bib": "934",
+   "status": "sure",
+   "t_first": 442.0,
+   "t_best": 446.5,
+   "t_last": 447.0,
+   "note": "湖水綠外套女孩 花褲(後段)"
+  },
+  {
+   "bib": "1491",
+   "status": "sure",
+   "t_first": 443.0,
+   "t_best": 446.5,
+   "t_last": 447.0,
+   "note": "粉紅帽T女 紫頭巾"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 442.5,
+   "t_best": 444.5,
+   "t_last": 447.0,
+   "note": "藍外套白帽女 腿上號碼"
+  },
+  {
+   "bib": "?03",
+   "status": "partial",
+   "t_first": 443.5,
+   "t_best": 447.0,
+   "t_last": 447.5,
+   "note": "白背心毛帽女 腿上號碼"
+  },
+  {
+   "bib": "30?",
+   "status": "partial",
+   "t_first": 446.0,
+   "t_best": 447.5,
+   "t_last": 448.5,
+   "note": "藍色North Face外套毛帽女孩 腿上號碼"
+  },
+  {
+   "bib": "162?",
+   "status": "partial",
+   "t_first": 447.0,
+   "t_best": 448.5,
+   "t_last": 449.5,
+   "note": "藍毛衣大鬍子毛帽男"
+  },
+  {
+   "bib": "1?17",
+   "status": "partial",
+   "t_first": 447.0,
+   "t_best": 449.0,
+   "t_last": 449.5,
+   "note": "灰帽T酒紅褲毛帽女"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 447.5,
+   "t_best": 449.0,
+   "t_last": 449.5,
+   "note": "灰半拉鍊上衣黑帽女"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 448.5,
+   "t_best": 449.5,
+   "t_last": 449.5,
+   "note": "黑外套毛帽女(後方)"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 448.0,
+   "t_best": 449.5,
+   "t_last": 449.5,
+   "note": "紫上衣舉雙手女"
+  }
+ ],
+ "no_bib_runners": 10,
+ "comments": "拱門終點人潮密集，多數號碼牌小且被手臂/推車遮擋；許多號碼為9開頭4位數(兒童組?)。Bruins男號碼牌掛在推車上。MILLENNIUM台標與計時器未列入。"
+}

@@ -1,0 +1,51 @@
+== f_000-f_009 (1680.0-1689.5) ==
+R1 362: woman pink singlet, black capris, blonde bun. bib visible from 1681.0 (small), clear 1683.0/1683.5 (best 1683.5), leaves frame after 1683.5. sure.
+R2 361: man blue t-shirt, black shorts. visible 1681.0-1684.0, best 1684.0 (BBB 10K header ignored). sure.
+R3 seated man right side on planter wall, black/red top, bib reads "48" (may be more digits, small/partial). visible 1680.0 through 1689.5 (occluded sometimes). partial "48?"-ish; digits seen: 4,8 only.
+R4 woman black singlet, dark hair, standing/stretching at railing (finished runner), bib small "?6?" maybe 66/86. 1684.0-1689.5. partial.
+R5 man white t-shirt at railing left of planter (behind woman), bib on chest, unreadable. ~1686.0-1689.5.
+R6 man blue/red singlet at far left edge 1689.0 only, bib cut off/blurred, unreadable.
+No-bib: woman black singlet + red shorts walking away up road (back to camera) 1680-1689.
+== f_010-f_019 (1690.0-1699.5) ==
+R3 seated "48" man: still present through 1699.5 (briefly absent ~1694.0-1694.5, back 1695.0). still only "48" readable; keep partial.
+R4 black singlet woman stretching at railing, bib "?6" / "66"? still not clear. present through 1699.5. partial.
+R5 white t-shirt man by planter (lanyard), bib "?2?" maybe "22?"; through 1699.5. unreadable/partial.
+R7 169: man red "BBB10K" t-shirt, navy shorts, bald. first 1692.0 (tiny), best 1695.0 (169 clear), last 1695.5. sure.
+R8 553: boy black singlet with medal lanyard. first ~1692.5, best 1695.0 (553 clear), last 1695.5. sure.
+R9 275: woman coral/peach singlet, black shorts, ponytail. first ~1695.0 (tiny), best 1698.5, last 1698.5. sure.
+R10 woman red t-shirt, navy shorts, black knee socks, bib "5?" starts 1697.0; not yet clear (continue).
+R11 man blue/purple singlet behind R10, from ~1698.5; continue.
+Left crowd: several people with bibs (pink-top woman etc.) tiny/unreadable - background.
+== f_020-f_029 (1700.0-1709.5) ==
+R10 5: woman red BBB10K t-shirt, navy shorts, black compression socks, blonde ponytail. bib single digit "5" clear 1700.0/1700.5 (best 1700.5). first ~1697.0, last 1701.0 (1701.5 bib out of frame). sure "5".
+R11 161: older man blue/green singlet, navy shorts. first ~1698.5, best 1702.0 (161 clear; 1702.5 also "161"). last 1702.5 (1703.0 bib cut). sure.
+R3 seated man: at 1706.0-1709.5 bib clearly "48" (two digits under BBB 10K header) -> upgrade to sure "48", best 1706.0.
+R12 woman black t-shirt walking on right sidewalk behind planter 1702.0-1704.0, bib "6?" partial (1702.5 shows "6?"). 
+R13 man black t-shirt, grey hair, dark shorts approaching from 1707.5; bib not yet clear (continue).
+R4 stretching woman still there; R5 white-tee man still there, bib still unreadable.
+== f_030-f_039 part1 (1710.0-1714.5) ==
+R13 194: grey-haired man black t-shirt, checked/plaid dark shorts. first 1707.5 (tiny), best 1710.0 (194 clear), last 1710.5 ("19" partly). sure.
+R14 335: bearded man blue Adidas t-shirt, black shorts. first 1710.0 (tiny), best 1711.5/1712.0 (335 clear), last 1712.5. sure.
+R4 stretching woman: bib now reads "206" at 1713.5-1714.5 (best 1714.0). -> sure "206".
+R15 woman yellow/neon singlet + R16 woman coral/red top black capris approaching from 1713.5; continue.
+== f_030-f_039 part2 (1715.0-1719.5) ==
+R15 177: woman neon yellow singlet, black shorts, short dark hair, teal shoes. first 1713.5 (tiny), best 1717.5 (177 clear), last 1717.5. sure.
+R16 207: blonde woman red/grey singlet, black capris. first 1713.5, best 1717.0 (207 clear; 1716.0/1716.5 also 207), last 1717.5 ("20" partial). sure.
+R4 206 stretching woman: consistently "206" through 1719.5.
+Woman light-blue t-shirt, blue shorts, red shoes standing on sidewalk 1714.5-1719.5, sporty, no bib visible -> no_bib candidate.
+R17 woman purple singlet black shorts blonde ponytail approaching from 1717.0; R18 woman teal/light-blue top black capris behind her from 1718.0. continue.
+== f_040-f_044 (1720.0-1724.5) ==
+R17 282: blonde woman purple "brt" singlet, navy shorts. first ~1717.0, best 1720.5 (282 clear), last 1721.0. sure.
+R18 red-haired woman teal singlet, black capris, armband phone, earphones. first ~1718.0. small reads 1720.0 "?31", 1720.5 "331", 1721.0 "?31"; but closer 1722.0 hand covers, reads like "32?". middle digit conflicting -> partial "3?1". best 1722.0 (largest) / 1720.5. last 1722.0 (1722.5 bib out of frame).
+R4 206 still there to 1724.5; R3 48 still there to 1724.5.
+R5 white t-shirt man by planter: bib on chest looks like "?2?" at times, never readable -> unreadable.
+== f_045-f_049 (1725.0-1729.5) ==
+No new runners on road. 
+R3 48: last visible bib ~1725.5 ("48"); from 1726.0 occluded by man holding baby / gone.
+R19 light-blue t-shirt woman, blue shorts, red shoes (previously listed as no-bib) -> from 1727.5-1729.5 a small bib visible at lower shirt/waist, unreadable. first bib seen ~1727.5. reclassify as unreadable runner.
+R4 206 continues.
+== f_050-f_054 (1730.0-1734.5) ==
+No new road runners. R3 48 back in view 1731.0-1734.5 (correct earlier: present to at least 1734.5; "48" clear 1732.0). R4 206 continues. R19 light-blue woman small bib still unreadable. R5 white-tee man still unreadable.
+== f_055-f_059 (1735.0-1739.5) ==
+No new road runners. R3 48 clear through 1739.5 (last). R4 206 through 1739.5 (last). R19 small bib unreadable through 1739.5. R5 white-tee man through 1739.5, unreadable.
+== DONE: all 60 frames viewed ==

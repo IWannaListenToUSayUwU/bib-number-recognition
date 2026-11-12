@@ -1,0 +1,11 @@
+{"clip": "v3_3360", "annotator": "A",
+ "runners": [
+  {"bib": "483", "status": "sure", "t_first": 3406.5, "t_best": 3419.0, "t_last": 3419.5, "note": "金髮女，灰色拉鍊外套內藍背心，深藍短褲，粉紅鞋，手拿杯子；3416以後號碼清楚"},
+  {"bib": "15?", "status": "partial", "t_first": 3366.5, "t_best": 3380.5, "t_last": 3381.0, "note": "光頭男，紅T恤藍短褲，沿右側人行道走近後出右緣；前兩位15確定，第三位模糊（9或5?）"},
+  {"bib": "?53", "status": "partial", "t_first": 3408.5, "t_best": 3409.5, "t_last": 3410.5, "note": "深藍T恤男，站在畫面最左側帳篷旁；後兩位53，首位可能3或5"},
+  {"bib": "?", "status": "unreadable", "t_first": 3364.0, "t_best": 3366.5, "t_last": 3379.5, "note": "紅上衣黑短褲小孩，在拱門前左側護欄旁，號碼牌太小"},
+  {"bib": "?", "status": "unreadable", "t_first": 3380.0, "t_best": 3382.0, "t_last": 3384.5, "note": "深紅背心深色短褲女，畫面左緣帳篷後方"},
+  {"bib": "?", "status": "unreadable", "t_first": 3383.0, "t_best": 3384.5, "t_last": 3388.0, "note": "淺藍/灰上衣深色短褲跑者，拱門前人群中"}
+ ],
+ "no_bib_runners": 4,
+ "comments": "終點後方街道，多數人為完賽後步行者、陪跑/慈善團體（淺藍 MUMMA SPARKLE / shazzie trust 衣服印字非號碼）與觀眾。no_bib 估計：藍帽T深色短褲青年、灰帽T持杯男、深色帽T持杯男等穿運動短褲但未見號碼牌者，約4人，不確定性高。遠處拱門人群中可能另有號碼牌無法分辨個體。"}

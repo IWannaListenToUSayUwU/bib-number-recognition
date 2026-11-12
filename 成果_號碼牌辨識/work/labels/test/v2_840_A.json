@@ -1,0 +1,23 @@
+{"clip": "v2_840", "annotator": "A",
+ "runners": [
+  {"bib": "1408", "status": "sure", "t_first": 840.0, "t_best": 840.5, "t_last": 841.0, "note": "推嬰兒車男, 深色外套毛帽"},
+  {"bib": "140?", "status": "partial", "t_first": 840.0, "t_best": 840.0, "t_last": 840.0, "note": "海軍藍外套女(黑帽), 號碼牌在左大腿, 末位被切"},
+  {"bib": "?", "status": "unreadable", "t_first": 840.0, "t_best": 841.0, "t_last": 841.0, "note": "tinsel頭飾灰帽T女, 號碼牌腰部右側"},
+  {"bib": "101?", "status": "partial", "t_first": 842.0, "t_best": 845.5, "t_last": 847.5, "note": "藍外套白毛帽女(與紅黑背心男擊掌), 號碼牌腰間"},
+  {"bib": "52?", "status": "partial", "t_first": 849.0, "t_best": 851.0, "t_last": 852.5, "note": "白長袖黑短褲男(深藍帽), 胸前; 遠處曾疑8, 末位0/9不確定"},
+  {"bib": "521", "status": "sure", "t_first": 848.0, "t_best": 851.5, "t_last": 852.0, "note": "小小孩(白黑毛帽, 綠/藍外套), 牽綠外套粉帽女"},
+  {"bib": "51?", "status": "partial", "t_first": 848.0, "t_best": 851.5, "t_last": 852.0, "note": "大孩(白黑毛帽, 黃綠灰外套), 胸前, 末位似9"},
+  {"bib": "?", "status": "unreadable", "t_first": 849.5, "t_best": 850.5, "t_last": 852.0, "note": "背景右側草地金髮黑上衣女, 胸前白色號碼牌"},
+  {"bib": "?", "status": "unreadable", "t_first": 850.0, "t_best": 853.0, "t_last": 855.0, "note": "黑衣大個男(白黑條紋毛帽, 藍短褲), 號碼牌短褲左腰"},
+  {"bib": "?", "status": "unreadable", "t_first": 855.5, "t_best": 855.5, "t_last": 856.0, "note": "背景右側橘外套女(灰毛帽), 胸前"},
+  {"bib": "?", "status": "unreadable", "t_first": 855.5, "t_best": 855.5, "t_last": 857.5, "note": "背景右側粉上衣女"},
+  {"bib": "1269", "status": "sure", "t_first": 857.5, "t_best": 862.0, "t_last": 863.0, "note": "黑上衣花紋緊身褲女(條紋毛帽, 墨鏡), 推紅色雙人嬰兒車"},
+  {"bib": "111?", "status": "partial", "t_first": 857.5, "t_best": 862.5, "t_last": 863.5, "note": "淺藍連帽衫女(白黑毛帽, SNOWFLAKE字樣), 末位似9/6/8"},
+  {"bib": "?", "status": "unreadable", "t_first": 860.5, "t_best": 864.0, "t_last": 864.0, "note": "藍外套藍帽男(墨鏡), 在嬰兒車後"},
+  {"bib": "7?5", "status": "partial", "t_first": 862.0, "t_best": 867.0, "t_last": 867.5, "note": "深藍上衣牛仔褲女(灰白條紋毛帽, 墨鏡, 黃袖條), 胸前, 中間位似2"},
+  {"bib": "770", "status": "sure", "t_first": 862.5, "t_best": 867.5, "t_last": 867.5, "note": "黑外套灰圍巾女(白黑毛帽, 黃襪, 膝護), 號碼牌右大腿"},
+  {"bib": "?", "status": "unreadable", "t_first": 865.0, "t_best": 868.5, "t_last": 868.5, "note": "綠帽T男(橘帽, 墨鏡), 號碼牌左大腿短褲, 可見片段'27'但位數與位置不確定"},
+  {"bib": "?", "status": "unreadable", "t_first": 868.5, "t_best": 869.0, "t_last": 869.5, "note": "遠處酒紅上衣男(黑帽), 胸前號碼牌, 片段結束時仍遠"}
+ ],
+ "no_bib_runners": 5,
+ "comments": "no_bib 含: 紅黑背心大鬍子男、灰帽T女(藍綠鞋)、綠外套粉帽女(牽521小孩)、淡紫外套小女孩(隨1269嬰兒車)、片段末白帽T女(墨鏡, 正面未見號碼牌)。黑衣白帽男(849.5)與遠處藍紫外套女、螢光黃外套者未能判定, 未計入。f_055-f_059 之後尚有大批遠處跑者接近, 本片段內號碼牌皆不可見。角落 MILLENNIUM 台標與計時器不列入。"}

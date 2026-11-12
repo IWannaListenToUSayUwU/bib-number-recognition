@@ -1,0 +1,42 @@
+[f_000-f_009, 3360.0-3369.5]
+Scene: finish area far end (castle gate). Many red-shirt people (likely finishers/volunteers) far background, bibs tiny.
+- R1: child in red top, black shorts, white bib, walking/jogging near left barrier ~3364.0-3369.5; bib unreadable (tiny). best ~3366.5
+- R2: red top, runs along right pavement behind planters ~3366.0-3369.5, white bib visible ~3366.5-3368.5; unreadable.
+- Other far red shirts with white bibs at gate (e.g. 3361-3363 near 465px x) unreadable; hard to separate individuals.
+- Spectators: blue-jacket men right side, seated people left -> not runners.
+[f_010-f_019, 3370.0-3379.5]
+- R2 (same as above): bald man, red T-shirt, blue shorts, walks along right pavement behind tape toward camera, bib on chest. Visible ~3373.0-3379.0 (moving out right behind tree at 3379.0). Zoomed crops 3377.0/3377.5/3378.5: reads "15" + third digit unclear (9? 5?). -> "15?" partial. best 3378.5. Bib first seen far ~3366.5.
+- R1 child red top still standing near left barrier at gate ~3370-3379, bib unreadable (tiny, far).
+- Far gate area: several red shirts (volunteers/finishers?) small; no readable bibs.
+- Spectators on pavement (blue jacket, grey cardigan woman, man with dog) - no bibs.
+[f_020-f_029 part1: f_020-f_024, 3380.0-3384.5]
+- R2 closest at 3380.5 (bottom-right, bib "15" + cut/blurred 3rd digit) and 3381.0 (exits right edge). Still "15?" partial. t_last 3381.0 (legs only at 3381.5). best 3380.5.
+- R3: woman, red/maroon vest + dark shorts, dark hair, white bib, left edge behind tent ~3380.0-3384.5, walking toward camera at left; zoom unreadable (digits blurred).
+- R4: runner light-blue/grey top, dark shorts, white bib, at gate ~3383.0-3384.5 x~320; unreadable.
+- Blue hoodie + black shorts young man on right pavement 3382.0-3384.5, no bib visible -> candidate no_bib runner (maybe spectator/finished).
+[f_025-f_029, 3385.0-3389.5]
+- Blue-hoodie man walks away along right pavement 3385-3389, no bib seen (counts as no_bib candidate? appears like a finisher in shorts).
+- R4 (grey/light top, dark shorts, white bib) still in gate crowd ~3385-3388 (x~350), unreadable.
+- R3 woman red vest left behind tent: not clearly visible after ~3384.5.
+- Gate crowd: many light-blue tops (group of supporters/walkers), a few red tops; bibs, if any, unreadable.
+[f_030-f_039, 3390.0-3399.5]
+- Woman blue jacket + light-blue charity T-shirt (star logo, printed text on shirt - NOT a bib), black capris, sandals, walks down road toward camera 3390-3399.5. No bib -> spectator/supporter, not counted.
+- Blue-hoodie young man (black shorts) returns, walking toward camera along right pavement ~3394-3399.5; no bib visible (front visible) -> likely not a runner wearing bib; treat as no_bib candidate (uncertain).
+- Gate crowd mainly light-blue-shirt group (charity supporters) + a couple of red tops; no readable bibs. Red-top child (R1?) still near left barrier at gate (x~270).
+[f_040-f_049, 3400.0-3409.5]
+- "MUMMA SPARKLE" charity T-shirt woman passes camera 3400-3403: shirt print, NOT a bib; no bib -> not counted.
+- Girl in blue "shazzie trust" hoodie + denim shorts walking 3402-3409: no bib -> supporter, not counted.
+- Man black jacket/cargo shorts, man navy T-shirt near camera: no bib, spectators.
+- R5: woman, blonde, grey/blue long-sleeve top, dark shorts, white bib, running down road toward camera ~3406.5-3409.5 (x~340->400). Zoom at 3409.0/3409.5 too blurry: maybe 3 digits, unreadable so far.
+- R6: man navy/dark-blue T-shirt with white bib, standing far left edge behind tent ~3408.5-3409.5. Zoom 3409.5: looks like "353" or "553"; first digit uncertain -> provisional "?53" partial.
+- Gate area: several more runners with bibs approaching (grey top man, blue tops), not yet readable.
+[f_050-f_054, 3410.0-3414.5]
+- R5 (blonde woman, grey long-sleeve over blue top, dark shorts) walks/runs down road; bib zoom at 3414.5 reads "46?" (third digit 0 or 8?) - so far "46?" partial. Visible through 3414.5.
+- R6 (navy T man left edge) still visible 3410.0-3410.5 ("?53", looks 353/553), leaves left edge ~3411.
+- Men near camera (navy T-shirt with tape - marshal/staff; grey shirt + white shorts + blue shoes) - no bibs, not runners.
+- Grey hoodie man with cup, blue hoodie man w/ cup walking down road 3410-3414: no bibs visible (finished? holding cups) -> no_bib candidates.
+[f_055-f_059, 3415.0-3419.5]
+- R5 resolved: bib clearly "483" at 3416.0-3419.5 (best 3419.0/3419.5). Earlier "46?" read was wrong - FINAL R5 = 483 sure. t_first 3406.5 (first seen at gate), t_last 3419.5. Blonde woman, grey zip top over blue vest, navy shorts, pink shoes, holding cup.
+- Walking with R5: young man blue hoodie + dark shorts, no bib (no_bib candidate). Grey-hoodie man & dark-hoodie man holding cups, shorts, no bib visible (no_bib candidates).
+- Men near camera (navy T + blue track pants; grey shirt + white shorts), woman denim jacket: spectators/staff.
+- Far gate: red-top kids/volunteers; no readable bibs.

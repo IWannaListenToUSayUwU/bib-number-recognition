@@ -1,0 +1,16 @@
+{"clip": "v1_120", "annotator": "A",
+ "runners": [
+  {"bib": "55?", "status": "partial", "t_first": 120.0, "t_best": 120.5, "t_last": 121.0, "note": "黑色無袖上衣、深灰短褲、深色捲髮男；牌讀似559，末位9/0有疑"},
+  {"bib": "?", "status": "unreadable", "t_first": 127.0, "t_best": 130.5, "t_last": 131.0, "note": "金髮、黑T、藍色長壓縮襪男；牌過曝模糊"},
+  {"bib": "?", "status": "unreadable", "t_first": 128.0, "t_best": 132.0, "t_last": 132.5, "note": "黑背心藍肩帶女、灰帽、金色馬尾、黑短褲"},
+  {"bib": "710", "status": "sure", "t_first": 140.0, "t_best": 144.5, "t_last": 145.0, "note": "黑背心女、米白帽、黑短褲"},
+  {"bib": "614", "status": "sure", "t_first": 153.5, "t_best": 158.0, "t_last": 158.5, "note": "白T、黑短褲、短髮男"},
+  {"bib": "?09", "status": "partial", "t_first": 160.0, "t_best": 163.5, "t_last": 163.5, "note": "藍綠T、黑七分褲、金短髮女；疑似609，首位6/5有疑"},
+  {"bib": "?", "status": "unreadable", "t_first": 161.0, "t_best": 163.5, "t_last": 164.0, "note": "紅T、灰短褲、金髮男童，跟在藍綠T女後方"},
+  {"bib": "697", "status": "sure", "t_first": 168.0, "t_best": 174.0, "t_last": 174.5, "note": "紅T、黑短褲、中年男"},
+  {"bib": "69?", "status": "partial", "t_first": 169.0, "t_best": 174.0, "t_last": 174.5, "note": "白背心、黑白短褲、金色馬尾女；讀似696，末位6/8有疑"},
+  {"bib": "?", "status": "unreadable", "t_first": 174.0, "t_best": 177.5, "t_last": 178.5, "note": "藍色無袖、黑短褲、綠鞋、白髮男；三位數但讀不清"},
+  {"bib": "?", "status": "unreadable", "t_first": 177.5, "t_best": 179.0, "t_last": 179.5, "note": "白T、灰短褲、年輕男；牌別在右下腹側，斜且糊"}
+ ],
+ "no_bib_runners": 1,
+ "comments": "林道逆光，多數號碼牌過曝模糊。175.0-178.5 底部紅色人名字幕（...Flynn, nice kick to finish!）非號碼已忽略。右側坐地少年衣服印字17為觀眾衣服，不列。白衣紅黑短褲男、花裙女與小孩、藍衣人等為觀眾不計。no_bib 為白帽白衣白短褲女（177-179.5 在右側慢跑/走，未見號碼牌）。遠處終點拱門附近人群過遠無法判斷。"}

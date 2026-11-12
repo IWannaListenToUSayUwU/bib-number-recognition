@@ -1,0 +1,17 @@
+{"clip": "v3_2220", "annotator": "A",
+ "runners": [
+  {"bib": "400", "status": "sure", "t_first": 2220.0, "t_best": 2223.5, "t_last": 2224.5, "note": "女，Hastings Runners 黑背心，白色遮陽帽，深藍短褲"},
+  {"bib": "111", "status": "sure", "t_first": 2230.5, "t_best": 2236.0, "t_last": 2236.0, "note": "男，黃頭帶，八字鬍，黑色社團T恤，紅襪；與110並跑"},
+  {"bib": "110", "status": "sure", "t_first": 2230.5, "t_best": 2236.0, "t_last": 2236.0, "note": "女，黑色社團T恤，黑色七分褲帶粉紅，馬尾；與111並跑"},
+  {"bib": "263", "status": "sure", "t_first": 2252.5, "t_best": 2256.5, "t_last": 2257.0, "note": "男，紅色adidas T恤，黑短褲，紅襪，綠藍鞋，有鬍子"},
+  {"bib": "236", "status": "sure", "t_first": 2259.5, "t_best": 2262.5, "t_last": 2264.0, "note": "女，Hastings Runners 黑背心，短金髮，黑短褲"},
+  {"bib": "153", "status": "sure", "t_first": 2266.5, "t_best": 2269.5, "t_last": 2270.0, "note": "男，紅T恤，藍短褲，光頭，深色鞋襪"},
+  {"bib": "33", "status": "sure", "t_first": 2273.0, "t_best": 2276.5, "t_last": 2276.5, "note": "女，粉紅背心，黑色七分緊身褲，深色馬尾，手拿水瓶"},
+  {"bib": "2??", "status": "partial", "t_first": 2220.0, "t_best": 2255.0, "t_last": 2255.0, "note": "男，白T恤側邊藍色，黑短褲；已完賽，站在右側人行道，後沿人行道走離；首位似為2，不確定"},
+  {"bib": "?", "status": "unreadable", "t_first": 2220.0, "t_best": 2220.0, "t_last": 2229.5, "note": "男，紅上衣，在左側帳篷區，胸前白色號碼牌，太小"},
+  {"bib": "?", "status": "unreadable", "t_first": 2250.5, "t_best": 2253.5, "t_last": 2254.0, "note": "女，黑T恤黑短褲，已完賽，在右側人行道行走，胸前號碼牌太小"},
+  {"bib": "?", "status": "unreadable", "t_first": 2253.0, "t_best": 2253.5, "t_last": 2255.0, "note": "紅上衣，右側人行道近看板處，白色號碼牌，太小"},
+  {"bib": "?", "status": "unreadable", "t_first": 2261.5, "t_best": 2263.5, "t_last": 2265.5, "note": "女，紅上衣，黑色七分緊身褲，馬尾；在遠處沿路跑往左側帳篷區，胸前疑似小號碼牌"}
+ ],
+ "no_bib_runners": 5,
+ "comments": "主要跑者由遠而近沿道路跑來，號碼牌上方的 BBB 10K 字樣未列入。右側人行道站著的抱小孩藍外套男子、紅衣老先生、HPCC 紅衣女孩及路上紅衣小孩均為觀眾。無號碼牌估計：2246.5 深色背心女、2252 背包白T男、2256/2258 畫面右緣只見腿的跑者、2260.5 穿越道路的深色背心女、2275.5 起背對鏡頭的紫白背心女。"}

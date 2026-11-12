@@ -1,0 +1,4 @@
+{"frozen_at": "2026-11-12 10:58 Asia/Taipei, test2 labels finalized (gt_test2.sha256) but no system output on test2 yet",
+ "extract": {"script": "src/extract4.py", "fps": 8, "imgsz": 960, "min_h": 100, "top": 0.22, "bot": 0.72, "early_stop": 3, "hist_thr": 0.45, "jump_thr": 0.8},
+ "aggregate": {"min_conf": 0.8, "min_votes": 1, "min_score": 0.9, "minlen": 2, "maxlen": 4, "size_w": true, "merge_gap": 4.0, "substr": true, "sub_gap": 3.0, "static": true, "static_px": 12, "static_sec": 2.0},
+ "notes": "aggregate thresholds unchanged from v1 (dev grid differences were within noise); track split + static-text filter added; dev(7 clips incl. v3_1440) F1 0.714"}

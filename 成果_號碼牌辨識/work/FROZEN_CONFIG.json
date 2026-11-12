@@ -1,0 +1,4 @@
+{"frozen_at": "2026-11-12 01:40 Asia/Taipei, before any test labels exist",
+ "extract": {"script": "src/extract3.py", "fps": 8, "person_model": "yolo11s.pt", "imgsz": 960, "min_h": 100, "torso_top": 0.22, "torso_bot": 0.72, "early_stop": 3, "ocr": "RapidOCR (rapidocr_onnxruntime default: PP-OCRv4 det+rec, det limit min side 736), use_cls=False"},
+ "aggregate": {"reader": "rap", "min_conf": 0.8, "min_votes": 1, "min_score": 0.9, "minlen": 2, "maxlen": 4, "use_track": true, "size_w": true, "merge_gap": 4.0, "substr": true, "sub_gap": 3.0},
+ "eval": {"time_tol_s": 2.0, "duplicate_counts_as_FP": true, "partial_compatible_ignored_in_lenient": true}}

@@ -1,0 +1,98 @@
+[f000-f009 420.0-424.5]
+R1 黑白外套條紋毛帽女 護膝: bib 6?(3位?) partial ? 420.0-421.5 best 420.5 -> "6?" maybe 3 digits, write "?"/partial
+R2 紅UA衣毛帽男: 1376 sure 420.5-422.5 best 422.0
+R3 黑衣小男孩: unreadable 420.0-422.0
+R4 粉紅連帽女 墨鏡: unreadable 420.5-423.5
+R5 螢光黃上衣 紅外套綁腰 女: unreadable 420.5-423.5
+R6 粉紅外套女孩 毛帽: 802 sure 421.5-423.5 best 423.5
+R7 薄荷綠帽T女: 81? partial 421.5-423.5 best 423.5
+R8 螢光黃外套 黑褲 毛帽男: unreadable 421.5-424.0
+R9 綠K衣光頭男 推單人推車: unreadable 421.5-424.5
+R10 Bruins黑帽T男 推雙人推車(號碼牌掛推車): 1?6 partial 423.0-424.5 best 424.5
+R11 黑外套女 粉紅鞋: unreadable 423.0-424.5
+R12 紫外套女 帽: unreadable 423.0-424.5
+[f010-f019 425.0-429.5]
+R10 推車號碼牌 425.0 看似 175/176 -> 17? partial, t_last 425.5
+R12 紫外套 花紋毛帽 墨鏡女: 1217 sure 423.0-426.5 best 425.5
+R13 黑衣紅腰小男孩(紫衣女旁): 927? partial 425.0-426.5 best 425.0
+R14 = R9 綠K衣光頭男: 仍讀不出 至 427.0
+R15 藍UA帽T男: 未見號碼牌 (no_bib)
+R16 酒紅上衣帽女 推推車: unreadable 424.0-426.5
+R17 螢光綠外套男孩: ?388 partial 425.5-428.0 best 427.0
+R18 深藍上衣白圍巾女(頭帶): 938? partial 426.0-428.5 best 427.5
+R19 黑外套白毛帽墨鏡黃領女: 號碼牌在腿 107? partial 426.5-427.5 best 426.5
+R20 藍上衣黑外套 黑帽女: 587 sure 426.0-428.0 best 427.5
+R21 桃色上衣女 推黃色雙人推車: 14? partial 425.0-428.5 best 428.5
+R22 湖水綠外套女孩 花褲: ?24 partial(像524) 427.0-429.5 best 429.0
+R24 紫色外套馬尾女: 13? partial 428.0-429.5 best 429.0
+R25 白毛帽 薄荷外套墨鏡女: 9?0 partial 428.0-429.5 best 429.0
+R26 Happy New Year 背心紫裙女: unreadable 427.0-429.5
+R27 灰Nike帽T女: 未見 (no_bib候選)
+[f020-f029 430.0-434.5]
+R22 湖水綠外套女孩 t_last 430.0
+R26 Happy New Year 女 t_last 431.5 仍 unreadable
+R31 淺藍外套墨鏡女: 未見號碼牌 (no_bib)
+R32 紅外套條紋毛帽女 腿上號碼: 118? partial 430.0-432.0 best 431.5
+R33 黑外套毛帽小孩(紅外套女旁) 腿上號碼: unreadable 430.0-432.0
+R34 黑帽T 帽子男 胸前號碼: unreadable 430.5-432.5
+R35 深灰長袖眼鏡男 酒紅短褲: unreadable 430.0-432.5
+R36 粉紅外套條紋毛帽女 膝號碼: unreadable 430.0-432.5
+R37 灰衣男推推車: 未見 (no_bib)
+R38 紅毛衣眼鏡毛帽男: 440 sure 431.0-434.5 best 434.5
+R39 灰色Snowflake上衣女: 33? partial 431.0-434.5 best 434.0
+R40 湖水綠外套毛帽女: 40? partial 431.5-434.5 best 434.0
+R41 綠外套毛帽小孩: 40? partial 431.5-434.5 best 434.5
+R42 藍外套毛帽女(後方): 56? partial 432.0-434.5 best 434.5
+R43 灰上衣白短褲男: unreadable 433.0-434.5
+[f030-f039 435.0-439.5]
+R40 湖水綠外套女 t_last 435.5 (仍 40?)
+R42 藍外套毛帽墨鏡女: 更新 5?4 partial 432.0-437.0 best 436.0
+R43 灰帽T大鬍子男白短褲: unreadable 433.0-437.0
+R44 灰綠長袖女 灰頭帶: 未見號碼牌 (no_bib)
+R45 黑上衣墨鏡女 腿號碼: unreadable 434.0-438.0
+R46 橘衣紅褲小孩: unreadable 435.5-438.0
+R47 大鬍子男 黑衣白袖毛帽: unreadable 436.5-438.5
+R48 紅黑外套條紋毛帽女: 21? partial 436.0-439.5 best 438.0
+R49 深藍外套毛帽女 酒紅褲: unreadable 437.0-439.5
+R50 灰背心條紋毛帽男: 17? partial 437.0-439.5 best 438.5
+R51 橘外套毛帽小孩: unreadable 437.5-439.5
+R52 黑帽T少年 綠短褲: unreadable 437.0-439.5
+R53 白外套紅帽男: unreadable 438.0-439.5
+R54 薄荷外套湖藍帽女: unreadable 438.5-439.5
+R55 綠T女: unreadable 438.0-439.5
+[f040-f049 440.0-444.5]
+R49 深藍外套毛帽女: t_last 441.5 unreadable
+R50 灰背心男: t_last 440.5 (17?)
+R53 白外套紅頭巾墨鏡男: 一直看不到號碼牌 -> 改 no_bib
+R54 薄荷外套湖藍帽女: 一直看不到號碼牌 -> 改 no_bib
+R55 綠T女: unreadable 438.0-442.0
+R56 黑上衣條紋毛帽墨鏡女: ?41 partial(像641) 439.5-441.5 best 440.5
+R57 灰外套毛帽紅手套女(藍內衣) 腿號碼: ?31 partial 439.0-441.5 best 440.5
+R58 藍衣男孩: 14? partial 440.0-442.5 best 441.5
+R59 GAP迷彩上衣毛帽小孩: 102? partial 440.5-443.5 best 443.0
+R60 灰UA上衣老伯 推推車旁: 84? partial(像847) 441.0-444.5 best 443.0
+R61 黑上衣淺藍緊身褲女: unreadable 440.5-444.0
+R62 黑上衣粉紅頭帶墨鏡女: unreadable 442.0-444.5
+R63 灰帽T女推推車(粉紅小孩): 未見 (no_bib)
+R64 藕紫上衣女: 未見 (no_bib)
+R65 黑色Bobby衣長髮女孩灰褲: 1194 sure 442.0-444.5 best 444.5
+R66 湖水綠外套女孩 花褲: unreadable 442.0-444.5
+R67 粉紅帽T女: 149? partial 443.0-444.5 best 444.5
+R68 藍外套白帽女: unreadable 442.5-444.5
+R69 白背心毛帽女: unreadable 443.5-444.5
+R70 灰Suffolk帽T綠帽男: unreadable 443.5-444.5
+[f050-f059 445.0-449.5]
+R63 = 灰Millennium帽T毛帽女推推車, 仍未見號碼牌 no_bib
+R65 1194 t_last 446.5
+R66 湖水綠外套女孩: 934 sure 442.0-447.0 best 446.5
+R67 粉紅帽T女: 更新 1491 sure 443.0-447.0 best 446.5
+R68 藍外套白帽女 t_last 447.0 unreadable
+R69 白背心毛帽女 腿號碼: ?03 partial 443.5-447.5 best 447.0
+R70 灰Suffolk帽T綠帽男: 始終未見號碼牌 -> no_bib
+R71 藍North Face外套女孩毛帽 腿號碼: 30? partial 446.0-448.5 best 447.5
+R73 藍毛衣大鬍子毛帽男: 162? partial 447.0-449.5 best 448.5
+R74 灰帽T酒紅褲毛帽女: 1?17 partial 447.0-449.5 best 449.0
+R75 灰半拉鍊黑帽女: unreadable 447.5-449.5
+R76 黑外套毛帽女(後): unreadable 448.5-449.5
+R77 紫上衣舉雙手女: unreadable 448.0-449.5
+no_bib: R15,R27,R31,R37,R44,R53,R54,R63,R64,R70 = 10

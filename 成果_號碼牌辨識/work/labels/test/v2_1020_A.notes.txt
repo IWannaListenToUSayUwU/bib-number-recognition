@@ -1,0 +1,52 @@
+[f_000-f_009, t=1020.0-1024.5]
+- 1334 sure: blue SNOWFLAKE hoodie woman w/ glasses, t_first 1020.0, best 1021.0, last 1022.0 (exits bottom)
+- 1219 (prelim, verify): pink sleeves/white vest woman, ear-headband; bib visible from ~1020.0 (unreadable far), readable 1024.5
+- 1218 (prelim, verify): gray hoodie woman black beanie sunglasses; first ~1020.0, readable 1024.5
+- teen in blue long-sleeve standing right by fence (finished), bib on chest, unreadable (looks 3 digits ~"71?"), 1020.0-1024.5+
+- boy right edge in gray/navy hoodie with bib, unreadable, from 1021.5
+- man with gray/white beanie right edge 1020.0 bib on chest, unreadable, 1020.0 only so far
+- pending check: orange jacket woman, neon yellow hood, teal jacket woman, black jacket patterned leggings woman (bibs not yet readable)
+- no bib visible: man black jacket carrying baby in gray blanket, woman gray/purple jacket, man brown jacket (walking through finish 1020-1024)
+[f_010-f_019, t=1025.0-1029.5]
+- 1219 CONFIRMED sure: pink/white vest woman; t_first 1020.0, best 1026.5, last 1027.0 (exits bottom)
+- 1218 CONFIRMED sure: gray hoodie woman sunglasses beanie; t_first 1020.0, best 1026.5, last 1027.0
+- orange/coral jacket woman, white-black striped beanie, black tights: bib on left thigh, unreadable so far; seen 1020.0-1029.5+ (bib visible from ~1025.0)
+- teal jacket older woman (headband): bib on leg, unreadable (glimpse 1028.0), with neon-yellow-hood man
+- black jacket patterned leggings woman striped beanie: bib on thigh/waist, unreadable (1025.0-1026.0)
+- neon yellow hood man w/ backpack: no bib seen yet
+- background post-finish group (right, behind fence): gray-hoodie woman w/ bib, purple-coat kid w/ bib, black-hoodie kid w/ bib (pink kid none seen) - all unreadable, ~1026.0-1029.5
+- girl in gray top walking right side w/ bib (1027.0-1029.5), unreadable
+- teen in blue long-sleeve still standing right, unreadable
+[f_020-f_024, t=1030.0-1032.0]
+- orange/coral jacket woman: bib on left thigh never legible (zoomed 1029.0/1030.0/1030.5) -> unreadable; t_first ~1025.0 (bib), best 1030.0, last 1032.0 (exits bottom-right)
+- neon-hood man / teal woman / patterned-leggings woman exit bottom-right ~1030.5-1031.5; no further readable bib
+- kid in black hoodie + striped beanie running along right fence 1030.0-1030.5 with bib (same as black-hoodie kid of background group?), unreadable
+- gray-top girl walking right still visible to 1032.0, unreadable
+- road empty after 1031; two far runners (one pink) approaching at top
+[f_025-f_029, t=1032.5-1034.5]
+- orange jacket woman last glimpse right edge 1032.5 -> t_last 1032.5
+- background post-finish group walking right side behind fence (1026-1034.5+): gray-hoodie blonde woman w/ beanie, bib on chest unreadable; small kid pink/magenta coat + gray striped beanie, bib on waist blurry (maybe 3 digits, "?2?"-ish, not reliable) -> unreadable; older girl purple coat, bib unreadable
+- road empty in front; far runners (one pink) still at top near start of chute
+[f_030-f_034, t=1035.0-1037.0]
+- background group now walking toward camera on right side (behind barrier): blonde woman gray hoodie white pompom beanie, bib chest unreadable; small kid magenta coat striped pompom beanie, bib waist blurry (looks "?2?" / maybe 3-4 digits, not reliable) unreadable; older girl purple coat blonde, bib unreadable; boy navy hoodie with them (bib? not seen clearly)
+- these group bibs first seen ~1026.0, still visible 1037.0
+- road empty; far runners at top only
+[f_035-f_039, t=1037.5-1039.5]
+- small kid magenta coat striped pompom beanie: bib zoomed 1037.0/1038.0/1038.5/1039.5 -> 3 digits, looks "4?7" (first likely 4, last 7, middle unclear) -> partial "4?7"; t_first ~1026.0, best 1038.5, last 1039.5+
+- blonde woman gray hoodie (with kid): bib chest still unreadable (small, angle) ; visible to 1039.5+
+- boy navy hoodie walking with them: no bib seen
+- road empty; far runners (one pink top) still approaching very slowly near top of chute
+[f_040-f_044, t=1040.0-1042.0]
+- blonde woman gray hoodie + green backpack standing right edge with magenta-coat kid (4?7) at far right; no new readable bibs
+- people walking on grass right (woman black w/ bag, man bright blue jacket, boy navy hoodie): no bibs seen -> spectators/not counted
+- two runners far at top (black top, pink top) approaching; car behind them
+[f_045-f_049, t=1042.5-1044.5]
+- blonde woman gray hoodie+green backpack now walking away with a woman in dark vest/striped beanie (no bib seen on her); purple-coat girl & magenta kid at right edge; no new readable bibs
+- two far runners (black top; pink top) approaching slowly with lead car behind, still far (~top of chute)
+[f_050-f_054, t=1045.0-1047.0]
+- two approaching runners (dark top woman; pink top woman) slowly coming down chute with lead vehicle; bibs on chest, too far to read so far (bibs visible from ~1045.0)
+- right side static (backpack woman, purple girl, magenta kid); nothing new readable
+[f_055-f_059, t=1047.5-1049.5]
+- dark top (navy/black hoodie) woman approaching with lead car: bib on chest visible ~1045.0-1049.5, unreadable at this distance (zoom 1049.5) -> unreadable, best 1049.5
+- pink long-sleeve woman beside her: no bib visible -> no_bib runner
+- end of clip; neither reaches finish line

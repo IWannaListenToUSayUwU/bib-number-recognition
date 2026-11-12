@@ -1,0 +1,17 @@
+{"clip": "v1_600", "annotator": "A",
+ "runners": [
+  {"bib": "234", "status": "sure", "t_first": 608.0, "t_best": 611.5, "t_last": 611.5, "note": "紅色可口可樂T恤、黑短褲、眼鏡男"},
+  {"bib": "660", "status": "sure", "t_first": 608.5, "t_best": 615.0, "t_last": 616.0, "note": "紅T恤灰短褲男，戴耳機；614.5 格模糊看似 651，以 615.0 為準"},
+  {"bib": "65?", "status": "partial", "t_first": 609.0, "t_best": 615.0, "t_last": 615.5, "note": "紫色背心黑七分褲女，與 660 並跑；末位像 1/4/8 無法確定"},
+  {"bib": "?", "status": "unreadable", "t_first": 625.0, "t_best": 627.5, "t_last": 628.0, "note": "灰T恤黑短褲、墨鏡男，逆光號碼牌讀不出"},
+  {"bib": "359", "status": "sure", "t_first": 632.5, "t_best": 634.5, "t_last": 635.0, "note": "白色背心黑短褲、戴帽男"},
+  {"bib": "28?", "status": "partial", "t_first": 639.0, "t_best": 641.0, "t_last": 641.5, "note": "紫/藍T恤（胸前圓形圖案）、墨鏡男；末位像 4 或 9"},
+  {"bib": "39?", "status": "partial", "t_first": 642.5, "t_best": 644.0, "t_last": 644.5, "note": "綠T恤螢光綠短褲女；末位像 3 或 5"},
+  {"bib": "264", "status": "sure", "t_first": 644.5, "t_best": 645.5, "t_last": 646.0, "note": "橘T恤、灰帽男"},
+  {"bib": "?", "status": "unreadable", "t_first": 646.0, "t_best": 648.5, "t_last": 649.5, "note": "赤膊白髮男、黑短褲黑長襪，號碼牌別在短褲上，手持白毛巾"},
+  {"bib": "233", "status": "sure", "t_first": 646.5, "t_best": 649.0, "t_last": 649.5, "note": "橘色背心女"},
+  {"bib": "2??", "status": "partial", "t_first": 655.5, "t_best": 656.0, "t_last": 656.5, "note": "白T恤黑短褲男；首位像 2，其餘讀不出"},
+  {"bib": "93", "status": "sure", "t_first": 658.0, "t_best": 659.5, "t_last": 659.5, "note": "藍灰T恤光頭男"}
+ ],
+ "no_bib_runners": 2,
+ "comments": "強烈逆光、鏡頭眩光，畫面解析度有限。字幕人名（Alice Binns、Ally Hunter、Jayne Heatherington）為影片疊字，非號碼牌。no_bib 含：616 秒白背心紅短褲女（看不到號碼牌）、640-647 秒在右側草地行走的深色背心男。推嬰兒車的女子與背包男視為非跑者未計。開頭 600-607 秒左側牽狗行人未計。"}

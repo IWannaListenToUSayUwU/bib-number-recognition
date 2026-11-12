@@ -1,0 +1,34 @@
+[f_000-f_009, 2220.0-2229.5]
+R1: woman, Hastings Runners black vest, white visor/cap, navy shorts. bib "400" clear at 2223.5 & 2224.5. first visible 2220.0 (far), best 2223.5, last 2224.5 (exits right). sure.
+R2: man white T-shirt, black shorts, standing on right sidewalk (finished runner) with bib on chest; visible all frames 2220.0-2229.5, too small -> unreadable.
+R3: man red top at left tent area with white bib on chest (~x190,y130), visible 2220.0-2229.5 intermittently; unreadable.
+Background: many spectators/finished people far at gate; no readable bibs. Volunteers hi-vis = staff.
+[f_010-f_019, 2230.0-2239.5]
+R4: man, yellow headband, moustache, black club T-shirt, black shorts, red socks. bib "111" clear at 2236.0 (BBB 10K header above). first 2230.5 (far pair), best 2236.0, last 2236.0 (2236.5 exits, bib off-frame). sure.
+R5: woman, black club T-shirt, black capri leggings w/ pink, ponytail; ran beside R4. bib "110" clear at 2236.0. first 2230.5, best 2236.0, last 2236.0. sure.
+R2 (white T man on sidewalk w/ bib) still visible through 2239.5, unreadable. R3 (red top left tent w/ bib) still visible intermittently.
+[f_020-f_029, 2240.0-2249.5]
+No new runners on road. R2 (white T man w/ bib, right sidewalk) visible throughout, unreadable. R3 (red top left tent) still around, unreadable.
+Possible no-bib finisher: woman dark vest/leggings walking on right sidewalk 2246.5-2247.5 (no bib visible). Not counted as bib runner.
+[f_030-f_039, 2250.0-2259.5]
+R6: man, red adidas T-shirt, black shorts, red socks, green/blue shoes, beard. bib "263" clear at 2256.0/2256.5. first 2252.5 (far), best 2256.5, last 2257.0 (partially "26" visible, exiting right). sure.
+R2 update: white T man w/ blue side panels, black shorts — walks off along right sidewalk 2250-2255; at 2255.0 bib looks 3 digits starting "2" (maybe "27?") -> partial "2??". last seen ~2255.0.
+S1: woman black T-shirt/black shorts, bib on chest, walking right sidewalk 2250.5-2254.0 (finished runner). bib maybe "56?" at 2253.5 - too small -> unreadable.
+S2: person red top with white bib, right sidewalk near sign board, 2253.0-2255.0. unreadable.
+No-bib finishers: man white T + backpack 2252.0-2252.5 (no bib seen); runner on far right edge at 2256.0/2258.0 legs only.
+R7: new runner, black vest, far away entering at 2259.5 (left side of road).
+[f_040-f_049, 2260.0-2269.5]
+R7: woman, Hastings Runners black vest, short blonde hair, black shorts. bib "236" clear at 2262.5 (also 2264.0 "23?" closeup with BBB 10K header). first 2259.5 (far), best 2262.5, last 2264.0. sure.
+R8: woman red top, black capri tights, ponytail; ran down road 2261.5-2265.5 veering to left tent area (far). small white bib maybe on chest at 2263.5 - unreadable.
+Other: woman dark vest crossing road far 2260.5-2262.5 toward left (no bib visible, maybe finished runner walking back) -> no-bib.
+R9: man red T-shirt, blue shorts, bald, dark shoes/socks. bib "153" clear at 2269.5 (BBB 10K header). first 2266.5 (far), best 2269.5, last 2269.5 (continues). sure.
+HPCC red top girl on sidewalk 2266-2269: spectator, no bib.
+[f_050-f_054, 2270.0-2274.5]
+R9 (153) last seen 2270.0 (closeup "15", BBB 10K header). last=2270.0.
+Red-clothed kid running on road/sidewalk 2270-2274 - child, no bib, not counted.
+R10: woman pink vest, black capri tights, dark hair. bib on chest, far; first 2273.0, at 2274.5 digits ~"?6?" unclear so far.
+[f_055-f_059, 2275.0-2279.5]
+R10: woman pink vest, black capri tights, dark ponytail, carrying bottle. bib "33" clear at 2276.0 & 2276.5 (BBB 10K header, two digits centered). first 2273.0, best 2276.5, last 2276.5 (2277.0 closeup bib below frame). sure.
+R10 later walks on right sidewalk (pink) 2277-2279.5, back turned.
+No-bib finisher: woman purple/white vest, black shorts, blonde ponytail, near left tent then walking up road 2275.5-2279.5, back to camera, no bib visible.
+no_bib_runners estimate: ~5 (dark vest woman 2246.5; white T+backpack man 2252; legs at right edge 2256/2258; dark vest woman crossing 2260.5; purple vest woman 2275.5).

@@ -1,0 +1,23 @@
+{"clip": "v3_1440", "annotator": "A",
+ "runners": [
+  {"bib": "141", "status": "sure", "t_first": 1441.0, "t_best": 1443.0, "t_last": 1443.5, "note": "女，白底淺藍條背心、黑七分褲、金髮馬尾"},
+  {"bib": "?", "status": "unreadable", "t_first": 1447.5, "t_best": 1447.5, "t_last": 1468.0, "note": "右側人行道深藍背心女(疑完賽者)，腰側小白塊疑為號碼牌，讀不出；是否為號碼牌亦不完全確定"},
+  {"bib": "240", "status": "sure", "t_first": 1452.5, "t_best": 1454.5, "t_last": 1456.5, "note": "男，藍色短T、黑短褲、短髮"},
+  {"bib": "85", "status": "sure", "t_first": 1456.0, "t_best": 1460.0, "t_last": 1460.5, "note": "男，紅T、黑帽、黑短褲、黃色腰包"},
+  {"bib": "191", "status": "sure", "t_first": 1461.0, "t_best": 1465.0, "t_last": 1465.0, "note": "女，黑色 HAILSHAM 背心、黑短褲"},
+  {"bib": "?", "status": "unreadable", "t_first": 1471.5, "t_best": 1475.0, "t_last": 1475.0, "note": "男，藍T、白頭巾、大鬍子；號碼全程被手/水杯遮住"},
+  {"bib": "446", "status": "sure", "t_first": 1472.0, "t_best": 1475.0, "t_last": 1475.0, "note": "女，黑背心、黑短褲、深色馬尾"},
+  {"bib": "348", "status": "sure", "t_first": 1472.5, "t_best": 1476.5, "t_last": 1476.5, "note": "少年，淺藍T、黑短褲"},
+  {"bib": "15?", "status": "partial", "t_first": 1473.5, "t_best": 1475.5, "t_last": 1475.5, "note": "男，螢光黃綠T、深藍短褲；末位被 348 手臂遮住"},
+  {"bib": "62", "status": "sure", "t_first": 1476.5, "t_best": 1477.0, "t_last": 1477.5, "note": "女，WADHURST RUNNERS 紅藍背心、黑白條紋褲、金短髮"},
+  {"bib": "266", "status": "sure", "t_first": 1476.5, "t_best": 1480.0, "t_last": 1480.0, "note": "女，黑色 HASTINGS RUNNERS T恤、黑短褲、手拿水瓶"},
+  {"bib": "167", "status": "sure", "t_first": 1481.0, "t_best": 1484.5, "t_last": 1485.0, "note": "女，紅色 BBB10K T恤(衣服印字非號碼)、黑七分褲、黃框太陽眼鏡"},
+  {"bib": "?", "status": "unreadable", "t_first": 1482.0, "t_best": 1488.0, "t_last": 1499.5, "note": "男，紅T、黑短褲，完賽後站在右側人行道，胸前小號碼牌讀不出"},
+  {"bib": "340", "status": "sure", "t_first": 1492.0, "t_best": 1494.5, "t_last": 1495.5, "note": "女，黑色 HASTINGS RUNNERS 背心、金棕馬尾、橘鞋"},
+  {"bib": "354", "status": "sure", "t_first": 1492.5, "t_best": 1495.5, "t_last": 1496.0, "note": "男，黑色 HASTINGS RUNNERS T恤、長髮馬尾、紅長襪、螢光綠鞋"},
+  {"bib": "432", "status": "sure", "t_first": 1493.0, "t_best": 1496.5, "t_last": 1496.5, "note": "男，灰白髮、白T+螢光黃袖套、黑緊身褲"},
+  {"bib": "7", "status": "sure", "t_first": 1497.0, "t_best": 1499.5, "t_last": 1499.5, "note": "男，黑背心、黑短褲、短髮壯碩；單一位數置中"},
+  {"bib": "?", "status": "unreadable", "t_first": 1499.5, "t_best": 1499.5, "t_last": 1499.5, "note": "紅衣跑者，片段結尾左側遠處，號碼牌極小"}
+ ],
+ "no_bib_runners": 2,
+ "comments": "戴眼鏡紫藍衣男(1476.0)與藍背心女(1476.5-1477.5，被62擋)未見號碼牌。左側棚下黑衣完賽者胸前白塊過遠未列。號碼牌上 'BBB 10K' 與 167 衣服 'BBB10K' 印字皆未計。"}

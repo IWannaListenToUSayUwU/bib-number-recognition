@@ -1,0 +1,16 @@
+{"clip": "v3_2220", "annotator": "B",
+ "runners": [
+  {"bib": "400", "status": "sure", "t_first": 2222.5, "t_best": 2223.5, "t_last": 2224.5, "note": "女, Hastings Runners 深藍背心綠條, 白遮陽帽"},
+  {"bib": "111", "status": "sure", "t_first": 2231.0, "t_best": 2236.0, "t_last": 2236.0, "note": "男, 黑T胸前圓形徽章, 黃頭巾, 紅襪; 與110並跑"},
+  {"bib": "110", "status": "sure", "t_first": 2231.0, "t_best": 2236.0, "t_last": 2236.0, "note": "女, 黑T同款徽章, 黑七分褲粉紅膝部, 馬尾"},
+  {"bib": "263", "status": "sure", "t_first": 2253.0, "t_best": 2256.5, "t_last": 2257.0, "note": "男, 紅色adidas T, 黑短褲, 紅襪, 黃綠鞋"},
+  {"bib": "236", "status": "sure", "t_first": 2260.0, "t_best": 2262.5, "t_last": 2264.0, "note": "女, 黑背心 HASTINGS RUNNERS, 淺金短髮"},
+  {"bib": "153", "status": "sure", "t_first": 2267.5, "t_best": 2269.5, "t_last": 2270.0, "note": "男, 紅T, 藍短褲, 光頭"},
+  {"bib": "33", "status": "sure", "t_first": 2273.0, "t_best": 2276.5, "t_last": 2276.5, "note": "女, 粉紅背心, 黑七分褲, 深色馬尾, 持水瓶"},
+  {"bib": "27?", "status": "partial", "t_first": 2220.0, "t_best": 2254.5, "t_last": 2255.0, "note": "已完賽, 右側人行道白T藍側邊男, 深色短褲, 掛獎牌; 末位似2但不確定"},
+  {"bib": "6?", "status": "partial", "t_first": 2250.0, "t_best": 2253.5, "t_last": 2254.5, "note": "已完賽, 人行道黑T(胸前藍白條印字)女, 掛獎牌, 淺髮; 第二位似6/8/0"},
+  {"bib": "?", "status": "unreadable", "t_first": 2220.0, "t_best": 2233.0, "t_last": 2235.0, "note": "左側帳篷區紅衣淺髮者, 胸前號碼牌太小"},
+  {"bib": "?", "status": "unreadable", "t_first": 2252.0, "t_best": 2262.0, "t_last": 2264.5, "note": "紅T黑七分褲女, 先在人行道(背後有牌), 後橫越路面往左帳篷; 牌模糊"}
+ ],
+ "no_bib_runners": 3,
+ "comments": "BBB 10K 為號碼牌固定字樣未計; 人行道紅T 'HP CC' 為衣服印字未計. 路上紅衣小孩為觀眾. no_bib: 2246.5 人行道金髮女(灰/深色背心)、2260.5-2263.5 路上黑背心女、2275.5-2279.5 紫白背心女, 皆未見號碼牌. 已完賽者 27?、6? 及兩位 unreadable 均在片段開始前已完賽或在場邊."}

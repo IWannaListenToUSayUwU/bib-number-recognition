@@ -1,0 +1,20 @@
+{"clip": "v2_1020", "annotator": "A",
+ "runners": [
+  {"bib": "1334", "status": "sure", "t_first": 1020.0, "t_best": 1021.0, "t_last": 1022.0, "note": "藍色雪花圖案連帽衫、戴眼鏡女性"},
+  {"bib": "1219", "status": "sure", "t_first": 1020.0, "t_best": 1026.5, "t_last": 1027.0, "note": "粉紅袖白背心女性、耳罩頭帶"},
+  {"bib": "1218", "status": "sure", "t_first": 1020.0, "t_best": 1026.5, "t_last": 1027.0, "note": "灰連帽衫女性、黑毛帽、墨鏡"},
+  {"bib": "?", "status": "unreadable", "t_first": 1020.0, "t_best": 1020.0, "t_last": 1029.5, "note": "藍長袖少年，已完賽站在右側圍欄邊，號碼牌在胸前（疑似3位數）"},
+  {"bib": "?", "status": "unreadable", "t_first": 1021.5, "t_best": 1022.0, "t_last": 1024.5, "note": "右緣灰/深藍連帽衫男孩"},
+  {"bib": "?", "status": "unreadable", "t_first": 1020.0, "t_best": 1020.0, "t_last": 1020.0, "note": "右緣戴灰白毛帽男子，號碼牌在胸前"},
+  {"bib": "?", "status": "unreadable", "t_first": 1025.0, "t_best": 1030.0, "t_last": 1032.5, "note": "橘/珊瑚色外套女性、黑白條紋毛帽、黑緊身褲，號碼牌在左大腿"},
+  {"bib": "?", "status": "unreadable", "t_first": 1028.0, "t_best": 1028.0, "t_last": 1028.0, "note": "藍綠色外套年長女性、頭帶，號碼牌在腿上，與螢光黃帽男同行"},
+  {"bib": "?", "status": "unreadable", "t_first": 1025.0, "t_best": 1025.5, "t_last": 1026.0, "note": "黑外套、花紋緊身褲、條紋毛帽女性，號碼牌在腰/大腿"},
+  {"bib": "?", "status": "unreadable", "t_first": 1026.0, "t_best": 1030.0, "t_last": 1030.5, "note": "黑連帽衫、條紋毛帽小孩，沿右側圍欄跑"},
+  {"bib": "?", "status": "unreadable", "t_first": 1026.0, "t_best": 1036.0, "t_last": 1039.5, "note": "金髮女性、灰連帽衫、白絨球毛帽、綠背包，完賽後在右側帶小孩走"},
+  {"bib": "4?7", "status": "partial", "t_first": 1026.0, "t_best": 1038.5, "t_last": 1039.5, "note": "小孩、桃紅外套、條紋絨球毛帽，號碼牌在腰間；首位疑似4、末位7，中間看不清"},
+  {"bib": "?", "status": "unreadable", "t_first": 1026.0, "t_best": 1035.5, "t_last": 1037.0, "note": "紫外套金髮女孩，與桃紅外套小孩同行"},
+  {"bib": "?", "status": "unreadable", "t_first": 1027.0, "t_best": 1029.0, "t_last": 1032.0, "note": "灰上衣長髮女孩，在右側草地走"},
+  {"bib": "?", "status": "unreadable", "t_first": 1045.0, "t_best": 1049.5, "t_last": 1049.5, "note": "深色連帽衫女性，與粉紅上衣女性同行從遠處接近（前導車在後），片段結束前未到終點"}
+ ],
+ "no_bib_runners": 5,
+ "comments": "拱門終點，前段(1020-1031)人潮密集通過；1031後路面淨空，右側為已完賽者。1219/1218 兩位女性並肩同時通過。無號碼牌估計：抱嬰兒黑外套男、灰紫外套女、棕外套男、螢光黃帽背包男、粉紅長袖女(1045起接近)。角落 MILLENNIUM 台標與計時器數字未列入。部分右側背景人物是否為同一人有不確定性。"}

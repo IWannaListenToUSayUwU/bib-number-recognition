@@ -1,0 +1,18 @@
+{"clip": "v1_600", "annotator": "B",
+ "runners": [
+  {"bib": "234", "status": "sure", "t_first": 608.0, "t_best": 611.5, "t_last": 611.5, "note": "紅色可口可樂T恤、黑短褲、戴眼鏡男"},
+  {"bib": "6?0", "status": "partial", "t_first": 607.5, "t_best": 615.0, "t_last": 616.0, "note": "紅T恤、灰短褲男，與紫背心女並肩；中間位數 5/6 不確定"},
+  {"bib": "65?", "status": "partial", "t_first": 608.5, "t_best": 615.0, "t_last": 615.5, "note": "紫色背心、黑七分褲女；末位 8/1 不確定"},
+  {"bib": "?", "status": "unreadable", "t_first": 615.5, "t_best": 616.0, "t_last": 616.5, "note": "白背心紅短褲女，號碼牌被手遮/出畫面"},
+  {"bib": "?", "status": "unreadable", "t_first": 625.0, "t_best": 627.5, "t_last": 628.0, "note": "灰T恤、黑短褲、戴黑色面罩男"},
+  {"bib": "359", "status": "sure", "t_first": 633.0, "t_best": 634.5, "t_last": 635.0, "note": "白背心、深色帽、黑短褲男"},
+  {"bib": "?", "status": "unreadable", "t_first": 639.0, "t_best": 641.0, "t_last": 641.5, "note": "紫藍T恤、墨鏡、灰短褲男（逆光）"},
+  {"bib": "39?", "status": "partial", "t_first": 642.0, "t_best": 644.0, "t_last": 644.5, "note": "綠T恤、黑綠短褲女；末位 1/3/5 不確定"},
+  {"bib": "264", "status": "sure", "t_first": 644.0, "t_best": 645.5, "t_last": 646.0, "note": "橘T恤、灰帽、黑短褲男"},
+  {"bib": "233", "status": "sure", "t_first": 646.5, "t_best": 649.0, "t_last": 649.5, "note": "橘粉背心、深色短褲女，綁馬尾"},
+  {"bib": "?", "status": "unreadable", "t_first": 645.5, "t_best": 649.0, "t_last": 649.5, "note": "赤膊白髮男、黑短褲黑長襪，號碼牌別在短褲側面"},
+  {"bib": "?", "status": "unreadable", "t_first": 655.0, "t_best": 656.0, "t_last": 656.5, "note": "白T恤、黑短褲男，號碼牌模糊"},
+  {"bib": "93", "status": "sure", "t_first": 658.0, "t_best": 659.5, "t_last": 659.5, "note": "灰紫T恤、黑短褲、光頭男"}
+ ],
+ "no_bib_runners": 2,
+ "comments": "強烈逆光，太陽眩光遮蔽畫面中央，遠處跑者號碼牌普遍無法辨識。no_bib 為：深色背心螢光綠鞋男（639.5-647 在右側路邊往回走/緩跑，未見號碼牌）、推嬰兒車女（657-659）。路邊綠衣、藍衣、攝影師、背包男、牽狗者視為觀眾/工作人員未計。"}

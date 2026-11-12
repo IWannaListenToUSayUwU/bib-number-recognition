@@ -1,0 +1,66 @@
+[f_000-f_009, 720.0-729.5]
+- 638 sure: woman gray tee maroon "H", black capris, pink shoes. bib first 721.5 (blurry), clear 722.5/723.0/723.5. t_first 721.5 t_best 723.0 t_last 723.5
+- white tee blue shorts young man: bib on white shirt, washed out at 722.0/722.5, unreadable. t 722.0-722.5
+- 249 sure: older man blue/purple tee white cap black shorts yellow shoes. bib first 724.0 (tiny), clear 726.0/726.5. t_first 724.0 t_best 726.5 t_last 726.5
+- green-shirt person standing still at roadside ~725-729: likely spectator, not counted
+- purple tank woman black shorts, pink headband: appears 728.0, bib unreadable so far (729.5 maybe "?74?"), continue
+- several runners at 720.0-720.5 back-facing (going away): no bib visible (~4-5)
+[f_010-f_014, 730.0-734.5]
+- purple tank woman (pink headband, black shorts w/ white trim): 729.0 tiny, 729.5 "?74?", 730.0 "272"/"274"?, 730.5 blurred, 731.0 washed out. last digit uncertain -> 27? partial. t_first 729.0 t_best 730.0 t_last 731.0
+- white tank pink shorts blonde woman: 732.0 tiny, 732.5 "32?", 733.0 "320" fairly clear, 733.5 motion blurred "320"-ish. candidate 320; last digit some doubt. t_first 732.0 t_best 733.0 t_last 733.5
+- 734.5: group of people at right roadside (walking/standing, likely spectators) + a runner center with white bib (dark top), unreadable so far
+[f_015-f_019, 735.0-739.5]  (10-frame checkpoint f_010-f_019 complete)
+- the dark-top runner at 734.5 = man in dark gray tee, black shorts, short hair: bib 735.0 small, 735.5 "2??", 736.0 "28?"/"2?3" washed pinkish. -> 2?? partial. t_first 734.5 t_best 736.0 t_last 736.0 (736.5 exiting right, bib out)
+- gray tee w/ pink print, black shorts woman (brown hair): 737.0 small, 737.5 "11?"/"16?", 738.0 "16?", 738.5 "1?6?" blurred. -> 1?? partial. t_first 737.0 t_best 738.0 t_last 738.5
+- orange/red tank blue shorts woman (behind her): 737.0-737.5 behind, 738.5 bib "3.." partially hidden, 739.0 bib angled/washed, unreadable digits -> 3? partial (digit count unsure). t_first 738.5 t_best 738.5 t_last 739.0
+- right roadside group from 734.5 onward (woman in floral dress, kid purple shirt/red shorts, green tee, etc.) = spectators standing/walking, not counted
+- far background on left road edge: small figures, no readable bibs
+[f_020-f_024, 740.0-744.5]
+- 740.0-741.5: no close runners; far background small figures (left road edge, yellow vest person), no readable bibs
+- man black tee w/ graphic, cap, gray cargo shorts: 742.0 tiny bib, 742.5, 743.0, 743.5 "2?"-ish, 744.0 bib washed out, 744.5 motion blur. digits unreadable -> unreadable. t_first 742.0 t_best 744.0 t_last 744.5
+- small child plaid shirt appears 744.0-744.5 coming toward camera, bib not yet visible
+- pink-shirt woman + others walking at right edge = spectators (walking slowly), not counted
+[f_025-f_029, 745.0-749.5]  (10-frame checkpoint f_020-f_029 complete)
+- man black tank, plaid/orange shorts, sunglasses, orange shoes (probably the "plaid" figure seen 744.5): 745.0 "??", 745.5 "?8?"/"40?", 746.0 washed, 746.5 "328"/"323" closest view, last digit uncertain -> 32? partial. t_first 744.5 t_best 746.5 t_last 746.5
+- bald man white tee black shorts: 747.0 tiny, 748.0-749.5 bib on lower shirt, washed/pink; 749.0 "1?" ; unreadable so far. t_first 747.0
+- older man blue tee, sunglasses, black shorts: from 747.5 (light purple top), bib "8?"/"6?" small; continue
+- neon yellow vest runner: from 746.0, bib on vest, unreadable so far
+- pink tee woman + tie-dye shirt person walking along right edge toward camera since ~734: possibly walking participants, no bib seen; watch
+[f_030-f_034, 750.0-754.5]
+- neon yellow sleeveless man, sunglasses, black shorts: 750.0 "2?8", 750.5 "218"/"238", 751.0 "238", 751.5 "238"/"230" closest. last digit 8 vs 0 slight doubt, 2nd digit 1 vs 3 at 750.5 -> 23? partial (likely 238). t_first 746.0 t_best 751.5 t_last 751.5
+- older man blue tee sunglasses: 749.0-750.5 bib small/washed, maybe "8?"/"6?", digit count unsure -> unreadable. t_first 747.5 t_best 750.5 t_last 750.5 (exits 751.0)
+- bald man white tee: last seen 749.5, bib never readable -> unreadable. t 747.0-749.5
+- pink tee woman + tie-dye person walking along shoulder ~734-754.5, no bib visible at any time; ambiguous walkers/spectators
+- woman black top/black capris, white bib: from ~752.0 at left center, 753.5-754.5 bib visible but unreadable
+- man dark tee black shorts beside her at 754.5, bib "?0?" unreadable so far
+[f_035-f_039, 755.0-759.5]  (10-frame checkpoint f_030-f_039 complete)
+- 644 sure: woman gray tee, black capris w/ white waistband, pink shoes, earbuds (= black-top woman from 752-754.5). bib 753.5 small, 755.0 "644", 756.5/757.0 very clear. t_first 753.5 t_best 757.0 t_last 757.5
+- man dark navy sleeveless w/ blue sides, sunglasses, black shorts: 754.5 "?0?", 755.0 "33?"/"330", 755.5 "33?" pink-washed, 756.0 exiting right (bib cut). -> 33? partial. t_first 754.5 t_best 755.5 t_last 755.5
+- woman white tank black capris blonde (right side): 758.0 onward, bib on lower tank, unreadable so far
+- man white tee with orange square print: 758.0 onward center, bib on shorts/lower shirt, unreadable so far (orange square = shirt print, not bib)
+- background group left road edge: small runners
+[f_040-f_044, 760.0-764.5]
+- 214 sure: bald man white tee with red/orange square print, black shorts. bib 759.5 small, 760.0/760.5 "214", 761.0/761.5 "214", 762.0 very clear. t_first 759.5 t_best 762.0 t_last 762.0
+- woman white/gray tank black capris blonde sunglasses: bib 759.5 small, 760.0-761.5 "6??" (pink washed), 762.5 "6?8"/"648"? not certain, 763.0 angled. -> 6?? partial. t_first 759.5 t_best 762.5 t_last 763.0
+- 763.0-764.5: next group far: 2-3 men in white tees + a grey-tee runner, small bibs; roadside group (purple shirts, green tee) are spectators
+[f_045-f_049, 765.0-769.5]  (10-frame checkpoint f_040-f_049 complete)
+- man gray sleeveless, glasses, black shorts w/ neon trim: 765.0 small (gray tee left of pair), 766.0 "1?4", 766.5 "114", 767.0 "114", 767.5 "1?4"/"184", 768.0 "1?4" near. middle digit 1 vs 8 not certain -> 1?4 partial. t_first 765.0 t_best 767.0 t_last 768.0
+- gray-tee woman w/ heart logo on back, black capris, walking along right shoulder taking photo w/ phone 765.0-767.5 = spectator
+- woman white tee w/ yellow logo, cap, black capris, purple shoes: from 765.0 (white tee center), bib 768.0 "6??", 768.5 "6?4", 769.0 "6??", 769.5 "6?1"/"684"? -> 6?? partial (continue)
+- blonde woman light blue tee, black shorts: from 765.0 (right white-ish tee), 768.0 "6?", 769.0 "6?0", 769.5 "64?" -> partial (continue)
+- red shorts dark top runner center: 767.0+, white bib, unreadable so far
+- woman gray tee black shorts behind at 768.5-769.5, bib not seen yet
+- shirtless man walking on left grass 767-769.5: probably spectator
+[f_050-f_054, 770.0-774.5]
+- white-tee/yellow-logo woman w/ cap: 770.0 "681" readable, 770.5 "68?" exiting. combined w/ 769.5 ("681"/"684") -> last digit slight doubt -> 68? partial. t_first 765.0 t_best 770.0 t_last 770.5
+- blonde light-blue tee woman: 770.0 at right edge bib cut "6..". overall 6?? partial. t_first 765.0 t_best 769.5 t_last 770.0
+- 236 sure: woman black tee, red shorts, headband (= red-shorts runner from 767.0). bib 767.5 small, 770.0 "2?6", 771.0 "236", 771.5 "236", 772.0 very clear. t_first 767.5 t_best 772.0 t_last 772.0
+- gray tee woman black shorts (behind at 768.5-769.5) drifts to right shoulder and joins spectator group 770-773, no bib seen -> treat as spectator/uncertain
+- man red tee black shorts: 772.5 small, 773.0-774.5 approaching, bib "4??"/"?07", unreadable so far
+- shirtless/tank person on left grass walking 767-774.5 = spectator
+[f_055-f_059, 775.0-779.5]  (10-frame checkpoint f_050-f_059 complete; all 60 files viewed)
+- man red tee black shorts headband: 775.0 "40?", 775.5 "40?" (3rd digit 3/7/0 unclear), 776.0 near but motion blur. -> 40? partial. t_first 773.0 t_best 775.5 t_last 776.0
+- neon yellow tank runner black shorts/calf sleeves: far from ~774.0, approaching slowly through 779.5, bib small, unreadable. t_first 774.0 t_best 779.5 t_last 779.5
+- shirtless/tank person at far left grass = spectator
+- No name subtitle overlay observed in this clip.
+SUMMARY: 23 runners -> sure 5 (638,249,644,214,236), partial 13, unreadable 5. no_bib_runners est. 3.

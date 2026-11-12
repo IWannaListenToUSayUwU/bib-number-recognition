@@ -1,0 +1,47 @@
+{
+ "v1": {
+  "clip_len": 60,
+  "test2": [
+   {
+    "start": 720,
+    "end": 780,
+    "stratum": "mid"
+   },
+   {
+    "start": 1380,
+    "end": 1440,
+    "stratum": "high"
+   }
+  ]
+ },
+ "v2": {
+  "clip_len": 30,
+  "test2": [
+   {
+    "start": 720,
+    "end": 750,
+    "stratum": "mid"
+   },
+   {
+    "start": 540,
+    "end": 570,
+    "stratum": "high"
+   }
+  ]
+ },
+ "v3": {
+  "clip_len": 60,
+  "test2": [
+   {
+    "start": 1680,
+    "end": 1740,
+    "stratum": "mid"
+   },
+   {
+    "start": 2400,
+    "end": 2460,
+    "stratum": "high"
+   }
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+{"clip": "v1_1560", "annotator": "B",
+ "runners": [
+  {"bib": "244", "status": "sure", "t_first": 1561.5, "t_best": 1563.0, "t_last": 1564.0, "note": "白色無袖背心、灰短褲、男"},
+  {"bib": "15?", "status": "partial", "t_first": 1564.0, "t_best": 1566.5, "t_last": 1567.0, "note": "白T胸前橘色圖案、黑短褲、短髮女；末位在5/6/9/4之間無法確定"},
+  {"bib": "15?", "status": "partial", "t_first": 1570.0, "t_best": 1571.5, "t_last": 1572.0, "note": "灰色無袖上衣、黑色毛帽、男；末位疑似8但不確定"},
+  {"bib": "28?", "status": "partial", "t_first": 1570.5, "t_best": 1573.0, "t_last": 1573.0, "note": "螢光黃T、黑七分褲、女；末位3或5"},
+  {"bib": "?", "status": "unreadable", "t_first": 1568.0, "t_best": 1574.5, "t_last": 1576.0, "note": "灰T、黑七分褲側邊紅條、女；號碼牌可見但讀不出（疑似1開頭）"},
+  {"bib": "?", "status": "unreadable", "t_first": 1568.0, "t_best": 1573.5, "t_last": 1575.0, "note": "白T短褲、金髮女（與灰T女同行）"},
+  {"bib": "?", "status": "unreadable", "t_first": 1568.0, "t_best": 1573.5, "t_last": 1574.0, "note": "紫色背心、黑短褲、女（與灰T女同行）"},
+  {"bib": "292", "status": "sure", "t_first": 1578.0, "t_best": 1582.5, "t_last": 1583.0, "note": "白色V領T、黑七分褲、手拿紅色物品、女"},
+  {"bib": "32?", "status": "partial", "t_first": 1578.0, "t_best": 1581.5, "t_last": 1582.5, "note": "紫色背心、灰七分褲、綁馬尾女；末位5/8/9不確定"},
+  {"bib": "84", "status": "sure", "t_first": 1580.0, "t_best": 1599.0, "t_last": 1599.0, "note": "桃紅背心、咖啡色七分褲、女（三人同行走路組）"},
+  {"bib": "82", "status": "sure", "t_first": 1580.0, "t_best": 1598.0, "t_last": 1598.5, "note": "橘紅背心、黑短褲、女（三人同行走路組）"},
+  {"bib": "8?", "status": "partial", "t_first": 1580.0, "t_best": 1596.5, "t_last": 1597.0, "note": "水藍背心、黑七分褲、短髮女（三人同行走路組）；末位疑似3"},
+  {"bib": "44", "status": "sure", "t_first": 1601.0, "t_best": 1609.0, "t_last": 1609.5, "note": "白T胸前橘色圖案、紅短褲、金髮女；1609.0左緣被手部分遮住，看來為兩位數"},
+  {"bib": "3??", "status": "partial", "t_first": 1611.0, "t_best": 1617.0, "t_last": 1617.5, "note": "紫色背心、黑短褲、女（後段）；第二位疑似6"},
+  {"bib": "?", "status": "unreadable", "t_first": 1618.0, "t_best": 1619.0, "t_last": 1619.5, "note": "橘色上衣、藍短褲、女（遠處）"},
+  {"bib": "?", "status": "unreadable", "t_first": 1618.0, "t_best": 1619.0, "t_last": 1619.5, "note": "綠T男（遠處）"}
+ ],
+ "no_bib_runners": 2,
+ "comments": "逆光林道，遠處號碼牌多半過小。不計入：黃T工作人員、灰T拖鞋男（步行旁觀）、推嬰兒車婦人與小孩（觀眾）。no_bib_runners 為片尾黑衣女跑者與黑衣小孩（未見號碼牌）。片頭背景遠處尚有數名小人影，無法判斷是否有號碼牌，未列入。84/82/8? 三人為走路組。"}

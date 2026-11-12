@@ -1,0 +1,27 @@
+# ===== 原始影片（太大，且是他人的 YouTube 影片）=====
+/*.mp4
+
+# ===== 密碼／金鑰（目前專案沒有，預先防範）=====
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+
+# ===== Python 快取與虛擬環境 =====
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# ===== 執行紀錄（含電腦使用者名稱與本機路徑）=====
+setup_log.txt
+*.log
+
+# ===== 系統／編輯器雜檔 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

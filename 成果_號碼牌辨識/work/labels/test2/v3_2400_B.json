@@ -1,0 +1,15 @@
+{"clip": "v3_2400", "annotator": "B",
+ "runners": [
+  {"bib": "41?", "status": "partial", "t_first": 2400.0, "t_best": 2400.5, "t_last": 2400.5, "note": "白T黑短褲年輕男，右側人行道步行（已完賽），2401 起被樹遮；只確定開頭 41，後續位數不確定"},
+  {"bib": "243", "status": "sure", "t_first": 2406.0, "t_best": 2409.5, "t_last": 2410.0, "note": "白背心黑緊身褲深棕髮女"},
+  {"bib": "360", "status": "sure", "t_first": 2410.0, "t_best": 2414.0, "t_last": 2414.5, "note": "黑T黑運動褲光頭眼鏡中年男，橘色鞋"},
+  {"bib": "301", "status": "sure", "t_first": 2414.0, "t_best": 2417.5, "t_last": 2418.5, "note": "粉紅背心藍短褲黑頭帶女"},
+  {"bib": "148", "status": "sure", "t_first": 2416.5, "t_best": 2420.5, "t_last": 2421.0, "note": "黑色Nike背心黑緊身褲金棕髮女"},
+  {"bib": "52", "status": "sure", "t_first": 2420.5, "t_best": 2424.0, "t_last": 2424.0, "note": "黑T黑七分褲棕髮馬尾女，粉紫鞋"},
+  {"bib": "?", "status": "unreadable", "t_first": 2427.5, "t_best": 2429.0, "t_last": 2449.5, "note": "左側帳篷區紅上衣女（已完賽），胸前白牌太小"},
+  {"bib": "?", "status": "unreadable", "t_first": 2400.0, "t_best": 2432.0, "t_last": 2439.5, "note": "右側人行道粉紅上衣女孩（紅衣男旁），疑似胸前號碼牌，太小"},
+  {"bib": "?", "status": "unreadable", "t_first": 2446.0, "t_best": 2451.5, "t_last": 2452.0, "note": "紅色Nike上衣黑帽黑七分褲白色壓縮襪女，持水瓶；牌上只見 BBB 10K，號碼被手/水瓶遮住"},
+  {"bib": "?", "status": "unreadable", "t_first": 2451.0, "t_best": 2453.0, "t_last": 2455.5, "note": "右側抱嬰兒男後方紅T黑短褲男，彎腰，牌被遮擋"}
+ ],
+ "no_bib_runners": 1,
+ "comments": "街道終點前段，跑者由遠而近。主要跑者 243/360/301/148/52 清楚；紅衣持水瓶女的號碼被遮；路邊已完賽者的號碼牌過小。右側抱嬰兒男為觀眾。no_bib_runners 估 1（2438-2443 右側紅上衣黑褲女，疑似完賽者但看不到牌）。"}
