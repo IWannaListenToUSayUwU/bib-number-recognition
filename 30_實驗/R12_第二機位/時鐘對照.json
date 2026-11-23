@@ -1,0 +1,17 @@
+{
+ "tpe2_A_3000": {
+  "phase_frame": 28,
+  "clock_at_t0": 13324.067,
+  "note": "gun_time(t)= 3:42:05 + (t - 28/30) 秒"
+ },
+ "tpe2_B_4200": {
+  "phase_frame": 28,
+  "clock_at_t0": 14524.067,
+  "note": "gun_time(t)= 4:02:05 + (t - 28/30) 秒"
+ },
+ "tpe2_C_5400": {
+  "phase_frame": 28,
+  "clock_at_t0": 15724.067,
+  "note": "gun_time(t)= 4:22:05 + (t - 28/30) 秒"
+ }
+}

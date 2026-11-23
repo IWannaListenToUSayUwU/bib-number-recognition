@@ -1,0 +1,30 @@
+{
+ "schema": "layered_v1",
+ "race": "2022 臺北馬拉松 全馬",
+ "date": "2022-12-18",
+ "gun_start": "06:30:00",
+ "bib_len": 5,
+ "bib_list": "tpe2022_full_bibs.txt",
+ "bib_list_n": 7811,
+ "bib_list_note": "只放號碼（不放成績時間，避免把答案帶進系統）。來源：運動筆記即時成績的完賽者（R13 抓取）；真實部署應換成主辦單位的報名名單（R13：名單加大 30% 結果幾乎不變）。",
+ "bib_colors": {
+  "rule": "lead_digit_by_blue",
+  "hsv": {
+   "h": [
+    95,
+    140
+   ],
+   "s_min": 60,
+   "v_min": 40
+  },
+  "blue_hi": 0.4,
+  "blue_lo": 0.3,
+  "hi_lead": "1",
+  "lo_lead": "0",
+  "note": "1 開頭（10000–11783）藍紫底白字、0 開頭白底深字；量 OCR 文字框內偏藍像素比例（R13 r13_bibcolor.py）。只在名單上 0／1 開頭兩版都存在時使用。"
+ },
+ "clock": {
+  "shows": "gun_time",
+  "note": "終點拱門 CITIZEN 時鐘顯示全馬槍聲時間（R12 驗證）"
+ }
+}

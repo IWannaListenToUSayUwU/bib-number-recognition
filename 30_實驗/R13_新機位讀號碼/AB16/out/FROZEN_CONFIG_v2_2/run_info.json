@@ -1,0 +1,30 @@
+{
+ "exp": "R13_新機位讀號碼\\AB16",
+ "config": "FROZEN_CONFIG_v2_2",
+ "config_sha256": "8c6be0735bb6f0b7307081694404ec61ad193d6bd72fa708f603fd97a4ec8f74",
+ "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+ "start": "2026-11-23 07:01:38",
+ "extract": "extract4",
+ "aggregate": "aggregate3",
+ "src_sha256": {
+  "extract5": "aba12f995fdd5d1a92842dbe68c8b87f6d471367487e0e3d77515a355d80314e",
+  "feat6": "da04b9fbd1ceb3243b3eefc4e668363c0ac0abb3eeecc13473fa4f0e5e888cc0",
+  "aggregate3": "7a66699d39c975e152f9d3828de4d2a75f2c6af5f4940ba2a28dcb21c25a5284",
+  "extract4": "ed44bfa23d9349a0bccd96b2e85d302179367e4d15f33b8abdd3b263afadbca6",
+  "videoio": "6b04c056719cb2915940ac73b7611ddf80e5fd2984a2f6e4bc28832b14b124ac"
+ },
+ "clips": {
+  "tpe_A_300": "ccf49a4cad74a8726bc13f73b2e6f0ee5f330525e868b80667012610f751e278",
+  "tpe_B_1200": "36f9cfe29c4d42b5730a44599c32de04951ce91d5a8d7823ebb8422fccb817a1"
+ },
+ "extract_args": {
+  "imgsz": 960,
+  "min_h": 100,
+  "top": 0.22,
+  "bot": 0.72,
+  "early_stop": 3,
+  "hist_thr": 0.45,
+  "jump_thr": 0.8
+ },
+ "fps": 16
+}

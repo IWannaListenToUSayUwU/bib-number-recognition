@@ -1,0 +1,31 @@
+{
+ "frozen_at": "2026-11-12 10:58 Asia/Taipei, test2 labels finalized (gt_test2.sha256) but no system output on test2 yet",
+ "extract": {
+  "script": "src/extract4.py",
+  "fps": 8,
+  "imgsz": 960,
+  "min_h": 100,
+  "top": 0.22,
+  "bot": 0.72,
+  "early_stop": 3,
+  "hist_thr": 0.45,
+  "jump_thr": 0.8
+ },
+ "aggregate": {
+  "min_conf": 0.8,
+  "min_votes": 1,
+  "min_score": 0.9,
+  "minlen": 2,
+  "maxlen": 5,
+  "size_w": true,
+  "merge_gap": 4.0,
+  "substr": true,
+  "sub_gap": 3.0,
+  "static": true,
+  "static_px": 12,
+  "static_sec": 2.0
+ },
+ "base": "FROZEN_CONFIG_v2.json",
+ "notes_v2": "aggregate thresholds unchanged from v1 (dev grid differences were within noise); track split + static-text filter added; dev(7 clips incl. v3_1440) F1 0.714",
+ "notes": "v2.1 (2026-11-17, \u7b2c\u4e94\u8f2a)\uff1a\u5167\u5bb9\u8207 FROZEN_CONFIG_v2.json \u5b8c\u5168\u76f8\u540c\uff0c\u53ea\u628a aggregate.maxlen \u7531 4 \u6539\u70ba 5\uff0c\u4ee5\u63a5\u53d7\u53f0\u5317\u99ac\u62c9\u677e\u7684 5 \u4f4d\u6578\u865f\u78bc\uff08\u5e38\u4ee5 0 \u958b\u982d\uff0c\u5982 04646\uff09\u3002\u5176\u4ed6\u53c3\u6578\u8207\u6f14\u7b97\u6cd5\u4e0d\u8b8a\u3001\u672a\u53e6\u5916\u8abf\u53c3\u3002v2 \u539f\u672c\u7684 notes \u4fdd\u7559\u5728 notes_v2\u3002"
+}

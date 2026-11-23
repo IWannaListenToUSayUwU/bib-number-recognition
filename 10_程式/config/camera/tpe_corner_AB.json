@@ -1,0 +1,13 @@
+{
+ "schema": "layered_v1",
+ "camera": "tpe_corner_AB",
+ "description": "2022 臺北馬，終點前最後轉角（第一支影片）A、B 段；機位和 C、D 略不同，計時線還沒量 → 不能算過線，只能輸出出現的號碼",
+ "frame": null,
+ "line": null,
+ "zone": null,
+ "clock": null,
+ "clips": [
+  "tpe_A_300",
+  "tpe_B_1200"
+ ]
+}

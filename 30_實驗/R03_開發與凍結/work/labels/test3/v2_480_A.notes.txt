@@ -1,0 +1,82 @@
+== f_000-f_009 (480.0-484.5) ==
+R1 813 sure; orange shirt older bald man; first 480.0 best 481.0 last 481.0
+R2 teal jacket white beanie woman; bib not seen (no-bib so far)
+R3 85? partial; black jacket blonde sunglasses woman; 480.0-480.5 best 480.0
+R4 1?0 partial (looks 190/180); grey hoodie striped beanie woman; 480.0-481.0 best 481.0
+R5 red shirt boy blue shorts, bib on shorts unreadable; 480.0-484.5
+R6 122? partial (early looked 1330); black UnderArmour jacket, striped beanie, sunglasses; 481.0-484.0 best 483.5
+R7 9437 (fairly clear); big guy grey hoodie grey shorts; 481.0-484.5 best 484.5
+R8 924? partial; blue ITALIA shirt woman light blue pants; 482.5-484.5 best 484.0
+R9 purple-top runner in background with bib, unreadable; ~482.5-484.5
+Right side crowd: finished runner light blue top with bib (~132?), unreadable; seen throughout
+== f_010-f_019 (485.0-489.5) ==
+R6 update: bib seen last 485.0 (partial at frame bottom)
+R7 update: last 485.5
+R8 update: 9240 clear at 485.0/485.5 -> sure 9240; best 485.5; last 486.5
+R9 update: purple long-sleeve woman black pants, earbuds: 142? partial; first ~484.5, best 488.5, last 489.5
+R10 purple jacket curly-haired woman (walking, with R11): white bib edge visible, unreadable; 485.0-487.5
+R11 black vest woman, sunglasses on head: bib not clearly seen; probably no-bib
+R12 8?1 partial; royal blue jacket, black/white striped pom beanie, older woman; 486.5-489.5 best 488.5
+R13 84? partial; light blue/white jacket, white pom beanie, sunglasses; 486.5-489.5 best 488.5
+R14 pink-sleeve / pink pants girl small (behind) -> see R17
+R15 blue long-sleeve man, striped beanie, black shorts; bib (on shorts?) unreadable; 486.5-489.5
+R16 light blue top woman, black beanie, black pants; bib at hip unreadable; 487.5-489.5
+R17 girl pink pants, patterned vest; bib 1??? unreadable/partial; 487.5-489.5
+R18 maroon vest yellow sleeves woman, patterned tights; bib unreadable; 487.5-489.5
+== f_020-f_029 (490.0-494.5) ==
+R12 last 490.0; R15 last ~491.5 (bib never readable); R16 last ~491.5; R17 last 490.5
+R18 (maroon vest, neon-yellow sleeves, patterned tights) comes to front 490-494; bib on thigh unreadable; last 494.0
+R19 blue beanie woman, grey sleeves black vest, holding girl's hand; bib at thigh unreadable; 490.0-494.5
+R20 small girl purple jacket pink pom hat (with R19); bib not seen -> no-bib
+R21 925? partial; man black jacket, green shoes; bib on hip; 491.0-494.5 best 494.0
+R22 144? partial; girl black jacket pink graphic, beanie; 490.5-494.0 best 494.0
+R23 red/grey jacket woman white knit hat, long hair; bib at hip unreadable; 491.0-494.5
+R24 kid red jacket blue cap (arm raised earlier); bib unreadable; 491.0-494.5
+R25 25?9 partial; girl pink jacket striped beanie; 494.0-494.5 best 494.5
+R26 158? partial; older woman teal jacket glasses; 492.0-494.5 best 494.5
+R27 light blue top woman ponytail; bib (looks 337/327) partial; 492.5-494.5
+R28 kid white jacket b/w beanie; bib unreadable; 494.0-494.5
+R29 woman white long sleeve, beanie; bib unreadable; 492.5-494.5
+R30 woman light teal UA shirt; bib unreadable; 491.0-494.5
+R31 woman black vest grey top (striped leggings); bib not seen yet
+== f_030-f_039 (495.0-499.5) ==
+R27 update: 337 sure (clear 496.5/497.0); best 496.5; last 497.5
+R26 update: teal older woman bib 1?8? partial (readings 1580/1685 inconsistent); last 496.0
+R30 update: light teal UA hoodie blonde woman = 9253 sure (clear 496.5-497.5); best 497.0; last 498.0
+R31 black vest grey top patterned leggings bandana sunglasses woman: bib never seen -> no-bib (through 499.5)
+R32 94? partial; black jacket neon-yellow collar, maroon beanie woman (with R30); bib at thigh; 495.5-499.5 best 498.0
+R33 1415 sure; yellow long sleeve woman, sunglasses, striped beanie, green shoes; 494.0-499.5 best 498.5
+R34 woman pushing stroller, black top white pom beanie: no bib seen
+R35 dark grey hoodie woman, headband, sunglasses; bib at hip unreadable; 494.5-499.5
+R36 green hoodie bearded man black shorts: no bib seen
+R28 kid white jacket: bib 10?0 partial-ish -> unreadable; last 496.5
+R29 white jacket woman beanie: bib unreadable; last 497.5
+R37 striped sweater woman (behind): bib not seen yet
+R38 blue jacket woman teal leggings blonde; bib unreadable; 497.0-499.5
+== f_040-f_049 (500.0-504.5) ==
+R33 1415 last 501.5
+R34 stroller woman / R36 green hoodie man: still no bib; leave ~501.5
+R37 141? partial; striped b/w sweater woman, striped beanie, navy leggings; bib visible "141" (last digit unclear/covered); 499.0-504.0 best 502.0
+R38 blue jacket teal leggings blonde woman b/w beanie; bib at hip unreadable; 497.0-504.0
+R39 white long sleeve man navy cap, jeans; bib on chest unreadable; 500.0-504.5
+R40 147? partial; magenta top woman red headband sunglasses, red shoes; 501.0-504.5 best 504.5
+R41 black jacket woman neon-green scarf, beanie; bib on thigh unreadable; 502.0-504.5
+R42 kid navy jacket (behind) bib unreadable; 503.0-504.5
+== f_050-f_059 (505.0-509.5) ==
+R40 update: 1472 clear at 505.0-506.5 -> sure 1472; best 506.0; last 507.0
+R39 update: white shirt man bib shows "91" (possibly more digits hidden/2-digit) -> partial 91?; best 506.0; last 507.0
+R42 update: kid navy patterned jacket = 1347 sure (clear 506.5); best 506.5; last 507.5
+R41 last 508.0 (unreadable); R43 black jacket leopard leggings blonde sunglasses woman, bib unreadable 504.5-508.5
+R44 kid grey jacket pink trim, b/w beanie: 134? partial; 505.0-509.0 best 508.5
+R45 orange top woman, maroon leggings: bib on thigh unreadable; 503.0-508.5
+R46 dad grey jacket navy cap pushing orange double stroller: 134? partial (1349/1347?); 506.5-509.5 best 508.0
+R49 child in stroller (red plaid blanket): 1348 sure; 507.5-509.0 best 508.5
+R50 stroller child blue blanket: no bib seen
+R47 pink top woman sunglasses: bib unreadable; 507.0-509.5
+R51 grey hoodie woman ("PINK" print) dark hair: bib on thigh unreadable; 507.5-509.5
+R54 black/white jacket woman patterned leggings: 260? partial; 505.5-509.5 best 509.0
+R55 woman grey top black skirt b/w beanie: bib unreadable; 508.0-509.5
+R56 green hoodie kid: bib unreadable; 508.5-509.5
+R57 kid black jacket b/w beanie: no bib seen
+R58 red vest woman (behind): bib unreadable; 508.0-509.5
+no-bib estimate: R2,R11,R20,R31,R34,R36,R50,R57 ~ 8

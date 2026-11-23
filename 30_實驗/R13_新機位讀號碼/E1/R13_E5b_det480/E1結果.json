@@ -1,0 +1,327 @@
+{
+ "raw_source": "R13_E5b_det480",
+ "registry_n": 7813,
+ "results": {
+  "v22": {
+   "tune": {},
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 29,
+     "wrong": 7,
+     "corr": 29,
+     "unk": 0
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 53,
+     "wrong": 18,
+     "corr": 53,
+     "unk": 1
+    }
+   },
+   "summary": {
+    "tune_found": 0,
+    "tune_n": 0,
+    "tune_found_rate": null,
+    "tune_ci95": null,
+    "tune_consistent": 0,
+    "tune_wrong_out": 0,
+    "per_clip_found": {},
+    "guard_full": 82,
+    "guard_n": 122,
+    "guard_rate": 0.672,
+    "guard_wrong": 25
+   }
+  },
+  "len5": {
+   "tune": {},
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 29,
+     "wrong": 6,
+     "corr": 29,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 53,
+     "wrong": 11,
+     "corr": 53,
+     "unk": 8
+    }
+   },
+   "summary": {
+    "tune_found": 0,
+    "tune_n": 0,
+    "tune_found_rate": null,
+    "tune_ci95": null,
+    "tune_consistent": 0,
+    "tune_wrong_out": 0,
+    "per_clip_found": {},
+    "guard_full": 82,
+    "guard_n": 122,
+    "guard_rate": 0.672,
+    "guard_wrong": 17
+   }
+  },
+  "post": {
+   "tune": {},
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 29,
+     "wrong": 6,
+     "corr": 29,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 52,
+     "wrong": 12,
+     "corr": 52,
+     "unk": 8
+    }
+   },
+   "summary": {
+    "tune_found": 0,
+    "tune_n": 0,
+    "tune_found_rate": null,
+    "tune_ci95": null,
+    "tune_consistent": 0,
+    "tune_wrong_out": 0,
+    "per_clip_found": {},
+    "guard_full": 81,
+    "guard_n": 122,
+    "guard_rate": 0.664,
+    "guard_wrong": 18
+   }
+  },
+  "post_noz": {
+   "tune": {},
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 29,
+     "wrong": 6,
+     "corr": 29,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 52,
+     "wrong": 9,
+     "corr": 52,
+     "unk": 11
+    }
+   },
+   "summary": {
+    "tune_found": 0,
+    "tune_n": 0,
+    "tune_found_rate": null,
+    "tune_ci95": null,
+    "tune_consistent": 0,
+    "tune_wrong_out": 0,
+    "per_clip_found": {},
+    "guard_full": 81,
+    "guard_n": 122,
+    "guard_rate": 0.664,
+    "guard_wrong": 15
+   }
+  },
+  "post_uq": {
+   "tune": {},
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 29,
+     "wrong": 6,
+     "corr": 29,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 52,
+     "wrong": 9,
+     "corr": 52,
+     "unk": 11
+    }
+   },
+   "summary": {
+    "tune_found": 0,
+    "tune_n": 0,
+    "tune_found_rate": null,
+    "tune_ci95": null,
+    "tune_consistent": 0,
+    "tune_wrong_out": 0,
+    "per_clip_found": {},
+    "guard_full": 81,
+    "guard_n": 122,
+    "guard_rate": 0.664,
+    "guard_wrong": 15
+   }
+  },
+  "pre": {
+   "tune": {},
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 30,
+     "wrong": 6,
+     "corr": 30,
+     "unk": 2
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 48,
+     "wrong": 10,
+     "corr": 48,
+     "unk": 15
+    }
+   },
+   "summary": {
+    "tune_found": 0,
+    "tune_n": 0,
+    "tune_found_rate": null,
+    "tune_ci95": null,
+    "tune_consistent": 0,
+    "tune_wrong_out": 0,
+    "per_clip_found": {},
+    "guard_full": 78,
+    "guard_n": 122,
+    "guard_rate": 0.639,
+    "guard_wrong": 16
+   }
+  },
+  "pre_noz": {
+   "tune": {},
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 30,
+     "wrong": 6,
+     "corr": 30,
+     "unk": 2
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 48,
+     "wrong": 4,
+     "corr": 48,
+     "unk": 21
+    }
+   },
+   "summary": {
+    "tune_found": 0,
+    "tune_n": 0,
+    "tune_found_rate": null,
+    "tune_ci95": null,
+    "tune_consistent": 0,
+    "tune_wrong_out": 0,
+    "per_clip_found": {},
+    "guard_full": 78,
+    "guard_n": 122,
+    "guard_rate": 0.639,
+    "guard_wrong": 10
+   }
+  },
+  "pre_keep": {
+   "tune": {},
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 29,
+     "wrong": 6,
+     "corr": 29,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 52,
+     "wrong": 10,
+     "corr": 52,
+     "unk": 10
+    }
+   },
+   "summary": {
+    "tune_found": 0,
+    "tune_n": 0,
+    "tune_found_rate": null,
+    "tune_ci95": null,
+    "tune_consistent": 0,
+    "tune_wrong_out": 0,
+    "per_clip_found": {},
+    "guard_full": 81,
+    "guard_n": 122,
+    "guard_rate": 0.664,
+    "guard_wrong": 16
+   }
+  },
+  "cons": {
+   "tune": {},
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 29,
+     "wrong": 6,
+     "corr": 29,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 52,
+     "wrong": 10,
+     "corr": 52,
+     "unk": 9
+    }
+   },
+   "summary": {
+    "tune_found": 0,
+    "tune_n": 0,
+    "tune_found_rate": null,
+    "tune_ci95": null,
+    "tune_consistent": 0,
+    "tune_wrong_out": 0,
+    "per_clip_found": {},
+    "guard_full": 81,
+    "guard_n": 122,
+    "guard_rate": 0.664,
+    "guard_wrong": 16
+   }
+  },
+  "cons_color": {
+   "tune": {},
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 29,
+     "wrong": 6,
+     "corr": 29,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 53,
+     "wrong": 10,
+     "corr": 53,
+     "unk": 8
+    }
+   },
+   "summary": {
+    "tune_found": 0,
+    "tune_n": 0,
+    "tune_found_rate": null,
+    "tune_ci95": null,
+    "tune_consistent": 0,
+    "tune_wrong_out": 0,
+    "per_clip_found": {},
+    "guard_full": 82,
+    "guard_n": 122,
+    "guard_rate": 0.672,
+    "guard_wrong": 16
+   }
+  }
+ },
+ "rules": "R13 共用函式：號碼名單規則（E1）、過線事件、官方成績對照（任何 tpe2 片段）、C／D 的 score_v2。\n官方對照的規則和 R12 `r12_official.py` 完全相同（計畫.md ③）：\n  系統槍聲時間＝片段開頭時鐘＋t_cross；官方一致＝號碼在官方名單且 |官方−系統| ≤ 2 秒；\n  官方名單找到率＝官方時間在片段第 1～59 秒的人中，系統有輸出同號碼且官方一致的比例。\n號碼名單模式（mode）：\n  v22      不用名單（和 v2.2 相同）\n  len5     只保留 5 碼的號碼（不用名單；主辦單位至少知道號碼是幾碼）\n  post     投票後：號碼不在名單 → 4 碼且「0＋號碼」在名單就補 0，否則當讀不出\n  pre      投票前：每筆讀數先過名單（4 碼且補 0 後在名單 → 補 0；不在名單 → 丟掉），再用 v2.2 的投票\n  pre_noz  同 pre，但不補 0（用來看補 0 的效果）\n  post_noz 同 post，但不補 0（號碼不在名單就當讀不出）\n  pre_keep 投票前只丟掉「5 碼但不在名單」的讀數（較短的讀數保留，讓子字串合併照常運作），投票後再套 post_uq\n  cons     pre_keep 之後，還是讀不出的事件用「共識解碼」補：同一人多次部分讀數（3～5 碼）和名單比，\n           分數＝Σ 信心×相似度（完全相同 1、是子字串 len/5、5 碼只差一碼 0.6），最高分 ≥ CONS_MIN 且 ≥ CONS_MARGIN×第二名才採用\n  cons_color 同 cons，再加號碼布顏色（2022 臺北馬：1 開頭藍紫底、0 開頭白底；r13_bibcolor.py 量的）：\n           這個人數字讀數文字框內的藍色比例中位數 ≥ BLUE_HI → 只考慮 1 開頭的號碼；≤ BLUE_LO → 只考慮 0 開頭；\n           已定案的號碼若開頭和顏色矛盾 → 改成讀不出。顏色只用在「名單上 0 開頭和 1 開頭兩個版本都存在」的號碼（尾 4 碼 ≤ 1783）\n  post_uq  同 post，但 4 碼號碼改成「前面或後面補一碼後，名單上只有唯一一個」才補（例：7701 → 只有 07701；1015 → 01015、10150～10159 有多個，不補）"
+}

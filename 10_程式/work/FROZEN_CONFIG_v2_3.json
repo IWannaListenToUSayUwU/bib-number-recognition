@@ -1,0 +1,36 @@
+{
+ "frozen_at": "2026-11-18 Asia/Taipei",
+ "extract": {
+  "script": "src/extract5.py",
+  "fps": 8,
+  "imgsz": 960,
+  "min_h": 100,
+  "top": 0.22,
+  "bot": 0.72,
+  "hist_thr": 0.45,
+  "jump_thr": 0.8,
+  "top_k": 12,
+  "min_sep": 0.25,
+  "gap": 1.0
+ },
+ "aggregate": {
+  "min_conf": 0.8,
+  "min_votes": 1,
+  "min_score": 0.9,
+  "minlen": 2,
+  "maxlen": 5,
+  "size_w": true,
+  "merge_gap": 4.0,
+  "substr": true,
+  "sub_gap": 3.0,
+  "static": true,
+  "static_px": 12,
+  "static_sec": 2.0,
+  "size_ref": "abs40",
+  "accept_hi": 3,
+  "static_rel": true
+ },
+ "base": "FROZEN_CONFIG_v2_2.json",
+ "notes_v2": "aggregate thresholds unchanged from v1 (dev grid differences were within noise); track split + static-text filter added; dev(7 clips incl. v3_1440) F1 0.714",
+ "notes": "v2.3 test (2026-11-18): method 3 - no early stop; per track, buffer torso crops, rank by (box height/max)*(sharpness/max), OCR top_k=12 crops spaced >=0.25s after the track ends; each OCR row records rank so K=3/5/8 can be simulated offline. aggregate unchanged from v2.2 (aggregate3)."
+}

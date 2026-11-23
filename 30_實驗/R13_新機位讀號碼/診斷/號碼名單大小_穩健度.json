@@ -1,0 +1,58 @@
+{
+ "0.0_0": {
+  "extra": 0.0,
+  "seed": 0,
+  "registry": 7813,
+  "found": 75,
+  "n": 251,
+  "wrong": 11
+ },
+ "0.15_1": {
+  "extra": 0.15,
+  "seed": 1,
+  "registry": 8984,
+  "found": 74,
+  "n": 251,
+  "wrong": 10
+ },
+ "0.15_2": {
+  "extra": 0.15,
+  "seed": 2,
+  "registry": 8984,
+  "found": 74,
+  "n": 251,
+  "wrong": 9
+ },
+ "0.15_3": {
+  "extra": 0.15,
+  "seed": 3,
+  "registry": 8984,
+  "found": 74,
+  "n": 251,
+  "wrong": 9
+ },
+ "0.3_1": {
+  "extra": 0.3,
+  "seed": 1,
+  "registry": 10156,
+  "found": 74,
+  "n": 251,
+  "wrong": 10
+ },
+ "0.3_2": {
+  "extra": 0.3,
+  "seed": 2,
+  "registry": 10156,
+  "found": 74,
+  "n": 251,
+  "wrong": 10
+ },
+ "0.3_3": {
+  "extra": 0.3,
+  "seed": 3,
+  "registry": 10156,
+  "found": 73,
+  "n": 251,
+  "wrong": 10
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "schema": "layered_v1",
+ "camera": "tpe_corner_CD",
+ "description": "2022 臺北馬，終點前最後轉角（第一支影片）C、D 段的機位",
+ "frame": [
+  1920,
+  1012
+ ],
+ "line": {
+  "p1": [
+   1050,
+   662
+  ],
+  "p2": [
+   1470,
+   1012
+  ],
+  "upstream": [
+   500,
+   560
+  ],
+  "source": "10_程式/work/LINE_tpe_v1.json",
+  "source_sha256": "7a9ac3ec2fb6559bbc9faab848e62eba22b51293f3a20da0587145b726ee5f17",
+  "status": "confirmed by user 2026-11-22 (R10 proposed)"
+ },
+ "zone": {
+  "up_px": 500,
+  "down_px": 150,
+  "note": "只在腳離計時線上游 500 像素、下游 150 像素內做 OCR（R13 模擬：C+D 不掉分，新機位也不掉）"
+ },
+ "clock": null,
+ "clips": [
+  "tpe_C_600",
+  "tpe_D_1800"
+ ]
+}

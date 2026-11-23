@@ -1,0 +1,20 @@
+{"clip": "v1_420", "annotator": "A",
+ "runners": [
+  {"bib": "?", "status": "unreadable", "t_first": 422.0, "t_best": 424.5, "t_last": 425.0, "note": "女，白無袖上衣+黑長褲，粉紅牌"},
+  {"bib": "634", "status": "sure", "t_first": 428.0, "t_best": 430.0, "t_last": 430.5, "note": "女，白T黃色logo+黑短褲，短髮"},
+  {"bib": "?77", "status": "partial", "t_first": 431.0, "t_best": 435.0, "t_last": 435.5, "note": "男，灰白T+深藍短褲，綠鞋；首位似6但前幾格像1"},
+  {"bib": "?", "status": "unreadable", "t_first": 430.0, "t_best": 435.0, "t_last": 435.5, "note": "女，紫色背心+黑七分褲，橘鞋，粉紅牌"},
+  {"bib": "48?", "status": "partial", "t_first": 437.0, "t_best": 438.5, "t_last": 439.0, "note": "男，紅背心+黑短褲；末位似2"},
+  {"bib": "144", "status": "sure", "t_first": 438.0, "t_best": 440.5, "t_last": 441.0, "note": "綠T+黑短褲，捲髮"},
+  {"bib": "210", "status": "sure", "t_first": 443.0, "t_best": 448.0, "t_last": 448.0, "note": "男，綠T+灰短褲"},
+  {"bib": "3??", "status": "partial", "t_first": 449.0, "t_best": 451.0, "t_last": 451.5, "note": "男，白髮，白T黃logo+橘短褲；似311"},
+  {"bib": "1?2", "status": "partial", "t_first": 448.0, "t_best": 451.0, "t_last": 451.5, "note": "男，深藍背心+黑短褲；似102"},
+  {"bib": "60?", "status": "partial", "t_first": 450.5, "t_best": 455.0, "t_last": 455.0, "note": "女，灰背心+黑七分褲，粉紅牌"},
+  {"bib": "58", "status": "sure", "t_first": 460.0, "t_best": 468.0, "t_last": 468.5, "note": "黑T綠印字+墨綠短褲+紅鞋，墨鏡"},
+  {"bib": "1???", "status": "partial", "t_first": 462.0, "t_best": 464.5, "t_last": 465.0, "note": "女，螢光綠背心+淺藍短褲，金髮；位數不完全確定"},
+  {"bib": "607", "status": "sure", "t_first": 470.0, "t_best": 477.0, "t_last": 477.5, "note": "女，紅髮，灰藍T+深藍短褲"},
+  {"bib": "71?", "status": "partial", "t_first": 473.0, "t_best": 479.5, "t_last": 479.5, "note": "女，金髮，水藍背心+黑短褲+粉紅鞋"},
+  {"bib": "?", "status": "unreadable", "t_first": 470.0, "t_best": 478.5, "t_last": 479.5, "note": "男，灰T，背景路邊，粉紅牌"}
+ ],
+ "no_bib_runners": 3,
+ "comments": "林道逆光場景。疊字 'another great sprint to the finish!'、'Mike Jack'、'Jillian King' 為字幕/人名，非號碼。路邊多名觀眾不計。"}

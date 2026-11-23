@@ -1,0 +1,34 @@
+{
+ "tpe_C_600": {
+  "file": "20_測試基準\\gt_crossing\\tpe_C_600.json",
+  "sha256": "5c42a9792cd1d75d43c1d7aacbf037a54cc24685c360a3ffb6eae4eda10342b0",
+  "n_events": 45,
+  "status_count": {
+   "sure": 32,
+   "partial": 12,
+   "unreadable": 0,
+   "nobib": 1
+  },
+  "human_added": 0,
+  "system_candidates": 45,
+  "not_runner": 0,
+  "same_person_dup": 0,
+  "prefill_bib_edited": 13
+ },
+ "tpe_D_1800": {
+  "file": "20_測試基準\\gt_crossing\\tpe_D_1800.json",
+  "sha256": "639113d1da36d5aec55bf53c2fb5743ab15f0e40b7f0e19813127a6f735d799e",
+  "n_events": 77,
+  "status_count": {
+   "sure": 64,
+   "partial": 11,
+   "unreadable": 1,
+   "nobib": 1
+  },
+  "human_added": 0,
+  "system_candidates": 78,
+  "not_runner": 0,
+  "same_person_dup": 1,
+  "prefill_bib_edited": 12
+ }
+}

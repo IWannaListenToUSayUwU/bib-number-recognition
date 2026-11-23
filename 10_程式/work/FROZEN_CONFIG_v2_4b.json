@@ -1,0 +1,41 @@
+{
+ "frozen_at": "2026-11-18 Asia/Taipei",
+ "extract": {
+  "script": "src/extract6.py",
+  "fps": 8,
+  "imgsz": 960,
+  "min_h": 100,
+  "top": 0.22,
+  "bot": 0.72,
+  "jump_thr": 0.8,
+  "top_k": 12,
+  "min_sep": 0.25,
+  "gap": 1.0,
+  "select": "bins",
+  "win": 3,
+  "win_thr": 0.5,
+  "single_lo": 0.3,
+  "ref_alpha": 0.3,
+  "dist_mode": "mean"
+ },
+ "aggregate": {
+  "min_conf": 0.8,
+  "min_votes": 1,
+  "min_score": 0.9,
+  "minlen": 2,
+  "maxlen": 5,
+  "size_w": true,
+  "merge_gap": 4.0,
+  "substr": true,
+  "sub_gap": 3.0,
+  "static": true,
+  "static_px": 12,
+  "static_sec": 2.0,
+  "size_ref": "abs40",
+  "accept_hi": 3,
+  "static_rel": true
+ },
+ "base": "FROZEN_CONFIG_v2_3b.json",
+ "notes_v2": "aggregate thresholds unchanged from v1 (dev grid differences were within noise); track split + static-text filter added; dev(7 clips incl. v3_1440) F1 0.714",
+ "notes": "v2.4 (round 8): extract6 - stricter person-switch split: feat6 stripes (shirt sides + shorts, HSV with value bins), 3-frame window mean vs track EMA ref, split if > win_thr; aggregate unchanged from v2.3b. | v2_4b: win_thr 0.50 (looser)."
+}

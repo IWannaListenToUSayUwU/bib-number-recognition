@@ -1,0 +1,176 @@
+{
+ "decision": {
+  "decided_at": "2026-11-23 03:43",
+  "primary": "cons_color",
+  "modes": [
+   "cons_color",
+   "pre_keep",
+   "len5"
+  ],
+  "decide_after": 3.0,
+  "basis": "調整集 4 段（251 位官方跑者）：v22 45（0.179）、錯誤輸出 39 → cons_color 75（0.299）、錯誤輸出 11；4 段都進步（6→11、18→25、14→23、7→16）；C+D score_v2 92→91（少的是人工答案可疑的 04387）。符合 計畫.md ④ 採用規則。pre_keep（不含共識解碼與顏色）、len5（不用名單、只留 5 碼）列為次要，事先一起宣告。",
+  "note": "方法是在調整集上反覆設計的（pre_keep、cons、cons_color 都是看了調整集結果後才加），檢查集只跑這一次，以檢查集結果為準。等 0 秒定案：調整集 73（少 2）。"
+ },
+ "results": {
+  "v22": {
+   "found": 24,
+   "n": 160,
+   "rate": 0.15,
+   "ci95": [
+    0.103,
+    0.213
+   ],
+   "consistent": 24,
+   "wrong_out": 25,
+   "per_clip": {
+    "tpe2_A_3000": {
+     "events": 56,
+     "official_in_clip": 62,
+     "found": 3,
+     "consistent": 3,
+     "time_mismatch": 0,
+     "not_in_list": 5,
+     "unknown": 48
+    },
+    "tpe2_B_4200": {
+     "events": 52,
+     "official_in_clip": 50,
+     "found": 7,
+     "consistent": 7,
+     "time_mismatch": 0,
+     "not_in_list": 13,
+     "unknown": 32
+    },
+    "tpe2_C_5400": {
+     "events": 52,
+     "official_in_clip": 48,
+     "found": 14,
+     "consistent": 14,
+     "time_mismatch": 0,
+     "not_in_list": 7,
+     "unknown": 31
+    }
+   }
+  },
+  "cons_color": {
+   "found": 36,
+   "n": 160,
+   "rate": 0.225,
+   "ci95": [
+    0.167,
+    0.296
+   ],
+   "consistent": 36,
+   "wrong_out": 3,
+   "per_clip": {
+    "tpe2_A_3000": {
+     "events": 56,
+     "official_in_clip": 62,
+     "found": 3,
+     "consistent": 3,
+     "time_mismatch": 0,
+     "not_in_list": 1,
+     "unknown": 52
+    },
+    "tpe2_B_4200": {
+     "events": 52,
+     "official_in_clip": 50,
+     "found": 15,
+     "consistent": 15,
+     "time_mismatch": 0,
+     "not_in_list": 1,
+     "unknown": 36
+    },
+    "tpe2_C_5400": {
+     "events": 52,
+     "official_in_clip": 48,
+     "found": 18,
+     "consistent": 18,
+     "time_mismatch": 0,
+     "not_in_list": 1,
+     "unknown": 33
+    }
+   }
+  },
+  "pre_keep": {
+   "found": 34,
+   "n": 160,
+   "rate": 0.212,
+   "ci95": [
+    0.156,
+    0.282
+   ],
+   "consistent": 34,
+   "wrong_out": 2,
+   "per_clip": {
+    "tpe2_A_3000": {
+     "events": 56,
+     "official_in_clip": 62,
+     "found": 3,
+     "consistent": 3,
+     "time_mismatch": 0,
+     "not_in_list": 1,
+     "unknown": 52
+    },
+    "tpe2_B_4200": {
+     "events": 52,
+     "official_in_clip": 50,
+     "found": 14,
+     "consistent": 14,
+     "time_mismatch": 0,
+     "not_in_list": 0,
+     "unknown": 38
+    },
+    "tpe2_C_5400": {
+     "events": 52,
+     "official_in_clip": 48,
+     "found": 17,
+     "consistent": 17,
+     "time_mismatch": 0,
+     "not_in_list": 1,
+     "unknown": 34
+    }
+   }
+  },
+  "len5": {
+   "found": 24,
+   "n": 160,
+   "rate": 0.15,
+   "ci95": [
+    0.103,
+    0.213
+   ],
+   "consistent": 24,
+   "wrong_out": 10,
+   "per_clip": {
+    "tpe2_A_3000": {
+     "events": 56,
+     "official_in_clip": 62,
+     "found": 3,
+     "consistent": 3,
+     "time_mismatch": 0,
+     "not_in_list": 2,
+     "unknown": 51
+    },
+    "tpe2_B_4200": {
+     "events": 52,
+     "official_in_clip": 50,
+     "found": 7,
+     "consistent": 7,
+     "time_mismatch": 0,
+     "not_in_list": 5,
+     "unknown": 40
+    },
+    "tpe2_C_5400": {
+     "events": 52,
+     "official_in_clip": 48,
+     "found": 14,
+     "consistent": 14,
+     "time_mismatch": 0,
+     "not_in_list": 3,
+     "unknown": 35
+    }
+   }
+  }
+ }
+}

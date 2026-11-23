@@ -1,0 +1,20 @@
+{"clip": "v3_1860", "annotator": "A",
+ "runners": [
+  {"bib": "328", "status": "sure", "t_first": 1865.0, "t_best": 1867.0, "t_last": 1867.5, "note": "woman red BBB10K tee, black/pink leggings, yellow shoes, ponytail"},
+  {"bib": "?20", "status": "partial", "t_first": 1864.5, "t_best": 1866.5, "t_last": 1867.0, "note": "bearded man, dark navy tee, black shorts; bib small, first digit uncertain (maybe 220), then covered by arm"},
+  {"bib": "280", "status": "sure", "t_first": 1868.0, "t_best": 1872.0, "t_last": 1872.0, "note": "woman navy 'Battle Baptist Runners' tee, navy shorts, light-blue shoes"},
+  {"bib": "416", "status": "sure", "t_first": 1869.5, "t_best": 1873.5, "t_last": 1874.0, "note": "man red adidas tee, blue shorts"},
+  {"bib": "49?", "status": "partial", "t_first": 1885.0, "t_best": 1890.5, "t_last": 1892.5, "note": "bald man red tee, black shorts, yellow shoes, walking on right pavement after finishing; last digit looks like 3 but not certain"},
+  {"bib": "219", "status": "sure", "t_first": 1892.0, "t_best": 1894.5, "t_last": 1895.0, "note": "man red BBB10K tee, backpack, black tights, tattooed arm"},
+  {"bib": "?71", "status": "partial", "t_first": 1890.5, "t_best": 1895.5, "t_last": 1895.5, "note": "woman red BBB10K tee, sunglasses, black capris, jacket round waist, pink bottle; reads 71 but left part of bib partly covered by hand/bottle, possible hidden leading digit"},
+  {"bib": "64", "status": "sure", "t_first": 1898.5, "t_best": 1902.5, "t_last": 1902.5, "note": "woman white/light-blue vest, glasses, tattoo on right arm, black capris, pink shoes, purple bottle"},
+  {"bib": "414", "status": "sure", "t_first": 1903.5, "t_best": 1907.0, "t_last": 1907.5, "note": "woman black tee, sunglasses, black capris"},
+  {"bib": "482", "status": "sure", "t_first": 1904.5, "t_best": 1910.0, "t_last": 1910.0, "note": "older white-haired man, white/blue vest, blue shorts, green shoes, black armband"},
+  {"bib": "90", "status": "sure", "t_first": 1906.5, "t_best": 1910.5, "t_last": 1911.5, "note": "woman white/light-blue club vest, glasses, short dark hair, black/pink shorts, pink wristband"},
+  {"bib": "?", "status": "unreadable", "t_first": 1860.0, "t_best": 1885.0, "t_last": 1919.5, "note": "man white tee, black shorts, standing on right pavement by planter all clip (finished runner); bib too small"},
+  {"bib": "?", "status": "unreadable", "t_first": 1867.0, "t_best": 1868.0, "t_last": 1869.5, "note": "man blue singlet walking on right pavement early (finished); bib tiny, maybe 5xx"},
+  {"bib": "?", "status": "unreadable", "t_first": 1867.0, "t_best": 1882.0, "t_last": 1918.0, "note": "woman pink top in left crowd (finished, stretching); bib tiny, maybe 38x"},
+  {"bib": "?", "status": "unreadable", "t_first": 1864.0, "t_best": 1893.0, "t_last": 1916.0, "note": "person light-blue top in left crowd with bib; tiny"}
+ ],
+ "no_bib_runners": 4,
+ "comments": "Street finish, runners approach from far. 'BBB 10K' printed above numbers ignored; shop sign 'BYGONES', timestamps and tee prints (e.g. red 'HHH' tee) ignored. No-bib estimate: navy-top woman walking 1861-1865, black-jacket man 1865-1868, red 'HHH' tee woman 1905-1911, blue-singlet man standing beside white-tee man all clip (bib never visible). Background crowd bibs on the left are mostly too small to read."}

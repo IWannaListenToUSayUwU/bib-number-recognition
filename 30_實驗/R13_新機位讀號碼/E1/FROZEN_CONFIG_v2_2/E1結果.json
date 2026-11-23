@@ -1,0 +1,777 @@
+{
+ "raw_source": "FROZEN_CONFIG_v2_2",
+ "registry_n": 7813,
+ "results": {
+  "v22": {
+   "tune": {
+    "tpe2t_2700": {
+     "events": 44,
+     "official_in_clip": 45,
+     "found": 6,
+     "consistent": 6,
+     "time_mismatch": 0,
+     "not_in_list": 5,
+     "unknown": 33
+    },
+    "tpe2t_3600": {
+     "events": 57,
+     "official_in_clip": 63,
+     "found": 18,
+     "consistent": 18,
+     "time_mismatch": 0,
+     "not_in_list": 6,
+     "unknown": 33
+    },
+    "tpe2t_4800": {
+     "events": 73,
+     "official_in_clip": 73,
+     "found": 14,
+     "consistent": 15,
+     "time_mismatch": 0,
+     "not_in_list": 13,
+     "unknown": 45
+    },
+    "tpe2t_5700": {
+     "events": 65,
+     "official_in_clip": 70,
+     "found": 7,
+     "consistent": 8,
+     "time_mismatch": 0,
+     "not_in_list": 15,
+     "unknown": 42
+    }
+   },
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 32,
+     "wrong": 3,
+     "corr": 32,
+     "unk": 0
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 60,
+     "wrong": 12,
+     "corr": 60,
+     "unk": 1
+    }
+   },
+   "summary": {
+    "tune_found": 45,
+    "tune_n": 251,
+    "tune_found_rate": 0.179,
+    "tune_ci95": [
+     0.137,
+     0.231
+    ],
+    "tune_consistent": 47,
+    "tune_wrong_out": 39,
+    "per_clip_found": {
+     "tpe2t_2700": 6,
+     "tpe2t_3600": 18,
+     "tpe2t_4800": 14,
+     "tpe2t_5700": 7
+    },
+    "guard_full": 92,
+    "guard_n": 122,
+    "guard_rate": 0.754,
+    "guard_wrong": 15
+   }
+  },
+  "len5": {
+   "tune": {
+    "tpe2t_2700": {
+     "events": 44,
+     "official_in_clip": 45,
+     "found": 6,
+     "consistent": 6,
+     "time_mismatch": 0,
+     "not_in_list": 2,
+     "unknown": 36
+    },
+    "tpe2t_3600": {
+     "events": 57,
+     "official_in_clip": 63,
+     "found": 18,
+     "consistent": 18,
+     "time_mismatch": 0,
+     "not_in_list": 2,
+     "unknown": 37
+    },
+    "tpe2t_4800": {
+     "events": 73,
+     "official_in_clip": 73,
+     "found": 14,
+     "consistent": 15,
+     "time_mismatch": 0,
+     "not_in_list": 3,
+     "unknown": 55
+    },
+    "tpe2t_5700": {
+     "events": 65,
+     "official_in_clip": 70,
+     "found": 7,
+     "consistent": 8,
+     "time_mismatch": 0,
+     "not_in_list": 3,
+     "unknown": 54
+    }
+   },
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 32,
+     "wrong": 3,
+     "corr": 32,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 60,
+     "wrong": 8,
+     "corr": 60,
+     "unk": 5
+    }
+   },
+   "summary": {
+    "tune_found": 45,
+    "tune_n": 251,
+    "tune_found_rate": 0.179,
+    "tune_ci95": [
+     0.137,
+     0.231
+    ],
+    "tune_consistent": 47,
+    "tune_wrong_out": 10,
+    "per_clip_found": {
+     "tpe2t_2700": 6,
+     "tpe2t_3600": 18,
+     "tpe2t_4800": 14,
+     "tpe2t_5700": 7
+    },
+    "guard_full": 92,
+    "guard_n": 122,
+    "guard_rate": 0.754,
+    "guard_wrong": 11
+   }
+  },
+  "post": {
+   "tune": {
+    "tpe2t_2700": {
+     "events": 44,
+     "official_in_clip": 45,
+     "found": 8,
+     "consistent": 8,
+     "time_mismatch": 0,
+     "not_in_list": 2,
+     "unknown": 34
+    },
+    "tpe2t_3600": {
+     "events": 57,
+     "official_in_clip": 63,
+     "found": 21,
+     "consistent": 21,
+     "time_mismatch": 0,
+     "not_in_list": 0,
+     "unknown": 36
+    },
+    "tpe2t_4800": {
+     "events": 73,
+     "official_in_clip": 73,
+     "found": 19,
+     "consistent": 20,
+     "time_mismatch": 0,
+     "not_in_list": 2,
+     "unknown": 51
+    },
+    "tpe2t_5700": {
+     "events": 65,
+     "official_in_clip": 70,
+     "found": 12,
+     "consistent": 13,
+     "time_mismatch": 0,
+     "not_in_list": 4,
+     "unknown": 48
+    }
+   },
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 32,
+     "wrong": 3,
+     "corr": 32,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 59,
+     "wrong": 10,
+     "corr": 59,
+     "unk": 4
+    }
+   },
+   "summary": {
+    "tune_found": 60,
+    "tune_n": 251,
+    "tune_found_rate": 0.239,
+    "tune_ci95": [
+     0.19,
+     0.295
+    ],
+    "tune_consistent": 62,
+    "tune_wrong_out": 8,
+    "per_clip_found": {
+     "tpe2t_2700": 8,
+     "tpe2t_3600": 21,
+     "tpe2t_4800": 19,
+     "tpe2t_5700": 12
+    },
+    "guard_full": 91,
+    "guard_n": 122,
+    "guard_rate": 0.746,
+    "guard_wrong": 13
+   }
+  },
+  "post_noz": {
+   "tune": {
+    "tpe2t_2700": {
+     "events": 44,
+     "official_in_clip": 45,
+     "found": 6,
+     "consistent": 6,
+     "time_mismatch": 0,
+     "not_in_list": 1,
+     "unknown": 37
+    },
+    "tpe2t_3600": {
+     "events": 57,
+     "official_in_clip": 63,
+     "found": 18,
+     "consistent": 18,
+     "time_mismatch": 0,
+     "not_in_list": 0,
+     "unknown": 39
+    },
+    "tpe2t_4800": {
+     "events": 73,
+     "official_in_clip": 73,
+     "found": 14,
+     "consistent": 15,
+     "time_mismatch": 0,
+     "not_in_list": 0,
+     "unknown": 58
+    },
+    "tpe2t_5700": {
+     "events": 65,
+     "official_in_clip": 70,
+     "found": 7,
+     "consistent": 8,
+     "time_mismatch": 0,
+     "not_in_list": 0,
+     "unknown": 57
+    }
+   },
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 32,
+     "wrong": 3,
+     "corr": 32,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 59,
+     "wrong": 7,
+     "corr": 59,
+     "unk": 7
+    }
+   },
+   "summary": {
+    "tune_found": 45,
+    "tune_n": 251,
+    "tune_found_rate": 0.179,
+    "tune_ci95": [
+     0.137,
+     0.231
+    ],
+    "tune_consistent": 47,
+    "tune_wrong_out": 1,
+    "per_clip_found": {
+     "tpe2t_2700": 6,
+     "tpe2t_3600": 18,
+     "tpe2t_4800": 14,
+     "tpe2t_5700": 7
+    },
+    "guard_full": 91,
+    "guard_n": 122,
+    "guard_rate": 0.746,
+    "guard_wrong": 10
+   }
+  },
+  "post_uq": {
+   "tune": {
+    "tpe2t_2700": {
+     "events": 44,
+     "official_in_clip": 45,
+     "found": 8,
+     "consistent": 8,
+     "time_mismatch": 0,
+     "not_in_list": 2,
+     "unknown": 34
+    },
+    "tpe2t_3600": {
+     "events": 57,
+     "official_in_clip": 63,
+     "found": 20,
+     "consistent": 20,
+     "time_mismatch": 0,
+     "not_in_list": 0,
+     "unknown": 37
+    },
+    "tpe2t_4800": {
+     "events": 73,
+     "official_in_clip": 73,
+     "found": 18,
+     "consistent": 19,
+     "time_mismatch": 1,
+     "not_in_list": 1,
+     "unknown": 52
+    },
+    "tpe2t_5700": {
+     "events": 65,
+     "official_in_clip": 70,
+     "found": 12,
+     "consistent": 13,
+     "time_mismatch": 0,
+     "not_in_list": 2,
+     "unknown": 50
+    }
+   },
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 32,
+     "wrong": 3,
+     "corr": 32,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 59,
+     "wrong": 7,
+     "corr": 59,
+     "unk": 7
+    }
+   },
+   "summary": {
+    "tune_found": 58,
+    "tune_n": 251,
+    "tune_found_rate": 0.231,
+    "tune_ci95": [
+     0.183,
+     0.287
+    ],
+    "tune_consistent": 60,
+    "tune_wrong_out": 6,
+    "per_clip_found": {
+     "tpe2t_2700": 8,
+     "tpe2t_3600": 20,
+     "tpe2t_4800": 18,
+     "tpe2t_5700": 12
+    },
+    "guard_full": 91,
+    "guard_n": 122,
+    "guard_rate": 0.746,
+    "guard_wrong": 10
+   }
+  },
+  "pre": {
+   "tune": {
+    "tpe2t_2700": {
+     "events": 44,
+     "official_in_clip": 45,
+     "found": 9,
+     "consistent": 9,
+     "time_mismatch": 0,
+     "not_in_list": 0,
+     "unknown": 35
+    },
+    "tpe2t_3600": {
+     "events": 57,
+     "official_in_clip": 63,
+     "found": 18,
+     "consistent": 18,
+     "time_mismatch": 0,
+     "not_in_list": 1,
+     "unknown": 38
+    },
+    "tpe2t_4800": {
+     "events": 73,
+     "official_in_clip": 73,
+     "found": 14,
+     "consistent": 15,
+     "time_mismatch": 0,
+     "not_in_list": 1,
+     "unknown": 57
+    },
+    "tpe2t_5700": {
+     "events": 65,
+     "official_in_clip": 70,
+     "found": 11,
+     "consistent": 12,
+     "time_mismatch": 0,
+     "not_in_list": 2,
+     "unknown": 51
+    }
+   },
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 32,
+     "wrong": 3,
+     "corr": 32,
+     "unk": 3
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 53,
+     "wrong": 9,
+     "corr": 53,
+     "unk": 11
+    }
+   },
+   "summary": {
+    "tune_found": 52,
+    "tune_n": 251,
+    "tune_found_rate": 0.207,
+    "tune_ci95": [
+     0.162,
+     0.262
+    ],
+    "tune_consistent": 54,
+    "tune_wrong_out": 4,
+    "per_clip_found": {
+     "tpe2t_2700": 9,
+     "tpe2t_3600": 18,
+     "tpe2t_4800": 14,
+     "tpe2t_5700": 11
+    },
+    "guard_full": 85,
+    "guard_n": 122,
+    "guard_rate": 0.697,
+    "guard_wrong": 12
+   }
+  },
+  "pre_noz": {
+   "tune": {
+    "tpe2t_2700": {
+     "events": 44,
+     "official_in_clip": 45,
+     "found": 5,
+     "consistent": 5,
+     "time_mismatch": 0,
+     "not_in_list": 0,
+     "unknown": 39
+    },
+    "tpe2t_3600": {
+     "events": 57,
+     "official_in_clip": 63,
+     "found": 13,
+     "consistent": 13,
+     "time_mismatch": 0,
+     "not_in_list": 0,
+     "unknown": 44
+    },
+    "tpe2t_4800": {
+     "events": 73,
+     "official_in_clip": 73,
+     "found": 11,
+     "consistent": 12,
+     "time_mismatch": 0,
+     "not_in_list": 0,
+     "unknown": 61
+    },
+    "tpe2t_5700": {
+     "events": 65,
+     "official_in_clip": 70,
+     "found": 7,
+     "consistent": 8,
+     "time_mismatch": 0,
+     "not_in_list": 0,
+     "unknown": 57
+    }
+   },
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 32,
+     "wrong": 3,
+     "corr": 32,
+     "unk": 3
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 52,
+     "wrong": 3,
+     "corr": 52,
+     "unk": 18
+    }
+   },
+   "summary": {
+    "tune_found": 36,
+    "tune_n": 251,
+    "tune_found_rate": 0.143,
+    "tune_ci95": [
+     0.105,
+     0.192
+    ],
+    "tune_consistent": 38,
+    "tune_wrong_out": 0,
+    "per_clip_found": {
+     "tpe2t_2700": 5,
+     "tpe2t_3600": 13,
+     "tpe2t_4800": 11,
+     "tpe2t_5700": 7
+    },
+    "guard_full": 84,
+    "guard_n": 122,
+    "guard_rate": 0.689,
+    "guard_wrong": 6
+   }
+  },
+  "pre_keep": {
+   "tune": {
+    "tpe2t_2700": {
+     "events": 44,
+     "official_in_clip": 45,
+     "found": 9,
+     "consistent": 9,
+     "time_mismatch": 0,
+     "not_in_list": 2,
+     "unknown": 33
+    },
+    "tpe2t_3600": {
+     "events": 57,
+     "official_in_clip": 63,
+     "found": 22,
+     "consistent": 22,
+     "time_mismatch": 0,
+     "not_in_list": 0,
+     "unknown": 35
+    },
+    "tpe2t_4800": {
+     "events": 73,
+     "official_in_clip": 73,
+     "found": 20,
+     "consistent": 21,
+     "time_mismatch": 1,
+     "not_in_list": 2,
+     "unknown": 49
+    },
+    "tpe2t_5700": {
+     "events": 65,
+     "official_in_clip": 70,
+     "found": 14,
+     "consistent": 15,
+     "time_mismatch": 0,
+     "not_in_list": 3,
+     "unknown": 47
+    }
+   },
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 32,
+     "wrong": 3,
+     "corr": 32,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 59,
+     "wrong": 8,
+     "corr": 59,
+     "unk": 6
+    }
+   },
+   "summary": {
+    "tune_found": 65,
+    "tune_n": 251,
+    "tune_found_rate": 0.259,
+    "tune_ci95": [
+     0.209,
+     0.317
+    ],
+    "tune_consistent": 67,
+    "tune_wrong_out": 8,
+    "per_clip_found": {
+     "tpe2t_2700": 9,
+     "tpe2t_3600": 22,
+     "tpe2t_4800": 20,
+     "tpe2t_5700": 14
+    },
+    "guard_full": 91,
+    "guard_n": 122,
+    "guard_rate": 0.746,
+    "guard_wrong": 11
+   }
+  },
+  "cons": {
+   "tune": {
+    "tpe2t_2700": {
+     "events": 44,
+     "official_in_clip": 45,
+     "found": 9,
+     "consistent": 9,
+     "time_mismatch": 0,
+     "not_in_list": 2,
+     "unknown": 33
+    },
+    "tpe2t_3600": {
+     "events": 57,
+     "official_in_clip": 63,
+     "found": 25,
+     "consistent": 25,
+     "time_mismatch": 0,
+     "not_in_list": 1,
+     "unknown": 31
+    },
+    "tpe2t_4800": {
+     "events": 73,
+     "official_in_clip": 73,
+     "found": 21,
+     "consistent": 22,
+     "time_mismatch": 1,
+     "not_in_list": 2,
+     "unknown": 48
+    },
+    "tpe2t_5700": {
+     "events": 65,
+     "official_in_clip": 70,
+     "found": 16,
+     "consistent": 17,
+     "time_mismatch": 0,
+     "not_in_list": 3,
+     "unknown": 45
+    }
+   },
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 32,
+     "wrong": 3,
+     "corr": 32,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 59,
+     "wrong": 8,
+     "corr": 59,
+     "unk": 6
+    }
+   },
+   "summary": {
+    "tune_found": 71,
+    "tune_n": 251,
+    "tune_found_rate": 0.283,
+    "tune_ci95": [
+     0.231,
+     0.342
+    ],
+    "tune_consistent": 73,
+    "tune_wrong_out": 9,
+    "per_clip_found": {
+     "tpe2t_2700": 9,
+     "tpe2t_3600": 25,
+     "tpe2t_4800": 21,
+     "tpe2t_5700": 16
+    },
+    "guard_full": 91,
+    "guard_n": 122,
+    "guard_rate": 0.746,
+    "guard_wrong": 11
+   }
+  },
+  "cons_color": {
+   "tune": {
+    "tpe2t_2700": {
+     "events": 44,
+     "official_in_clip": 45,
+     "found": 11,
+     "consistent": 11,
+     "time_mismatch": 0,
+     "not_in_list": 2,
+     "unknown": 31
+    },
+    "tpe2t_3600": {
+     "events": 57,
+     "official_in_clip": 63,
+     "found": 25,
+     "consistent": 25,
+     "time_mismatch": 0,
+     "not_in_list": 2,
+     "unknown": 30
+    },
+    "tpe2t_4800": {
+     "events": 73,
+     "official_in_clip": 73,
+     "found": 23,
+     "consistent": 24,
+     "time_mismatch": 1,
+     "not_in_list": 3,
+     "unknown": 45
+    },
+    "tpe2t_5700": {
+     "events": 65,
+     "official_in_clip": 70,
+     "found": 16,
+     "consistent": 17,
+     "time_mismatch": 0,
+     "not_in_list": 3,
+     "unknown": 45
+    }
+   },
+   "guard": {
+    "tpe_C_600": {
+     "n_gt": 45,
+     "full": 32,
+     "wrong": 3,
+     "corr": 32,
+     "unk": 1
+    },
+    "tpe_D_1800": {
+     "n_gt": 77,
+     "full": 59,
+     "wrong": 8,
+     "corr": 59,
+     "unk": 6
+    }
+   },
+   "summary": {
+    "tune_found": 75,
+    "tune_n": 251,
+    "tune_found_rate": 0.299,
+    "tune_ci95": [
+     0.246,
+     0.358
+    ],
+    "tune_consistent": 77,
+    "tune_wrong_out": 11,
+    "per_clip_found": {
+     "tpe2t_2700": 11,
+     "tpe2t_3600": 25,
+     "tpe2t_4800": 23,
+     "tpe2t_5700": 16
+    },
+    "guard_full": 91,
+    "guard_n": 122,
+    "guard_rate": 0.746,
+    "guard_wrong": 11
+   }
+  }
+ },
+ "rules": "R13 共用函式：號碼名單規則（E1）、過線事件、官方成績對照（任何 tpe2 片段）、C／D 的 score_v2。\n官方對照的規則和 R12 `r12_official.py` 完全相同（計畫.md ③）：\n  系統槍聲時間＝片段開頭時鐘＋t_cross；官方一致＝號碼在官方名單且 |官方−系統| ≤ 2 秒；\n  官方名單找到率＝官方時間在片段第 1～59 秒的人中，系統有輸出同號碼且官方一致的比例。\n號碼名單模式（mode）：\n  v22      不用名單（和 v2.2 相同）\n  len5     只保留 5 碼的號碼（不用名單；主辦單位至少知道號碼是幾碼）\n  post     投票後：號碼不在名單 → 4 碼且「0＋號碼」在名單就補 0，否則當讀不出\n  pre      投票前：每筆讀數先過名單（4 碼且補 0 後在名單 → 補 0；不在名單 → 丟掉），再用 v2.2 的投票\n  pre_noz  同 pre，但不補 0（用來看補 0 的效果）\n  post_noz 同 post，但不補 0（號碼不在名單就當讀不出）\n  pre_keep 投票前只丟掉「5 碼但不在名單」的讀數（較短的讀數保留，讓子字串合併照常運作），投票後再套 post_uq\n  cons     pre_keep 之後，還是讀不出的事件用「共識解碼」補：同一人多次部分讀數（3～5 碼）和名單比，\n           分數＝Σ 信心×相似度（完全相同 1、是子字串 len/5、5 碼只差一碼 0.6），最高分 ≥ CONS_MIN 且 ≥ CONS_MARGIN×第二名才採用\n  cons_color 同 cons，再加號碼布顏色（2022 臺北馬：1 開頭藍紫底、0 開頭白底；r13_bibcolor.py 量的）：\n           這個人數字讀數文字框內的藍色比例中位數 ≥ BLUE_HI → 只考慮 1 開頭的號碼；≤ BLUE_LO → 只考慮 0 開頭；\n           已定案的號碼若開頭和顏色矛盾 → 改成讀不出。顏色只用在「名單上 0 開頭和 1 開頭兩個版本都存在」的號碼（尾 4 碼 ≤ 1783）\n  post_uq  同 post，但 4 碼號碼改成「前面或後面補一碼後，名單上只有唯一一個」才補（例：7701 → 只有 07701；1015 → 01015、10150～10159 有多個，不補）"
+}

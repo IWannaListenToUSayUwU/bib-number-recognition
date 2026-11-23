@@ -1,0 +1,42 @@
+{
+ "tpe2t_2700": {
+  "sha256": "306340cddf6d65fd0fb58887027913f5c55763af9d413fd6d122949fb07b077e",
+  "start_s": 2700,
+  "end_s": 2760,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": 1800,
+  "duration": 60.0
+ },
+ "tpe2t_3600": {
+  "sha256": "0f310d6e4bcf6d86d9deb8fe42533ad8ca3ff51da164952b75bfff37ab1629db",
+  "start_s": 3600,
+  "end_s": 3660,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": 1800,
+  "duration": 60.0
+ },
+ "tpe2t_4800": {
+  "sha256": "e54109e8b1508262d16c52129c7d86f7bdde2f615afcb84a197ad0a7f940c8f6",
+  "start_s": 4800,
+  "end_s": 4860,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": 1800,
+  "duration": 60.0
+ },
+ "tpe2t_5700": {
+  "sha256": "2a4eab8a9dc55c1fc748cb4371701a66128c1ebd3c5b9df009cc78f06325efff",
+  "start_s": 5700,
+  "end_s": 5760,
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": 1800,
+  "duration": 60.0
+ }
+}

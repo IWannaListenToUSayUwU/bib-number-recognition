@@ -1,0 +1,16 @@
+{
+ "total": {
+  "TP": 0,
+  "FP": 0,
+  "N": 0,
+  "P": 0,
+  "R": 0,
+  "F1": 0,
+  "mixed_tracks": 0,
+  "tracks_with_correct_read": 0,
+  "clips": []
+ },
+ "per_clip": {},
+ "scorer": "20_測試基準/score.py",
+ "tol_s": 2.0
+}

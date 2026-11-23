@@ -1,0 +1,52 @@
+{
+ "v1": {
+  "clip_len": 60,
+  "test3": [
+   {
+    "start": 420,
+    "end": 480,
+    "activity": 1.25
+   },
+   {
+    "start": 510,
+    "end": 570,
+    "activity": 1.08
+   }
+  ]
+ },
+ "v2": {
+  "clip_len": 30,
+  "test3": [
+   {
+    "start": 330,
+    "end": 360,
+    "activity": 6.83
+   },
+   {
+    "start": 480,
+    "end": 510,
+    "activity": 6.17
+   }
+  ]
+ },
+ "v3": {
+  "clip_len": 60,
+  "test3": [
+   {
+    "start": 1530,
+    "end": 1590,
+    "activity": 4.42
+   },
+   {
+    "start": 1860,
+    "end": 1920,
+    "activity": 4.83
+   },
+   {
+    "start": 2310,
+    "end": 2370,
+    "activity": 4.17
+   }
+  ]
+ }
+}

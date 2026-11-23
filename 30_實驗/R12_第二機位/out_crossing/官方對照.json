@@ -1,0 +1,119 @@
+{
+ "tpe2_A_3000": {
+  "events": 56,
+  "official_in_clip": 62,
+  "consistent": 3,
+  "time_mismatch": 0,
+  "not_in_list": 5,
+  "unknown": 48,
+  "consistent_share": {
+   "k": 3,
+   "n": 8,
+   "value": 0.375,
+   "ci95": [
+    0.137,
+    0.694
+   ]
+  },
+  "official_found": {
+   "k": 3,
+   "n": 62,
+   "value": 0.048,
+   "ci95": [
+    0.017,
+    0.133
+   ]
+  },
+  "delta_official_minus_sys": {
+   "n": 3,
+   "median": -0.54,
+   "mean": -0.5
+  }
+ },
+ "tpe2_B_4200": {
+  "events": 52,
+  "official_in_clip": 50,
+  "consistent": 7,
+  "time_mismatch": 0,
+  "not_in_list": 13,
+  "unknown": 32,
+  "consistent_share": {
+   "k": 7,
+   "n": 20,
+   "value": 0.35,
+   "ci95": [
+    0.181,
+    0.567
+   ]
+  },
+  "official_found": {
+   "k": 7,
+   "n": 50,
+   "value": 0.14,
+   "ci95": [
+    0.07,
+    0.262
+   ]
+  },
+  "delta_official_minus_sys": {
+   "n": 7,
+   "median": -0.29,
+   "mean": -0.39
+  }
+ },
+ "tpe2_C_5400": {
+  "events": 52,
+  "official_in_clip": 48,
+  "consistent": 14,
+  "time_mismatch": 0,
+  "not_in_list": 7,
+  "unknown": 31,
+  "consistent_share": {
+   "k": 14,
+   "n": 21,
+   "value": 0.667,
+   "ci95": [
+    0.454,
+    0.828
+   ]
+  },
+  "official_found": {
+   "k": 14,
+   "n": 48,
+   "value": 0.292,
+   "ci95": [
+    0.182,
+    0.432
+   ]
+  },
+  "delta_official_minus_sys": {
+   "n": 14,
+   "median": -0.12,
+   "mean": -0.17
+  }
+ },
+ "total": {
+  "consistent_share": {
+   "k": 24,
+   "n": 49,
+   "value": 0.49,
+   "ci95": [
+    0.356,
+    0.625
+   ]
+  },
+  "official_found": {
+   "k": 24,
+   "n": 160,
+   "value": 0.15,
+   "ci95": [
+    0.103,
+    0.213
+   ]
+  },
+  "delta_median": -0.21999999999934516,
+  "delta_mean": -0.28,
+  "delta_within_1s": 1.0
+ },
+ "rules": "R12：用官方成績（運動筆記即時成績，推定為槍聲時間）對照系統的過線結果。這不是正確答案，是獨立的旁證。\n用法（在專案根目錄）：python 30_實驗/R12_第二機位/r12_official.py [結果資料夾，預設 30_實驗/R12_第二機位/out_crossing]\n規則（計畫.md「官方成績對照」，看結果前寫死）：\n  系統事件的槍聲時間 = 片段開頭的時鐘（時鐘對照.json）＋ t_cross\n  官方一致：號碼在官方名單，且 |官方時間 − 系統槍聲時間| ≤ 2 秒\n  時間不符：號碼在名單、但差 > 2 秒；不在名單：號碼不在這段時間的官方名單（多半是讀錯）\n  官方名單找到率：官方時間落在片段第 1～59 秒的人，系統有輸出同號碼且官方一致的比例\n輸出：<結果資料夾>/官方對照.json、官方對照_逐筆.csv"
+}

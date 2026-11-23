@@ -1,0 +1,5 @@
+{"frozen_at": "2026-11-17 06:45 Asia/Taipei — test3 labels exist; test3 system output does NOT exist yet (extraction still running)",
+ "extract": "unchanged from v2 (src/extract4.py, FROZEN_CONFIG_v2.json extract section)",
+ "decision": "candidate verifier: logistic regression on per-(track,number) features; weights r3/verifier_v3.json; threshold 0.7 chosen by leave-one-video-out and leave-one-clip-out CV on dev+test+test2",
+ "rejected_in_round3": "re-recognition with PP-OCRv4/v5 (margin or tight crops, digits-only decoding) and OnnxTR PARSeq: none beat the original RapidOCR reads on 39 dev bibs (hit@0.85: orig 29 vs best alt 29 with more noise)",
+ "comparison_on_test3": "v2 (aggregate2 + FROZEN_CONFIG_v2) vs v3 (verifier), same extraction, paired"}

@@ -1,0 +1,480 @@
+{
+ "line": {
+  "status": "proposed (R10, 2026-11-22) - 待使用者確認",
+  "clips": [
+   "tpe_C_600",
+   "tpe_D_1800"
+  ],
+  "not_valid_for": "tpe_A_300、tpe_B_1200：機位和 C、D 略有不同（白線位置偏移），要另外量座標",
+  "frame": [
+   1920,
+   1012
+  ],
+  "p1": [
+   1050,
+   662
+  ],
+  "p2": [
+   1470,
+   1012
+  ],
+  "upstream": [
+   500,
+   560
+  ],
+  "note": "沿畫面中央的地面白線（自行車道邊線，從護欄底部斜向右下到畫面底邊）。跑者由左方遠處跑來、往右下離開，會垂直穿過這條線。C、D 兩段的機位相同，共用這條線。座標以 20_測試基準 片段的 1920x1012 為準。"
+ },
+ "aggregate": "FROZEN_CONFIG_v2_2 (aggregate3)",
+ "sources": {
+  "8fps": "\\30_實驗\\R05_5碼修正\\out\\{}\\raw.jsonl",
+  "16fps": "\\30_實驗\\R06_16fps\\out\\{}\\raw.jsonl"
+ },
+ "eval_window": [
+  -2,
+  10.0
+ ],
+ "v2_2_8fps_重算_舊指標": {
+  "TP": 99,
+  "FP": 9,
+  "N": 108,
+  "P": 0.917,
+  "R": 0.917,
+  "F1": 0.917,
+  "mixed_tracks": 0,
+  "tracks_with_correct_read": 0,
+  "clips": [
+   "tpe_C_600",
+   "tpe_D_1800"
+  ]
+ },
+ "per_source": {
+  "8fps": {
+   "tpe_C_600": {
+    "w1": {
+     "events": 26,
+     "correct": 14,
+     "wrong": 3,
+     "dup": 2,
+     "partial": 1,
+     "unknown": 6,
+     "bib_precision": 0.737,
+     "bib_precision_ci": [
+      0.512,
+      0.882
+     ],
+     "sure_found": 14,
+     "sure_total": 40,
+     "sure_found_offline": 37,
+     "gt_runners_all": 59,
+     "latency_median": 1.0,
+     "latency_max": 1.0,
+     "diagnostics": {
+      "tracks": 111,
+      "crossed": 26,
+      "ended_near_line": 13,
+      "started_after_line": 37
+     },
+     "crossings_gap_over_0.3s": 13
+    },
+    "w2": {
+     "events": 26,
+     "correct": 14,
+     "wrong": 3,
+     "dup": 2,
+     "partial": 1,
+     "unknown": 6,
+     "bib_precision": 0.737,
+     "bib_precision_ci": [
+      0.512,
+      0.882
+     ],
+     "sure_found": 14,
+     "sure_total": 40,
+     "sure_found_offline": 37,
+     "gt_runners_all": 59,
+     "latency_median": 1.706,
+     "latency_max": 2.0,
+     "diagnostics": {
+      "tracks": 111,
+      "crossed": 26,
+      "ended_near_line": 13,
+      "started_after_line": 37
+     },
+     "crossings_gap_over_0.3s": 13
+    },
+    "w3": {
+     "events": 26,
+     "correct": 14,
+     "wrong": 3,
+     "dup": 2,
+     "partial": 1,
+     "unknown": 6,
+     "bib_precision": 0.737,
+     "bib_precision_ci": [
+      0.512,
+      0.882
+     ],
+     "sure_found": 14,
+     "sure_total": 40,
+     "sure_found_offline": 37,
+     "gt_runners_all": 59,
+     "latency_median": 1.706,
+     "latency_max": 3.0,
+     "diagnostics": {
+      "tracks": 111,
+      "crossed": 26,
+      "ended_near_line": 13,
+      "started_after_line": 37
+     },
+     "crossings_gap_over_0.3s": 13
+    },
+    "offline": {
+     "events": 26,
+     "correct": 14,
+     "wrong": 3,
+     "dup": 2,
+     "partial": 1,
+     "unknown": 6,
+     "bib_precision": 0.737,
+     "bib_precision_ci": [
+      0.512,
+      0.882
+     ],
+     "sure_found": 14,
+     "sure_total": 40,
+     "sure_found_offline": 37,
+     "gt_runners_all": 59,
+     "latency_median": 1.706,
+     "latency_max": 3.291,
+     "diagnostics": {
+      "tracks": 111,
+      "crossed": 26,
+      "ended_near_line": 13,
+      "started_after_line": 37
+     },
+     "crossings_gap_over_0.3s": 13
+    }
+   },
+   "tpe_D_1800": {
+    "w1": {
+     "events": 56,
+     "correct": 33,
+     "wrong": 5,
+     "dup": 4,
+     "partial": 3,
+     "unknown": 11,
+     "bib_precision": 0.786,
+     "bib_precision_ci": [
+      0.641,
+      0.883
+     ],
+     "sure_found": 33,
+     "sure_total": 68,
+     "sure_found_offline": 62,
+     "gt_runners_all": 85,
+     "latency_median": 1.0,
+     "latency_max": 1.0,
+     "diagnostics": {
+      "tracks": 134,
+      "crossed": 56,
+      "ended_near_line": 11,
+      "started_after_line": 25
+     },
+     "crossings_gap_over_0.3s": 30
+    },
+    "w2": {
+     "events": 56,
+     "correct": 33,
+     "wrong": 6,
+     "dup": 4,
+     "partial": 3,
+     "unknown": 10,
+     "bib_precision": 0.767,
+     "bib_precision_ci": [
+      0.623,
+      0.868
+     ],
+     "sure_found": 33,
+     "sure_total": 68,
+     "sure_found_offline": 62,
+     "gt_runners_all": 85,
+     "latency_median": 2.0,
+     "latency_max": 2.0,
+     "diagnostics": {
+      "tracks": 134,
+      "crossed": 56,
+      "ended_near_line": 11,
+      "started_after_line": 25
+     },
+     "crossings_gap_over_0.3s": 30
+    },
+    "w3": {
+     "events": 56,
+     "correct": 33,
+     "wrong": 6,
+     "dup": 4,
+     "partial": 3,
+     "unknown": 10,
+     "bib_precision": 0.767,
+     "bib_precision_ci": [
+      0.623,
+      0.868
+     ],
+     "sure_found": 33,
+     "sure_total": 68,
+     "sure_found_offline": 62,
+     "gt_runners_all": 85,
+     "latency_median": 2.014,
+     "latency_max": 3.0,
+     "diagnostics": {
+      "tracks": 134,
+      "crossed": 56,
+      "ended_near_line": 11,
+      "started_after_line": 25
+     },
+     "crossings_gap_over_0.3s": 30
+    },
+    "offline": {
+     "events": 56,
+     "correct": 33,
+     "wrong": 6,
+     "dup": 4,
+     "partial": 3,
+     "unknown": 10,
+     "bib_precision": 0.767,
+     "bib_precision_ci": [
+      0.623,
+      0.868
+     ],
+     "sure_found": 33,
+     "sure_total": 68,
+     "sure_found_offline": 62,
+     "gt_runners_all": 85,
+     "latency_median": 2.014,
+     "latency_max": 5.877,
+     "diagnostics": {
+      "tracks": 134,
+      "crossed": 56,
+      "ended_near_line": 11,
+      "started_after_line": 25
+     },
+     "crossings_gap_over_0.3s": 30
+    }
+   }
+  },
+  "16fps": {
+   "tpe_C_600": {
+    "w1": {
+     "events": 45,
+     "correct": 37,
+     "wrong": 1,
+     "dup": 0,
+     "partial": 7,
+     "unknown": 0,
+     "bib_precision": 0.974,
+     "bib_precision_ci": [
+      0.865,
+      0.995
+     ],
+     "sure_found": 37,
+     "sure_total": 40,
+     "sure_found_offline": 37,
+     "gt_runners_all": 59,
+     "latency_median": 1.0,
+     "latency_max": 1.0,
+     "diagnostics": {
+      "tracks": 93,
+      "crossed": 45,
+      "ended_near_line": 2,
+      "started_after_line": 21
+     },
+     "crossings_gap_over_0.3s": 2
+    },
+    "w2": {
+     "events": 45,
+     "correct": 37,
+     "wrong": 1,
+     "dup": 0,
+     "partial": 7,
+     "unknown": 0,
+     "bib_precision": 0.974,
+     "bib_precision_ci": [
+      0.865,
+      0.995
+     ],
+     "sure_found": 37,
+     "sure_total": 40,
+     "sure_found_offline": 37,
+     "gt_runners_all": 59,
+     "latency_median": 1.79,
+     "latency_max": 2.0,
+     "diagnostics": {
+      "tracks": 93,
+      "crossed": 45,
+      "ended_near_line": 2,
+      "started_after_line": 21
+     },
+     "crossings_gap_over_0.3s": 2
+    },
+    "w3": {
+     "events": 45,
+     "correct": 37,
+     "wrong": 1,
+     "dup": 0,
+     "partial": 7,
+     "unknown": 0,
+     "bib_precision": 0.974,
+     "bib_precision_ci": [
+      0.865,
+      0.995
+     ],
+     "sure_found": 37,
+     "sure_total": 40,
+     "sure_found_offline": 37,
+     "gt_runners_all": 59,
+     "latency_median": 1.79,
+     "latency_max": 2.868,
+     "diagnostics": {
+      "tracks": 93,
+      "crossed": 45,
+      "ended_near_line": 2,
+      "started_after_line": 21
+     },
+     "crossings_gap_over_0.3s": 2
+    },
+    "offline": {
+     "events": 45,
+     "correct": 37,
+     "wrong": 1,
+     "dup": 0,
+     "partial": 7,
+     "unknown": 0,
+     "bib_precision": 0.974,
+     "bib_precision_ci": [
+      0.865,
+      0.995
+     ],
+     "sure_found": 37,
+     "sure_total": 40,
+     "sure_found_offline": 37,
+     "gt_runners_all": 59,
+     "latency_median": 1.79,
+     "latency_max": 2.868,
+     "diagnostics": {
+      "tracks": 93,
+      "crossed": 45,
+      "ended_near_line": 2,
+      "started_after_line": 21
+     },
+     "crossings_gap_over_0.3s": 2
+    }
+   },
+   "tpe_D_1800": {
+    "w1": {
+     "events": 78,
+     "correct": 59,
+     "wrong": 7,
+     "dup": 5,
+     "partial": 6,
+     "unknown": 1,
+     "bib_precision": 0.831,
+     "bib_precision_ci": [
+      0.727,
+      0.901
+     ],
+     "sure_found": 59,
+     "sure_total": 68,
+     "sure_found_offline": 62,
+     "gt_runners_all": 85,
+     "latency_median": 1.0,
+     "latency_max": 1.0,
+     "diagnostics": {
+      "tracks": 151,
+      "crossed": 78,
+      "ended_near_line": 3,
+      "started_after_line": 22
+     },
+     "crossings_gap_over_0.3s": 2
+    },
+    "w2": {
+     "events": 78,
+     "correct": 59,
+     "wrong": 7,
+     "dup": 5,
+     "partial": 6,
+     "unknown": 1,
+     "bib_precision": 0.831,
+     "bib_precision_ci": [
+      0.727,
+      0.901
+     ],
+     "sure_found": 59,
+     "sure_total": 68,
+     "sure_found_offline": 62,
+     "gt_runners_all": 85,
+     "latency_median": 1.816,
+     "latency_max": 2.0,
+     "diagnostics": {
+      "tracks": 151,
+      "crossed": 78,
+      "ended_near_line": 3,
+      "started_after_line": 22
+     },
+     "crossings_gap_over_0.3s": 2
+    },
+    "w3": {
+     "events": 78,
+     "correct": 59,
+     "wrong": 7,
+     "dup": 5,
+     "partial": 6,
+     "unknown": 1,
+     "bib_precision": 0.831,
+     "bib_precision_ci": [
+      0.727,
+      0.901
+     ],
+     "sure_found": 59,
+     "sure_total": 68,
+     "sure_found_offline": 62,
+     "gt_runners_all": 85,
+     "latency_median": 1.816,
+     "latency_max": 2.382,
+     "diagnostics": {
+      "tracks": 151,
+      "crossed": 78,
+      "ended_near_line": 3,
+      "started_after_line": 22
+     },
+     "crossings_gap_over_0.3s": 2
+    },
+    "offline": {
+     "events": 78,
+     "correct": 59,
+     "wrong": 7,
+     "dup": 5,
+     "partial": 6,
+     "unknown": 1,
+     "bib_precision": 0.831,
+     "bib_precision_ci": [
+      0.727,
+      0.901
+     ],
+     "sure_found": 59,
+     "sure_total": 68,
+     "sure_found_offline": 62,
+     "gt_runners_all": 85,
+     "latency_median": 1.816,
+     "latency_max": 2.382,
+     "diagnostics": {
+      "tracks": 151,
+      "crossed": 78,
+      "ended_near_line": 3,
+      "started_after_line": 22
+     },
+     "crossings_gap_over_0.3s": 2
+    }
+   }
+  }
+ }
+}

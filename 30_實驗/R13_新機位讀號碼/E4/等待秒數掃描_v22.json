@@ -1,0 +1,56 @@
+{
+ "0.0": {
+  "tune_found": 6,
+  "tune_n": 45,
+  "tune_wrong": 5,
+  "guard_full": 92,
+  "guard_n": 122,
+  "guard_wrong": 15,
+  "latency_median": 0.0
+ },
+ "0.5": {
+  "tune_found": 6,
+  "tune_n": 45,
+  "tune_wrong": 5,
+  "guard_full": 92,
+  "guard_n": 122,
+  "guard_wrong": 15,
+  "latency_median": 0.5
+ },
+ "1.0": {
+  "tune_found": 6,
+  "tune_n": 45,
+  "tune_wrong": 5,
+  "guard_full": 92,
+  "guard_n": 122,
+  "guard_wrong": 15,
+  "latency_median": 1.0
+ },
+ "2.0": {
+  "tune_found": 6,
+  "tune_n": 45,
+  "tune_wrong": 5,
+  "guard_full": 92,
+  "guard_n": 122,
+  "guard_wrong": 15,
+  "latency_median": 1.824
+ },
+ "3.0": {
+  "tune_found": 6,
+  "tune_n": 45,
+  "tune_wrong": 5,
+  "guard_full": 92,
+  "guard_n": 122,
+  "guard_wrong": 15,
+  "latency_median": 1.824
+ },
+ "5.0": {
+  "tune_found": 6,
+  "tune_n": 45,
+  "tune_wrong": 5,
+  "guard_full": 92,
+  "guard_n": 122,
+  "guard_wrong": 15,
+  "latency_median": 1.824
+ }
+}

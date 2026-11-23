@@ -1,0 +1,22 @@
+2026-11-19 00:06:45 [tpe_C_600] 開始 1920x1012 長度 60.00s  GPU=是 NVIDIA GeForce RTX 3050 Ti Laptop GPU  OCR執行緒=8  fps=8 {'imgsz': 960, 'min_h': 100, 'top': 0.22, 'bot': 0.72, 'jump_thr': 0.8, 'top_k': 12, 'min_sep': 0.25, 'gap': 1.0, 'select': 'bins', 'win': 3, 'win_thr': 0.5, 'single_lo': 0.3, 'ref_alpha': 0.3, 'dist_mode': 'mean'}
+2026-11-19 00:07:47 [tpe_C_600]   進度 3.1/60s {'frames': 35, 'ocr': 93, 'splits': 0, 'splits_app': 0, 'splits_jump': 0}
+2026-11-19 00:08:47 [tpe_C_600]   進度 8.4/60s {'frames': 76, 'ocr': 270, 'splits': 1, 'splits_app': 1, 'splits_jump': 0}
+2026-11-19 00:09:47 [tpe_C_600]   進度 22.5/60s {'frames': 182, 'ocr': 470, 'splits': 1, 'splits_app': 1, 'splits_jump': 0}
+2026-11-19 00:10:47 [tpe_C_600]   進度 27.0/60s {'frames': 225, 'ocr': 683, 'splits': 6, 'splits_app': 6, 'splits_jump': 0}
+2026-11-19 00:11:48 [tpe_C_600]   進度 34.2/60s {'frames': 287, 'ocr': 880, 'splits': 7, 'splits_app': 7, 'splits_jump': 0}
+2026-11-19 00:12:50 [tpe_C_600]   進度 49.5/60s {'frames': 406, 'ocr': 1121, 'splits': 8, 'splits_app': 8, 'splits_jump': 0}
+2026-11-19 00:13:51 [tpe_C_600]   進度 59.8/60s {'frames': 480, 'ocr': 1313, 'splits': 10, 'splits_app': 10, 'splits_jump': 0}
+2026-11-19 00:13:53 [tpe_C_600] 抽取完成 {'frames': 480, 'ocr': 1397, 'splits': 10, 'splits_app': 10, 'splits_jump': 0} 耗時 428s
+2026-11-19 00:13:53 [tpe_C_600] 定案 44 個號碼 → result.csv
+2026-11-19 00:13:58 [tpe_D_1800] 開始 1920x1012 長度 60.00s  GPU=是 NVIDIA GeForce RTX 3050 Ti Laptop GPU  OCR執行緒=8  fps=8 {'imgsz': 960, 'min_h': 100, 'top': 0.22, 'bot': 0.72, 'jump_thr': 0.8, 'top_k': 12, 'min_sep': 0.25, 'gap': 1.0, 'select': 'bins', 'win': 3, 'win_thr': 0.5, 'single_lo': 0.3, 'ref_alpha': 0.3, 'dist_mode': 'mean'}
+2026-11-19 00:15:00 [tpe_D_1800]   進度 6.5/60s {'frames': 85, 'ocr': 220, 'splits': 4, 'splits_app': 4, 'splits_jump': 0}
+2026-11-19 00:16:00 [tpe_D_1800]   進度 16.9/60s {'frames': 144, 'ocr': 492, 'splits': 5, 'splits_app': 5, 'splits_jump': 0}
+2026-11-19 00:17:00 [tpe_D_1800]   進度 20.6/60s {'frames': 177, 'ocr': 754, 'splits': 11, 'splits_app': 11, 'splits_jump': 0}
+2026-11-19 00:18:02 [tpe_D_1800]   進度 27.0/60s {'frames': 227, 'ocr': 997, 'splits': 13, 'splits_app': 13, 'splits_jump': 0}
+2026-11-19 00:19:02 [tpe_D_1800]   進度 32.4/60s {'frames': 269, 'ocr': 1253, 'splits': 17, 'splits_app': 17, 'splits_jump': 0}
+2026-11-19 00:20:03 [tpe_D_1800]   進度 38.0/60s {'frames': 314, 'ocr': 1526, 'splits': 20, 'splits_app': 20, 'splits_jump': 0}
+2026-11-19 00:21:05 [tpe_D_1800]   進度 42.1/60s {'frames': 347, 'ocr': 1748, 'splits': 26, 'splits_app': 26, 'splits_jump': 0}
+2026-11-19 00:22:07 [tpe_D_1800]   進度 47.1/60s {'frames': 386, 'ocr': 1984, 'splits': 27, 'splits_app': 27, 'splits_jump': 0}
+2026-11-19 00:23:08 [tpe_D_1800]   進度 54.9/60s {'frames': 449, 'ocr': 2234, 'splits': 32, 'splits_app': 32, 'splits_jump': 0}
+2026-11-19 00:24:01 [tpe_D_1800] 抽取完成 {'frames': 480, 'ocr': 2486, 'splits': 33, 'splits_app': 33, 'splits_jump': 0} 耗時 603s
+2026-11-19 00:24:01 [tpe_D_1800] 定案 70 個號碼 → result.csv

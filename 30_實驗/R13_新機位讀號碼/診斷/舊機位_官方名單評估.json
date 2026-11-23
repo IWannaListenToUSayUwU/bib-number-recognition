@@ -1,0 +1,149 @@
+{
+ "rules": "用官方完賽名單「獨立」評估舊機位（轉角）A～D 段的號碼輸出（不靠舊 AI 答案，也不看過線，只看出現的號碼）。\n系統輸出：raw.jsonl → aggregate3（v2.2 投票規則）。A、B：R04 的每秒 8 格 raw，以及 R13 用 v2.2 16 格重跑的（AB16）；C、D 用 R06（16 格）和 R05（8 格）。\n時間差：轉角機位沒有時鐘，用「系統輸出中在名單上的號碼」的 官方時間 − 出現時間 的中位數 m（對讀錯有抗性）。\n  一致＝號碼在名單且 |官方 − 出現時間 − m| ≤ 25 秒（轉角到終點的跑步時間因人而異，MAD 約 4～6 秒）\n  精確度＝一致的輸出 ÷ 全部輸出（5 碼以外的輸出也算在分母）\n  召回率＝官方中 m＋10 ≤ 官方時間 − 片段時間 ≤ m＋50 的人（片段中段，避開邊緣）有被輸出的比例\n用法（在專案根目錄）：python 30_實驗/R13_新機位讀號碼/r13_oldclips_official.py　輸出：診斷\\舊機位_官方名單評估.json",
+ "results": {
+  "tpe_A_300|8fps_R04": {
+   "outputs": 93,
+   "consistent": 77,
+   "precision": 0.828,
+   "precision_ci": [
+    0.739,
+    0.891
+   ],
+   "mid_official": 88,
+   "mid_found": 46,
+   "recall_mid": 0.523,
+   "recall_ci": [
+    0.42,
+    0.624
+   ],
+   "offset_median": 12533.4,
+   "non5": 9
+  },
+  "tpe_B_1200|8fps_R04": {
+   "outputs": 76,
+   "consistent": 64,
+   "precision": 0.842,
+   "precision_ci": [
+    0.744,
+    0.907
+   ],
+   "mid_official": 52,
+   "mid_found": 39,
+   "recall_mid": 0.75,
+   "recall_ci": [
+    0.618,
+    0.848
+   ],
+   "offset_median": 13440.2,
+   "non5": 6
+  },
+  "tpe_C_600|8fps_R05": {
+   "outputs": 48,
+   "consistent": 45,
+   "precision": 0.938,
+   "precision_ci": [
+    0.832,
+    0.979
+   ],
+   "mid_official": 33,
+   "mid_found": 32,
+   "recall_mid": 0.97,
+   "recall_ci": [
+    0.847,
+    0.995
+   ],
+   "offset_median": 12837.8,
+   "non5": 2
+  },
+  "tpe_D_1800|8fps_R05": {
+   "outputs": 75,
+   "consistent": 70,
+   "precision": 0.933,
+   "precision_ci": [
+    0.853,
+    0.971
+   ],
+   "mid_official": 55,
+   "mid_found": 44,
+   "recall_mid": 0.8,
+   "recall_ci": [
+    0.676,
+    0.884
+   ],
+   "offset_median": 14043.1,
+   "non5": 1
+  },
+  "tpe_C_600|16fps_R06": {
+   "outputs": 48,
+   "consistent": 45,
+   "precision": 0.938,
+   "precision_ci": [
+    0.832,
+    0.979
+   ],
+   "mid_official": 34,
+   "mid_found": 32,
+   "recall_mid": 0.941,
+   "recall_ci": [
+    0.809,
+    0.984
+   ],
+   "offset_median": 12838.1,
+   "non5": 1
+  },
+  "tpe_D_1800|16fps_R06": {
+   "outputs": 80,
+   "consistent": 72,
+   "precision": 0.9,
+   "precision_ci": [
+    0.815,
+    0.948
+   ],
+   "mid_official": 56,
+   "mid_found": 49,
+   "recall_mid": 0.875,
+   "recall_ci": [
+    0.764,
+    0.938
+   ],
+   "offset_median": 14044.1,
+   "non5": 3
+  },
+  "tpe_A_300|16fps_R13": {
+   "outputs": 129,
+   "consistent": 111,
+   "precision": 0.86,
+   "precision_ci": [
+    0.79,
+    0.91
+   ],
+   "mid_official": 88,
+   "mid_found": 69,
+   "recall_mid": 0.784,
+   "recall_ci": [
+    0.687,
+    0.857
+   ],
+   "offset_median": 12533.5,
+   "non5": 8
+  },
+  "tpe_B_1200|16fps_R13": {
+   "outputs": 82,
+   "consistent": 71,
+   "precision": 0.866,
+   "precision_ci": [
+    0.776,
+    0.923
+   ],
+   "mid_official": 53,
+   "mid_found": 45,
+   "recall_mid": 0.849,
+   "recall_ci": [
+    0.729,
+    0.921
+   ],
+   "offset_median": 13440.0,
+   "non5": 5
+  }
+ }
+}

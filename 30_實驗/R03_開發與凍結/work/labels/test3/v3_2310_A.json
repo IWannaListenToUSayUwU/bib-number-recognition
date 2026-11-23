@@ -1,0 +1,17 @@
+{"clip": "v3_2310", "annotator": "A",
+ "runners": [
+  {"bib": "?83", "status": "partial", "t_first": 2315.0, "t_best": 2316.5, "t_last": 2317.5, "note": "人行道花盆旁 紅T黑短褲男，首位不確定（似4）"},
+  {"bib": "?", "status": "unreadable", "t_first": 2317.5, "t_best": 2318.5, "t_last": 2319.5, "note": "人行道 粉紅上衣女，在紅T男旁，號碼牌小"},
+  {"bib": "5?", "status": "partial", "t_first": 2318.5, "t_best": 2319.5, "t_last": 2321.5, "note": "左側帳篷區 紅衣女，末位似3"},
+  {"bib": "?", "status": "unreadable", "t_first": 2323.0, "t_best": 2367.0, "t_last": 2368.5, "note": "右下角坐著的紅衣深髮女，常被抱嬰兒男遮擋"},
+  {"bib": "21?", "status": "partial", "t_first": 2324.0, "t_best": 2325.0, "t_last": 2329.5, "note": "右下角坐著的男子（紅衣女旁），末位似5或9"},
+  {"bib": "?", "status": "unreadable", "t_first": 2326.5, "t_best": 2355.5, "t_last": 2357.5, "note": "紫白背心金髮馬尾女，人行道站立後走過路面；2355.5 側面僅見末位似6，位數不明"},
+  {"bib": "418", "status": "sure", "t_first": 2344.0, "t_best": 2347.0, "t_last": 2347.0, "note": "白T黑短褲年輕金髮男"},
+  {"bib": "363", "status": "sure", "t_first": 2344.0, "t_best": 2347.0, "t_last": 2347.0, "note": "白背心黑緊身褲深色長髮女"},
+  {"bib": "114", "status": "sure", "t_first": 2345.5, "t_best": 2346.5, "t_last": 2347.0, "note": "紫背心粉紅短褲金髮戴墨鏡女"},
+  {"bib": "429", "status": "sure", "t_first": 2346.5, "t_best": 2348.0, "t_last": 2348.5, "note": "畫面左緣黑衣完賽者，拿杯子"},
+  {"bib": "417", "status": "sure", "t_first": 2348.0, "t_best": 2352.5, "t_last": 2353.5, "note": "淺藍背心(Out Of The...藍色圖案)深色短褲戴墨鏡女"},
+  {"bib": "324", "status": "sure", "t_first": 2356.5, "t_best": 2358.0, "t_last": 2364.5, "note": "左側黑上衣藍色下半身男，戴耳機掛獎牌；推測即先前背對/指路的黑藍上衣男"}
+ ],
+ "no_bib_runners": 2,
+ "comments": "前半段(2310-2342)路面無跑者，只有人行道上已完賽者；2342 起跑者陸續到達。紅T背面 HHH 為衣服印字、BBB 10K 為賽事字樣，均未列。no_bib：背對的藍背心女、2358.5-2363 遠處跑來轉入左側的紅衣跑者。"}

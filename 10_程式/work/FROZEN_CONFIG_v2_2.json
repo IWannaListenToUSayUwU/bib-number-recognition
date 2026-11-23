@@ -1,0 +1,34 @@
+{
+ "frozen_at": "2026-11-18 Asia/Taipei",
+ "extract": {
+  "script": "src/extract4.py",
+  "fps": 16,
+  "imgsz": 960,
+  "min_h": 100,
+  "top": 0.22,
+  "bot": 0.72,
+  "early_stop": 3,
+  "hist_thr": 0.45,
+  "jump_thr": 0.8
+ },
+ "aggregate": {
+  "min_conf": 0.8,
+  "min_votes": 1,
+  "min_score": 0.9,
+  "minlen": 2,
+  "maxlen": 5,
+  "size_w": true,
+  "merge_gap": 4.0,
+  "substr": true,
+  "sub_gap": 3.0,
+  "static": true,
+  "static_px": 12,
+  "static_sec": 2.0,
+  "size_ref": "abs40",
+  "accept_hi": 3,
+  "static_rel": true
+ },
+ "base": "FROZEN_CONFIG_v2_1.json",
+ "notes_v2": "aggregate thresholds unchanged from v1 (dev grid differences were within noise); track split + static-text filter added; dev(7 clips incl. v3_1440) F1 0.714",
+ "notes": "v2.2 (2026-11-18): aggregate3.py. (1) accept_hi=3: a number read >=3 times with conf>=0.9 on the same track is accepted directly (fixes conflict between extractor early-stop and min_score with the 40px size weight). (2) static filter threshold scaled by frame width (base 1280). Relative size weighting was tested and rejected (lower precision on old videos). extract.fps set to 16 for this test; all other params unchanged from v2.1."
+}

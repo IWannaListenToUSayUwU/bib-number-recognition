@@ -1,0 +1,504 @@
+{
+ "clip": "v2_330",
+ "annotator": "A",
+ "runners": [
+  {
+   "bib": "136",
+   "status": "sure",
+   "t_first": 330.0,
+   "t_best": 332.0,
+   "t_last": 333.0,
+   "note": "older man navy/blue jacket, navy beanie"
+  },
+  {
+   "bib": "181",
+   "status": "sure",
+   "t_first": 330.5,
+   "t_best": 330.5,
+   "t_last": 331.5,
+   "note": "man black shirt, black P cap, white neck gaiter"
+  },
+  {
+   "bib": "146?",
+   "status": "partial",
+   "t_first": 330.0,
+   "t_best": 330.0,
+   "t_last": 330.0,
+   "note": "woman white pompom beanie, black top"
+  },
+  {
+   "bib": "110?",
+   "status": "partial",
+   "t_first": 330.0,
+   "t_best": 330.5,
+   "t_last": 330.5,
+   "note": "woman blue long sleeve, light-blue hat, white sunglasses"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 330.0,
+   "t_best": 331.0,
+   "t_last": 332.0,
+   "note": "woman black 'She Believed' shirt"
+  },
+  {
+   "bib": "939",
+   "status": "sure",
+   "t_first": 333.0,
+   "t_best": 334.5,
+   "t_last": 335.0,
+   "note": "kid orange/navy vest, striped beanie"
+  },
+  {
+   "bib": "9398",
+   "status": "sure",
+   "t_first": 334.5,
+   "t_best": 334.5,
+   "t_last": 335.0,
+   "note": "woman grey top, black/white striped pompom beanie (with kid 939)"
+  },
+  {
+   "bib": "118?",
+   "status": "partial",
+   "t_first": 333.0,
+   "t_best": 335.5,
+   "t_last": 336.5,
+   "note": "woman black graphic shirt, blue headband, glasses, hands on hips (reads 1185/1189)"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 332.5,
+   "t_best": 333.0,
+   "t_last": 334.5,
+   "note": "woman yellow GMRC shirt, purple sleeves"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 332.5,
+   "t_best": 333.0,
+   "t_last": 334.5,
+   "note": "bearded man yellow GMRC shirt, headband"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 332.5,
+   "t_best": 333.0,
+   "t_last": 333.5,
+   "note": "small girl grey jacket"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 331.0,
+   "t_best": 331.5,
+   "t_last": 332.0,
+   "note": "man dark grey jacket, black beanie"
+  },
+  {
+   "bib": "346",
+   "status": "sure",
+   "t_first": 336.0,
+   "t_best": 337.5,
+   "t_last": 337.5,
+   "note": "woman pink vest, blue sleeves, striped pompom beanie"
+  },
+  {
+   "bib": "79?",
+   "status": "partial",
+   "t_first": 335.5,
+   "t_best": 336.5,
+   "t_last": 337.0,
+   "note": "older man grey hoodie, black/white striped beanie"
+  },
+  {
+   "bib": "122?",
+   "status": "partial",
+   "t_first": 337.0,
+   "t_best": 337.5,
+   "t_last": 339.5,
+   "note": "man dark grey long sleeve, beard (reads 1221)"
+  },
+  {
+   "bib": "122?",
+   "status": "partial",
+   "t_first": 336.0,
+   "t_best": 338.0,
+   "t_last": 339.5,
+   "note": "kid black/neon jacket (reads 1222/1221); different person from bearded man 122?"
+  },
+  {
+   "bib": "?37",
+   "status": "partial",
+   "t_first": 337.0,
+   "t_best": 337.5,
+   "t_last": 338.5,
+   "note": "woman black top, white headband (reads 337)"
+  },
+  {
+   "bib": "37?",
+   "status": "partial",
+   "t_first": 337.0,
+   "t_best": 337.0,
+   "t_last": 337.0,
+   "note": "woman dark grey jacket, brown hair"
+  },
+  {
+   "bib": "946?",
+   "status": "partial",
+   "t_first": 338.5,
+   "t_best": 338.5,
+   "t_last": 339.0,
+   "note": "man white long sleeve, black cap"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 335.0,
+   "t_best": 335.5,
+   "t_last": 336.5,
+   "note": "woman teal jacket, white headband"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 337.5,
+   "t_best": 339.5,
+   "t_last": 340.5,
+   "note": "man blue shirt/shorts, green cap"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 337.5,
+   "t_best": 339.0,
+   "t_last": 340.5,
+   "note": "woman navy jacket, sunglasses, striped beanie (bib on leg)"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 336.0,
+   "t_best": 337.0,
+   "t_last": 338.5,
+   "note": "woman neon yellow vest, striped beanie"
+  },
+  {
+   "bib": "24?",
+   "status": "partial",
+   "t_first": 340.0,
+   "t_best": 341.0,
+   "t_last": 342.0,
+   "note": "woman white cap, green scarf, maroon leggings"
+  },
+  {
+   "bib": "79?",
+   "status": "partial",
+   "t_first": 342.0,
+   "t_best": 343.5,
+   "t_last": 343.5,
+   "note": "woman grey hoodie, black/white pompom beanie, blonde (reads 797); different from grey-hoodie man 79?"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 340.0,
+   "t_best": 341.5,
+   "t_last": 343.0,
+   "note": "woman neon 'nike' top, sunglasses, striped beanie"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 342.0,
+   "t_best": 343.0,
+   "t_last": 344.5,
+   "note": "woman navy/orange jacket, striped beanie"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 343.0,
+   "t_best": 344.0,
+   "t_last": 345.0,
+   "note": "bearded man grey jacket, pompom beanie (bib at waist)"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 342.0,
+   "t_best": 344.5,
+   "t_last": 345.5,
+   "note": "man green sweatshirt, sunglasses, beanie (bib on leg)"
+  },
+  {
+   "bib": "634",
+   "status": "sure",
+   "t_first": 345.0,
+   "t_best": 346.5,
+   "t_last": 347.0,
+   "note": "woman black hoodie, grey beanie"
+  },
+  {
+   "bib": "103?",
+   "status": "partial",
+   "t_first": 345.0,
+   "t_best": 346.0,
+   "t_last": 346.0,
+   "note": "man black jacket over grey zip top, black/white pompom beanie (reads 1030)"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 345.0,
+   "t_best": 346.0,
+   "t_last": 347.5,
+   "note": "man neon yellow long sleeve, black beanie"
+  },
+  {
+   "bib": "28?",
+   "status": "partial",
+   "t_first": 347.0,
+   "t_best": 349.0,
+   "t_last": 349.5,
+   "note": "blonde wig woman, black outfit, yellow fur boots (left of pair)"
+  },
+  {
+   "bib": "?4?",
+   "status": "partial",
+   "t_first": 347.0,
+   "t_best": 348.5,
+   "t_last": 349.5,
+   "note": "blonde wig woman, sunglasses/headband, yellow fur boots (right of pair; reads 640/84?)"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 346.0,
+   "t_best": 347.5,
+   "t_last": 348.0,
+   "note": "woman dark long sleeve, white waistband, striped beanie"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 346.0,
+   "t_best": 348.5,
+   "t_last": 349.5,
+   "note": "woman pink top, pink skirt"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 348.5,
+   "t_best": 349.0,
+   "t_last": 349.5,
+   "note": "woman red jacket, striped beanie"
+  },
+  {
+   "bib": "927?",
+   "status": "partial",
+   "t_first": 349.5,
+   "t_best": 351.5,
+   "t_last": 352.0,
+   "note": "girl light grey hoodie (reads 9274)"
+  },
+  {
+   "bib": "9262",
+   "status": "sure",
+   "t_first": 350.0,
+   "t_best": 352.5,
+   "t_last": 353.5,
+   "note": "woman green graphic shirt, black beanie, dark jacket, white gloves"
+  },
+  {
+   "bib": "1458",
+   "status": "sure",
+   "t_first": 351.5,
+   "t_best": 354.0,
+   "t_last": 354.5,
+   "note": "man grey 'CHUNKYS' sweatshirt, white shorts"
+  },
+  {
+   "bib": "1459",
+   "status": "sure",
+   "t_first": 352.0,
+   "t_best": 354.0,
+   "t_last": 354.5,
+   "note": "woman white vest, maroon cap; bib pinned on stroller"
+  },
+  {
+   "bib": "1024",
+   "status": "sure",
+   "t_first": 352.5,
+   "t_best": 355.0,
+   "t_last": 355.0,
+   "note": "man navy hoodie, striped pompom beanie"
+  },
+  {
+   "bib": "14??",
+   "status": "partial",
+   "t_first": 351.5,
+   "t_best": 351.5,
+   "t_last": 352.0,
+   "note": "woman black jacket, striped pompom beanie"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 350.0,
+   "t_best": 351.5,
+   "t_last": 353.5,
+   "note": "woman navy vest, blue sleeves, pushing green stroller"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 349.5,
+   "t_best": 350.5,
+   "t_last": 351.5,
+   "note": "woman light grey hoodie with waist belt"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 350.0,
+   "t_best": 350.5,
+   "t_last": 351.5,
+   "note": "woman blue top, sunglasses, striped beanie"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 352.0,
+   "t_best": 353.5,
+   "t_last": 354.5,
+   "note": "man orange shirt (bib on shorts)"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 352.0,
+   "t_best": 353.0,
+   "t_last": 354.5,
+   "note": "person black hoodie, white cap"
+  },
+  {
+   "bib": "891",
+   "status": "sure",
+   "t_first": 355.0,
+   "t_best": 356.5,
+   "t_last": 357.5,
+   "note": "man white 'Millennium Running' singlet, black cap, sunglasses"
+  },
+  {
+   "bib": "894",
+   "status": "sure",
+   "t_first": 355.0,
+   "t_best": 356.5,
+   "t_last": 357.0,
+   "note": "girl teal jacket"
+  },
+  {
+   "bib": "?66",
+   "status": "partial",
+   "t_first": 355.0,
+   "t_best": 356.5,
+   "t_last": 357.0,
+   "note": "woman black vest, sunglasses, short hair (digit count unclear)"
+  },
+  {
+   "bib": "208?",
+   "status": "partial",
+   "t_first": 355.0,
+   "t_best": 355.5,
+   "t_last": 357.5,
+   "note": "man navy/red Adidas hoodie (reads 2083)"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 354.5,
+   "t_best": 355.5,
+   "t_last": 356.5,
+   "note": "woman teal top, black vest, curly hair (bib on leg)"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 355.5,
+   "t_best": 356.5,
+   "t_last": 356.5,
+   "note": "man navy sweater, glasses"
+  },
+  {
+   "bib": "110?",
+   "status": "partial",
+   "t_first": 357.0,
+   "t_best": 358.5,
+   "t_last": 359.5,
+   "note": "man blue jacket, striped pompom beanie, shorts (reads 1103); different from blue-shirt woman 110?"
+  },
+  {
+   "bib": "880",
+   "status": "sure",
+   "t_first": 357.5,
+   "t_best": 359.5,
+   "t_last": 359.5,
+   "note": "bearded man navy sweater, striped beanie"
+  },
+  {
+   "bib": "944?",
+   "status": "partial",
+   "t_first": 358.0,
+   "t_best": 359.5,
+   "t_last": 359.5,
+   "note": "woman pink jacket, black beanie (reads 9447)"
+  },
+  {
+   "bib": "134?",
+   "status": "partial",
+   "t_first": 357.0,
+   "t_best": 359.0,
+   "t_last": 359.5,
+   "note": "boy black 'Supreme' hoodie (reads 1346)"
+  },
+  {
+   "bib": "946?",
+   "status": "partial",
+   "t_first": 359.0,
+   "t_best": 359.0,
+   "t_last": 359.5,
+   "note": "small kid orange jacket (reads 9463); different from white-shirt man 946?"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 356.5,
+   "t_best": 358.5,
+   "t_last": 359.5,
+   "note": "man grey jacket, black beanie"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 358.0,
+   "t_best": 359.0,
+   "t_last": 359.5,
+   "note": "man red/white suit, striped beanie"
+  },
+  {
+   "bib": "?",
+   "status": "unreadable",
+   "t_first": 357.5,
+   "t_best": 359.0,
+   "t_last": 359.5,
+   "note": "woman pink top, black vest, striped beanie"
+  }
+ ],
+ "no_bib_runners": 15,
+ "comments": "Very dense finish-arch crowd; many background runners near the arch have bibs too small to read and are not listed individually. Bibs on legs/stroller noted. MILLENNIUM logos and clock ignored."
+}

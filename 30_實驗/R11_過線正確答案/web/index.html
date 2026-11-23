@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R11 過線標註</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1d2433; --muted:#667085; --line:#d0d5dd; --ok:#12b76a; --bad:#f04438; --add:#2e90fa; --dup:#f79009; --sel:#7a5af8; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:14px/1.5 "Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif; color:var(--ink); background:var(--bg); }
+  header { position:sticky; top:0; z-index:5; display:flex; gap:12px; align-items:center; flex-wrap:wrap; padding:8px 16px; background:var(--card); border-bottom:1px solid var(--line); }
+  header h1 { font-size:16px; margin:0 8px 0 0; }
+  button, select, input[type=text] { font:inherit; }
+  button { padding:4px 10px; border:1px solid var(--line); background:#fff; border-radius:6px; cursor:pointer; }
+  button.primary { background:var(--sel); color:#fff; border-color:var(--sel); }
+  button:disabled { opacity:.5; cursor:default; }
+  .muted { color:var(--muted); }
+  #status { margin-left:auto; }
+  main { display:grid; grid-template-columns:230px 1fr; gap:12px; padding:12px 16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 12px; }
+  #slitWrap { overflow-x:auto; border:1px solid var(--line); border-radius:6px; background:#111; }
+  #slit { display:block; cursor:crosshair; }
+  #list { max-height:calc(100vh - 430px); min-height:200px; overflow-y:auto; }
+  .it { display:flex; gap:6px; align-items:center; padding:3px 6px; border-radius:5px; cursor:pointer; white-space:nowrap; }
+  .it:hover { background:#f2f4f7; } .it.sel { background:#ede9fe; }
+  .dot { width:10px; height:10px; border-radius:50%; flex:none; background:#98a2b3; }
+  .frames { display:flex; gap:6px; flex-wrap:wrap; }
+  .fr { position:relative; border:3px solid transparent; border-radius:6px; cursor:pointer; }
+  .fr img { display:block; width:190px; border-radius:3px; }
+  .fr .lab { position:absolute; left:0; top:0; background:rgba(0,0,0,.65); color:#fff; font-size:12px; padding:1px 5px; border-radius:3px 0 3px 0; }
+  .fr.sys { border-color:#98a2b3; } .fr.gt { border-color:var(--ok); }
+  .row { display:flex; gap:10px; align-items:flex-start; flex-wrap:wrap; margin:8px 0; }
+  .bibimgs img { display:block; max-height:300px; border-radius:4px; border:1px solid var(--line); }
+  .wide img { width:290px; border-radius:4px; }
+  fieldset { border:1px solid var(--line); border-radius:6px; margin:6px 0; padding:6px 10px; }
+  legend { color:var(--muted); font-size:13px; }
+  label { margin-right:12px; cursor:pointer; white-space:nowrap; }
+  #bib { width:140px; font-size:18px; letter-spacing:2px; padding:2px 6px; }
+  .cand { margin:2px 4px 2px 0; }
+  .err { color:var(--bad); }
+  kbd { border:1px solid var(--line); border-bottom-width:2px; border-radius:4px; padding:0 4px; font-size:12px; background:#fff; }
+  #help { display:none; } #help.show { display:block; }
+  table.chk { border-collapse:collapse; } table.chk td { padding:2px 8px; border-bottom:1px solid #eaecf0; } tr.must td { background:#fdecea; }
+</style>
+</head>
+<body>
+<header>
+  <h1>R11 過線標註</h1>
+  <label>片段 <select id="clipSel"></select></label>
+  <span id="progress" class="muted"></span>
+  <label><input type="checkbox" id="slitChecked"> 光帶圖已從頭看到尾，漏掉的人都補上了</label>
+  <button id="helpBtn">說明</button>
+  <button id="chkBtn">核對清單</button>
+  <span id="status" class="muted">載入中…</span>
+</header>
+<div id="help" class="card" style="margin:12px 16px 0">
+  <b>標註規則</b>（詳見 <code>30_實驗\R11_過線正確答案\計畫.md</code>）<br>
+  1. 每一位跨過<span style="color:#c0c">洋紅色計時線</span>的跑者都要標（看不到號碼牌的也要）。觀眾、工作人員不標。<br>
+  2. <b>過線時間＝任一隻腳第一次碰到或越過線的那一格</b>：在下方 7 格畫面中點那一格（或按 <kbd>1</kbd>～<kbd>7</kbd>）。看不到就用「早／晚」按鈕移動。<br>
+  3. 號碼看得清才寫；看不清的位數寫 <kbd>?</kbd>（例 0530?）。<b>寧可寫 ?，不可猜。</b>號碼欄預填的是系統讀到的號碼，請以畫面為準。<br>
+  4. 同一個人被系統算成兩次：第二次選「同一人重複」。根本沒人過線：選「不是跑者過線」。<br>
+  5. 上方光帶圖：橫軸是時間，每一條直條紋是一位跑者踩過線。圓點是已有的事件；<b>沒有圓點的條紋就是系統漏掉的人</b>，點那條紋即可新增。<br>
+  快捷鍵：<kbd>Enter</kbd> 儲存並下一個、<kbd>1</kbd>～<kbd>7</kbd> 選過線格、<kbd>[</kbd> <kbd>]</kbd> 前後移 1 格。每次儲存都自動存檔到本機。
+</div>
+<div class="card" style="margin:12px 16px 0">
+  <div class="muted" style="margin-bottom:4px">過線光帶圖（橫軸＝時間，縱軸＝線上位置：上＝線的上端）。圓點：<span style="color:#98a2b3">●</span>未看 <span style="color:var(--ok)">●</span>跑者 <span style="color:var(--bad)">●</span>不是跑者 <span style="color:var(--dup)">●</span>同一人重複 <span style="color:var(--add)">●</span>人工新增</div>
+  <div id="slitWrap"><canvas id="slit"></canvas></div>
+  <div id="addBar" style="display:none;margin-top:6px"></div>
+</div>
+<main>
+  <div class="card"><div class="muted">事件（依時間）</div><div id="list"></div></div>
+  <div class="card" id="editor"><div class="muted">左邊選一個事件，或在光帶圖上點一下。</div></div>
+</main>
+<div id="chk" class="card" style="display:none;margin:0 16px 16px"></div>
+<script>
+const $ = s => document.querySelector(s);
+let CLIPS = [], clip = null, D = null, items = [], sel = null, centerF = 0, fps = 30, baseUpdated = null;
+const SX = 2;                     // 光帶圖水平放大
+const COLORS = { runner:'#12b76a', not_runner:'#f04438', same_person_dup:'#f79009' };
+
+async function api(path, opt) { const r = await fetch(path, opt); if (!r.ok) throw new Error(await r.text()); return r.json(); }
+function setStatus(t, err) { const s = $('#status'); s.textContent = t; s.className = err ? 'err' : 'muted'; }
+function tOf(it) { return it.t_gt != null ? it.t_gt : it.t_sys; }
+function color(it) { if (!it.reviewed) return it.sys_id == null ? '#2e90fa' : '#98a2b3'; return it.sys_id == null && it.verdict === 'runner' ? '#2e90fa' : (COLORS[it.verdict] || '#98a2b3'); }
+function V() { return (D && D.view) || { pw: 360, ph: 420, pdy: 150, wide: [850, 640, 1300, 720] }; }
+function xyFromU(u) { const L = D.line; return [L.p1[0] + u * (L.p2[0] - L.p1[0]), L.p1[1] + u * (L.p2[1] - L.p1[1])]; }
+
+async function init() {
+  CLIPS = await api('/api/clips');
+  $('#clipSel').innerHTML = CLIPS.map(c => `<option>${c.clip}</option>`).join('');
+  $('#clipSel').onchange = () => load($('#clipSel').value);
+  $('#helpBtn').onclick = () => $('#help').classList.toggle('show');
+  $('#chkBtn').onclick = showCheck;
+  $('#slitChecked').onchange = () => save('光帶圖勾選');
+  document.addEventListener('keydown', onKey);
+  await load(CLIPS[0].clip);
+  if (!items.some(i => i.reviewed)) $('#help').classList.add('show');
+}
+
+async function load(c) {
+  clip = c; D = await api('/api/data?clip=' + c); fps = D.slit.fps || 30; baseUpdated = D.annot ? D.annot.updated : null;
+  const saved = {}; ((D.annot || {}).items || []).forEach(i => saved[i.key] = i);
+  items = D.candidates.items.map(ca => Object.assign({
+    key: 'sys-' + ca.sys_id, sys_id: ca.sys_id, t_sys: ca.t_sys, x: ca.x, y: ca.y, u: ca.u, sysbib: ca.bib, guess: ca.guess, dup: ca.dup,
+    verdict: null, t_gt: null, bib: ca.bib || '', status: '', note: '', prefill_bib: ca.bib || '', reviewed: false
+  }, saved['sys-' + ca.sys_id] || {}, { aux: ca }));
+  Object.values(saved).filter(i => i.sys_id == null).forEach(i => items.push(Object.assign({}, i, { aux: null })));
+  items.sort((a, b) => tOf(a) - tOf(b));
+  $('#slitChecked').checked = !!(D.annot && D.annot.slit_checked);
+  sel = null; drawSlitBase(); renderList(); renderEditor(); setStatus(D.annot ? '已載入上次的標註（' + D.annot.updated + '）' : '尚未標註');
+}
+
+let slitImg = null;
+function drawSlitBase() {
+  slitImg = new Image(); slitImg.onload = drawSlit; slitImg.src = '/api/slit?clip=' + clip;
+  const cv = $('#slit'); cv.onclick = onSlitClick;
+}
+function drawSlit() {
+  const cv = $('#slit'), W = slitImg.width * SX, H = slitImg.height, R = 22; cv.width = W; cv.height = H + R;
+  const g = cv.getContext('2d'); g.imageSmoothingEnabled = false; g.drawImage(slitImg, 0, 0, W, H);
+  g.fillStyle = '#fff'; g.fillRect(0, H, W, R); g.fillStyle = '#333'; g.font = '12px sans-serif';
+  for (let s = 0; s * fps < slitImg.width; s++) { const x = s * fps * SX; g.fillRect(x, H, 1, s % 5 ? 5 : 10); if (s % 5 === 0) g.fillText(s + 's', x + 2, H + 20); }
+  for (const it of items) {
+    const x = tOf(it) * fps * SX, y = Math.min(Math.max(it.u, 0), 1) * (H - 1);
+    g.beginPath(); g.arc(x, y, it === sel ? 8 : 6, 0, 7); g.fillStyle = color(it); g.fill();
+    g.lineWidth = it === sel ? 3 : 1.5; g.strokeStyle = it === sel ? '#7a5af8' : '#fff'; g.stroke();
+  }
+}
+function onSlitClick(ev) {
+  const cv = $('#slit'), r = cv.getBoundingClientRect(), x = (ev.clientX - r.left) * cv.width / r.width, y = (ev.clientY - r.top) * cv.height / r.height;
+  const H = slitImg.height; let best = null, bd = 1e9;
+  for (const it of items) { const d = Math.hypot(tOf(it) * fps * SX - x, Math.min(Math.max(it.u, 0), 1) * (H - 1) - y); if (d < bd) { bd = d; best = it; } }
+  if (best && bd <= 10) return select(best);
+  if (y > H) return;
+  const t = Math.round(x / SX) / fps, u = Math.min(Math.max(y / (H - 1), 0), 1);
+  const bar = $('#addBar');
+  bar.innerHTML = `在 <b>${t.toFixed(2)} 秒</b>、線上位置 ${u.toFixed(2)} 新增一位「系統漏掉的跑者」？ <button class="primary" id="addYes">新增</button> <button id="addNo">取消</button>`;
+  bar.style.display = 'block';
+  $('#addNo').onclick = () => bar.style.display = 'none';
+  $('#addYes').onclick = () => { bar.style.display = 'none'; addMissed(t, u); };
+}
+function addMissed(t, u) {
+  const [px, py] = xyFromU(u);
+  const it = { key: 'add-' + Date.now(), sys_id: null, t_sys: t, x: Math.round(px), y: Math.round(py), u, sysbib: '', guess: '', dup: false,
+               verdict: 'runner', t_gt: null, bib: '', status: '', note: '', prefill_bib: '', reviewed: false, aux: null };
+  items.push(it); items.sort((a, b) => tOf(a) - tOf(b)); select(it);
+}
+
+function renderList() {
+  const n = items.filter(i => i.reviewed).length;
+  $('#progress').textContent = `已看 ${n}/${items.length}（人工新增 ${items.filter(i => i.sys_id == null).length}）`;
+  $('#list').innerHTML = items.map((it, k) => `<div class="it ${it === sel ? 'sel' : ''}" data-k="${k}"><span class="dot" style="background:${color(it)}"></span>` +
+    `${tOf(it).toFixed(2)}s <b>${it.reviewed ? (it.verdict === 'runner' ? (it.bib || '?') : (it.verdict === 'not_runner' ? '✕' : '重複')) : (it.sysbib || '?')}</b>` +
+    `${it.sys_id == null ? ' <span class="muted">新增</span>' : ''}</div>`).join('');
+  $('#list').querySelectorAll('.it').forEach(el => el.onclick = () => select(items[+el.dataset.k]));
+  const s = $('#list .sel'); if (s) s.scrollIntoView({ block: 'nearest' });
+}
+
+function select(it) { sel = it; centerF = Math.round(tOf(it) * fps); renderList(); renderEditor(); drawSlit(); }
+
+function frameUrl(f, cx, cy, w, h, scale, extra) {
+  return `/api/frame?clip=${clip}&f=${f}&cx=${Math.round(cx)}&cy=${Math.round(cy)}&w=${Math.round(w)}&h=${Math.round(h)}&scale=${scale.toFixed(3)}${extra || ''}`;
+}
+
+function renderEditor() {
+  const ed = $('#editor');
+  if (!sel) { ed.innerHTML = '<div class="muted">左邊選一個事件，或在光帶圖上點一下。</div>'; return; }
+  const it = sel, a = it.aux || {}, sysF = Math.round(it.t_sys * fps), gtF = it.t_gt != null ? Math.round(it.t_gt * fps) : null;
+  let fr = '';
+  for (let k = -3; k <= 3; k++) {
+    const f = centerF + 2 * k; if (f < 0) continue;
+    fr += `<div class="fr ${f === gtF ? 'gt' : (f === sysF ? 'sys' : '')}" data-f="${f}"><img src="${frameUrl(f, it.x, it.y - V().pdy, V().pw, V().ph, 190 / V().pw)}"><span class="lab">${k + 4}｜${(f / fps).toFixed(2)}s</span></div>`;
+  }
+  let bib = '';
+  if (a.bib_frame) {
+    const b = a.bib_frame, tb = b.text_box, bf = Math.round(b.t * fps), tw = tb[2] - tb[0], th = tb[3] - tb[1];
+    const w = Math.max(160, tw * 4), h = Math.max(90, th * 5);
+    bib += `<div><div class="muted">號碼放大（${b.t.toFixed(2)}s，系統讀到「${b.text}」）</div><img src="${frameUrl(bf, (tb[0] + tb[2]) / 2, (tb[1] + tb[3]) / 2, w, h, 420 / w, '&line=0')}"></div>`;
+    if (b.pbox) { const p = b.pbox, pw = (p[2] - p[0]) * 1.4, ph = (p[3] - p[1]) * 1.15;
+      bib += `<div><div class="muted">讀號碼時的這個人</div><img src="${frameUrl(bf, (p[0] + p[2]) / 2, (p[1] + p[3]) / 2, pw, ph, 300 / ph, '&line=0&boxes=' + tb.join(','))}"></div>`; }
+  }
+  if (a.cross_pbox) { const p = a.cross_pbox, pw = (p[2] - p[0]) * 1.4, ph = (p[3] - p[1]) * 1.15;
+    bib += `<div><div class="muted">過線時的這個人（確認是同一人）</div><img src="${frameUrl(sysF, (p[0] + p[2]) / 2, (p[1] + p[3]) / 2, pw, ph, 300 / ph)}"></div>`; }
+  const cands = (a.ai_gt || []).map(c => `<button class="cand" data-b="${c.bib}" data-s="${c.status}">${c.bib}<span class="muted">（${c.status === 'sure' ? '確定' : '部分'}，出現 ${c.t0}–${c.t1}s）</span></button>`).join('') || '<span class="muted">無</span>';
+  const R = (n, v, t) => `<label><input type="radio" name="${n}" value="${v}" ${it[n] === v ? 'checked' : ''}> ${t}</label>`;
+  ed.innerHTML = `
+    <div><b>${it.sys_id == null ? '人工新增的跑者' : '系統事件 #' + it.sys_id}</b>　系統過線時間 ${it.t_sys.toFixed(2)}s　系統號碼 <b>${it.sysbib || '（讀不出）'}</b>${it.dup ? '　<span class="err">系統標為重複</span>' : ''}${it.reviewed ? '　<span style="color:var(--ok)">✓ 已儲存</span>' : ''}</div>
+    <div class="row" style="align-items:center"><span class="muted">過線格（點腳第一次碰到線的那一格）：</span>
+      <button data-sh="-6">◀ 早 0.2 秒</button><button data-sh="-1">◀ 1 格</button><button data-sh="1">1 格 ▶</button><button data-sh="6">晚 0.2 秒 ▶</button>
+      <span>正確過線時間：<b id="tgt">${it.t_gt != null ? it.t_gt.toFixed(3) + 's' : '（未選）'}</b></span></div>
+    <div class="frames">${fr}</div>
+    <div class="row bibimgs">${bib || '<span class="muted">（沒有系統讀數，請用下面的「看前 2 秒全景」找號碼）</span>'}</div>
+    <div class="row"><button id="wideBtn">看前 2 秒全景</button></div><div id="wide" class="row wide"></div>
+    <fieldset><legend>這是什麼</legend>${R('verdict', 'runner', '是跑者過線')}${R('verdict', 'not_runner', '不是跑者過線（誤判）')}${R('verdict', 'same_person_dup', '同一人重複（前面已標過）')}</fieldset>
+    <fieldset><legend>號碼（看不清的位數寫 ?）</legend>
+      <input type="text" id="bib" value="${it.bib || ''}" autocomplete="off">
+      ${R('status', 'sure', '全部看清 sure')}${R('status', 'partial', '部分看清 partial')}${R('status', 'unreadable', '有號碼牌但讀不出')}${R('status', 'nobib', '看不到號碼牌')}
+      <div style="margin-top:4px">${(a.ai_gt || []).length || D.old_gt ? `<span class="muted">舊正確答案（AI 標）的候選：</span>${cands}` : ''}</div></fieldset>
+    <div class="row"><input type="text" id="note" placeholder="備註（可空白）" value="${(it.note || '').replace(/"/g, '&quot;')}" style="flex:1;min-width:200px">
+      <button class="primary" id="saveBtn">儲存並下一個（Enter）</button>${it.sys_id == null ? '<button id="delBtn">刪除這個新增</button>' : ''}</div>
+    <div id="msg" class="err"></div>`;
+  ed.querySelectorAll('.fr').forEach(el => el.onclick = () => pickFrame(+el.dataset.f));
+  ed.querySelectorAll('[data-sh]').forEach(el => el.onclick = () => { centerF = Math.max(6, centerF + +el.dataset.sh); renderEditor(); });
+  ed.querySelectorAll('.cand').forEach(el => el.onclick = () => { $('#bib').value = el.dataset.b; setRadio('status', el.dataset.s); });
+  ed.querySelectorAll('input[name=verdict]').forEach(el => el.onchange = () => it.verdict = el.value);
+  ed.querySelectorAll('input[name=status]').forEach(el => el.onchange = () => it.status = el.value);
+  $('#bib').oninput = () => { const v = $('#bib').value.trim(); if (v.includes('?')) setRadio('status', 'partial'); else if (/^\d+$/.test(v) && !it.status) setRadio('status', 'sure'); };
+  $('#saveBtn').onclick = () => saveItem(true);
+  $('#wideBtn').onclick = showWide;
+  if ($('#delBtn')) $('#delBtn').onclick = () => {
+    const b = $('#delBtn');
+    if (!b.dataset.armed) { b.dataset.armed = '1'; b.textContent = '再按一次確認刪除'; return; }
+    items = items.filter(i => i !== it); sel = null; save('刪除'); renderList(); renderEditor(); drawSlit();
+  };
+}
+function setRadio(n, v) { const el = document.querySelector(`input[name=${n}][value="${v}"]`); if (el) { el.checked = true; sel[n] = v; } }
+function pickFrame(f) { sel.t_gt = Math.round(f / fps * 1000) / 1000; renderEditor(); drawSlit(); }
+function showWide() {
+  const t = sel.t_sys; let h = '';
+  for (const dt of [-2, -1.5, -1, -0.5]) { const f = Math.round((t + dt) * fps); if (f < 0) continue;
+    h += `<div><div class="muted">${(t + dt).toFixed(2)}s</div><img src="${frameUrl(f, V().wide[0], V().wide[1], V().wide[2], V().wide[3], 585 / V().wide[2])}"></div>`; }
+  $('#wide').innerHTML = h || '<span class="muted">片段開頭，沒有更早的畫面</span>';
+}
+
+function validate(it) {
+  if (!it.verdict) return '請選「這是什麼」';
+  if (it.verdict !== 'runner') return '';
+  if (it.t_gt == null) return '請在 7 格畫面中點選過線的那一格';
+  if (!it.status) return '請選號碼狀態';
+  const b = it.bib;
+  if (it.status === 'sure' && !/^\d+$/.test(b)) return '「全部看清」的號碼只能是數字';
+  if (it.status === 'partial' && !/^[\d?]+$/.test(b)) return '「部分看清」請用數字和 ?（例 0530?）';
+  if (it.status === 'partial' && !b.includes('?')) return '「部分看清」要有 ?；全部看清請選 sure';
+  if ((it.status === 'sure' || it.status === 'partial') && b.length !== BIB_LEN)
+    return `台北馬的號碼都是 ${BIB_LEN} 碼：看不清的每一位寫一個 ?（例 014?? 、?4182），現在是 ${b.length} 碼`;
+  if (it.status === 'sure') {
+    const o = items.find(i => i !== it && i.reviewed && i.verdict === 'runner' && i.status === 'sure' && i.bib === b);
+    if (o) return `號碼 ${b} 已經標在 ${tOf(o).toFixed(2)}s 的跑者。同一個人只會過線一次：如果是同一個人，請把其中一筆選「同一人重複」；如果是兩個人，請再看清楚是哪一位看錯`;
+  }
+  return '';
+}
+const BIB_LEN = 5;
+function gtProblems() {
+  const run = items.filter(i => i.reviewed && i.verdict === 'runner'), out = [];
+  const by = {};
+  run.filter(i => i.status === 'sure').forEach(i => (by[i.bib] = by[i.bib] || []).push(i));
+  Object.entries(by).filter(([, v]) => v.length > 1).forEach(([b, v]) =>
+    out.push({ items: v, text: `號碼 ${b} 標了 ${v.length} 次（${v.map(i => tOf(i).toFixed(2) + 's').join('、')}）：同一個人只會過線一次` }));
+  run.filter(i => (i.status === 'sure' || i.status === 'partial') && i.bib.length !== BIB_LEN).forEach(i =>
+    out.push({ items: [i], text: `「${i.bib}」只有 ${i.bib.length} 碼：看不清的每一位寫一個 ?（共 ${BIB_LEN} 碼）` }));
+  return out;
+}
+function compatJS(p, b) { return p.length === b.length && [...p].every((c, k) => c === '?' || c === b[k]); }
+async function saveItem(next) {
+  const it = sel; it.bib = $('#bib').value.trim(); it.note = $('#note').value.trim();
+  if (it.verdict === 'runner' && (it.status === 'unreadable' || it.status === 'nobib')) it.bib = '';
+  const e = validate(it); if (e) { $('#msg').textContent = e; return; }
+  it.reviewed = true; it.reviewed_at = new Date().toISOString(); it.bib_edited = it.bib !== it.prefill_bib;
+  await save('第 ' + (items.indexOf(it) + 1) + ' 筆');
+  if (next) { const k = items.indexOf(it); const nx = items.slice(k + 1).find(i => !i.reviewed) || items.find(i => !i.reviewed); if (nx) return select(nx); }
+  renderList(); renderEditor(); drawSlit();
+}
+async function save(what) {
+  const payload = { clip, annotator: 'user', line: D.line_name || 'LINE_tpe_v1', slit_checked: $('#slitChecked').checked, base_updated: baseUpdated,
+    items: items.map(({ aux, ...rest }) => rest) };
+  const r = await fetch('/api/save', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) }).catch(e => null);
+  if (!r) return setStatus('存檔失敗：連不到標註工具（黑色視窗是不是關掉了？）', true);
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok) { setStatus('存檔失敗：' + (j.error || r.status), true); alertBar(j.error || '存檔失敗'); return; }
+  baseUpdated = j.updated; setStatus(`已存檔 ${j.saved}（${what}）`);
+}
+function alertBar(msg) {
+  const b = $('#addBar'); b.innerHTML = `<span class="err"><b>${msg}</b></span>`; b.style.display = 'block'; window.scrollTo(0, 0);
+}
+
+function onKey(ev) {
+  if (!sel) return;
+  const typing = ['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName) && document.activeElement.type === 'text';
+  if (ev.key === 'Enter') { ev.preventDefault(); saveItem(true); return; }
+  if (typing) return;
+  if (/^[1-7]$/.test(ev.key)) { const f = centerF + 2 * (+ev.key - 4); if (f >= 0) pickFrame(f); }
+  if (ev.key === '[') { centerF = Math.max(6, centerF - 1); renderEditor(); }
+  if (ev.key === ']') { centerF += 1; renderEditor(); }
+}
+
+function showCheck() {
+  const box = $('#chk'); if (box.style.display === 'block') { box.style.display = 'none'; return; }
+  const g = D.old_gt || { sure: [] }, human = items.filter(i => i.reviewed && i.verdict === 'runner');
+  const hb = new Set(human.map(i => i.bib)), ob = new Set(g.sure.map(s => s.bib));
+  const probs = gtProblems();
+  const r0 = probs.map(p => `<tr class="must"><td>${p.items.map(i => `<a href="#" data-key="${i.key}">${tOf(i).toFixed(2)}s</a>`).join(' ')}</td><td><b>必須修正</b>：${p.text}</td><td></td></tr>`);
+  const r1 = g.sure.filter(s => !hb.has(s.bib)).map(s => {
+    const part = human.filter(i => i.status === 'partial' && compatJS(i.bib, s.bib));
+    if (part.length) return `<tr><td><a href="#" data-key="${part[0].key}">${part[0].bib}</a></td><td>舊答案讀成 ${s.bib}（sure），人工寫部分看清</td><td class="muted">再看一次能不能看清；看不清就維持 ?</td></tr>`;
+    return `<tr><td>${s.bib}</td><td>舊答案有（出現 ${s.t0}–${s.t1}s），人工答案沒有</td><td class="muted">請在光帶圖 ${s.t0}–${(+s.t1 + 10).toFixed(1)}s 找這個人：沒過線（片段結束前沒到線）就不用標；有過線就補上，或改正號碼</td></tr>`;
+  });
+  const r2 = human.filter(i => i.status === 'sure' && !ob.has(i.bib)).map(i => `<tr><td><a href="#" data-key="${i.key}">${i.bib}</a></td><td>人工答案有（過線 ${tOf(i).toFixed(2)}s），舊答案沒有</td><td></td></tr>`);
+  const off = D.official || [], r4 = [];
+  if (off.length) {
+    const T1 = (D.slit && D.slit.frames ? D.slit.frames / fps : 60);
+    off.filter(o => o.t >= 1 && o.t <= T1 - 1 && !human.some(i => i.bib === o.bib || (i.status === 'partial' && compatJS(i.bib, o.bib) && Math.abs(tOf(i) - o.t) <= 2)))
+      .forEach(o => r4.push(`<tr><td>${o.bib}</td><td>官方成績：約 ${o.t.toFixed(0)}s 過終點，人工答案沒有</td><td class="muted">請在光帶圖 ${(o.t - 2).toFixed(0)}–${(o.t + 2).toFixed(0)}s 找這個人：補上，或改正號碼</td></tr>`));
+    human.filter(i => i.status === 'sure').forEach(i => {
+      const m = off.filter(o => o.bib === i.bib);
+      if (!m.length) r4.push(`<tr><td><a href="#" data-key="${i.key}">${i.bib}</a></td><td>人工答案有（${tOf(i).toFixed(2)}s），官方成績這段時間沒有這個號碼</td><td class="muted">可能看錯，請再看一次</td></tr>`);
+      else if (Math.min(...m.map(o => Math.abs(o.t - tOf(i)))) > 2) r4.push(`<tr><td><a href="#" data-key="${i.key}">${i.bib}</a></td><td>人工 ${tOf(i).toFixed(2)}s，官方約 ${m[0].t.toFixed(0)}s（差超過 2 秒）</td><td class="muted">可能是別人，請再看一次</td></tr>`);
+    });
+  }
+  (D.official_check || []).forEach(o => r4.push(`<tr><td>${o.bib}</td><td>官方完賽名單（估計時間差）${o.t != null ? '：約 ' + (+o.t).toFixed(1) + 's' : ''}：${o.msg}</td><td class="muted">${o.hint}</td></tr>`));
+  const r3 = human.filter(i => i.sys_id != null && i.sysbib && i.bib !== i.sysbib).map(i => `<tr><td><a href="#" data-key="${i.key}">${i.bib || '?'}</a></td><td>系統讀成 ${i.sysbib}</td><td class="muted">參考用</td></tr>`);
+  const todo = items.filter(i => !i.reviewed).length;
+  box.innerHTML = `<b>核對清單（${clip}）</b> <span class="muted">${todo ? '還有 ' + todo + ' 筆沒看完；' : ''}請只修正「看錯」的地方，不要參考系統分數。</span>
+    <table class="chk">${r0.join('')}${r1.join('')}${r2.join('')}${r4.join('')}${r3.join('')}</table>${r0.length + r1.length + r2.length + r3.length + r4.length ? '' : '<div class="muted">沒有不一致</div>'}`;
+  box.querySelectorAll('a[data-key]').forEach(a => a.onclick = ev => { ev.preventDefault(); select(items.find(i => i.key === a.dataset.key)); window.scrollTo(0, 0); });
+  box.style.display = 'block'; box.scrollIntoView();
+}
+init().catch(e => setStatus('載入失敗：' + e.message, true));
+</script>
+</body>
+</html>

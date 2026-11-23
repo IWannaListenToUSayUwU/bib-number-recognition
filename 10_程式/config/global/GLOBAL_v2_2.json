@@ -1,0 +1,61 @@
+{
+ "schema": "layered_v1",
+ "version": "v2.2",
+ "status": "已定版（2026-11-18）；只是把 FROZEN_CONFIG_v2_2 改寫成三層格式，用來確認新流程能重現 v2.2",
+ "derived_from": {
+  "file": "10_程式/work/FROZEN_CONFIG_v2_2.json",
+  "sha256": "8c6be0735bb6f0b7307081694404ec61ad193d6bd72fa708f603fd97a4ec8f74"
+ },
+ "extract": {
+  "script": "src/extract8.py",
+  "fps": 16,
+  "imgsz": 960,
+  "min_h": 100,
+  "top": 0.22,
+  "bot": 0.72,
+  "early_stop": 3,
+  "hist_thr": 0.45,
+  "jump_thr": 0.8,
+  "static_s": 0.0,
+  "static_p": 0.1,
+  "use_zone": false
+ },
+ "aggregate": {
+  "min_conf": 0.8,
+  "min_votes": 1,
+  "min_score": 0.9,
+  "minlen": 2,
+  "maxlen": 5,
+  "size_w": true,
+  "merge_gap": 4.0,
+  "substr": true,
+  "sub_gap": 3.0,
+  "static": true,
+  "static_px": 12,
+  "static_sec": 2.0,
+  "size_ref": "abs40",
+  "accept_hi": 3,
+  "static_rel": true
+ },
+ "crossing": {
+  "decide_after": 3.0,
+  "track_gap": 1.0,
+  "u_range": [
+   0.0,
+   1.3
+  ],
+  "min_travel": 100.0,
+  "max_gap": 2.0,
+  "dedupe_gap": 5.0
+ },
+ "decision": {
+  "mode": "v22",
+  "note": "v2.2：不用號碼名單，直接用 aggregate3 的投票結果"
+ },
+ "absolute_pixel_params": [
+  "extract.min_h (100 px)",
+  "aggregate.size_ref=abs40（字高 40 px）",
+  "crossing.min_travel (100 px)"
+ ],
+ "notes": "全域層只放演算法參數；號碼位數、名單、顏色規則在比賽層；計時線、只讀線附近範圍、時鐘位置在機位層。"
+}

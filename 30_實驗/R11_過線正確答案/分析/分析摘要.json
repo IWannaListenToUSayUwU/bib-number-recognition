@@ -1,0 +1,377 @@
+{
+ "16fps": {
+  "result_counts": {
+   "ignore": 15,
+   "correct": 92,
+   "wrong_bib": 10,
+   "dup": 5,
+   "unknown": 1
+  },
+  "errors": [
+   {
+    "clip": "tpe_C_600",
+    "t_gt": 28.567,
+    "u_gt": 0.283,
+    "gt_bib": "?182",
+    "status": "partial",
+    "t_sys": 28.568,
+    "sys_bib": "04182",
+    "dt": 0.001,
+    "result": "wrong_bib",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_C_600",
+    "t_gt": 31.3,
+    "u_gt": 0.381,
+    "gt_bib": "014?",
+    "status": "partial",
+    "t_sys": 31.382,
+    "sys_bib": "01434",
+    "dt": 0.082,
+    "result": "wrong_bib",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_C_600",
+    "t_gt": 56,
+    "u_gt": 0.532,
+    "gt_bib": "073?",
+    "status": "partial",
+    "t_sys": 56.126,
+    "sys_bib": "07381",
+    "dt": 0.126,
+    "result": "wrong_bib",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_D_1800",
+    "t_gt": 3.1,
+    "u_gt": 0.364,
+    "gt_bib": "1015?",
+    "status": "partial",
+    "t_sys": 3.151,
+    "sys_bib": "1015",
+    "dt": 0.051,
+    "result": "wrong_bib",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_D_1800",
+    "t_gt": 9.433,
+    "u_gt": 0.302,
+    "gt_bib": "015?",
+    "status": "partial",
+    "t_sys": 9.365,
+    "sys_bib": "01594",
+    "dt": -0.068,
+    "result": "wrong_bib",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_D_1800",
+    "t_gt": 10.633,
+    "u_gt": 0.319,
+    "gt_bib": "1050?",
+    "status": "partial",
+    "t_sys": 10.628,
+    "sys_bib": "1050",
+    "dt": -0.005,
+    "result": "wrong_bib",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_D_1800",
+    "t_gt": 15.867,
+    "u_gt": 0.406,
+    "gt_bib": "02691",
+    "status": "sure",
+    "t_sys": 15.875,
+    "sys_bib": "02691",
+    "dt": 0.008,
+    "result": "dup",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_D_1800",
+    "t_gt": 25.7,
+    "u_gt": 0.412,
+    "gt_bib": "036?",
+    "status": "partial",
+    "t_sys": 25.775,
+    "sys_bib": "03636",
+    "dt": 0.075,
+    "result": "wrong_bib",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_D_1800",
+    "t_gt": 33.233,
+    "u_gt": 0.481,
+    "gt_bib": "03045",
+    "status": "sure",
+    "t_sys": 33.286,
+    "sys_bib": "03045",
+    "dt": 0.053,
+    "result": "dup",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_D_1800",
+    "t_gt": 37.7,
+    "u_gt": 0.527,
+    "gt_bib": "?613?",
+    "status": "partial",
+    "t_sys": 37.645,
+    "sys_bib": "613",
+    "dt": -0.055,
+    "result": "wrong_bib",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_D_1800",
+    "t_gt": 44.667,
+    "u_gt": 0.527,
+    "gt_bib": "04159",
+    "status": "sure",
+    "t_sys": 44.72,
+    "sys_bib": "04159",
+    "dt": 0.053,
+    "result": "dup",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_D_1800",
+    "t_gt": 51.367,
+    "u_gt": 0.33,
+    "gt_bib": "0?44",
+    "status": "partial",
+    "t_sys": 51.419,
+    "sys_bib": "04544",
+    "dt": 0.052,
+    "result": "wrong_bib",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_D_1800",
+    "t_gt": 51.767,
+    "u_gt": 0.493,
+    "gt_bib": "1152?",
+    "status": "partial",
+    "t_sys": 51.767,
+    "sys_bib": "1152",
+    "dt": 0.0,
+    "result": "wrong_bib",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_D_1800",
+    "t_gt": 54.8,
+    "u_gt": 0.372,
+    "gt_bib": "10472",
+    "status": "sure",
+    "t_sys": 54.85,
+    "sys_bib": "10472",
+    "dt": 0.05,
+    "result": "dup",
+    "main_ok": false
+   },
+   {
+    "clip": "tpe_D_1800",
+    "t_gt": "",
+    "u_gt": "",
+    "gt_bib": "",
+    "status": "（沒有人過線）",
+    "t_sys": 4.204,
+    "sys_bib": "11140",
+    "dt": "",
+    "result": "dup",
+    "main_ok": false
+   }
+  ]
+ },
+ "8fps": {
+  "result_counts": {
+   "missed": 45,
+   "unknown": 16,
+   "wrong_bib": 48,
+   "correct": 6,
+   "dup": 7,
+   "wrong_nocross": 4,
+   "ignore": 1
+  },
+  "errors": 59
+ },
+ "old_vs_new": [
+  {
+   "clip": "tpe_C_600",
+   "bib": "01250",
+   "diff": "舊答案 sure、人工只寫 partial：0125?"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "01434",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "01513",
+   "diff": "舊答案 sure、人工只寫 partial：0151?"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "05275",
+   "diff": "舊答案 sure、人工只寫 partial：0?275"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "06436",
+   "diff": "舊答案 sure、人工只寫 partial：0643?"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "07185",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "07381",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "08387",
+   "diff": "人工 sure、舊答案沒有（舊答案列為 partial）"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "09269",
+   "diff": "人工 sure、舊答案沒有（舊答案列為 partial）"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "09849",
+   "diff": "舊答案 sure、人工只寫 partial：09?49"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "10422",
+   "diff": "舊答案 sure、人工只寫 partial：10???"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "10666",
+   "diff": "舊答案 sure、人工只寫 partial：10???"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "11234",
+   "diff": "人工 sure、舊答案沒有（舊答案列為 partial）"
+  },
+  {
+   "clip": "tpe_C_600",
+   "bib": "11702",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "01135",
+   "diff": "人工 sure、舊答案沒有"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "01136",
+   "diff": "舊答案 sure、人工只寫 partial：0113?"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "01596",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "03644",
+   "diff": "舊答案 sure、人工只寫 partial：0364?"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "03710",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "03715",
+   "diff": "人工 sure、舊答案沒有（舊答案列為 partial）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "03776",
+   "diff": "人工 sure、舊答案沒有（舊答案列為 partial）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "04189",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "04544",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "05307",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "05574",
+   "diff": "人工 sure、舊答案沒有（舊答案列為 partial）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "05634",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "07283",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "07671",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "09345",
+   "diff": "舊答案 sure、人工答案沒有（沒過線，或號碼不同）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "10156",
+   "diff": "舊答案 sure、人工只寫 partial：1015?"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "10419",
+   "diff": "人工 sure、舊答案沒有（舊答案列為 partial）"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "10493",
+   "diff": "舊答案 sure、人工只寫 partial：1049?"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "10506",
+   "diff": "舊答案 sure、人工只寫 partial：1050?"
+  },
+  {
+   "clip": "tpe_D_1800",
+   "bib": "11592",
+   "diff": "人工 sure、舊答案沒有（舊答案列為 partial）"
+  }
+ ]
+}

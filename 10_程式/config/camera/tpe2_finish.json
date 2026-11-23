@@ -1,0 +1,49 @@
+{
+ "schema": "layered_v1",
+ "camera": "tpe2_finish",
+ "description": "2022 臺北馬，終點線（第二支影片，固定機位區間 2600–5870 秒）",
+ "frame": [
+  1920,
+  1080
+ ],
+ "line": {
+  "p1": [
+   480,
+   880
+  ],
+  "p2": [
+   1919,
+   1071
+  ],
+  "upstream": [
+   1300,
+   750
+  ],
+  "source": "10_程式/work/LINE_tpe2_v1.json",
+  "source_sha256": "0fbbf68ee79507573b05e334f85f28943fc47ff54f4e7d2274cb322d76dad241",
+  "status": "confirmed by user 2026-11-23 (R12 proposed)"
+ },
+ "zone": {
+  "up_px": 500,
+  "down_px": 150,
+  "note": "只在腳離計時線上游 500 像素、下游 150 像素內做 OCR（R13 模擬：C+D 不掉分，新機位也不掉）"
+ },
+ "clock": {
+  "roi": [
+   990,
+   170,
+   1270,
+   290
+  ],
+  "note": "CITIZEN 時鐘位置（1920×1080）；可用 OCR 自動對時（R13 r13_clock_auto.py：和手動差 0.18 秒）"
+ },
+ "clips": [
+  "tpe2_A_3000",
+  "tpe2_B_4200",
+  "tpe2_C_5400",
+  "tpe2t_2700",
+  "tpe2t_3600",
+  "tpe2t_4800",
+  "tpe2t_5700"
+ ]
+}

@@ -1,0 +1,59 @@
+2026-11-18 23:35:39 [tpe_C_600] 開始 1920x1012 長度 60.00s  GPU=是 NVIDIA GeForce RTX 3050 Ti Laptop GPU  OCR執行緒=8  fps=8 {'imgsz': 960, 'min_h': 100, 'top': 0.22, 'bot': 0.72, 'jump_thr': 0.8, 'top_k': 12, 'min_sep': 0.25, 'gap': 1.0, 'select': 'bins', 'win': 3, 'win_thr': 0.42, 'single_lo': 0.3, 'ref_alpha': 0.3, 'dist_mode': 'mean'}
+2026-11-18 23:36:43 [tpe_C_600]   進度 2.8/60s {'frames': 45, 'ocr': 139, 'splits': 5, 'splits_app': 5, 'splits_jump': 0}
+2026-11-18 23:37:45 [tpe_C_600]   進度 10.8/60s {'frames': 124, 'ocr': 328, 'splits': 8, 'splits_app': 8, 'splits_jump': 0}
+2026-11-18 23:38:45 [tpe_C_600]   進度 22.6/60s {'frames': 183, 'ocr': 483, 'splits': 12, 'splits_app': 12, 'splits_jump': 0}
+2026-11-18 23:39:49 [tpe_C_600]   進度 22.5/60s {'frames': 207, 'ocr': 622, 'splits': 19, 'splits_app': 19, 'splits_jump': 0}
+2026-11-18 23:40:52 [tpe_C_600]   進度 30.8/60s {'frames': 251, 'ocr': 781, 'splits': 25, 'splits_app': 25, 'splits_jump': 0}
+2026-11-18 23:41:54 [tpe_C_600]   進度 37.5/60s {'frames': 309, 'ocr': 925, 'splits': 27, 'splits_app': 27, 'splits_jump': 0}
+2026-11-18 23:42:54 [tpe_C_600]   進度 48.1/60s {'frames': 387, 'ocr': 1077, 'splits': 29, 'splits_app': 29, 'splits_jump': 0}
+2026-11-18 23:43:56 [tpe_C_600]   進度 52.5/60s {'frames': 429, 'ocr': 1212, 'splits': 33, 'splits_app': 33, 'splits_jump': 0}
+2026-11-18 23:44:56 [tpe_C_600]   進度 58.4/60s {'frames': 476, 'ocr': 1347, 'splits': 34, 'splits_app': 34, 'splits_jump': 0}
+2026-11-18 23:45:37 [tpe_C_600] 抽取完成 {'frames': 480, 'ocr': 1438, 'splits': 34, 'splits_app': 34, 'splits_jump': 0} 耗時 598s
+2026-11-18 23:45:38 [tpe_C_600] 定案 46 個號碼 → result.csv
+2026-11-18 23:45:59 [tpe_C_600] 標註影片完成；總耗時 619s（抽取 598s）
+2026-11-18 23:46:08 [tpe_D_1800] 開始 1920x1012 長度 60.00s  GPU=是 NVIDIA GeForce RTX 3050 Ti Laptop GPU  OCR執行緒=8  fps=8 {'imgsz': 960, 'min_h': 100, 'top': 0.22, 'bot': 0.72, 'jump_thr': 0.8, 'top_k': 12, 'min_sep': 0.25, 'gap': 1.0, 'select': 'bins', 'win': 3, 'win_thr': 0.42, 'single_lo': 0.3, 'ref_alpha': 0.3, 'dist_mode': 'mean'}
+2026-11-18 23:47:08 [tpe_D_1800]   進度 2.6/60s {'frames': 30, 'ocr': 69, 'splits': 4, 'splits_app': 4, 'splits_jump': 0}
+2026-11-18 23:48:11 [tpe_D_1800]   進度 8.4/60s {'frames': 71, 'ocr': 207, 'splits': 8, 'splits_app': 8, 'splits_jump': 0}
+2026-11-18 23:49:11 [tpe_D_1800]   進度 12.1/60s {'frames': 116, 'ocr': 324, 'splits': 15, 'splits_app': 15, 'splits_jump': 0}
+2026-11-18 23:50:12 [tpe_D_1800]   進度 17.0/60s {'frames': 138, 'ocr': 463, 'splits': 18, 'splits_app': 18, 'splits_jump': 0}
+2026-11-18 23:51:13 [tpe_D_1800]   進度 16.9/60s {'frames': 151, 'ocr': 573, 'splits': 23, 'splits_app': 23, 'splits_jump': 0}
+2026-11-18 23:52:13 [tpe_D_1800]   進度 19.4/60s {'frames': 164, 'ocr': 703, 'splits': 26, 'splits_app': 26, 'splits_jump': 0}
+2026-11-18 23:53:18 [tpe_D_1800]   進度 21.8/60s {'frames': 184, 'ocr': 803, 'splits': 30, 'splits_app': 30, 'splits_jump': 0}
+2026-11-18 23:54:22 [tpe_D_1800]   進度 22.0/60s {'frames': 204, 'ocr': 919, 'splits': 35, 'splits_app': 35, 'splits_jump': 0}
+2026-11-18 23:55:27 [tpe_D_1800]   進度 27.6/60s {'frames': 232, 'ocr': 1051, 'splits': 37, 'splits_app': 37, 'splits_jump': 0}
+2026-11-18 23:56:27 [tpe_D_1800]   進度 30.0/60s {'frames': 250, 'ocr': 1177, 'splits': 38, 'splits_app': 38, 'splits_jump': 0}
+2026-11-18 23:57:28 [tpe_D_1800]   進度 31.1/60s {'frames': 269, 'ocr': 1299, 'splits': 46, 'splits_app': 46, 'splits_jump': 0}
+2026-11-18 23:58:29 [tpe_D_1800]   進度 35.5/60s {'frames': 290, 'ocr': 1427, 'splits': 48, 'splits_app': 48, 'splits_jump': 0}
+2026-11-18 23:59:30 [tpe_D_1800]   進度 37.2/60s {'frames': 308, 'ocr': 1548, 'splits': 53, 'splits_app': 53, 'splits_jump': 0}
+2026-11-19 00:00:35 [tpe_D_1800]   進度 38.5/60s {'frames': 331, 'ocr': 1684, 'splits': 66, 'splits_app': 66, 'splits_jump': 0}
+2026-11-19 00:01:38 [tpe_D_1800]   進度 40.6/60s {'frames': 346, 'ocr': 1808, 'splits': 71, 'splits_app': 71, 'splits_jump': 0}
+2026-11-19 00:02:38 [tpe_D_1800]   進度 43.2/60s {'frames': 361, 'ocr': 1918, 'splits': 75, 'splits_app': 75, 'splits_jump': 0}
+2026-11-19 00:03:39 [tpe_D_1800]   進度 46.0/60s {'frames': 377, 'ocr': 2041, 'splits': 77, 'splits_app': 77, 'splits_jump': 0}
+2026-11-19 00:04:42 [tpe_D_1800]   進度 48.4/60s {'frames': 415, 'ocr': 2173, 'splits': 80, 'splits_app': 80, 'splits_jump': 0}
+2026-11-19 00:05:44 [tpe_D_1800]   進度 56.2/60s {'frames': 460, 'ocr': 2386, 'splits': 86, 'splits_app': 86, 'splits_jump': 0}
+2026-11-19 00:06:28 [tpe_D_1800] 抽取完成 {'frames': 480, 'ocr': 2569, 'splits': 89, 'splits_app': 89, 'splits_jump': 0} 耗時 1221s
+2026-11-19 00:06:28 [tpe_D_1800] 定案 72 個號碼 → result.csv
+2026-11-19 00:06:40 [tpe_D_1800] 標註影片完成；總耗時 1233s（抽取 1221s）
+2026-11-19 00:06:45 [tpe_C_600] 開始 1920x1012 長度 60.00s  GPU=是 NVIDIA GeForce RTX 3050 Ti Laptop GPU  OCR執行緒=8  fps=8 {'imgsz': 960, 'min_h': 100, 'top': 0.22, 'bot': 0.72, 'jump_thr': 0.8, 'top_k': 12, 'min_sep': 0.25, 'gap': 1.0, 'select': 'bins', 'win': 3, 'win_thr': 0.5, 'single_lo': 0.3, 'ref_alpha': 0.3, 'dist_mode': 'mean'}
+WARNING NMS time limit 2.050s exceeded
+2026-11-19 00:07:47 [tpe_C_600]   進度 3.1/60s {'frames': 35, 'ocr': 93, 'splits': 0, 'splits_app': 0, 'splits_jump': 0}
+2026-11-19 00:08:47 [tpe_C_600]   進度 8.4/60s {'frames': 76, 'ocr': 270, 'splits': 1, 'splits_app': 1, 'splits_jump': 0}
+2026-11-19 00:09:47 [tpe_C_600]   進度 22.5/60s {'frames': 182, 'ocr': 470, 'splits': 1, 'splits_app': 1, 'splits_jump': 0}
+2026-11-19 00:10:47 [tpe_C_600]   進度 27.0/60s {'frames': 225, 'ocr': 683, 'splits': 6, 'splits_app': 6, 'splits_jump': 0}
+2026-11-19 00:11:48 [tpe_C_600]   進度 34.2/60s {'frames': 287, 'ocr': 880, 'splits': 7, 'splits_app': 7, 'splits_jump': 0}
+2026-11-19 00:12:50 [tpe_C_600]   進度 49.5/60s {'frames': 406, 'ocr': 1121, 'splits': 8, 'splits_app': 8, 'splits_jump': 0}
+2026-11-19 00:13:51 [tpe_C_600]   進度 59.8/60s {'frames': 480, 'ocr': 1313, 'splits': 10, 'splits_app': 10, 'splits_jump': 0}
+2026-11-19 00:13:53 [tpe_C_600] 抽取完成 {'frames': 480, 'ocr': 1397, 'splits': 10, 'splits_app': 10, 'splits_jump': 0} 耗時 428s
+2026-11-19 00:13:53 [tpe_C_600] 定案 44 個號碼 → result.csv
+2026-11-19 00:13:58 [tpe_D_1800] 開始 1920x1012 長度 60.00s  GPU=是 NVIDIA GeForce RTX 3050 Ti Laptop GPU  OCR執行緒=8  fps=8 {'imgsz': 960, 'min_h': 100, 'top': 0.22, 'bot': 0.72, 'jump_thr': 0.8, 'top_k': 12, 'min_sep': 0.25, 'gap': 1.0, 'select': 'bins', 'win': 3, 'win_thr': 0.5, 'single_lo': 0.3, 'ref_alpha': 0.3, 'dist_mode': 'mean'}
+2026-11-19 00:15:00 [tpe_D_1800]   進度 6.5/60s {'frames': 85, 'ocr': 220, 'splits': 4, 'splits_app': 4, 'splits_jump': 0}
+2026-11-19 00:16:00 [tpe_D_1800]   進度 16.9/60s {'frames': 144, 'ocr': 492, 'splits': 5, 'splits_app': 5, 'splits_jump': 0}
+2026-11-19 00:17:00 [tpe_D_1800]   進度 20.6/60s {'frames': 177, 'ocr': 754, 'splits': 11, 'splits_app': 11, 'splits_jump': 0}
+2026-11-19 00:18:02 [tpe_D_1800]   進度 27.0/60s {'frames': 227, 'ocr': 997, 'splits': 13, 'splits_app': 13, 'splits_jump': 0}
+2026-11-19 00:19:02 [tpe_D_1800]   進度 32.4/60s {'frames': 269, 'ocr': 1253, 'splits': 17, 'splits_app': 17, 'splits_jump': 0}
+2026-11-19 00:20:03 [tpe_D_1800]   進度 38.0/60s {'frames': 314, 'ocr': 1526, 'splits': 20, 'splits_app': 20, 'splits_jump': 0}
+2026-11-19 00:21:05 [tpe_D_1800]   進度 42.1/60s {'frames': 347, 'ocr': 1748, 'splits': 26, 'splits_app': 26, 'splits_jump': 0}
+2026-11-19 00:22:07 [tpe_D_1800]   進度 47.1/60s {'frames': 386, 'ocr': 1984, 'splits': 27, 'splits_app': 27, 'splits_jump': 0}
+2026-11-19 00:23:08 [tpe_D_1800]   進度 54.9/60s {'frames': 449, 'ocr': 2234, 'splits': 32, 'splits_app': 32, 'splits_jump': 0}
+2026-11-19 00:24:01 [tpe_D_1800] 抽取完成 {'frames': 480, 'ocr': 2486, 'splits': 33, 'splits_app': 33, 'splits_jump': 0} 耗時 603s
+2026-11-19 00:24:01 [tpe_D_1800] 定案 70 個號碼 → result.csv

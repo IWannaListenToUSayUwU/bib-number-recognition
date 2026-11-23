@@ -1,0 +1,56 @@
+[f_000-f_009, 330.0-334.5]
+- 136 sure: older man blue/navy jacket, navy beanie; 330.0-333.0, best 332.0
+- 181 sure: man black shirt, black P cap, white neck gaiter; 330.5-331.5 best 330.5
+- 146? partial: woman white pompom beanie, black top (bottom center 330.0)
+- 110? partial: woman blue long sleeve, light-blue hat, white sunglasses; 330.0-330.5
+- unreadable: woman black "She Believed" shirt; 330.0-332.0
+- 939 sure: kid orange/navy vest, striped beanie; 333.0-334.5 best 334.5
+- 9398 sure-ish: woman grey top, black/white striped pompom beanie; 334.5
+- unreadable: woman black "BAY" shirt, headband, hands on hips; 333.0-334.5
+- unreadable: woman yellow GMRC shirt purple sleeves; man yellow GMRC shirt beard; small girl grey jacket (bib) 332.5-333.0
+- unreadable: man dark grey jacket black beanie 331.0-332.0 (bib on chest)
+- unreadable: background runners with bibs near arch (many)
+[f_010-f_019, 335.0-339.5]
+- 939 kid still visible 335.0 (t_last 335.0)
+- 9398 woman grey/striped beanie seen 335.0 (bib on chest, partly), t_last 335.0
+- 118? partial: woman black "BAY"-like shirt, blue headband, glasses (same as earlier); 333.0-336.5; reads 1185/1189
+- 346 sure: woman pink vest, blue sleeves, striped pompom beanie; 336.0-337.5 best 337.5
+- 79? partial: older man grey hoodie, black/white striped beanie, right side; 335.5-337.0
+- 122? partial: man dark grey long sleeve, beard (reads 1221 mostly); 337.0-339.5
+- 122? partial: kid black/neon jacket (reads 1222/1221/1223); 336.0-339.5 (different person from dad, separate entry)
+- ?37 partial: woman black top white headband (reads 337); 337.0-338.5
+- 37? partial: woman dark grey jacket brown hair; 337.0
+- 946? partial: man white long sleeve, black cap; 338.5-339.0
+- unreadable: woman teal jacket white headband 335.0-336.5; man blue shirt/shorts green cap 337.5-339.5; woman navy jacket sunglasses striped hat (bib on leg) 337.5-339.5; woman neon yellow vest striped beanie 336.0-338.5
+[f_020-f_029, 340.0-344.5]
+- 24? partial: woman white cap, green scarf/necklace, maroon leggings; 340.0-342.0 best 341.0
+- 79? partial: woman grey hoodie, black/white pompom beanie, blonde (reads 797); 342.0-343.5 best 343.5 (different from the grey-hoodie man 79?)
+- unreadable: woman neon "nike" top sunglasses striped beanie 340.0-343.0; woman pink zip hoodie grey jacket 340.5-342.0; woman black jacket pompom beanie 341.0-343.0; woman navy/orange jacket striped beanie 342.0-344.5; bearded man grey jacket pompom beanie (bib at waist) 343.0-344.5; man green sweatshirt sunglasses 342.0-344.5 (bib on leg); woman black "SPARK"? top yellow boots (bibs on legs) 343.0-344.5; woman pink hoodie striped beanie 342.0-344.0; person PATRIOTS hoodie 343.0-344.5; woman pink sweatshirt (light) 342.0-344.5 bib not visible
+[f_030-f_039, 345.0-349.5]
+- 634 sure: woman black hoodie, grey beanie; 345.0-347.0 best 346.5
+- 103? partial: man black jacket/grey zip top, black-white pompom beanie (reads 1030); 345.0-346.0 best 346.0
+- unreadable: man neon yellow long sleeve, black beanie (bib "11.." digit count unclear) 345.0-347.5
+- 28? partial: blonde wig woman, black outfit, yellow fur boots, left one (bib on thigh); 347.0-349.5
+- ?4? partial: blonde wig woman with sunglasses/headband, yellow fur boots, right one (reads 640/84?); 347.0-349.5
+- unreadable: woman dark top white belt band striped beanie 346.0-348.0; woman pink top pink skirt 346.0-349.5; woman grey sweatshirt w/ waist belt pushing stroller area 348.0-349.5; woman red jacket striped beanie 348.5-349.5; woman pink vest sunglasses 347.0-349.5; man grey jacket black beanie 349.0-349.5
+[f_040-f_049, 350.0-354.5]
+- 927? partial: girl light grey hoodie (reads 9274); 349.5-352.0 best 351.5
+- 9262 sure: woman green shirt w/ graphic, black beanie, dark jacket, white gloves; 350.0-353.5 best 352.5
+- 1458 sure: man grey "CHUNKYS" sweatshirt, white shorts; 351.5-354.5 best 354.0
+- 1459 sure: woman white vest, maroon cap, pushing stroller (bib pinned on stroller); 352.0-354.5 best 354.0
+- 102? partial: man navy hoodie, striped pompom beanie (reads 1024); 352.5-354.5 best 353.5
+- 14?? partial: woman black jacket, striped pompom beanie (bib at waist); 351.5-352.0
+- unreadable: woman navy vest blue sleeves pushing green stroller 350.0-353.5; woman grey hoodie w/ waist belt (Asian) 349.5-351.5; woman blue top sunglasses striped beanie 350.0-351.5; man orange shirt (bib on shorts) 352.0-354.5; person black "lacrosse" hoodie white cap 352.0-354.5; kid navy NIKE hoodie 352.0-352.5; man neon/black jacket red beanie 351.0-352.5
+[f_050-f_059, 355.0-359.5]
+- 1024 now sure: navy hoodie man striped pompom beanie, 355.0 reads 1024 clearly (t_last 355.0, best 355.0)
+- 891 sure: man white "Millennium Running" singlet, black cap, sunglasses; 355.0-357.5 best 356.5
+- 894 sure: girl teal jacket; 355.0-357.0 best 356.5
+- ?66 partial: woman black vest, sunglasses, short hair (digit count unclear); 355.0-357.0 best 356.5
+- 208? partial: man navy/red Adidas hoodie (reads 2083); 355.0-357.5 best 355.5
+- unreadable: woman teal top black vest curly hair (bib on leg) 354.5-356.5; man navy sweater glasses 355.5-356.5
+- 110? partial: man blue jacket, striped pompom beanie, shorts (reads 1103); 357.0-359.5 best 358.5
+- 880 sure: bearded man navy sweater, striped beanie; 357.5-359.5 best 359.5
+- 944? partial: woman pink jacket black beanie (reads 9447); 358.0-359.5 best 359.5
+- 134? partial: boy black "Supreme" hoodie (reads 1346); 357.0-359.5 best 359.0
+- 946? partial: small kid orange jacket (reads 9463); 359.0-359.5 (different from white-shirt man 946?)
+- unreadable: man grey jacket black beanie 356.5-359.5; man red/white suit striped beanie 358.0-359.5; woman pink top black vest striped beanie 357.5-359.5; woman purple jacket striped beanie 357.0-358.0

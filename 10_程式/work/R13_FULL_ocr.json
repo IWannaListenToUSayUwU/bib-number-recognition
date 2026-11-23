@@ -1,0 +1,33 @@
+{
+ "frozen_at": "2026-11-23 Asia/Taipei (R13 研究用設定，不是定版)",
+ "extract": {
+  "script": "src/extract4.py",
+  "fps": 16,
+  "imgsz": 960,
+  "min_h": 100,
+  "top": 0.22,
+  "bot": 0.72,
+  "early_stop": 999,
+  "hist_thr": 0.45,
+  "jump_thr": 0.8
+ },
+ "aggregate": {
+  "min_conf": 0.8,
+  "min_votes": 1,
+  "min_score": 0.9,
+  "minlen": 2,
+  "maxlen": 5,
+  "size_w": true,
+  "merge_gap": 4.0,
+  "substr": true,
+  "sub_gap": 3.0,
+  "static": true,
+  "static_px": 12,
+  "static_sec": 2.0,
+  "size_ref": "abs40",
+  "accept_hi": 3,
+  "static_rel": true
+ },
+ "base": "FROZEN_CONFIG_v2_2.json",
+ "notes": "R13 完整 OCR：v2.2 只改 early_stop=999（每一格都做 OCR、不提早停止）。目的不是比分數，而是得到完整的 OCR 紀錄，讓各種提速策略（提早停止門檻、不動的人跳過、每 K 格、只讀線附近）可以離線精確重現。"
+}

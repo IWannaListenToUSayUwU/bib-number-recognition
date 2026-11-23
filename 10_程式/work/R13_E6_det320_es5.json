@@ -1,0 +1,35 @@
+{
+ "frozen_at": "2026-11-23 Asia/Taipei (R13 實驗設定，不是定版)",
+ "extract": {
+  "script": "src/extract7.py",
+  "fps": 16,
+  "imgsz": 960,
+  "min_h": 100,
+  "top": 0.22,
+  "bot": 0.72,
+  "early_stop": 3,
+  "hist_thr": 0.45,
+  "jump_thr": 0.8,
+  "ocr_det_side": 320,
+  "es_len": 5
+ },
+ "aggregate": {
+  "min_conf": 0.8,
+  "min_votes": 1,
+  "min_score": 0.9,
+  "minlen": 2,
+  "maxlen": 5,
+  "size_w": true,
+  "merge_gap": 4.0,
+  "substr": true,
+  "sub_gap": 3.0,
+  "static": true,
+  "static_px": 12,
+  "static_sec": 2.0,
+  "size_ref": "abs40",
+  "accept_hi": 3,
+  "static_rel": true
+ },
+ "base": "FROZEN_CONFIG_v2_2.json",
+ "notes": "R13 E6（提速＋修正）：偵測短邊 320（3～4 倍快）＋提早停止只算 5 碼讀數。E5 掉分的 5 人全是被截斷的讀數（1152、429、287、1041、1122）湊滿 3 次而提早停止 OCR。"
+}

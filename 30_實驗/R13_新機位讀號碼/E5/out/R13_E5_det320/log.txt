@@ -1,0 +1,12 @@
+2026-11-23 04:33:42 [tpe_C_600] 開始 GPU=NVIDIA GeForce RTX 3050 Ti Laptop GPU extract7 fps=16
+2026-11-23 04:34:42 [tpe_C_600]   進度 16.9/60s {'frames': 270, 'ocr': 892, 'splits': 2}
+2026-11-23 04:35:42 [tpe_C_600]   進度 34.4/60s {'frames': 551, 'ocr': 1753, 'splits': 5}
+2026-11-23 04:36:42 [tpe_C_600]   進度 50.9/60s {'frames': 814, 'ocr': 2574, 'splits': 5}
+2026-11-23 04:37:13 [tpe_C_600] 抽取 211s，定案 47 個號碼
+2026-11-23 04:37:13 [tpe_D_1800] 開始 GPU=NVIDIA GeForce RTX 3050 Ti Laptop GPU extract7 fps=16
+2026-11-23 04:38:13 [tpe_D_1800]   進度 20.9/60s {'frames': 334, 'ocr': 998, 'splits': 5}
+2026-11-23 04:39:13 [tpe_D_1800]   進度 39.1/60s {'frames': 626, 'ocr': 2103, 'splits': 14}
+2026-11-23 04:40:13 [tpe_D_1800]   進度 58.1/60s {'frames': 930, 'ocr': 3256, 'splits': 33}
+2026-11-23 04:40:20 [tpe_D_1800] 抽取 187s，定案 79 個號碼
+2026-11-23 04:40:20 [tpe2t_2700] 開始 GPU=NVIDIA GeForce RTX 3050 Ti Laptop GPU extract7 fps=16
+2026-11-23 04:41:20 [tpe2t_2700]   進度 12.6/60s {'frames': 202, 'ocr': 968, 'splits': 0}

@@ -1,0 +1,49 @@
+== f_000-f_009 (1860.0-1869.5) ==
+R1 328 sure; red BBB10K tee, black/pink leggings, yellow shoes, woman ponytail. first 1865.0 (far), best 1867.0, last 1867.5 (bib cut off at bottom).
+R2 bearded man, dark navy tee, black shorts; bib looked like "220" at 1866.5 but small; 1867.0 partly hidden by arm ("?0"); 1867.5 hidden. first ~1864.5 (far), last 1867.5. tentative "?20" partial.
+R3 man white tee black shorts standing by planter on right pavement (finished), bib visible but tiny, unreadable; present 1860.0-1869.5+.
+R4 man blue singlet walking on pavement (finished), bib "5??" tiny; seen 1867.0-1869.5+.
+R5 woman dark top/black shorts running down road from far, first ~1868.0; bib not yet readable.
+R6 woman pink top in left crowd with bib (finished runner), first ~1867.0, tiny, "4??" unreadable.
+R7 person light-blue tee in left crowd with bib, tiny, seen ~1864.0+.
+No-bib candidates: woman navy top walking on pavement 1861.5-1865.5 (no bib seen); man black jacket+glasses walking 1865-1868 (no bib seen); woman navy hoodie 1868.5+.
+== f_010-f_019 part1 (1870.0-1874.5) ==
+R5 = 280 sure; woman navy "Battle Baptist Runners" tee, navy shorts, light-blue shoes. first ~1868.0, best 1872.0, last 1872.0 (1872.5 bib out of frame).
+R8 416 sure; man red adidas tee, blue shorts. first ~1869.5 (far), best 1873.5, last 1874.0 (bib partly covered by hand).
+R3 white-tee man still standing on right; R6 pink-top woman left crowd still visible (bib tiny).
+Woman navy hoodie on right pavement: print on hoodie, not a bib.
+== f_015-f_019 (1875.0-1879.5) ==
+No new runners on road. Woman yellow top/black leggings walking across far road 1876.0-1879.5, no bib seen (likely spectator/staff, unsure).
+R3 white-tee man still standing right with bib (tiny, unreadable). Blue-singlet man standing beside him since 1860 - bib not visible (side-on); different from R4.
+R6 pink-top woman left crowd, bib visible tiny (maybe "38?"/"4??"), unreadable.
+== f_020-f_029 (1880.0-1889.5) ==
+No runners on road. R6 pink-top woman left crowd stretching, bib looks like "38?" but tiny - keep unreadable/partial pending.
+R9 NEW: bald man red tee, black shorts, yellow shoes, walking on right pavement toward camera (finished). first ~1885.0 behind R3, bib reads like "49?" at 1889.0-1889.5, still small.
+R3 white-tee man still there.
+== f_030-f_034 (1890.0-1894.5) ==
+R9 bald man red tee: bib clearest at 1890.0-1890.5, looks "493" but last digit not certain -> "49?" partial. Walked out right edge ~1893.0 (bib not visible then). last bib seen 1892.5 (side view). best 1890.5.
+R10 NEW: man red BBB10K tee, backpack, black tights, 219 sure. first ~1892.0 (far), best 1894.5.
+R11 NEW: woman red tee, sunglasses, black capris, jacket round waist; bib not yet readable (maybe "?7?"). first ~1890.5 far.
+== f_035-f_039 (1895.0-1899.5) ==
+R11 bib shows "71" at 1895.0/1895.5, but digits sit right-of-centre and left edge of bib covered by hand/pink bottle -> possible hidden leading digit -> "?71" partial. best 1895.5, last 1895.5 (1896.0 bib cut off).
+R10 219 last 1895.0 (partially "21?" there).
+R12 NEW: woman white/grey top, black shorts, running from far, first ~1898.5; bib not readable yet.
+== f_040-f_044 (1900.0-1904.5) ==
+R12 = 64 sure; woman white/light-blue vest, glasses, tattoo right arm, black capris, pink shoes, purple bottle. first ~1898.5, best 1902.5, last 1902.5 (1903.0 bib cut off).
+R13 NEW: woman black top, black shorts, ponytail, first ~1903.5 far; bib not yet readable.
+R14 NEW: person white/grey top behind on left of road at 1904.5, far.
+Left crowd: several finished runners with bibs (pink-top woman R6 etc.), tiny.
+== f_045-f_049 (1905.0-1909.5) ==
+R13 = 414 sure; woman black tee, sunglasses, black capris. first ~1903.5, best 1906.5/1907.0, last 1907.5.
+R14 = 482 sure; older white-haired man, white/blue vest, blue shorts, green shoes, black armband. first ~1904.5, best 1909.5.
+R15 NEW: woman white/blue vest, maroon/black shorts, first ~1906.5 far; bib "?5?" not readable yet.
+No-bib: woman red "HHH" tee, black leggings, neon shoes, walking on right pavement 1905.0-1909.5 - no bib visible (front seen at 1905.5, only print). Count no_bib.
+== f_050-f_054 (1910.0-1914.5) ==
+R14 482 best 1910.0, last 1910.0 (1910.5 bib cut at bottom).
+R15 = 90; woman white/light-blue club vest, glasses, short dark hair, black/pink shorts, pink wristband. bib fully visible 1910.5 reading "90"; 1911.0 hidden by hand, 1911.5 "9?" partly. Treat as sure "90" (whole bib visible at 1910.5, no occlusion). first ~1906.5, best 1910.5, last 1911.5.
+Road empty 1912.0-1914.5. Red "HHH" tee woman gone right.
+== f_055-f_059 (1915.0-1919.5) ==
+No new runners. Road empty. R3 white-tee man and blue-singlet man still standing right; R6 pink-top woman still on left.
+== SUMMARY ==
+sure: 328,280,416,219,64,414,482,90 ; partial: ?20 (R2), 49? (R9), ?71 (R11) ; unreadable: R3, R4, R6, R7.
+no_bib estimate 4: navy-top woman walking (1861-1865), black-jacket man (1865-1868), red "HHH" tee woman (1905-1911), blue-singlet man standing by R3 (bib never visible). Excluded as likely spectators: navy hoodie woman, yellow-top woman crossing far road.
