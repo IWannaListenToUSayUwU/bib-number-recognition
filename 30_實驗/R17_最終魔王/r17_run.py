@@ -44,7 +44,7 @@ def load_global(g):
 def main():
     G, gp = load_global(gname)
     R, rp, bibs = settings.load_race('xinwu2026'); C, cp = settings.load_camera('xinwu_finish')
-    mode = settings.effective_mode(G, R, bibs)
+    mode = settings.effective_mode(G, R, bibs); G = settings.apply_camera(G, C)
     S = dict(clip='xinwu', global_name=os.path.basename(gp)[:-5], race_name='xinwu2026', camera_name='xinwu_finish',
              G=G, race=R, camera=C, bibs=bibs, mode=mode, can_cross=True)
     E = G['extract']; script = os.path.splitext(os.path.basename(E['script']))[0]; fps = E['fps']

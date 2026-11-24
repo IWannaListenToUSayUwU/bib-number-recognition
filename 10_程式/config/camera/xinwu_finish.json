@@ -22,5 +22,10 @@
   "status": "R17 提議（拱門柱腳＝晶片地墊起點，Claude 依畫面估計，未經使用者確認）"
  },
  "zone": null,
- "clock": null
+ "clock": null,
+ "crossing": {
+  "min_travel": 10.0,
+  "decide_after": 5.0,
+  "note": "人在線前十幾像素才開始被追蹤（960×720，線在遠處）；號碼要過線後 4～5 秒跑到鏡頭前才讀得到（R17）"
+ }
 }

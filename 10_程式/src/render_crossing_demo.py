@@ -3,6 +3,8 @@ r"""過線計時 demo 影片（2026-11-23）：把「號碼＋過線時間」畫
 過線事件用三層設定算（settings.for_clip ＋ bibrules.events），所以號碼規則、計時線都和正式流程相同。
 用法（在專案根目錄）：
   python 10_程式/src/render_crossing_demo.py <全域設定> <片段> <raw.jsonl> <輸出.mp4> [--gun 片段第 0 秒的槍聲時間（秒）] [--title 標題]
+  不在 MANIFEST 的長影片（2026-11-24，R17 新屋）：加 --video <影片> --race <比賽層> --camera <機位層> --t0 <起點秒> --dur <長度秒>
+    （片段名稱只當標記；raw.jsonl 的 t 是原影片秒數，會自動扣掉 t0；--gun 填「影片第 t0 秒」對應的時間）
 輸出：<輸出.mp4>（H.264、縮成 1280 寬）與同名 .csv（過線事件：片段秒數、槍聲時間、號碼）"""
 import argparse, csv, json, os, subprocess, sys
 import cv2, numpy as np
@@ -22,10 +24,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('global_name'); ap.add_argument('clip'); ap.add_argument('raw'); ap.add_argument('out')
     ap.add_argument('--gun', type=float, default=None); ap.add_argument('--title', default='')
+    ap.add_argument('--video', default=None); ap.add_argument('--race', default=None); ap.add_argument('--camera', default=None)
+    ap.add_argument('--t0', type=float, default=0.0); ap.add_argument('--dur', type=float, default=None)
     a = ap.parse_args()
-    S = settings.for_clip(a.global_name, a.clip)
-    vp = os.path.join(settings.ROOT, '20_測試基準', 'clips', a.clip + '.mp4')
+    if a.race and a.camera:
+        G, _ = settings.load_global(a.global_name); R, _, bibs = settings.load_race(a.race); C, _ = settings.load_camera(a.camera)
+        S = dict(G=settings.apply_camera(G, C), race=R, camera=C, bibs=bibs, mode=settings.effective_mode(G, R, bibs), can_cross=True)
+    else:
+        S = settings.for_clip(a.global_name, a.clip)
+    vp = a.video or os.path.join(settings.ROOT, '20_測試基準', 'clips', a.clip + '.mp4')
     ev = bibrules.events(a.raw, S, video_path=vp)
+    for e in ev: e['t_cross'] -= a.t0
     ev = sorted(ev, key=lambda e: e['t_cross'])
     tlabel = (lambda t: hms(a.gun + t)) if a.gun is not None else (lambda t: f'片段 {t:5.2f} 秒')
     with open(os.path.splitext(a.out)[0] + '.csv', 'w', newline='', encoding='utf-8-sig') as fo:
@@ -34,11 +43,12 @@ def main():
     # raw：每個取樣時間 → 這一格的人框
     frames = {}
     for l in open(a.raw, encoding='utf-8'):
-        r = json.loads(l); frames.setdefault(r['t'], []).append(r)
+        r = json.loads(l); frames.setdefault(round(r['t'] - a.t0, 3), []).append(r)
     ts = sorted(frames)
     crossed = {e['rawtid']: e for e in ev}
     L = S['camera']['line']; p1, p2 = tuple(map(int, L['p1'])), tuple(map(int, L['p2']))
     cap = cv2.VideoCapture(vp); fps = cap.get(cv2.CAP_PROP_FPS) or 30.0
+    if a.t0: cap.set(cv2.CAP_PROP_POS_MSEC, a.t0 * 1000)
     W = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)); H = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     tmp = a.out + '.tmp.mp4'
     vw = cv2.VideoWriter(tmp, cv2.VideoWriter_fourcc(*'mp4v'), fps, (W, H))
@@ -48,6 +58,7 @@ def main():
         ok, f = cap.read()
         if not ok: break
         t = fi / fps; fi += 1
+        if a.dur is not None and t > a.dur: break
         while k + 1 < len(ts) and ts[k + 1] <= t + 1e-6: k += 1
         recs = frames.get(ts[k], []) if ts and ts[k] <= t + 1e-6 and t - ts[k] < 0.2 else []
         cv2.line(f, p1, p2, (0, 215, 255), 4)

@@ -10,6 +10,8 @@
   from settings import for_clip, extract_kwargs
   S = for_clip('GLOBAL_v3_0', 'tpe_C_600')        # 合併後的設定（含三個檔案的 sha256）
   kw = extract_kwargs(S)                            # 給抽取程式（extract8.process）的參數
+機位層可以覆寫全域的過線參數（2026-11-24，R17）：camera.json 的 "crossing": {"min_travel": 10, "decide_after": 5}。
+  這兩個和機位幾何有關（人在線前多遠開始被追蹤、號碼在線前還是線後才讀得到），不該是全域常數。只允許 CAMERA_CROSSING_KEYS 裡的鍵。
 """
 import hashlib, json, os
 
@@ -20,6 +22,17 @@ CONF = os.path.join(PROG, 'config')
 MANIFEST = os.path.join(ROOT, '20_測試基準', 'MANIFEST.json')
 SCHEMA = 'layered_v1'
 DECISION_MODES = ('cons_color', 'cons', 'pre_keep', 'len5', 'v22')
+CAMERA_CROSSING_KEYS = ('min_travel', 'decide_after', 'u_range', 'max_gap')
+
+
+def apply_camera(G, C):
+    """回傳套用機位層過線覆寫後的全域設定（不改原物件）。機位沒有 crossing 覆寫時回傳原物件。"""
+    ov = {k: v for k, v in (C.get('crossing') or {}).items() if k != 'note'}
+    if not ov: return G
+    bad = set(ov) - set(CAMERA_CROSSING_KEYS)
+    if bad: raise ValueError(f'機位層不能覆寫過線參數 {sorted(bad)}（只允許 {CAMERA_CROSSING_KEYS}）')
+    G = json.loads(json.dumps(G)); G['crossing'].update(ov)
+    return G
 
 
 def _sha(p):
@@ -88,6 +101,7 @@ def for_clip(global_name, clip):
     if not info.get('camera') or not info.get('race'): raise ValueError(f'MANIFEST 中 {clip} 沒有 camera／race 欄位')
     R, rp, bibs = load_race(info['race']); C, cp = load_camera(info['camera'])
     mode = effective_mode(G, R, bibs)
+    G = apply_camera(G, C)
     sha = {'global': _sha(gp), 'race': _sha(rp), 'camera': _sha(cp)}
     if R.get('_bib_list_sha256'): sha['bib_list'] = R['_bib_list_sha256']
     return dict(clip=clip, global_name=os.path.basename(gp)[:-5], race_name=info['race'], camera_name=info['camera'],
@@ -107,4 +121,5 @@ def extract_kwargs(S):
 def summary(S):
     """寫進 run_info.json 的摘要。"""
     return dict(global_name=S['global_name'], race=S['race_name'], camera=S['camera_name'], decision_mode=S['mode'],
-                can_cross=S['can_cross'], sha256=S['sha256'])
+                can_cross=S['can_cross'], sha256=S['sha256'],
+                camera_crossing_override={k: v for k, v in (S['camera'].get('crossing') or {}).items() if k != 'note'})

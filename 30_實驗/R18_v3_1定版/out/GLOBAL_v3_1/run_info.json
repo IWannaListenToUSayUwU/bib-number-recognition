@@ -1,0 +1,243 @@
+{
+ "exp": "R18_v3_1定版",
+ "config": "GLOBAL_v3_1",
+ "config_sha256": "8e9847712255bff56b9ce83179ee11bf438aa20c0e96c432f24a8e677d584a9f",
+ "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+ "start": "2026-11-24 11:32:04",
+ "extract": "extract9",
+ "aggregate": "aggregate3",
+ "src_sha256": {
+  "extract9": "d3ade5234afcf0d9c9e14b14b8b822f84e5b19c85ea9804fd572b6766ec53529",
+  "videoio": "a8d7f3d46ac6a6291c047717b70bf87b2ac37a3b3bc465b684d706dc7d4126d1",
+  "extract4": "ee3e1b70ad93fc03f99edddbcfff2a4ec172ff04c7ca0fed55ee07528ff8937d",
+  "extract5": "e0b921fcc9f4e6573c9b10a875839693fa962919a48bc3b0c45be38f65f3c449",
+  "aggregate3": "c66d200728f2b70e3160bec2e310adcfa5a7a06d82ab05e1a1bd5fc7ba0baff9",
+  "feat6": "202ece629074a17bb0d20d93359919b78544e55f70afac7f1d8ae6f239ebdf52",
+  "settings": "ed006d02a55b704559571dc3a81c7ea42fd9d8a19fb56987fe41a42ccf29c530",
+  "ocrgate": "618335f4da89710b8e8a6ec8b0c6eecd4dd1688aa0f114208fd702ad7f9ab059",
+  "bibrules": "2224ac3028bc1674bb39687739f100c034f232ea5a84502c432a29af92ddb163",
+  "crossing": "56296f678bb6fab83210848ef752e2a1a6ebab9c4d9bd661418a736ab0f4d7de"
+ },
+ "clips": {
+  "tpe_C_600": "593ee0ba8794078346c4c49c39d7f881dde4f69018fb14f6bcde9799feeb205b",
+  "tpe_D_1800": "5e042668d08e4ef0c10857b464a2b542000f9266970293fc7178487c2c44ed63",
+  "tpe2_A_3000": "74978aeae1ebd468b743a943eb64fca0fad992bace6533b432aaeac7f3ccc2ce",
+  "tpe2_B_4200": "6cbe96f0b469679f0d580f2d9de0545b81e179274a38b740a84eedf0df4002fc",
+  "tpe2_C_5400": "3e599d428c46d2021c7629865e34ee32906b0d6720af1190d0c435924594d19a"
+ },
+ "extract_args": {
+  "tpe_C_600": {
+   "imgsz": 960,
+   "min_h": 40,
+   "top": 0.22,
+   "bot": 0.72,
+   "early_stop": 3,
+   "hist_thr": 0.45,
+   "jump_thr": 0.8,
+   "static_s": 2.0,
+   "static_p": 0.1,
+   "ocr_min_h": 100,
+   "zone_line": {
+    "p1": [
+     1050,
+     662
+    ],
+    "p2": [
+     1470,
+     1012
+    ],
+    "upstream": [
+     500,
+     560
+    ]
+   },
+   "zone_up": 500.0,
+   "zone_down": 150.0
+  },
+  "tpe_D_1800": {
+   "imgsz": 960,
+   "min_h": 40,
+   "top": 0.22,
+   "bot": 0.72,
+   "early_stop": 3,
+   "hist_thr": 0.45,
+   "jump_thr": 0.8,
+   "static_s": 2.0,
+   "static_p": 0.1,
+   "ocr_min_h": 100,
+   "zone_line": {
+    "p1": [
+     1050,
+     662
+    ],
+    "p2": [
+     1470,
+     1012
+    ],
+    "upstream": [
+     500,
+     560
+    ]
+   },
+   "zone_up": 500.0,
+   "zone_down": 150.0
+  },
+  "tpe2_A_3000": {
+   "imgsz": 960,
+   "min_h": 40,
+   "top": 0.22,
+   "bot": 0.72,
+   "early_stop": 3,
+   "hist_thr": 0.45,
+   "jump_thr": 0.8,
+   "static_s": 2.0,
+   "static_p": 0.1,
+   "ocr_min_h": 100,
+   "zone_line": {
+    "p1": [
+     480,
+     880
+    ],
+    "p2": [
+     1919,
+     1071
+    ],
+    "upstream": [
+     1300,
+     750
+    ]
+   },
+   "zone_up": 500.0,
+   "zone_down": 150.0
+  },
+  "tpe2_B_4200": {
+   "imgsz": 960,
+   "min_h": 40,
+   "top": 0.22,
+   "bot": 0.72,
+   "early_stop": 3,
+   "hist_thr": 0.45,
+   "jump_thr": 0.8,
+   "static_s": 2.0,
+   "static_p": 0.1,
+   "ocr_min_h": 100,
+   "zone_line": {
+    "p1": [
+     480,
+     880
+    ],
+    "p2": [
+     1919,
+     1071
+    ],
+    "upstream": [
+     1300,
+     750
+    ]
+   },
+   "zone_up": 500.0,
+   "zone_down": 150.0
+  },
+  "tpe2_C_5400": {
+   "imgsz": 960,
+   "min_h": 40,
+   "top": 0.22,
+   "bot": 0.72,
+   "early_stop": 3,
+   "hist_thr": 0.45,
+   "jump_thr": 0.8,
+   "static_s": 2.0,
+   "static_p": 0.1,
+   "ocr_min_h": 100,
+   "zone_line": {
+    "p1": [
+     480,
+     880
+    ],
+    "p2": [
+     1919,
+     1071
+    ],
+    "upstream": [
+     1300,
+     750
+    ]
+   },
+   "zone_up": 500.0,
+   "zone_down": 150.0
+  }
+ },
+ "fps": 16,
+ "layered": {
+  "tpe_C_600": {
+   "global_name": "GLOBAL_v3_1",
+   "race": "tpe2022_full",
+   "camera": "tpe_corner_CD",
+   "decision_mode": "cons_color",
+   "can_cross": true,
+   "sha256": {
+    "global": "8e9847712255bff56b9ce83179ee11bf438aa20c0e96c432f24a8e677d584a9f",
+    "race": "88e04ceb07f38349443c54a09e88d1a95d8dc052308b3d9fce32346166e15923",
+    "camera": "71f56415c1380840f32b754b25079f90c8d40ab86d2b278419be8b12ecc71932",
+    "bib_list": "9a95869bf6dbfde8b959a53624ac5a84f293fd582b8b3f8cf2038e7ac15f48e7"
+   },
+   "camera_crossing_override": {}
+  },
+  "tpe_D_1800": {
+   "global_name": "GLOBAL_v3_1",
+   "race": "tpe2022_full",
+   "camera": "tpe_corner_CD",
+   "decision_mode": "cons_color",
+   "can_cross": true,
+   "sha256": {
+    "global": "8e9847712255bff56b9ce83179ee11bf438aa20c0e96c432f24a8e677d584a9f",
+    "race": "88e04ceb07f38349443c54a09e88d1a95d8dc052308b3d9fce32346166e15923",
+    "camera": "71f56415c1380840f32b754b25079f90c8d40ab86d2b278419be8b12ecc71932",
+    "bib_list": "9a95869bf6dbfde8b959a53624ac5a84f293fd582b8b3f8cf2038e7ac15f48e7"
+   },
+   "camera_crossing_override": {}
+  },
+  "tpe2_A_3000": {
+   "global_name": "GLOBAL_v3_1",
+   "race": "tpe2022_full",
+   "camera": "tpe2_finish",
+   "decision_mode": "cons_color",
+   "can_cross": true,
+   "sha256": {
+    "global": "8e9847712255bff56b9ce83179ee11bf438aa20c0e96c432f24a8e677d584a9f",
+    "race": "88e04ceb07f38349443c54a09e88d1a95d8dc052308b3d9fce32346166e15923",
+    "camera": "f59dd8185e8260d0a67d44bcd7a9d09267e3c4a17d7ae5d45d20cfdb0a67ffa8",
+    "bib_list": "9a95869bf6dbfde8b959a53624ac5a84f293fd582b8b3f8cf2038e7ac15f48e7"
+   },
+   "camera_crossing_override": {}
+  },
+  "tpe2_B_4200": {
+   "global_name": "GLOBAL_v3_1",
+   "race": "tpe2022_full",
+   "camera": "tpe2_finish",
+   "decision_mode": "cons_color",
+   "can_cross": true,
+   "sha256": {
+    "global": "8e9847712255bff56b9ce83179ee11bf438aa20c0e96c432f24a8e677d584a9f",
+    "race": "88e04ceb07f38349443c54a09e88d1a95d8dc052308b3d9fce32346166e15923",
+    "camera": "f59dd8185e8260d0a67d44bcd7a9d09267e3c4a17d7ae5d45d20cfdb0a67ffa8",
+    "bib_list": "9a95869bf6dbfde8b959a53624ac5a84f293fd582b8b3f8cf2038e7ac15f48e7"
+   },
+   "camera_crossing_override": {}
+  },
+  "tpe2_C_5400": {
+   "global_name": "GLOBAL_v3_1",
+   "race": "tpe2022_full",
+   "camera": "tpe2_finish",
+   "decision_mode": "cons_color",
+   "can_cross": true,
+   "sha256": {
+    "global": "8e9847712255bff56b9ce83179ee11bf438aa20c0e96c432f24a8e677d584a9f",
+    "race": "88e04ceb07f38349443c54a09e88d1a95d8dc052308b3d9fce32346166e15923",
+    "camera": "f59dd8185e8260d0a67d44bcd7a9d09267e3c4a17d7ae5d45d20cfdb0a67ffa8",
+    "bib_list": "9a95869bf6dbfde8b959a53624ac5a84f293fd582b8b3f8cf2038e7ac15f48e7"
+   },
+   "camera_crossing_override": {}
+  }
+ }
+}

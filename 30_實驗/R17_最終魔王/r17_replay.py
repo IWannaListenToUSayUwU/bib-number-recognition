@@ -11,7 +11,7 @@ def main():
     src, dst, gfile = sys.argv[1:4]
     G = json.load(open(os.path.join(HERE, gfile), encoding='utf-8'))
     R, rp, bibs = settings.load_race('xinwu2026'); C, cp = settings.load_camera('xinwu_finish')
-    S = dict(G=G, race=R, camera=C, bibs=bibs, mode=settings.effective_mode(G, R, bibs), can_cross=True)
+    S = dict(G=settings.apply_camera(G, C), race=R, camera=C, bibs=bibs, mode=settings.effective_mode(G, R, bibs), can_cross=True)
     out = os.path.join(HERE, 'out', dst); os.makedirs(out, exist_ok=True)
     info = json.load(open(os.path.join(HERE, 'out', src, 'run_info.json'), encoding='utf-8'))
     info.update(replay_of=src, replay_global=gfile, mode=S['mode'])
