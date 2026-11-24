@@ -1,0 +1,552 @@
+{
+ "clip": "tpe_D_1800",
+ "version": "v1_1",
+ "line": "LINE_tpe_v1",
+ "line_sha256": "786564e3a382d18f360955d23e790693981e7d8de2544c33d90bf1ee98324111",
+ "fps": 30,
+ "annotator": "user（人工）",
+ "protocol": "30_實驗/R11_過線正確答案/計畫.md 標註規則",
+ "created": "2026-11-23 11:33:04",
+ "candidates": "R10 過線模組（16fps、v2.2）＋光帶圖人工補漏",
+ "events": [
+  {
+   "t": 1.367,
+   "u": 0.437,
+   "bib": "09402",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 2,
+   "u": 0.243,
+   "bib": "02158",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 2.533,
+   "u": 0.373,
+   "bib": "05565",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 2.733,
+   "u": 0.611,
+   "bib": "11201",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 3.1,
+   "u": 0.364,
+   "bib": "1015?",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 3.5,
+   "u": 0.451,
+   "bib": "11592",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 4.033,
+   "u": 0.53,
+   "bib": "11140",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 6.8,
+   "u": 0.373,
+   "bib": "06095",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 9.433,
+   "u": 0.302,
+   "bib": "01596",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 10.167,
+   "u": 0.648,
+   "bib": "11137",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 10.633,
+   "u": 0.319,
+   "bib": "1050?",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 14.167,
+   "u": 0.37,
+   "bib": "04297",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 14.767,
+   "u": 0.576,
+   "bib": "09391",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 15.167,
+   "u": 0.393,
+   "bib": "02691",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 15.533,
+   "u": 0.25,
+   "bib": "03776",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 15.867,
+   "u": 0.406,
+   "bib": "05266",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 16.7,
+   "u": 0.412,
+   "bib": "05826",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 17.133,
+   "u": 0.624,
+   "bib": "06447",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 17.567,
+   "u": 0.229,
+   "bib": "08036",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 18.133,
+   "u": 0.701,
+   "bib": "05405",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 18.267,
+   "u": 0.363,
+   "bib": "",
+   "status": "nobib",
+   "source": "system"
+  },
+  {
+   "t": 18.6,
+   "u": 0.312,
+   "bib": "0364?",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 18.7,
+   "u": 0.836,
+   "bib": "08777",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 19.233,
+   "u": 0.484,
+   "bib": "01229",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 19.967,
+   "u": 0.925,
+   "bib": "01708",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 20.233,
+   "u": 0.349,
+   "bib": "11069",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 21.2,
+   "u": 0.32,
+   "bib": "07097",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 21.733,
+   "u": 0.495,
+   "bib": "04603",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 22.867,
+   "u": 0.278,
+   "bib": "04275",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 23.267,
+   "u": 0.553,
+   "bib": "06390",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 24.767,
+   "u": 0.595,
+   "bib": "11226",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 25.133,
+   "u": 0.887,
+   "bib": "03737",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 25.7,
+   "u": 0.412,
+   "bib": "03636",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 27.7,
+   "u": 0.31,
+   "bib": "06024",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 28.267,
+   "u": 0.467,
+   "bib": "09560",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 28.867,
+   "u": 0.438,
+   "bib": "01076",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 29.233,
+   "u": 0.37,
+   "bib": "05460",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 30.067,
+   "u": 0.497,
+   "bib": "01608",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 30.833,
+   "u": 0.463,
+   "bib": "11329",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 31.633,
+   "u": 0.438,
+   "bib": "02785",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 32.6,
+   "u": 0.611,
+   "bib": "",
+   "status": "unreadable",
+   "source": "system"
+  },
+  {
+   "t": 32.833,
+   "u": 0.306,
+   "bib": "04400",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 33.233,
+   "u": 0.481,
+   "bib": "03045",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 33.933,
+   "u": 0.324,
+   "bib": "02058",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 34.333,
+   "u": 0.691,
+   "bib": "01766",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 36.133,
+   "u": 0.401,
+   "bib": "04387",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 36.767,
+   "u": 0.357,
+   "bib": "07641",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 37.333,
+   "u": 0.249,
+   "bib": "05574",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 37.7,
+   "u": 0.527,
+   "bib": "?613?",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 38.733,
+   "u": 0.615,
+   "bib": "06104",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 39.533,
+   "u": 0.458,
+   "bib": "05808",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 39.567,
+   "u": 0.295,
+   "bib": "03351",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 40.133,
+   "u": 0.753,
+   "bib": "08377",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 40.6,
+   "u": 0.271,
+   "bib": "11417",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 40.633,
+   "u": 0.476,
+   "bib": "01136",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 41.133,
+   "u": 0.384,
+   "bib": "06348",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 41.7,
+   "u": 0.467,
+   "bib": "0255?",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 42.533,
+   "u": 0.385,
+   "bib": "01149",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 42.967,
+   "u": 0.306,
+   "bib": "10493",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 43.133,
+   "u": 0.488,
+   "bib": "04159",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 44.1,
+   "u": 0.721,
+   "bib": "05634",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 44.233,
+   "u": 0.368,
+   "bib": "03715",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 44.667,
+   "u": 0.527,
+   "bib": "03710",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 45.9,
+   "u": 0.457,
+   "bib": "03668",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 47.133,
+   "u": 0.301,
+   "bib": "09143",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 47.833,
+   "u": 0.298,
+   "bib": "04712",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 49.433,
+   "u": 0.309,
+   "bib": "01384",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 51.367,
+   "u": 0.33,
+   "bib": "04544",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 51.767,
+   "u": 0.493,
+   "bib": "11525",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 52.5,
+   "u": 0.289,
+   "bib": "05301",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 54.167,
+   "u": 0.291,
+   "bib": "",
+   "status": "unreadable",
+   "source": "system"
+  },
+  {
+   "t": 54.8,
+   "u": 0.372,
+   "bib": "10472",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 55.433,
+   "u": 0.332,
+   "bib": "09387",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 55.9,
+   "u": 0.401,
+   "bib": "01287",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 56.2,
+   "u": 0.265,
+   "bib": "10419",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 57.7,
+   "u": 0.354,
+   "bib": "10596",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 59.7,
+   "u": 0.349,
+   "bib": "09011",
+   "status": "sure",
+   "source": "system"
+  }
+ ]
+}

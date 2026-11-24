@@ -1,0 +1,59 @@
+{
+ "tag": "frozen_v30g",
+ "segments": [
+  [
+   180,
+   240
+  ]
+ ],
+ "offsets": {
+  "10K": {
+   "offset": 3154.73,
+   "support": 13,
+   "n_candidates": 13
+  }
+ },
+ "n_expected": 15,
+ "n_events": 0,
+ "n_out_bib": 0,
+ "found": {
+  "k": 0,
+  "n": 15,
+  "value": 0.0,
+  "ci95": [
+   -0.0,
+   0.204
+  ]
+ },
+ "out_correct": {
+  "k": 0,
+  "n": 0,
+  "value": null,
+  "ci95": [
+   null,
+   null
+  ]
+ },
+ "out_in_list": {
+  "k": 0,
+  "n": 0
+ },
+ "wrong_out": 0,
+ "events_per_expected": 0.0,
+ "time_err": {
+  "median": null,
+  "abs_med": null
+ },
+ "per_segment": [
+  {
+   "seg": [
+    180,
+    240
+   ],
+   "expected": 15,
+   "events": 0,
+   "out_bib": 0,
+   "found": 0
+  }
+ ]
+}

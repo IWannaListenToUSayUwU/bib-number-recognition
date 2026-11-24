@@ -1,0 +1,87 @@
+{
+ "tag": "r17e_m15_min1",
+ "segments": [
+  [
+   0.0,
+   60.0
+  ],
+  [
+   60.0,
+   120.0
+  ],
+  [
+   120.0,
+   180.0
+  ]
+ ],
+ "offsets": {
+  "10K": {
+   "offset": 3154.73,
+   "support": 13,
+   "n_candidates": 13
+  }
+ },
+ "n_expected": 56,
+ "n_events": 57,
+ "n_out_bib": 26,
+ "found": {
+  "k": 26,
+  "n": 56,
+  "value": 0.464,
+  "ci95": [
+   0.34,
+   0.593
+  ]
+ },
+ "out_correct": {
+  "k": 26,
+  "n": 26,
+  "value": 1.0,
+  "ci95": [
+   0.871,
+   1.0
+  ]
+ },
+ "out_in_list": {
+  "k": 26,
+  "n": 26
+ },
+ "wrong_out": 0,
+ "events_per_expected": 1.02,
+ "time_err": {
+  "median": 0.06,
+  "abs_med": 0.1
+ },
+ "per_segment": [
+  {
+   "seg": [
+    0.0,
+    60.0
+   ],
+   "expected": 14,
+   "events": 14,
+   "out_bib": 6,
+   "found": 6
+  },
+  {
+   "seg": [
+    60.0,
+    120.0
+   ],
+   "expected": 22,
+   "events": 21,
+   "out_bib": 10,
+   "found": 10
+  },
+  {
+   "seg": [
+    120.0,
+    180.0
+   ],
+   "expected": 20,
+   "events": 22,
+   "out_bib": 10,
+   "found": 10
+  }
+ ]
+}

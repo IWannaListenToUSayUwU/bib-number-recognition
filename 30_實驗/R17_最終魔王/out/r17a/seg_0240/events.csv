@@ -1,0 +1,2 @@
+id,t_cross,bib,guess,score,n_reads,latency,decided_by,dup,vid,rawtid,x,y,u,gap,split_at_cross
+1,293.7,,,0.0,0,3.0,window,False,772001,772,564,399,0.814,0.062,False

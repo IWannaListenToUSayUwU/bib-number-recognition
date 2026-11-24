@@ -1,0 +1,105 @@
+{
+ "tag": "r17e_test",
+ "segments": [
+  [
+   180,
+   240
+  ],
+  [
+   420,
+   480
+  ],
+  [
+   660,
+   720
+  ],
+  [
+   900,
+   960
+  ]
+ ],
+ "offsets": {
+  "10K": {
+   "offset": 3154.73,
+   "support": 13,
+   "n_candidates": 13
+  },
+  "21K": {
+   "offset": 4054.73,
+   "source": "10K 時間差＋900 秒（大會公告起跑時間：21K 06:00、10K 06:15；樂活報名網競賽規程）。不是用測試段估的。"
+  }
+ },
+ "n_expected": 92,
+ "n_events": 98,
+ "n_out_bib": 36,
+ "found": {
+  "k": 36,
+  "n": 92,
+  "value": 0.391,
+  "ci95": [
+   0.298,
+   0.493
+  ]
+ },
+ "out_correct": {
+  "k": 36,
+  "n": 36,
+  "value": 1.0,
+  "ci95": [
+   0.904,
+   1.0
+  ]
+ },
+ "out_in_list": {
+  "k": 36,
+  "n": 36
+ },
+ "wrong_out": 0,
+ "events_per_expected": 1.07,
+ "time_err": {
+  "median": 0.0,
+  "abs_med": 0.07
+ },
+ "per_segment": [
+  {
+   "seg": [
+    180,
+    240
+   ],
+   "expected": 15,
+   "events": 21,
+   "out_bib": 7,
+   "found": 7
+  },
+  {
+   "seg": [
+    420,
+    480
+   ],
+   "expected": 22,
+   "events": 26,
+   "out_bib": 10,
+   "found": 10
+  },
+  {
+   "seg": [
+    660,
+    720
+   ],
+   "expected": 30,
+   "events": 26,
+   "out_bib": 7,
+   "found": 7
+  },
+  {
+   "seg": [
+    900,
+    960
+   ],
+   "expected": 25,
+   "events": 25,
+   "out_bib": 12,
+   "found": 12
+  }
+ ]
+}

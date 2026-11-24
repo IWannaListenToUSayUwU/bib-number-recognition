@@ -1,0 +1,59 @@
+{
+ "tag": "r17d_mt5",
+ "segments": [
+  [
+   0.0,
+   60.0
+  ]
+ ],
+ "offsets": {
+  "10K": {
+   "offset": 3154.73,
+   "support": 13,
+   "n_candidates": 13
+  }
+ },
+ "n_expected": 14,
+ "n_events": 19,
+ "n_out_bib": 6,
+ "found": {
+  "k": 6,
+  "n": 14,
+  "value": 0.429,
+  "ci95": [
+   0.214,
+   0.674
+  ]
+ },
+ "out_correct": {
+  "k": 6,
+  "n": 6,
+  "value": 1.0,
+  "ci95": [
+   0.61,
+   1.0
+  ]
+ },
+ "out_in_list": {
+  "k": 6,
+  "n": 6
+ },
+ "wrong_out": 0,
+ "events_per_expected": 1.36,
+ "time_err": {
+  "median": 0.11,
+  "abs_med": 0.12
+ },
+ "per_segment": [
+  {
+   "seg": [
+    0.0,
+    60.0
+   ],
+   "expected": 14,
+   "events": 19,
+   "out_bib": 6,
+   "found": 6
+  }
+ ]
+}

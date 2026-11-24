@@ -176,10 +176,20 @@
    "sha256": "639113d1da36d5aec55bf53c2fb5743ab15f0e40b7f0e19813127a6f735d799e",
    "n_events": 77,
    "created": "2026-11-22"
+  },
+  "tpe_C_600.v1_1.json": {
+   "sha256": "f3f72a8ad3d3f0b539af838cf15428b51e0fe5f2a09197926bfe07af369380d0",
+   "n_events": 45,
+   "created": "2026-11-23"
+  },
+  "tpe_D_1800.v1_1.json": {
+   "sha256": "573ff4178d6d17e257b283bbb9bed134eb8d3b3c33d531ff282b9c7d85d4aa19",
+   "n_events": 77,
+   "created": "2026-11-23"
   }
  },
  "line_configs": {
-  "LINE_tpe_v1": "7a9ac3ec2fb6559bbc9faab848e62eba22b51293f3a20da0587145b726ee5f17",
+  "LINE_tpe_v1": "786564e3a382d18f360955d23e790693981e7d8de2544c33d90bf1ee98324111",
   "LINE_tpe2_v1": "0fbbf68ee79507573b05e334f85f28943fc47ff54f4e7d2274cb322d76dad241"
  },
  "note_layers": "2026-11-23 起每個片段記 camera（10_程式/config/camera/）和 race（10_程式/config/race/）；三層設定見 10_程式/config/README.md"

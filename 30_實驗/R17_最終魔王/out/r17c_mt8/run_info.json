@@ -1,0 +1,50 @@
+{
+ "tag": "r17a",
+ "global_file": "30_實驗\\R17_最終魔王\\設定\\GLOBAL_r17a.json",
+ "mode": "cons",
+ "gpu_ocr": true,
+ "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+ "extract": "extract9",
+ "extract_kwargs": {
+  "imgsz": 960,
+  "min_h": 40,
+  "top": 0.22,
+  "bot": 0.72,
+  "early_stop": 3,
+  "hist_thr": 0.45,
+  "jump_thr": 0.8,
+  "static_s": 2.0,
+  "static_p": 0.1,
+  "ocr_min_h": 100
+ },
+ "fps": 16,
+ "segments": [
+  [
+   0.0,
+   60.0
+  ],
+  [
+   60.0,
+   120.0
+  ],
+  [
+   120.0,
+   180.0
+  ],
+  [
+   240.0,
+   300.0
+  ],
+  [
+   300.0,
+   360.0
+  ],
+  [
+   360.0,
+   420.0
+  ]
+ ],
+ "start": "2026-11-24 07:51:20",
+ "replay_of": "r17a",
+ "replay_global": "設定/GLOBAL_r17c_da5_mt8.json"
+}

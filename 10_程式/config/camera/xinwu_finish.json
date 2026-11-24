@@ -1,0 +1,26 @@
+{
+ "schema": "layered_v1",
+ "camera": "xinwu_finish",
+ "description": "2026 新屋魚米之鄉馬拉松終點（GoPro 廣角，跑者朝鏡頭跑；YouTube 960×720、1.35 Mbps）",
+ "frame": [
+  960,
+  720
+ ],
+ "line": {
+  "p1": [
+   230,
+   402
+  ],
+  "p2": [
+   640,
+   398
+  ],
+  "upstream": [
+   420,
+   360
+  ],
+  "status": "R17 提議（拱門柱腳＝晶片地墊起點，Claude 依畫面估計，未經使用者確認）"
+ },
+ "zone": null,
+ "clock": null
+}

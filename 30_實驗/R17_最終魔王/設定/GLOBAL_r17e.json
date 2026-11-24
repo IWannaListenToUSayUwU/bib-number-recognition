@@ -1,0 +1,73 @@
+{
+ "schema": "layered_v1",
+ "version": "GLOBAL_r17e",
+ "status": "R17 開發中變體（不放進 config/global，未定版）",
+ "derived_from": {
+  "file": "10_程式/config/global/GLOBAL_v3_0.json",
+  "changes": "追蹤門檻 min_h 100→40（小人也追蹤，才抓得到遠處計時線的過線），讀字門檻 ocr_min_h=100（和 v3.0 相同）；過線 min_travel 100→15（這個機位的人在線前約 30 像素才開始被追蹤；100 是 1080p 轉角機位的寫死像素值）；定案 long_trim（號碼前多印組別字 → 6 碼讀數取名單上的 5 碼片段）；過線後等 5 秒才定案（線在遠處、號碼在近處才讀得到）；min_travel 15→10（每秒 30 格時軌跡第一次出現離線只有 11～12 像素；8、5 會多出假過線）"
+ },
+ "extract": {
+  "script": "src/extract9.py",
+  "fps": 16,
+  "imgsz": 960,
+  "min_h": 40,
+  "top": 0.22,
+  "bot": 0.72,
+  "early_stop": 3,
+  "hist_thr": 0.45,
+  "jump_thr": 0.8,
+  "static_s": 2.0,
+  "static_p": 0.1,
+  "use_zone": true,
+  "ocr_min_h": 100
+ },
+ "aggregate": {
+  "min_conf": 0.8,
+  "min_votes": 1,
+  "min_score": 0.9,
+  "minlen": 2,
+  "maxlen": 5,
+  "size_w": true,
+  "merge_gap": 4.0,
+  "substr": true,
+  "sub_gap": 3.0,
+  "static": true,
+  "static_px": 12,
+  "static_sec": 2.0,
+  "size_ref": "abs40",
+  "accept_hi": 3,
+  "static_rel": true
+ },
+ "crossing": {
+  "decide_after": 5.0,
+  "track_gap": 1.0,
+  "u_range": [
+   0.0,
+   1.3
+  ],
+  "min_travel": 10.0,
+  "max_gap": 2.0,
+  "dedupe_gap": 5.0
+ },
+ "decision": {
+  "mode": "cons_color",
+  "fallback": [
+   "cons",
+   "pre_keep",
+   "len5",
+   "v22"
+  ],
+  "cons_min": 1.5,
+  "cons_margin": 1.5,
+  "cons_min_conf": 0.5,
+  "note": "依比賽層有哪些資料自動退回：有名單＋顏色規則 → cons_color；只有名單 → cons；只有號碼位數 → len5；什麼都沒有 → v22（R13：檢查集 0.150→0.225、錯誤輸出 25→3）",
+  "long_trim": true
+ },
+ "absolute_pixel_params": [
+  "extract.min_h (100 px)",
+  "aggregate.size_ref=abs40（字高 40 px）",
+  "crossing.min_travel (100 px)"
+ ],
+ "notes": "全域層只放演算法參數；號碼位數、名單、顏色規則在比賽層；計時線、只讀線附近範圍、時鐘位置在機位層。",
+ "evidence": "30_實驗/R13_新機位讀號碼/R13總結.md（E1 cons_color、E3 提速模擬、E4 等待秒數）"
+}

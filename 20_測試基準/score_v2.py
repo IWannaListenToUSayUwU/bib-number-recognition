@@ -1,7 +1,8 @@
 r"""20_測試基準 過線評分程式 score_v2（規則見 30_實驗\R11_過線正確答案\計畫.md「評分規則」，寫於標註之前）。
-用法：python score_v2.py <結果資料夾> [片段 ...] [--gt <正確答案資料夾>]
+用法：python score_v2.py <結果資料夾> [片段 ...] [--gt <正確答案資料夾>] [--gtver <版本>]
   <結果資料夾>\<片段>\events.csv：過線事件（10_程式\src\crossing.py 的輸出欄位：t_cross, bib, u, latency …）
   正確答案預設在 20_測試基準\gt_crossing\<片段>.json（--gt 只給測試用）。
+  --gtver v1_1：改用 <片段>.v1_1.json（修正版正確答案），結果另存 score_v2.v1_1.json，不覆蓋 v1 的 score_v2.json（2026-11-23 加，評分規則不變）。
 規則摘要：
   配對：系統事件與正確答案一對一，|Δt| ≤ 1.0 秒且 |Δu| ≤ 0.3，依 |Δt|+|Δu| 由小到大貪婪配對。
   主要指標 = 配對成功、號碼相同（正確答案為 sure）、|Δt| ≤ 0.5 秒、不是重複輸出 的數量 ÷ 全部過線跑者數。
@@ -90,11 +91,13 @@ def load_sys(p):
 def main():
     args = sys.argv[1:]; gtdir = os.path.join(HERE, 'gt_crossing')
     if '--gt' in args: k = args.index('--gt'); gtdir = args[k + 1]; del args[k:k + 2]
+    gtver = None
+    if '--gtver' in args: k = args.index('--gtver'); gtver = args[k + 1]; del args[k:k + 2]
     root = os.path.abspath(args[0])
     clips = args[1:] or sorted(d for d in os.listdir(root) if os.path.exists(os.path.join(root, d, 'events.csv')))
     per = {}; T = dict(full=0, corr=0, wrong=0, matched_gt=0, n_gt=0, n_sure=0, n_sys=0, false=0, unk=0, absdt=[], signed=[], lat=[])
     for c in clips:
-        gp = os.path.join(gtdir, c + '.json')
+        gp = os.path.join(gtdir, c + (f'.{gtver}' if gtver else '') + '.json')
         if not os.path.exists(gp): print(f'[略過] {c}：沒有過線正確答案 {gp}'); continue
         g = json.load(open(gp, encoding='utf-8'))
         s = score_clip(load_sys(os.path.join(root, c, 'events.csv')), g['events']); raw = s.pop('_raw'); per[c] = s
@@ -118,9 +121,9 @@ def main():
           f" 偵測率 {tot['detection']['value']} sure號碼正確 {tot['sure_bib_correct']['value']} 輸出號碼錯誤率 {tot['bib_output_error']['value']}")
     try: gtname = os.path.relpath(gtdir, HERE)
     except ValueError: gtname = os.path.abspath(gtdir)   # 不同磁碟（只有測試時會發生）
-    json.dump(dict(total=tot, per_clip=per, scorer='20_測試基準/score_v2.py', gt_dir=gtname,
+    json.dump(dict(total=tot, per_clip=per, scorer='20_測試基準/score_v2.py', gt_dir=gtname, gt_version=gtver or 'v1',
                    rules=dict(match_dt=MATCH_DT, match_du=MATCH_DU, ok_dt=OK_DT)),
-              open(os.path.join(root, 'score_v2.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+              open(os.path.join(root, f'score_v2.{gtver}.json' if gtver else 'score_v2.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 
 if __name__ == '__main__':

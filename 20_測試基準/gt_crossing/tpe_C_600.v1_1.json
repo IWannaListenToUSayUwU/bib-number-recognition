@@ -1,0 +1,328 @@
+{
+ "clip": "tpe_C_600",
+ "version": "v1_1",
+ "line": "LINE_tpe_v1",
+ "line_sha256": "786564e3a382d18f360955d23e790693981e7d8de2544c33d90bf1ee98324111",
+ "fps": 30,
+ "annotator": "user（人工）",
+ "protocol": "30_實驗/R11_過線正確答案/計畫.md 標註規則",
+ "created": "2026-11-23 11:33:04",
+ "candidates": "R10 過線模組（16fps、v2.2）＋光帶圖人工補漏",
+ "events": [
+  {
+   "t": 0.4,
+   "u": 0.312,
+   "bib": "095??",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 2.933,
+   "u": 0.272,
+   "bib": "08182",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 2.967,
+   "u": 0.448,
+   "bib": "01162",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 3.8,
+   "u": 0.44,
+   "bib": "09219",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 3.8,
+   "u": 0.321,
+   "bib": "0922?",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 5.633,
+   "u": 0.39,
+   "bib": "03611",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 6.067,
+   "u": 0.329,
+   "bib": "08758",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 7.367,
+   "u": 0.339,
+   "bib": "03099",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 7.9,
+   "u": 0.461,
+   "bib": "01277",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 8.533,
+   "u": 0.39,
+   "bib": "06567",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 13.933,
+   "u": 0.426,
+   "bib": "11467",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 15.333,
+   "u": 0.382,
+   "bib": "08597",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 21.033,
+   "u": 0.583,
+   "bib": "06080",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 21.5,
+   "u": 0.434,
+   "bib": "0125?",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 22.4,
+   "u": 0.441,
+   "bib": "08878",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 23.5,
+   "u": 0.396,
+   "bib": "08387",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 24.2,
+   "u": 0.345,
+   "bib": "06843",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 24.367,
+   "u": 0.631,
+   "bib": "10???",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 24.867,
+   "u": 0.463,
+   "bib": "08031",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 26.1,
+   "u": 0.423,
+   "bib": "11234",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 26.733,
+   "u": 0.55,
+   "bib": "02254",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 27.367,
+   "u": 0.336,
+   "bib": "0?275",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 28.567,
+   "u": 0.283,
+   "bib": "04182",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 30.6,
+   "u": 0.383,
+   "bib": "09363",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 31.3,
+   "u": 0.381,
+   "bib": "01434",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 32.133,
+   "u": 0.457,
+   "bib": "03633",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 32.567,
+   "u": 0.364,
+   "bib": "11300",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 34.267,
+   "u": 0.38,
+   "bib": "08694",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 38.033,
+   "u": 0.36,
+   "bib": "09383",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 38.933,
+   "u": 0.422,
+   "bib": "04533",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 40.267,
+   "u": 0.407,
+   "bib": "03138",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 42.133,
+   "u": 0.395,
+   "bib": "0643?",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 43.2,
+   "u": 0.432,
+   "bib": "0715?",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 47.067,
+   "u": 0.328,
+   "bib": "04199",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 47.833,
+   "u": 0.29,
+   "bib": "02619",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 48.233,
+   "u": 0.586,
+   "bib": "09269",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 50.1,
+   "u": 0.419,
+   "bib": "02328",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 50.167,
+   "u": 0.671,
+   "bib": "",
+   "status": "nobib",
+   "source": "system"
+  },
+  {
+   "t": 50.567,
+   "u": 0.583,
+   "bib": "11616",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 53.133,
+   "u": 0.373,
+   "bib": "0151?",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 54.5,
+   "u": 0.327,
+   "bib": "09?49",
+   "status": "partial",
+   "source": "system"
+  },
+  {
+   "t": 56,
+   "u": 0.532,
+   "bib": "07381",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 58.2,
+   "u": 0.364,
+   "bib": "09204",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 58.533,
+   "u": 0.557,
+   "bib": "06608",
+   "status": "sure",
+   "source": "system"
+  },
+  {
+   "t": 59.8,
+   "u": 0.744,
+   "bib": "08392",
+   "status": "sure",
+   "source": "system"
+  }
+ ]
+}

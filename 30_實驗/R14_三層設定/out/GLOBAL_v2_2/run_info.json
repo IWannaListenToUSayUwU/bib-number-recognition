@@ -1,0 +1,53 @@
+{
+ "exp": "R14_三層設定",
+ "config": "GLOBAL_v2_2",
+ "config_sha256": "db9d756465a9f7e8b8a38fe5a1185120bce57c68b1105cd55e4f0c52da32b0d6",
+ "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+ "start": "2026-11-23 10:50:01",
+ "extract": "extract8",
+ "aggregate": "aggregate3",
+ "src_sha256": {
+  "extract4": "ee3e1b70ad93fc03f99edddbcfff2a4ec172ff04c7ca0fed55ee07528ff8937d",
+  "feat6": "202ece629074a17bb0d20d93359919b78544e55f70afac7f1d8ae6f239ebdf52",
+  "extract5": "e0b921fcc9f4e6573c9b10a875839693fa962919a48bc3b0c45be38f65f3c449",
+  "extract8": "4855e6ff466cf892820bf5bd9eeee8ea005e2ced82f2d31deacd07eebac0158a",
+  "aggregate3": "c66d200728f2b70e3160bec2e310adcfa5a7a06d82ab05e1a1bd5fc7ba0baff9",
+  "videoio": "a8d7f3d46ac6a6291c047717b70bf87b2ac37a3b3bc465b684d706dc7d4126d1",
+  "settings": "db219252c79ed626f6846d3fb8d59e15dec966e2f3e8d2ec0db5bf0e78efaa83",
+  "ocrgate": "618335f4da89710b8e8a6ec8b0c6eecd4dd1688aa0f114208fd702ad7f9ab059",
+  "bibrules": "e42db2127cf92da5595d2779a76fe913ea51f79feed5561b2e5b94bef8def299",
+  "crossing": "56296f678bb6fab83210848ef752e2a1a6ebab9c4d9bd661418a736ab0f4d7de"
+ },
+ "clips": {
+  "tpe_C_600": "593ee0ba8794078346c4c49c39d7f881dde4f69018fb14f6bcde9799feeb205b"
+ },
+ "extract_args": {
+  "tpe_C_600": {
+   "imgsz": 960,
+   "min_h": 100,
+   "top": 0.22,
+   "bot": 0.72,
+   "early_stop": 3,
+   "hist_thr": 0.45,
+   "jump_thr": 0.8,
+   "static_s": 0.0,
+   "static_p": 0.1
+  }
+ },
+ "fps": 16,
+ "layered": {
+  "tpe_C_600": {
+   "global_name": "GLOBAL_v2_2",
+   "race": "tpe2022_full",
+   "camera": "tpe_corner_CD",
+   "decision_mode": "v22",
+   "can_cross": true,
+   "sha256": {
+    "global": "db9d756465a9f7e8b8a38fe5a1185120bce57c68b1105cd55e4f0c52da32b0d6",
+    "race": "88e04ceb07f38349443c54a09e88d1a95d8dc052308b3d9fce32346166e15923",
+    "camera": "71f56415c1380840f32b754b25079f90c8d40ab86d2b278419be8b12ecc71932",
+    "bib_list": "9a95869bf6dbfde8b959a53624ac5a84f293fd582b8b3f8cf2038e7ac15f48e7"
+   }
+  }
+ }
+}

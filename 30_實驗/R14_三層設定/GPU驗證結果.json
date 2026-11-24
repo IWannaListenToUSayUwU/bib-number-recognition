@@ -1,0 +1,34 @@
+{
+ "v22_C": {
+  "raw_identical": true,
+  "events_identical": true,
+  "extract_sec": 723
+ },
+ "tpe_C_600": {
+  "records": 5342,
+  "replay_len": 5342,
+  "texts_diff": 0,
+  "ocr": 2228,
+  "extract_sec": 481,
+  "base_sec": 692,
+  "score": 32
+ },
+ "tpe_D_1800": {
+  "records": 7341,
+  "replay_len": 7341,
+  "texts_diff": 2,
+  "ocr": 2796,
+  "extract_sec": 583,
+  "base_sec": 740,
+  "score": 59
+ },
+ "tpe2t_2700": {
+  "records": 6072,
+  "replay_len": 6072,
+  "texts_diff": 0,
+  "ocr": 4016,
+  "extract_sec": 971,
+  "base_sec": null,
+  "score": 11
+ }
+}

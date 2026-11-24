@@ -1,0 +1,48 @@
+{
+ "total": {
+  "TP": 38,
+  "FP": 3,
+  "N": 40,
+  "P": 0.927,
+  "R": 0.95,
+  "F1": 0.938,
+  "mixed_tracks": 1,
+  "tracks_with_correct_read": 43,
+  "clips": [
+   "tpe_C_600"
+  ]
+ },
+ "per_clip": {
+  "tpe_C_600": {
+   "TP": 38,
+   "FP": 3,
+   "N": 40,
+   "P": 0.927,
+   "R": 0.95,
+   "F1": 0.938,
+   "ignored": 7,
+   "FN": [
+    "07185",
+    "11702"
+   ],
+   "FP_list": [
+    [
+     "09515",
+     0.1
+    ],
+    [
+     "07155",
+     40.2
+    ],
+    [
+     "70",
+     47.8
+    ]
+   ],
+   "mixed_tracks": 1,
+   "tracks_with_correct_read": 43
+  }
+ },
+ "scorer": "20_測試基準/score.py",
+ "tol_s": 2.0
+}

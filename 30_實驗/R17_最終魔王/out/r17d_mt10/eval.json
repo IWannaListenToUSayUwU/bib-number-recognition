@@ -1,0 +1,73 @@
+{
+ "tag": "r17d_mt10",
+ "segments": [
+  [
+   0.0,
+   60.0
+  ],
+  [
+   60.0,
+   120.0
+  ]
+ ],
+ "offsets": {
+  "10K": {
+   "offset": 3154.73,
+   "support": 13,
+   "n_candidates": 13
+  }
+ },
+ "n_expected": 36,
+ "n_events": 39,
+ "n_out_bib": 14,
+ "found": {
+  "k": 14,
+  "n": 36,
+  "value": 0.389,
+  "ci95": [
+   0.248,
+   0.551
+  ]
+ },
+ "out_correct": {
+  "k": 14,
+  "n": 14,
+  "value": 1.0,
+  "ci95": [
+   0.785,
+   1.0
+  ]
+ },
+ "out_in_list": {
+  "k": 14,
+  "n": 14
+ },
+ "wrong_out": 0,
+ "events_per_expected": 1.08,
+ "time_err": {
+  "median": 0.04,
+  "abs_med": 0.12
+ },
+ "per_segment": [
+  {
+   "seg": [
+    0.0,
+    60.0
+   ],
+   "expected": 14,
+   "events": 15,
+   "out_bib": 5,
+   "found": 5
+  },
+  {
+   "seg": [
+    60.0,
+    120.0
+   ],
+   "expected": 22,
+   "events": 24,
+   "out_bib": 9,
+   "found": 9
+  }
+ ]
+}

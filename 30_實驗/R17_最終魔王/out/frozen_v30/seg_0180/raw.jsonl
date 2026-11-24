@@ -1,0 +1,1506 @@
+{"t": 180.0, "tid": 1001, "rawtid": 1, "pbox": [579, 323, 716, 640], "ph": 317, "split": false, "texts": [["SY", 0.975, [650, 420, 685, 434]]]}
+{"t": 180.0, "tid": 2001, "rawtid": 2, "pbox": [793, 292, 902, 617], "ph": 325, "split": false, "texts": []}
+{"t": 180.0, "tid": 3001, "rawtid": 3, "pbox": [678, 335, 760, 565], "ph": 230, "split": false, "texts": [["\u5de5\u4f5c", 0.998, [717, 402, 744, 427]]]}
+{"t": 180.0, "tid": 4001, "rawtid": 4, "pbox": [145, 343, 180, 447], "ph": 104, "split": false, "texts": []}
+{"t": 180.0, "tid": 5001, "rawtid": 5, "pbox": [101, 349, 133, 462], "ph": 113, "split": false, "texts": []}
+{"t": 180.0, "tid": 6001, "rawtid": 6, "pbox": [858, 341, 921, 528], "ph": 187, "split": false, "texts": [["\u798f", 0.535, [857, 420, 874, 444]]]}
+{"t": 180.0, "tid": 11001, "rawtid": 11, "pbox": [744, 338, 801, 533], "ph": 195, "split": false, "texts": [["\u84b8\u4fee", 0.603, [740, 424, 759, 447]]]}
+{"t": 180.0, "tid": 13001, "rawtid": 13, "pbox": [28, 342, 61, 481], "ph": 139, "split": false, "texts": []}
+{"t": 180.0, "tid": 17001, "rawtid": 17, "pbox": [0, 365, 19, 509], "ph": 144, "split": false, "texts": []}
+{"t": 180.0, "tid": 19001, "rawtid": 19, "pbox": [770, 341, 802, 481], "ph": 140, "split": false, "texts": []}
+{"t": 180.062, "tid": 1001, "rawtid": 1, "pbox": [586, 322, 724, 641], "ph": 319, "split": false, "texts": [["SYO", 0.54, [657, 418, 702, 446]]]}
+{"t": 180.062, "tid": 2001, "rawtid": 2, "pbox": [793, 292, 902, 618], "ph": 326, "split": false, "texts": []}
+{"t": 180.062, "tid": 3001, "rawtid": 3, "pbox": [681, 336, 761, 564], "ph": 228, "split": false, "texts": [["\u4f5c", 0.748, [727, 404, 743, 422]], ["SY", 0.972, [675, 421, 697, 435]]]}
+{"t": 180.062, "tid": 4001, "rawtid": 4, "pbox": [145, 342, 180, 447], "ph": 105, "split": false, "texts": []}
+{"t": 180.062, "tid": 5001, "rawtid": 5, "pbox": [101, 349, 132, 462], "ph": 113, "split": false, "texts": [["re", 0.537, [102, 393, 114, 403]]]}
+{"t": 180.062, "tid": 6001, "rawtid": 6, "pbox": [858, 341, 921, 527], "ph": 186, "split": false, "texts": []}
+{"t": 180.062, "tid": 11001, "rawtid": 11, "pbox": [744, 341, 802, 536], "ph": 195, "split": false, "texts": [["\u84b8\u4fee", 0.541, [740, 424, 760, 447]]]}
+{"t": 180.062, "tid": 13001, "rawtid": 13, "pbox": [28, 341, 62, 481], "ph": 140, "split": false, "texts": []}
+{"t": 180.062, "tid": 17001, "rawtid": 17, "pbox": [0, 367, 19, 513], "ph": 146, "split": false, "texts": []}
+{"t": 180.062, "tid": 19001, "rawtid": 19, "pbox": [771, 342, 802, 479], "ph": 137, "split": false, "texts": []}
+{"t": 180.125, "tid": 1001, "rawtid": 1, "pbox": [593, 322, 732, 642], "ph": 320, "split": false, "texts": [["SY", 0.972, [675, 422, 708, 440]]]}
+{"t": 180.125, "tid": 2001, "rawtid": 2, "pbox": [793, 291, 902, 618], "ph": 327, "split": false, "texts": []}
+{"t": 180.125, "tid": 4001, "rawtid": 4, "pbox": [144, 342, 179, 446], "ph": 104, "split": false, "texts": []}
+{"t": 180.125, "tid": 5001, "rawtid": 5, "pbox": [101, 349, 132, 462], "ph": 113, "split": false, "texts": [["re", 0.819, [102, 393, 113, 403]]]}
+{"t": 180.125, "tid": 6001, "rawtid": 6, "pbox": [858, 341, 921, 527], "ph": 186, "split": false, "texts": []}
+{"t": 180.125, "tid": 11001, "rawtid": 11, "pbox": [735, 341, 793, 536], "ph": 195, "split": false, "texts": []}
+{"t": 180.125, "tid": 13001, "rawtid": 13, "pbox": [28, 342, 62, 482], "ph": 140, "split": false, "texts": []}
+{"t": 180.125, "tid": 17001, "rawtid": 17, "pbox": [0, 368, 19, 524], "ph": 156, "split": false, "texts": []}
+{"t": 180.125, "tid": 19001, "rawtid": 19, "pbox": [772, 342, 803, 479], "ph": 137, "split": false, "texts": []}
+{"t": 180.125, "tid": 22001, "rawtid": 22, "pbox": [789, 339, 819, 471], "ph": 132, "split": false, "texts": []}
+{"t": 180.188, "tid": 1001, "rawtid": 1, "pbox": [606, 322, 745, 643], "ph": 321, "split": false, "texts": [["SYU", 0.773, [683, 423, 721, 438]], ["\u65b0", 0.943, [716, 436, 729, 453]], ["Z.40", 0.885, [678, 467, 702, 481]]]}
+{"t": 180.188, "tid": 2001, "rawtid": 2, "pbox": [793, 291, 902, 617], "ph": 326, "split": false, "texts": []}
+{"t": 180.188, "tid": 4001, "rawtid": 4, "pbox": [145, 340, 180, 447], "ph": 107, "split": false, "texts": []}
+{"t": 180.188, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 132, 462], "ph": 113, "split": false, "texts": []}
+{"t": 180.188, "tid": 6001, "rawtid": 6, "pbox": [858, 341, 921, 527], "ph": 186, "split": false, "texts": []}
+{"t": 180.188, "tid": 11001, "rawtid": 11, "pbox": [743, 342, 799, 532], "ph": 190, "split": false, "texts": []}
+{"t": 180.188, "tid": 13001, "rawtid": 13, "pbox": [29, 342, 63, 482], "ph": 140, "split": false, "texts": []}
+{"t": 180.188, "tid": 19001, "rawtid": 19, "pbox": [774, 340, 805, 479], "ph": 139, "split": false, "texts": []}
+{"t": 180.188, "tid": 22001, "rawtid": 22, "pbox": [788, 339, 819, 472], "ph": 133, "split": false, "texts": []}
+{"t": 180.25, "tid": 1001, "rawtid": 1, "pbox": [616, 320, 758, 647], "ph": 327, "split": false, "texts": [["SY", 0.926, [688, 422, 730, 439]], ["\u65b0", 0.953, [720, 437, 731, 451]]]}
+{"t": 180.25, "tid": 2001, "rawtid": 2, "pbox": [792, 291, 901, 617], "ph": 326, "split": false, "texts": []}
+{"t": 180.25, "tid": 4001, "rawtid": 4, "pbox": [145, 340, 180, 447], "ph": 107, "split": false, "texts": []}
+{"t": 180.25, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 131, 462], "ph": 113, "split": false, "texts": []}
+{"t": 180.25, "tid": 6001, "rawtid": 6, "pbox": [859, 341, 922, 527], "ph": 186, "split": false, "texts": []}
+{"t": 180.25, "tid": 11001, "rawtid": 11, "pbox": [748, 342, 803, 529], "ph": 187, "split": false, "texts": []}
+{"t": 180.25, "tid": 13001, "rawtid": 13, "pbox": [30, 342, 63, 482], "ph": 140, "split": false, "texts": []}
+{"t": 180.25, "tid": 22001, "rawtid": 22, "pbox": [788, 339, 819, 471], "ph": 132, "split": false, "texts": []}
+{"t": 180.312, "tid": 1001, "rawtid": 1, "pbox": [621, 319, 767, 657], "ph": 338, "split": false, "texts": [["ASY", 0.871, [693, 422, 736, 439]]]}
+{"t": 180.312, "tid": 2001, "rawtid": 2, "pbox": [792, 290, 901, 617], "ph": 327, "split": false, "texts": []}
+{"t": 180.312, "tid": 4001, "rawtid": 4, "pbox": [145, 341, 180, 447], "ph": 106, "split": false, "texts": []}
+{"t": 180.312, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 131, 462], "ph": 113, "split": false, "texts": []}
+{"t": 180.312, "tid": 6001, "rawtid": 6, "pbox": [859, 341, 922, 527], "ph": 186, "split": false, "texts": []}
+{"t": 180.312, "tid": 11001, "rawtid": 11, "pbox": [749, 342, 804, 529], "ph": 187, "split": false, "texts": []}
+{"t": 180.312, "tid": 13001, "rawtid": 13, "pbox": [30, 343, 63, 482], "ph": 139, "split": false, "texts": []}
+{"t": 180.312, "tid": 22001, "rawtid": 22, "pbox": [788, 338, 819, 471], "ph": 133, "split": false, "texts": []}
+{"t": 180.312, "tid": 17001, "rawtid": 17, "pbox": [0, 370, 22, 532], "ph": 162, "split": false, "texts": []}
+{"t": 180.375, "tid": 1001, "rawtid": 1, "pbox": [625, 317, 778, 671], "ph": 354, "split": false, "texts": []}
+{"t": 180.375, "tid": 2001, "rawtid": 2, "pbox": [791, 290, 901, 617], "ph": 327, "split": false, "texts": []}
+{"t": 180.375, "tid": 4001, "rawtid": 4, "pbox": [146, 343, 180, 447], "ph": 104, "split": false, "texts": []}
+{"t": 180.375, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 180.375, "tid": 6001, "rawtid": 6, "pbox": [860, 341, 922, 528], "ph": 187, "split": false, "texts": []}
+{"t": 180.375, "tid": 11001, "rawtid": 11, "pbox": [751, 345, 806, 531], "ph": 186, "split": false, "texts": []}
+{"t": 180.375, "tid": 13001, "rawtid": 13, "pbox": [30, 343, 64, 482], "ph": 139, "split": false, "texts": []}
+{"t": 180.375, "tid": 22001, "rawtid": 22, "pbox": [788, 339, 819, 471], "ph": 132, "split": false, "texts": []}
+{"t": 180.375, "tid": 17001, "rawtid": 17, "pbox": [0, 372, 21, 525], "ph": 153, "split": false, "texts": []}
+{"t": 180.438, "tid": 1001, "rawtid": 1, "pbox": [632, 316, 790, 686], "ph": 370, "split": false, "texts": [["SY", 0.952, [718, 426, 751, 441]]]}
+{"t": 180.438, "tid": 2001, "rawtid": 2, "pbox": [792, 290, 901, 617], "ph": 327, "split": false, "texts": []}
+{"t": 180.438, "tid": 4001, "rawtid": 4, "pbox": [146, 344, 180, 447], "ph": 103, "split": false, "texts": []}
+{"t": 180.438, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 180.438, "tid": 6001, "rawtid": 6, "pbox": [860, 341, 922, 528], "ph": 187, "split": false, "texts": []}
+{"t": 180.438, "tid": 13001, "rawtid": 13, "pbox": [30, 343, 64, 482], "ph": 139, "split": false, "texts": []}
+{"t": 180.438, "tid": 22001, "rawtid": 22, "pbox": [786, 340, 817, 470], "ph": 130, "split": false, "texts": []}
+{"t": 180.438, "tid": 17001, "rawtid": 17, "pbox": [0, 369, 20, 533], "ph": 164, "split": false, "texts": []}
+{"t": 180.5, "tid": 1001, "rawtid": 1, "pbox": [638, 316, 800, 695], "ph": 379, "split": false, "texts": [["SY", 0.953, [725, 430, 759, 448]]]}
+{"t": 180.5, "tid": 2001, "rawtid": 2, "pbox": [792, 290, 901, 617], "ph": 327, "split": false, "texts": []}
+{"t": 180.5, "tid": 4001, "rawtid": 4, "pbox": [138, 343, 174, 447], "ph": 104, "split": false, "texts": []}
+{"t": 180.5, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 180.5, "tid": 6001, "rawtid": 6, "pbox": [861, 341, 923, 528], "ph": 187, "split": false, "texts": []}
+{"t": 180.5, "tid": 13001, "rawtid": 13, "pbox": [30, 344, 64, 482], "ph": 138, "split": false, "texts": []}
+{"t": 180.5, "tid": 22001, "rawtid": 22, "pbox": [789, 340, 819, 470], "ph": 130, "split": false, "texts": []}
+{"t": 180.5, "tid": 17001, "rawtid": 17, "pbox": [0, 368, 20, 522], "ph": 154, "split": false, "texts": []}
+{"t": 180.562, "tid": 1001, "rawtid": 1, "pbox": [645, 317, 808, 702], "ph": 385, "split": false, "texts": [["SY", 0.858, [735, 437, 764, 455]]]}
+{"t": 180.562, "tid": 2001, "rawtid": 2, "pbox": [792, 290, 902, 617], "ph": 327, "split": false, "texts": []}
+{"t": 180.562, "tid": 4001, "rawtid": 4, "pbox": [143, 344, 178, 447], "ph": 103, "split": false, "texts": []}
+{"t": 180.562, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 180.562, "tid": 6001, "rawtid": 6, "pbox": [861, 341, 923, 528], "ph": 187, "split": false, "texts": []}
+{"t": 180.562, "tid": 13001, "rawtid": 13, "pbox": [30, 344, 64, 482], "ph": 138, "split": false, "texts": []}
+{"t": 180.562, "tid": 22001, "rawtid": 22, "pbox": [786, 339, 816, 469], "ph": 130, "split": false, "texts": []}
+{"t": 180.562, "tid": 17001, "rawtid": 17, "pbox": [0, 370, 20, 514], "ph": 144, "split": false, "texts": []}
+{"t": 180.562, "tid": 34001, "rawtid": 34, "pbox": [922, 469, 955, 612], "ph": 143, "split": false, "texts": []}
+{"t": 180.625, "tid": 1001, "rawtid": 1, "pbox": [652, 317, 816, 705], "ph": 388, "split": false, "texts": [["S", 0.755, [743, 438, 775, 463]]]}
+{"t": 180.625, "tid": 2001, "rawtid": 2, "pbox": [793, 291, 903, 618], "ph": 327, "split": false, "texts": []}
+{"t": 180.625, "tid": 4001, "rawtid": 4, "pbox": [145, 345, 179, 447], "ph": 102, "split": false, "texts": []}
+{"t": 180.625, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 180.625, "tid": 6001, "rawtid": 6, "pbox": [861, 341, 922, 529], "ph": 188, "split": false, "texts": []}
+{"t": 180.625, "tid": 13001, "rawtid": 13, "pbox": [29, 344, 64, 482], "ph": 138, "split": false, "texts": []}
+{"t": 180.625, "tid": 17001, "rawtid": 17, "pbox": [1, 367, 21, 509], "ph": 142, "split": false, "texts": []}
+{"t": 180.625, "tid": 34001, "rawtid": 34, "pbox": [907, 434, 949, 611], "ph": 177, "split": false, "texts": []}
+{"t": 180.688, "tid": 1001, "rawtid": 1, "pbox": [665, 316, 828, 705], "ph": 389, "split": false, "texts": []}
+{"t": 180.688, "tid": 2001, "rawtid": 2, "pbox": [792, 290, 902, 618], "ph": 328, "split": false, "texts": []}
+{"t": 180.688, "tid": 4001, "rawtid": 4, "pbox": [145, 346, 179, 447], "ph": 101, "split": false, "texts": []}
+{"t": 180.688, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 180.688, "tid": 6001, "rawtid": 6, "pbox": [863, 341, 924, 530], "ph": 189, "split": false, "texts": []}
+{"t": 180.688, "tid": 13001, "rawtid": 13, "pbox": [29, 344, 64, 482], "ph": 138, "split": false, "texts": []}
+{"t": 180.688, "tid": 17001, "rawtid": 17, "pbox": [1, 366, 21, 508], "ph": 142, "split": false, "texts": []}
+{"t": 180.688, "tid": 34001, "rawtid": 34, "pbox": [895, 405, 945, 611], "ph": 206, "split": false, "texts": []}
+{"t": 180.75, "tid": 1001, "rawtid": 1, "pbox": [680, 315, 843, 706], "ph": 391, "split": false, "texts": []}
+{"t": 180.75, "tid": 2001, "rawtid": 2, "pbox": [795, 291, 904, 617], "ph": 326, "split": false, "texts": []}
+{"t": 180.75, "tid": 4001, "rawtid": 4, "pbox": [145, 346, 179, 447], "ph": 101, "split": false, "texts": []}
+{"t": 180.75, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 180.75, "tid": 6001, "rawtid": 6, "pbox": [863, 341, 924, 532], "ph": 191, "split": false, "texts": []}
+{"t": 180.75, "tid": 13001, "rawtid": 13, "pbox": [29, 344, 64, 482], "ph": 138, "split": false, "texts": []}
+{"t": 180.75, "tid": 17001, "rawtid": 17, "pbox": [2, 366, 22, 508], "ph": 142, "split": false, "texts": []}
+{"t": 180.75, "tid": 34001, "rawtid": 34, "pbox": [879, 333, 946, 611], "ph": 278, "split": false, "texts": []}
+{"t": 180.75, "tid": 3001, "rawtid": 3, "pbox": [677, 340, 755, 557], "ph": 217, "split": false, "texts": []}
+{"t": 180.812, "tid": 1001, "rawtid": 1, "pbox": [690, 313, 852, 706], "ph": 393, "split": false, "texts": []}
+{"t": 180.812, "tid": 2001, "rawtid": 2, "pbox": [797, 290, 906, 618], "ph": 328, "split": false, "texts": []}
+{"t": 180.812, "tid": 4001, "rawtid": 4, "pbox": [145, 346, 179, 447], "ph": 101, "split": false, "texts": []}
+{"t": 180.812, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 180.812, "tid": 6001, "rawtid": 6, "pbox": [864, 341, 923, 531], "ph": 190, "split": false, "texts": []}
+{"t": 180.812, "tid": 13001, "rawtid": 13, "pbox": [29, 344, 65, 481], "ph": 137, "split": false, "texts": []}
+{"t": 180.812, "tid": 17001, "rawtid": 17, "pbox": [2, 367, 23, 507], "ph": 140, "split": false, "texts": []}
+{"t": 180.812, "tid": 34001, "rawtid": 34, "pbox": [871, 306, 945, 610], "ph": 304, "split": false, "texts": []}
+{"t": 180.812, "tid": 3001, "rawtid": 3, "pbox": [671, 342, 748, 557], "ph": 215, "split": false, "texts": []}
+{"t": 180.875, "tid": 1001, "rawtid": 1, "pbox": [699, 312, 862, 708], "ph": 396, "split": false, "texts": []}
+{"t": 180.875, "tid": 2001, "rawtid": 2, "pbox": [800, 290, 908, 618], "ph": 328, "split": false, "texts": []}
+{"t": 180.875, "tid": 4001, "rawtid": 4, "pbox": [145, 346, 179, 447], "ph": 101, "split": false, "texts": []}
+{"t": 180.875, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 180.875, "tid": 6001, "rawtid": 6, "pbox": [864, 341, 922, 530], "ph": 189, "split": false, "texts": []}
+{"t": 180.875, "tid": 13001, "rawtid": 13, "pbox": [29, 344, 65, 481], "ph": 137, "split": false, "texts": []}
+{"t": 180.875, "tid": 17001, "rawtid": 17, "pbox": [2, 368, 23, 506], "ph": 138, "split": false, "texts": []}
+{"t": 180.875, "tid": 34001, "rawtid": 34, "pbox": [867, 295, 945, 608], "ph": 313, "split": false, "texts": []}
+{"t": 180.875, "tid": 3001, "rawtid": 3, "pbox": [670, 344, 747, 557], "ph": 213, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.89, [714, 398, 752, 429]]]}
+{"t": 180.938, "tid": 1001, "rawtid": 1, "pbox": [707, 311, 872, 711], "ph": 400, "split": false, "texts": [["\u5de5\u4f5c", 0.874, [720, 403, 746, 424]]]}
+{"t": 180.938, "tid": 2001, "rawtid": 2, "pbox": [807, 290, 913, 617], "ph": 327, "split": false, "texts": []}
+{"t": 180.938, "tid": 4001, "rawtid": 4, "pbox": [145, 345, 179, 447], "ph": 102, "split": false, "texts": []}
+{"t": 180.938, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 180.938, "tid": 6001, "rawtid": 6, "pbox": [864, 339, 921, 527], "ph": 188, "split": false, "texts": []}
+{"t": 180.938, "tid": 13001, "rawtid": 13, "pbox": [29, 345, 65, 481], "ph": 136, "split": false, "texts": []}
+{"t": 180.938, "tid": 17001, "rawtid": 17, "pbox": [2, 367, 23, 506], "ph": 139, "split": false, "texts": []}
+{"t": 180.938, "tid": 34001, "rawtid": 34, "pbox": [865, 291, 946, 606], "ph": 315, "split": false, "texts": []}
+{"t": 180.938, "tid": 3001, "rawtid": 3, "pbox": [672, 345, 749, 558], "ph": 213, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.918, [714, 397, 752, 430]], ["\u65b0\u5c4b", 0.704, [711, 423, 754, 459]]]}
+{"t": 181.0, "tid": 1001, "rawtid": 1, "pbox": [716, 313, 886, 715], "ph": 402, "split": false, "texts": [["\u65b0\u5c4b\u5340\u552e", 0.692, [711, 421, 764, 457]]]}
+{"t": 181.0, "tid": 2001, "rawtid": 2, "pbox": [817, 336, 907, 615], "ph": 279, "split": false, "texts": []}
+{"t": 181.0, "tid": 4001, "rawtid": 4, "pbox": [145, 346, 179, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.0, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 181.0, "tid": 13001, "rawtid": 13, "pbox": [28, 345, 65, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.0, "tid": 17001, "rawtid": 17, "pbox": [2, 367, 23, 506], "ph": 139, "split": false, "texts": []}
+{"t": 181.0, "tid": 34001, "rawtid": 34, "pbox": [865, 289, 948, 605], "ph": 316, "split": false, "texts": []}
+{"t": 181.0, "tid": 3001, "rawtid": 3, "pbox": [673, 345, 752, 559], "ph": 214, "split": false, "texts": [["\u5de5\u4f5c", 0.937, [715, 400, 747, 429]], ["\u65b0\u8fd0\u5340\u5065", 0.576, [712, 422, 757, 458]]]}
+{"t": 181.062, "tid": 1001, "rawtid": 1, "pbox": [723, 315, 897, 717], "ph": 402, "split": false, "texts": [["\u65b0\u5c4b\u5340\u5065", 0.536, [712, 420, 764, 458]]]}
+{"t": 181.062, "tid": 4001, "rawtid": 4, "pbox": [145, 346, 179, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.062, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 181.062, "tid": 13001, "rawtid": 13, "pbox": [28, 345, 64, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.062, "tid": 17001, "rawtid": 17, "pbox": [2, 367, 24, 506], "ph": 139, "split": false, "texts": []}
+{"t": 181.062, "tid": 34001, "rawtid": 34, "pbox": [862, 289, 946, 604], "ph": 315, "split": false, "texts": []}
+{"t": 181.062, "tid": 3001, "rawtid": 3, "pbox": [675, 345, 756, 562], "ph": 217, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.94, [715, 398, 751, 429]]]}
+{"t": 181.125, "tid": 1001, "rawtid": 1, "pbox": [731, 316, 909, 718], "ph": 402, "split": false, "texts": [["\u65b0\u5c4b\u5340\u9986", 0.64, [717, 421, 762, 458]]]}
+{"t": 181.125, "tid": 4001, "rawtid": 4, "pbox": [145, 346, 179, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.125, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 131, 462], "ph": 114, "split": false, "texts": []}
+{"t": 181.125, "tid": 13001, "rawtid": 13, "pbox": [28, 345, 64, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.125, "tid": 17001, "rawtid": 17, "pbox": [2, 367, 24, 506], "ph": 139, "split": false, "texts": []}
+{"t": 181.125, "tid": 34001, "rawtid": 34, "pbox": [862, 290, 945, 603], "ph": 313, "split": false, "texts": []}
+{"t": 181.125, "tid": 3001, "rawtid": 3, "pbox": [676, 345, 759, 565], "ph": 220, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.83, [715, 398, 754, 428]]]}
+{"t": 181.125, "tid": 11001, "rawtid": 11, "pbox": [749, 337, 806, 529], "ph": 192, "split": false, "texts": []}
+{"t": 181.188, "tid": 1001, "rawtid": 1, "pbox": [744, 317, 928, 718], "ph": 401, "split": false, "texts": []}
+{"t": 181.188, "tid": 4001, "rawtid": 4, "pbox": [145, 346, 178, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.188, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 131, 462], "ph": 113, "split": false, "texts": []}
+{"t": 181.188, "tid": 13001, "rawtid": 13, "pbox": [28, 345, 64, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.188, "tid": 17001, "rawtid": 17, "pbox": [1, 366, 24, 506], "ph": 140, "split": false, "texts": []}
+{"t": 181.188, "tid": 34001, "rawtid": 34, "pbox": [872, 308, 951, 604], "ph": 296, "split": false, "texts": []}
+{"t": 181.188, "tid": 3001, "rawtid": 3, "pbox": [675, 345, 760, 567], "ph": 222, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.914, [714, 397, 753, 429]], ["\u65b0\u5c4b\u5340\u5065", 0.634, [712, 421, 763, 457]]]}
+{"t": 181.188, "tid": 46001, "rawtid": 46, "pbox": [823, 290, 874, 410], "ph": 120, "split": false, "texts": []}
+{"t": 181.188, "tid": 11001, "rawtid": 11, "pbox": [748, 337, 806, 529], "ph": 192, "split": false, "texts": []}
+{"t": 181.188, "tid": 19001, "rawtid": 19, "pbox": [788, 338, 818, 472], "ph": 134, "split": false, "texts": []}
+{"t": 181.25, "tid": 1001, "rawtid": 1, "pbox": [754, 316, 942, 718], "ph": 402, "split": false, "texts": []}
+{"t": 181.25, "tid": 4001, "rawtid": 4, "pbox": [144, 346, 178, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.25, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 131, 462], "ph": 113, "split": false, "texts": []}
+{"t": 181.25, "tid": 13001, "rawtid": 13, "pbox": [28, 345, 64, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.25, "tid": 17001, "rawtid": 17, "pbox": [1, 366, 24, 506], "ph": 140, "split": false, "texts": []}
+{"t": 181.25, "tid": 3001, "rawtid": 3, "pbox": [675, 345, 761, 568], "ph": 223, "split": false, "texts": [["\u5de5\u4f5c", 0.639, [716, 401, 746, 428]], ["\u65b0\u9e70\u5340\u5065", 0.695, [712, 420, 763, 458]]]}
+{"t": 181.25, "tid": 46001, "rawtid": 46, "pbox": [820, 303, 883, 452], "ph": 149, "split": false, "texts": []}
+{"t": 181.25, "tid": 11001, "rawtid": 11, "pbox": [747, 335, 806, 529], "ph": 194, "split": false, "texts": []}
+{"t": 181.25, "tid": 19001, "rawtid": 19, "pbox": [790, 338, 820, 470], "ph": 132, "split": false, "texts": []}
+{"t": 181.312, "tid": 1001, "rawtid": 1, "pbox": [760, 314, 951, 718], "ph": 404, "split": false, "texts": []}
+{"t": 181.312, "tid": 4001, "rawtid": 4, "pbox": [144, 346, 178, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.312, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 131, 462], "ph": 113, "split": false, "texts": []}
+{"t": 181.312, "tid": 13001, "rawtid": 13, "pbox": [27, 345, 64, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.312, "tid": 17001, "rawtid": 17, "pbox": [1, 366, 24, 506], "ph": 140, "split": false, "texts": []}
+{"t": 181.312, "tid": 3001, "rawtid": 3, "pbox": [675, 345, 762, 569], "ph": 224, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.953, [714, 396, 750, 429]], ["\u65b0\u5c4b\u5340\u5065", 0.588, [712, 420, 763, 458]]]}
+{"t": 181.312, "tid": 46001, "rawtid": 46, "pbox": [819, 296, 893, 472], "ph": 176, "split": false, "texts": []}
+{"t": 181.312, "tid": 11001, "rawtid": 11, "pbox": [747, 335, 805, 529], "ph": 194, "split": false, "texts": [["\u4e86", 0.649, [777, 396, 791, 416]]]}
+{"t": 181.312, "tid": 19001, "rawtid": 19, "pbox": [791, 339, 820, 470], "ph": 131, "split": false, "texts": []}
+{"t": 181.375, "tid": 1001, "rawtid": 1, "pbox": [773, 317, 960, 717], "ph": 400, "split": false, "texts": []}
+{"t": 181.375, "tid": 4001, "rawtid": 4, "pbox": [144, 346, 178, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.375, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 131, 462], "ph": 113, "split": false, "texts": []}
+{"t": 181.375, "tid": 13001, "rawtid": 13, "pbox": [27, 345, 64, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.375, "tid": 17001, "rawtid": 17, "pbox": [1, 366, 24, 506], "ph": 140, "split": false, "texts": []}
+{"t": 181.375, "tid": 3001, "rawtid": 3, "pbox": [674, 345, 762, 569], "ph": 224, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.995, [716, 399, 750, 428]], ["\u65b0\u661f\u5340\u5065", 0.667, [712, 420, 763, 457]]]}
+{"t": 181.375, "tid": 46001, "rawtid": 46, "pbox": [818, 293, 902, 492], "ph": 199, "split": false, "texts": []}
+{"t": 181.375, "tid": 11001, "rawtid": 11, "pbox": [744, 334, 803, 529], "ph": 195, "split": false, "texts": [["1", 0.512, [775, 395, 790, 416]]]}
+{"t": 181.375, "tid": 19001, "rawtid": 19, "pbox": [790, 340, 819, 469], "ph": 129, "split": false, "texts": []}
+{"t": 181.438, "tid": 1001, "rawtid": 1, "pbox": [785, 328, 960, 717], "ph": 389, "split": false, "texts": []}
+{"t": 181.438, "tid": 4001, "rawtid": 4, "pbox": [144, 346, 178, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.438, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 131, 462], "ph": 113, "split": false, "texts": []}
+{"t": 181.438, "tid": 13001, "rawtid": 13, "pbox": [27, 345, 65, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.438, "tid": 17001, "rawtid": 17, "pbox": [1, 366, 25, 508], "ph": 142, "split": false, "texts": []}
+{"t": 181.438, "tid": 3001, "rawtid": 3, "pbox": [674, 345, 762, 569], "ph": 224, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.992, [715, 396, 753, 430]], ["\u65b0\u5c4b\u5340\u8e0f", 0.601, [712, 420, 763, 457]]]}
+{"t": 181.438, "tid": 11001, "rawtid": 11, "pbox": [744, 337, 801, 529], "ph": 192, "split": false, "texts": []}
+{"t": 181.438, "tid": 19001, "rawtid": 19, "pbox": [789, 341, 817, 469], "ph": 128, "split": false, "texts": []}
+{"t": 181.438, "tid": 2001, "rawtid": 2, "pbox": [800, 294, 905, 610], "ph": 316, "split": false, "texts": []}
+{"t": 181.5, "tid": 1001, "rawtid": 1, "pbox": [796, 364, 960, 717], "ph": 353, "split": false, "texts": []}
+{"t": 181.5, "tid": 4001, "rawtid": 4, "pbox": [145, 346, 178, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.5, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 131, 462], "ph": 113, "split": false, "texts": []}
+{"t": 181.5, "tid": 13001, "rawtid": 13, "pbox": [27, 345, 64, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.5, "tid": 17001, "rawtid": 17, "pbox": [0, 367, 25, 508], "ph": 141, "split": false, "texts": []}
+{"t": 181.5, "tid": 3001, "rawtid": 3, "pbox": [674, 345, 763, 569], "ph": 224, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.989, [714, 394, 756, 430]], ["\u65b0\u5c4b\u798f\u8e0f", 0.568, [712, 420, 763, 457]]]}
+{"t": 181.5, "tid": 11001, "rawtid": 11, "pbox": [745, 338, 801, 530], "ph": 192, "split": false, "texts": []}
+{"t": 181.5, "tid": 2001, "rawtid": 2, "pbox": [798, 291, 906, 606], "ph": 315, "split": false, "texts": []}
+{"t": 181.562, "tid": 1001, "rawtid": 1, "pbox": [802, 391, 957, 717], "ph": 326, "split": false, "texts": []}
+{"t": 181.562, "tid": 4001, "rawtid": 4, "pbox": [145, 346, 178, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.562, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 131, 462], "ph": 113, "split": false, "texts": []}
+{"t": 181.562, "tid": 13001, "rawtid": 13, "pbox": [26, 345, 64, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.562, "tid": 17001, "rawtid": 17, "pbox": [0, 367, 25, 509], "ph": 142, "split": false, "texts": []}
+{"t": 181.562, "tid": 3001, "rawtid": 3, "pbox": [674, 343, 764, 568], "ph": 225, "split": false, "texts": [["\u5de5\u4f5c", 0.982, [716, 399, 748, 428]], ["\u65b0\u661f\u5340\u8b66", 0.65, [713, 420, 763, 456]]]}
+{"t": 181.562, "tid": 11001, "rawtid": 11, "pbox": [744, 338, 799, 529], "ph": 191, "split": false, "texts": [["\u798f", 0.696, [740, 423, 759, 445]]]}
+{"t": 181.562, "tid": 2001, "rawtid": 2, "pbox": [797, 290, 908, 609], "ph": 319, "split": false, "texts": []}
+{"t": 181.562, "tid": 6001, "rawtid": 6, "pbox": [867, 308, 919, 480], "ph": 172, "split": false, "texts": []}
+{"t": 181.625, "tid": 1001, "rawtid": 1, "pbox": [807, 410, 955, 716], "ph": 306, "split": false, "texts": []}
+{"t": 181.625, "tid": 4001, "rawtid": 4, "pbox": [145, 346, 178, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.625, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 131, 462], "ph": 113, "split": false, "texts": []}
+{"t": 181.625, "tid": 13001, "rawtid": 13, "pbox": [26, 345, 64, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.625, "tid": 17001, "rawtid": 17, "pbox": [0, 367, 25, 508], "ph": 141, "split": false, "texts": []}
+{"t": 181.625, "tid": 3001, "rawtid": 3, "pbox": [673, 344, 763, 567], "ph": 223, "split": false, "texts": [["\u5de5\u4f5c", 0.999, [718, 401, 744, 427]], ["\u65b0\u5c4b\u613f", 0.623, [713, 420, 764, 457]]]}
+{"t": 181.625, "tid": 11001, "rawtid": 11, "pbox": [744, 338, 798, 529], "ph": 191, "split": false, "texts": []}
+{"t": 181.625, "tid": 2001, "rawtid": 2, "pbox": [797, 289, 912, 614], "ph": 325, "split": false, "texts": []}
+{"t": 181.625, "tid": 6001, "rawtid": 6, "pbox": [865, 306, 921, 495], "ph": 189, "split": false, "texts": []}
+{"t": 181.688, "tid": 1001, "rawtid": 1, "pbox": [817, 433, 955, 716], "ph": 283, "split": false, "texts": []}
+{"t": 181.688, "tid": 4001, "rawtid": 4, "pbox": [145, 346, 178, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.688, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 131, 462], "ph": 113, "split": false, "texts": []}
+{"t": 181.688, "tid": 13001, "rawtid": 13, "pbox": [26, 346, 64, 481], "ph": 135, "split": false, "texts": []}
+{"t": 181.688, "tid": 17001, "rawtid": 17, "pbox": [0, 367, 25, 508], "ph": 141, "split": false, "texts": []}
+{"t": 181.688, "tid": 3001, "rawtid": 3, "pbox": [673, 344, 762, 563], "ph": 219, "split": false, "texts": [["\u5de5\u4f5c", 0.997, [716, 400, 747, 427]], ["\u65b0\u5c4b\u5bcc", 0.581, [713, 420, 763, 456]]]}
+{"t": 181.688, "tid": 11001, "rawtid": 11, "pbox": [743, 338, 797, 529], "ph": 191, "split": false, "texts": []}
+{"t": 181.688, "tid": 2001, "rawtid": 2, "pbox": [799, 289, 916, 616], "ph": 327, "split": false, "texts": []}
+{"t": 181.75, "tid": 1001, "rawtid": 1, "pbox": [825, 450, 956, 716], "ph": 266, "split": false, "texts": []}
+{"t": 181.75, "tid": 4001, "rawtid": 4, "pbox": [144, 346, 178, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.75, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 131, 462], "ph": 113, "split": false, "texts": []}
+{"t": 181.75, "tid": 13001, "rawtid": 13, "pbox": [25, 346, 63, 481], "ph": 135, "split": false, "texts": []}
+{"t": 181.75, "tid": 17001, "rawtid": 17, "pbox": [0, 367, 25, 507], "ph": 140, "split": false, "texts": []}
+{"t": 181.75, "tid": 3001, "rawtid": 3, "pbox": [673, 344, 762, 563], "ph": 219, "split": false, "texts": [["\u5de5\u4f5c", 0.999, [716, 401, 745, 428]], ["\u65b0\u5c4b\u4e34", 0.655, [713, 421, 763, 456]]]}
+{"t": 181.75, "tid": 11001, "rawtid": 11, "pbox": [742, 338, 796, 529], "ph": 191, "split": false, "texts": []}
+{"t": 181.75, "tid": 2001, "rawtid": 2, "pbox": [800, 290, 919, 617], "ph": 327, "split": false, "texts": []}
+{"t": 181.812, "tid": 1001, "rawtid": 1, "pbox": [843, 483, 958, 717], "ph": 234, "split": false, "texts": []}
+{"t": 181.812, "tid": 4001, "rawtid": 4, "pbox": [144, 346, 178, 447], "ph": 101, "split": false, "texts": []}
+{"t": 181.812, "tid": 5001, "rawtid": 5, "pbox": [100, 349, 132, 462], "ph": 113, "split": false, "texts": []}
+{"t": 181.812, "tid": 13001, "rawtid": 13, "pbox": [25, 345, 63, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.812, "tid": 17001, "rawtid": 17, "pbox": [0, 369, 25, 507], "ph": 138, "split": false, "texts": []}
+{"t": 181.812, "tid": 3001, "rawtid": 3, "pbox": [672, 344, 763, 567], "ph": 223, "split": false, "texts": [["\u5de5\u4f5c", 0.997, [718, 401, 745, 427]], ["\u65b0\u5c4b\u533b", 0.683, [713, 421, 764, 456]]]}
+{"t": 181.812, "tid": 11001, "rawtid": 11, "pbox": [742, 338, 795, 531], "ph": 193, "split": false, "texts": []}
+{"t": 181.812, "tid": 2001, "rawtid": 2, "pbox": [801, 290, 921, 618], "ph": 328, "split": false, "texts": []}
+{"t": 181.875, "tid": 1001, "rawtid": 1, "pbox": [880, 520, 960, 717], "ph": 197, "split": false, "texts": []}
+{"t": 181.875, "tid": 4001, "rawtid": 4, "pbox": [144, 345, 178, 447], "ph": 102, "split": false, "texts": []}
+{"t": 181.875, "tid": 5001, "rawtid": 5, "pbox": [100, 348, 132, 462], "ph": 114, "split": false, "texts": []}
+{"t": 181.875, "tid": 13001, "rawtid": 13, "pbox": [25, 345, 63, 481], "ph": 136, "split": false, "texts": []}
+{"t": 181.875, "tid": 17001, "rawtid": 17, "pbox": [0, 369, 25, 507], "ph": 138, "split": false, "texts": []}
+{"t": 181.875, "tid": 3001, "rawtid": 3, "pbox": [672, 344, 762, 564], "ph": 220, "split": false, "texts": [["\u5de5\u4f5c", 0.999, [717, 401, 745, 428]], ["\u65b0\u5c4b\u533b", 0.755, [713, 420, 764, 456]]]}
+{"t": 181.875, "tid": 11001, "rawtid": 11, "pbox": [743, 339, 796, 531], "ph": 192, "split": false, "texts": []}
+{"t": 181.875, "tid": 2001, "rawtid": 2, "pbox": [802, 291, 923, 618], "ph": 327, "split": false, "texts": []}
+{"t": 181.938, "tid": 4001, "rawtid": 4, "pbox": [144, 345, 178, 446], "ph": 101, "split": false, "texts": null}
+{"t": 181.938, "tid": 5001, "rawtid": 5, "pbox": [100, 344, 132, 462], "ph": 118, "split": false, "texts": null}
+{"t": 181.938, "tid": 13001, "rawtid": 13, "pbox": [25, 345, 63, 481], "ph": 136, "split": false, "texts": null}
+{"t": 181.938, "tid": 17001, "rawtid": 17, "pbox": [0, 369, 24, 507], "ph": 138, "split": false, "texts": null}
+{"t": 181.938, "tid": 3001, "rawtid": 3, "pbox": [672, 344, 762, 565], "ph": 221, "split": false, "texts": null}
+{"t": 181.938, "tid": 11001, "rawtid": 11, "pbox": [743, 339, 795, 532], "ph": 193, "split": false, "texts": null}
+{"t": 181.938, "tid": 2001, "rawtid": 2, "pbox": [800, 291, 923, 618], "ph": 327, "split": false, "texts": null}
+{"t": 182.0, "tid": 4001, "rawtid": 4, "pbox": [144, 345, 178, 446], "ph": 101, "split": false, "texts": null}
+{"t": 182.0, "tid": 5001, "rawtid": 5, "pbox": [100, 341, 133, 462], "ph": 121, "split": false, "texts": null}
+{"t": 182.0, "tid": 13001, "rawtid": 13, "pbox": [25, 345, 63, 481], "ph": 136, "split": false, "texts": null}
+{"t": 182.0, "tid": 17001, "rawtid": 17, "pbox": [0, 371, 24, 507], "ph": 136, "split": false, "texts": null}
+{"t": 182.0, "tid": 3001, "rawtid": 3, "pbox": [672, 345, 762, 562], "ph": 217, "split": false, "texts": null}
+{"t": 182.0, "tid": 11001, "rawtid": 11, "pbox": [742, 339, 794, 532], "ph": 193, "split": false, "texts": null}
+{"t": 182.0, "tid": 2001, "rawtid": 2, "pbox": [798, 291, 923, 618], "ph": 327, "split": false, "texts": null}
+{"t": 182.062, "tid": 4001, "rawtid": 4, "pbox": [145, 345, 178, 446], "ph": 101, "split": false, "texts": null}
+{"t": 182.062, "tid": 5001, "rawtid": 5, "pbox": [100, 341, 133, 462], "ph": 121, "split": false, "texts": null}
+{"t": 182.062, "tid": 13001, "rawtid": 13, "pbox": [24, 344, 63, 481], "ph": 137, "split": false, "texts": null}
+{"t": 182.062, "tid": 17001, "rawtid": 17, "pbox": [0, 371, 24, 507], "ph": 136, "split": false, "texts": null}
+{"t": 182.062, "tid": 3001, "rawtid": 3, "pbox": [673, 345, 762, 561], "ph": 216, "split": false, "texts": null}
+{"t": 182.062, "tid": 11001, "rawtid": 11, "pbox": [742, 339, 793, 532], "ph": 193, "split": false, "texts": null}
+{"t": 182.062, "tid": 2001, "rawtid": 2, "pbox": [798, 291, 924, 618], "ph": 327, "split": false, "texts": null}
+{"t": 182.125, "tid": 4001, "rawtid": 4, "pbox": [145, 345, 178, 446], "ph": 101, "split": false, "texts": null}
+{"t": 182.125, "tid": 5001, "rawtid": 5, "pbox": [100, 339, 134, 462], "ph": 123, "split": false, "texts": null}
+{"t": 182.125, "tid": 13001, "rawtid": 13, "pbox": [24, 343, 63, 481], "ph": 138, "split": false, "texts": null}
+{"t": 182.125, "tid": 17001, "rawtid": 17, "pbox": [1, 391, 22, 506], "ph": 115, "split": false, "texts": []}
+{"t": 182.125, "tid": 3001, "rawtid": 3, "pbox": [672, 345, 763, 565], "ph": 220, "split": false, "texts": [["\u5de5\u4f5c", 0.997, [718, 401, 745, 428]], ["\u65b0\u5c4b\u56fe", 0.732, [713, 419, 764, 457]]]}
+{"t": 182.125, "tid": 11001, "rawtid": 11, "pbox": [743, 339, 792, 531], "ph": 192, "split": false, "texts": null}
+{"t": 182.125, "tid": 2001, "rawtid": 2, "pbox": [799, 290, 926, 619], "ph": 329, "split": false, "texts": null}
+{"t": 182.188, "tid": 4001, "rawtid": 4, "pbox": [145, 345, 179, 446], "ph": 101, "split": false, "texts": null}
+{"t": 182.188, "tid": 5001, "rawtid": 5, "pbox": [100, 341, 134, 462], "ph": 121, "split": false, "texts": null}
+{"t": 182.188, "tid": 13001, "rawtid": 13, "pbox": [24, 343, 63, 481], "ph": 138, "split": false, "texts": null}
+{"t": 182.188, "tid": 17001, "rawtid": 17, "pbox": [0, 378, 23, 507], "ph": 129, "split": false, "texts": []}
+{"t": 182.188, "tid": 3001, "rawtid": 3, "pbox": [671, 345, 763, 566], "ph": 221, "split": false, "texts": [["\u5de5\u4f5c", 0.996, [718, 401, 745, 427]], ["\u65b0\u5c4b\u533b\u9501", 0.685, [714, 420, 764, 456]]]}
+{"t": 182.188, "tid": 11001, "rawtid": 11, "pbox": [742, 339, 791, 529], "ph": 190, "split": false, "texts": null}
+{"t": 182.188, "tid": 2001, "rawtid": 2, "pbox": [799, 290, 927, 618], "ph": 328, "split": false, "texts": null}
+{"t": 182.25, "tid": 4001, "rawtid": 4, "pbox": [146, 344, 179, 446], "ph": 102, "split": false, "texts": null}
+{"t": 182.25, "tid": 5001, "rawtid": 5, "pbox": [100, 341, 134, 462], "ph": 121, "split": false, "texts": null}
+{"t": 182.25, "tid": 13001, "rawtid": 13, "pbox": [24, 343, 64, 481], "ph": 138, "split": false, "texts": null}
+{"t": 182.25, "tid": 17001, "rawtid": 17, "pbox": [0, 372, 23, 507], "ph": 135, "split": false, "texts": null}
+{"t": 182.25, "tid": 3001, "rawtid": 3, "pbox": [671, 345, 764, 568], "ph": 223, "split": false, "texts": [["\u5de5\u4f5c", 0.996, [718, 401, 745, 427]], ["\u65b0\u5ead\u533b", 0.574, [714, 420, 764, 456]]]}
+{"t": 182.25, "tid": 11001, "rawtid": 11, "pbox": [744, 339, 792, 531], "ph": 192, "split": false, "texts": null}
+{"t": 182.25, "tid": 2001, "rawtid": 2, "pbox": [798, 290, 927, 619], "ph": 329, "split": false, "texts": null}
+{"t": 182.312, "tid": 4001, "rawtid": 4, "pbox": [146, 344, 179, 447], "ph": 103, "split": false, "texts": null}
+{"t": 182.312, "tid": 5001, "rawtid": 5, "pbox": [101, 344, 133, 462], "ph": 118, "split": false, "texts": null}
+{"t": 182.312, "tid": 13001, "rawtid": 13, "pbox": [24, 344, 64, 481], "ph": 137, "split": false, "texts": null}
+{"t": 182.312, "tid": 17001, "rawtid": 17, "pbox": [0, 370, 23, 506], "ph": 136, "split": false, "texts": null}
+{"t": 182.312, "tid": 3001, "rawtid": 3, "pbox": [671, 345, 764, 569], "ph": 224, "split": false, "texts": [["\u5de5\u4f5c", 0.997, [718, 401, 746, 427]], ["\u65b0\u5ead\u9e70", 0.659, [714, 421, 764, 456]]]}
+{"t": 182.312, "tid": 11001, "rawtid": 11, "pbox": [745, 339, 793, 529], "ph": 190, "split": false, "texts": null}
+{"t": 182.312, "tid": 2001, "rawtid": 2, "pbox": [797, 290, 927, 619], "ph": 329, "split": false, "texts": null}
+{"t": 182.375, "tid": 4001, "rawtid": 4, "pbox": [146, 345, 179, 446], "ph": 101, "split": false, "texts": null}
+{"t": 182.375, "tid": 5001, "rawtid": 5, "pbox": [102, 346, 134, 461], "ph": 115, "split": false, "texts": null}
+{"t": 182.375, "tid": 13001, "rawtid": 13, "pbox": [24, 344, 64, 481], "ph": 137, "split": false, "texts": null}
+{"t": 182.375, "tid": 17001, "rawtid": 17, "pbox": [0, 388, 22, 506], "ph": 118, "split": false, "texts": null}
+{"t": 182.375, "tid": 3001, "rawtid": 3, "pbox": [670, 344, 764, 569], "ph": 225, "split": false, "texts": [["\u5de5\u4f5c", 0.998, [718, 401, 746, 427]], ["\u65b0\u5c4b\u56fe\u5e3d", 0.522, [714, 419, 764, 456]]]}
+{"t": 182.375, "tid": 11001, "rawtid": 11, "pbox": [746, 339, 792, 528], "ph": 189, "split": false, "texts": null}
+{"t": 182.375, "tid": 2001, "rawtid": 2, "pbox": [797, 290, 928, 619], "ph": 329, "split": false, "texts": null}
+{"t": 182.438, "tid": 4001, "rawtid": 4, "pbox": [146, 345, 179, 446], "ph": 101, "split": false, "texts": null}
+{"t": 182.438, "tid": 5001, "rawtid": 5, "pbox": [102, 346, 134, 461], "ph": 115, "split": false, "texts": null}
+{"t": 182.438, "tid": 13001, "rawtid": 13, "pbox": [24, 344, 64, 481], "ph": 137, "split": false, "texts": null}
+{"t": 182.438, "tid": 17001, "rawtid": 17, "pbox": [0, 372, 23, 506], "ph": 134, "split": false, "texts": null}
+{"t": 182.438, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 764, 567], "ph": 223, "split": false, "texts": [["\u5de5\u4f5c", 0.994, [718, 401, 745, 427]], ["\u65b0\u871c\u660c", 0.515, [714, 421, 764, 456]]]}
+{"t": 182.438, "tid": 11001, "rawtid": 11, "pbox": [745, 339, 792, 530], "ph": 191, "split": false, "texts": [["\u798f", 0.622, [742, 425, 758, 444]]]}
+{"t": 182.438, "tid": 2001, "rawtid": 2, "pbox": [796, 290, 928, 620], "ph": 330, "split": false, "texts": null}
+{"t": 182.5, "tid": 4001, "rawtid": 4, "pbox": [147, 345, 179, 446], "ph": 101, "split": false, "texts": null}
+{"t": 182.5, "tid": 5001, "rawtid": 5, "pbox": [103, 347, 134, 462], "ph": 115, "split": false, "texts": null}
+{"t": 182.5, "tid": 13001, "rawtid": 13, "pbox": [24, 343, 64, 481], "ph": 138, "split": false, "texts": null}
+{"t": 182.5, "tid": 17001, "rawtid": 17, "pbox": [0, 377, 23, 506], "ph": 129, "split": false, "texts": null}
+{"t": 182.5, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 763, 564], "ph": 220, "split": false, "texts": [["\u5de5\u4f5c", 0.991, [718, 401, 746, 427]], ["\u65b0\u5c4b\u57fa", 0.623, [714, 420, 764, 456]]]}
+{"t": 182.5, "tid": 11001, "rawtid": 11, "pbox": [745, 338, 792, 532], "ph": 194, "split": false, "texts": []}
+{"t": 182.5, "tid": 2001, "rawtid": 2, "pbox": [795, 290, 927, 621], "ph": 331, "split": false, "texts": null}
+{"t": 182.562, "tid": 4001, "rawtid": 4, "pbox": [147, 345, 179, 446], "ph": 101, "split": false, "texts": null}
+{"t": 182.562, "tid": 5001, "rawtid": 5, "pbox": [102, 346, 134, 462], "ph": 116, "split": false, "texts": null}
+{"t": 182.562, "tid": 10001, "rawtid": 10, "pbox": [415, 328, 449, 428], "ph": 100, "split": false, "texts": []}
+{"t": 182.562, "tid": 13001, "rawtid": 13, "pbox": [24, 342, 64, 481], "ph": 139, "split": false, "texts": null}
+{"t": 182.562, "tid": 17001, "rawtid": 17, "pbox": [0, 369, 22, 506], "ph": 137, "split": false, "texts": null}
+{"t": 182.562, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 763, 564], "ph": 220, "split": false, "texts": [["\u5de5\u4f5c", 0.997, [718, 401, 746, 427]]]}
+{"t": 182.562, "tid": 11001, "rawtid": 11, "pbox": [744, 338, 791, 532], "ph": 194, "split": false, "texts": []}
+{"t": 182.562, "tid": 2001, "rawtid": 2, "pbox": [794, 291, 927, 621], "ph": 330, "split": false, "texts": null}
+{"t": 182.625, "tid": 4001, "rawtid": 4, "pbox": [147, 345, 179, 446], "ph": 101, "split": false, "texts": null}
+{"t": 182.625, "tid": 5001, "rawtid": 5, "pbox": [103, 348, 135, 462], "ph": 114, "split": false, "texts": null}
+{"t": 182.625, "tid": 10001, "rawtid": 10, "pbox": [412, 330, 446, 431], "ph": 101, "split": false, "texts": []}
+{"t": 182.625, "tid": 13001, "rawtid": 13, "pbox": [24, 342, 64, 481], "ph": 139, "split": false, "texts": null}
+{"t": 182.625, "tid": 3001, "rawtid": 3, "pbox": [670, 344, 764, 566], "ph": 222, "split": false, "texts": [["\u5de5\u4f5c", 0.599, [717, 400, 747, 427]]]}
+{"t": 182.625, "tid": 11001, "rawtid": 11, "pbox": [745, 338, 792, 532], "ph": 194, "split": false, "texts": []}
+{"t": 182.625, "tid": 2001, "rawtid": 2, "pbox": [793, 291, 926, 622], "ph": 331, "split": false, "texts": null}
+{"t": 182.688, "tid": 4001, "rawtid": 4, "pbox": [147, 344, 179, 446], "ph": 102, "split": false, "texts": null}
+{"t": 182.688, "tid": 5001, "rawtid": 5, "pbox": [101, 347, 133, 462], "ph": 115, "split": false, "texts": null}
+{"t": 182.688, "tid": 10001, "rawtid": 10, "pbox": [409, 327, 445, 433], "ph": 106, "split": false, "texts": []}
+{"t": 182.688, "tid": 13001, "rawtid": 13, "pbox": [23, 342, 64, 481], "ph": 139, "split": false, "texts": null}
+{"t": 182.688, "tid": 3001, "rawtid": 3, "pbox": [670, 343, 764, 567], "ph": 224, "split": false, "texts": null}
+{"t": 182.688, "tid": 11001, "rawtid": 11, "pbox": [746, 338, 792, 531], "ph": 193, "split": false, "texts": []}
+{"t": 182.688, "tid": 2001, "rawtid": 2, "pbox": [792, 291, 925, 621], "ph": 330, "split": false, "texts": null}
+{"t": 182.688, "tid": 69001, "rawtid": 69, "pbox": [787, 313, 844, 559], "ph": 246, "split": false, "texts": []}
+{"t": 182.688, "tid": 17001, "rawtid": 17, "pbox": [0, 365, 21, 516], "ph": 151, "split": false, "texts": null}
+{"t": 182.75, "tid": 4001, "rawtid": 4, "pbox": [147, 344, 179, 446], "ph": 102, "split": false, "texts": null}
+{"t": 182.75, "tid": 5001, "rawtid": 5, "pbox": [104, 348, 135, 462], "ph": 114, "split": false, "texts": null}
+{"t": 182.75, "tid": 10001, "rawtid": 10, "pbox": [407, 325, 443, 434], "ph": 109, "split": false, "texts": []}
+{"t": 182.75, "tid": 13001, "rawtid": 13, "pbox": [23, 342, 64, 481], "ph": 139, "split": false, "texts": null}
+{"t": 182.75, "tid": 3001, "rawtid": 3, "pbox": [670, 344, 764, 566], "ph": 222, "split": false, "texts": null}
+{"t": 182.75, "tid": 11001, "rawtid": 11, "pbox": [746, 339, 792, 531], "ph": 192, "split": false, "texts": []}
+{"t": 182.75, "tid": 2001, "rawtid": 2, "pbox": [792, 291, 924, 621], "ph": 330, "split": false, "texts": null}
+{"t": 182.75, "tid": 69001, "rawtid": 69, "pbox": [786, 308, 844, 558], "ph": 250, "split": false, "texts": []}
+{"t": 182.75, "tid": 17001, "rawtid": 17, "pbox": [0, 365, 22, 521], "ph": 156, "split": false, "texts": null}
+{"t": 182.812, "tid": 4001, "rawtid": 4, "pbox": [147, 344, 179, 446], "ph": 102, "split": false, "texts": null}
+{"t": 182.812, "tid": 5001, "rawtid": 5, "pbox": [105, 347, 137, 462], "ph": 115, "split": false, "texts": null}
+{"t": 182.812, "tid": 10001, "rawtid": 10, "pbox": [403, 324, 442, 440], "ph": 116, "split": false, "texts": []}
+{"t": 182.812, "tid": 13001, "rawtid": 13, "pbox": [23, 342, 64, 481], "ph": 139, "split": false, "texts": null}
+{"t": 182.812, "tid": 3001, "rawtid": 3, "pbox": [670, 344, 764, 565], "ph": 221, "split": false, "texts": null}
+{"t": 182.812, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 792, 532], "ph": 193, "split": false, "texts": []}
+{"t": 182.812, "tid": 2001, "rawtid": 2, "pbox": [791, 291, 922, 620], "ph": 329, "split": false, "texts": null}
+{"t": 182.812, "tid": 67001, "rawtid": 67, "pbox": [84, 337, 111, 441], "ph": 104, "split": false, "texts": []}
+{"t": 182.812, "tid": 69001, "rawtid": 69, "pbox": [785, 306, 844, 557], "ph": 251, "split": false, "texts": []}
+{"t": 182.812, "tid": 17001, "rawtid": 17, "pbox": [0, 366, 22, 518], "ph": 152, "split": false, "texts": null}
+{"t": 182.875, "tid": 4001, "rawtid": 4, "pbox": [148, 344, 179, 446], "ph": 102, "split": false, "texts": null}
+{"t": 182.875, "tid": 5001, "rawtid": 5, "pbox": [105, 347, 136, 461], "ph": 114, "split": false, "texts": null}
+{"t": 182.875, "tid": 10001, "rawtid": 10, "pbox": [400, 324, 442, 446], "ph": 122, "split": false, "texts": []}
+{"t": 182.875, "tid": 13001, "rawtid": 13, "pbox": [23, 342, 64, 481], "ph": 139, "split": false, "texts": null}
+{"t": 182.875, "tid": 3001, "rawtid": 3, "pbox": [670, 341, 764, 566], "ph": 225, "split": false, "texts": null}
+{"t": 182.875, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 793, 530], "ph": 191, "split": false, "texts": []}
+{"t": 182.875, "tid": 2001, "rawtid": 2, "pbox": [790, 292, 920, 619], "ph": 327, "split": false, "texts": null}
+{"t": 182.875, "tid": 67001, "rawtid": 67, "pbox": [82, 337, 110, 444], "ph": 107, "split": false, "texts": []}
+{"t": 182.875, "tid": 69001, "rawtid": 69, "pbox": [785, 307, 843, 557], "ph": 250, "split": false, "texts": []}
+{"t": 182.875, "tid": 17001, "rawtid": 17, "pbox": [0, 367, 22, 515], "ph": 148, "split": false, "texts": null}
+{"t": 182.938, "tid": 4001, "rawtid": 4, "pbox": [148, 344, 179, 447], "ph": 103, "split": false, "texts": null}
+{"t": 182.938, "tid": 5001, "rawtid": 5, "pbox": [104, 347, 135, 459], "ph": 112, "split": false, "texts": null}
+{"t": 182.938, "tid": 10001, "rawtid": 10, "pbox": [397, 326, 441, 451], "ph": 125, "split": false, "texts": []}
+{"t": 182.938, "tid": 13001, "rawtid": 13, "pbox": [23, 342, 65, 481], "ph": 139, "split": false, "texts": null}
+{"t": 182.938, "tid": 3001, "rawtid": 3, "pbox": [669, 340, 764, 567], "ph": 227, "split": false, "texts": null}
+{"t": 182.938, "tid": 11001, "rawtid": 11, "pbox": [746, 338, 791, 531], "ph": 193, "split": false, "texts": []}
+{"t": 182.938, "tid": 2001, "rawtid": 2, "pbox": [790, 291, 919, 619], "ph": 328, "split": false, "texts": null}
+{"t": 182.938, "tid": 67001, "rawtid": 67, "pbox": [81, 337, 110, 452], "ph": 115, "split": false, "texts": []}
+{"t": 182.938, "tid": 69001, "rawtid": 69, "pbox": [787, 304, 846, 558], "ph": 254, "split": false, "texts": []}
+{"t": 182.938, "tid": 17001, "rawtid": 17, "pbox": [0, 367, 23, 514], "ph": 147, "split": false, "texts": null}
+{"t": 183.0, "tid": 4001, "rawtid": 4, "pbox": [148, 344, 179, 447], "ph": 103, "split": false, "texts": null}
+{"t": 183.0, "tid": 5001, "rawtid": 5, "pbox": [106, 347, 136, 459], "ph": 112, "split": false, "texts": null}
+{"t": 183.0, "tid": 10001, "rawtid": 10, "pbox": [395, 326, 440, 454], "ph": 128, "split": false, "texts": []}
+{"t": 183.0, "tid": 13001, "rawtid": 13, "pbox": [22, 342, 65, 482], "ph": 140, "split": false, "texts": null}
+{"t": 183.0, "tid": 3001, "rawtid": 3, "pbox": [670, 340, 765, 566], "ph": 226, "split": false, "texts": null}
+{"t": 183.0, "tid": 11001, "rawtid": 11, "pbox": [745, 338, 791, 530], "ph": 192, "split": false, "texts": []}
+{"t": 183.0, "tid": 2001, "rawtid": 2, "pbox": [790, 291, 919, 618], "ph": 327, "split": false, "texts": null}
+{"t": 183.0, "tid": 67001, "rawtid": 67, "pbox": [79, 338, 110, 457], "ph": 119, "split": false, "texts": []}
+{"t": 183.0, "tid": 69001, "rawtid": 69, "pbox": [786, 303, 847, 558], "ph": 255, "split": false, "texts": []}
+{"t": 183.0, "tid": 17001, "rawtid": 17, "pbox": [0, 367, 23, 513], "ph": 146, "split": false, "texts": null}
+{"t": 183.062, "tid": 4001, "rawtid": 4, "pbox": [148, 344, 180, 447], "ph": 103, "split": false, "texts": null}
+{"t": 183.062, "tid": 5001, "rawtid": 5, "pbox": [107, 347, 137, 459], "ph": 112, "split": false, "texts": null}
+{"t": 183.062, "tid": 10001, "rawtid": 10, "pbox": [392, 322, 438, 455], "ph": 133, "split": false, "texts": []}
+{"t": 183.062, "tid": 13001, "rawtid": 13, "pbox": [22, 342, 65, 482], "ph": 140, "split": false, "texts": null}
+{"t": 183.062, "tid": 3001, "rawtid": 3, "pbox": [670, 339, 765, 567], "ph": 228, "split": false, "texts": null}
+{"t": 183.062, "tid": 11001, "rawtid": 11, "pbox": [746, 338, 791, 530], "ph": 192, "split": false, "texts": null}
+{"t": 183.062, "tid": 2001, "rawtid": 2, "pbox": [789, 292, 918, 619], "ph": 327, "split": false, "texts": []}
+{"t": 183.062, "tid": 67001, "rawtid": 67, "pbox": [76, 338, 108, 460], "ph": 122, "split": false, "texts": []}
+{"t": 183.062, "tid": 69001, "rawtid": 69, "pbox": [785, 307, 845, 558], "ph": 251, "split": false, "texts": []}
+{"t": 183.062, "tid": 17001, "rawtid": 17, "pbox": [0, 367, 23, 512], "ph": 145, "split": false, "texts": null}
+{"t": 183.125, "tid": 4001, "rawtid": 4, "pbox": [149, 343, 180, 447], "ph": 104, "split": false, "texts": null}
+{"t": 183.125, "tid": 5001, "rawtid": 5, "pbox": [109, 347, 139, 459], "ph": 112, "split": false, "texts": null}
+{"t": 183.125, "tid": 10001, "rawtid": 10, "pbox": [387, 319, 436, 464], "ph": 145, "split": false, "texts": [["1", 0.717, [386, 387, 395, 402]]]}
+{"t": 183.125, "tid": 13001, "rawtid": 13, "pbox": [22, 342, 65, 482], "ph": 140, "split": false, "texts": null}
+{"t": 183.125, "tid": 3001, "rawtid": 3, "pbox": [669, 340, 765, 567], "ph": 227, "split": false, "texts": null}
+{"t": 183.125, "tid": 11001, "rawtid": 11, "pbox": [746, 338, 792, 529], "ph": 191, "split": false, "texts": null}
+{"t": 183.125, "tid": 2001, "rawtid": 2, "pbox": [789, 292, 916, 619], "ph": 327, "split": false, "texts": []}
+{"t": 183.125, "tid": 67001, "rawtid": 67, "pbox": [73, 338, 106, 462], "ph": 124, "split": false, "texts": []}
+{"t": 183.125, "tid": 69001, "rawtid": 69, "pbox": [786, 308, 846, 558], "ph": 250, "split": false, "texts": []}
+{"t": 183.125, "tid": 17001, "rawtid": 17, "pbox": [0, 365, 22, 512], "ph": 147, "split": false, "texts": null}
+{"t": 183.125, "tid": 79001, "rawtid": 79, "pbox": [871, 336, 918, 529], "ph": 193, "split": false, "texts": []}
+{"t": 183.188, "tid": 4001, "rawtid": 4, "pbox": [149, 343, 180, 446], "ph": 103, "split": false, "texts": null}
+{"t": 183.188, "tid": 5001, "rawtid": 5, "pbox": [111, 348, 142, 459], "ph": 111, "split": false, "texts": []}
+{"t": 183.188, "tid": 10001, "rawtid": 10, "pbox": [381, 317, 434, 472], "ph": 155, "split": false, "texts": []}
+{"t": 183.188, "tid": 13001, "rawtid": 13, "pbox": [22, 343, 64, 482], "ph": 139, "split": false, "texts": null}
+{"t": 183.188, "tid": 3001, "rawtid": 3, "pbox": [670, 340, 765, 568], "ph": 228, "split": false, "texts": null}
+{"t": 183.188, "tid": 11001, "rawtid": 11, "pbox": [747, 338, 793, 530], "ph": 192, "split": false, "texts": null}
+{"t": 183.188, "tid": 2001, "rawtid": 2, "pbox": [789, 292, 916, 618], "ph": 326, "split": false, "texts": []}
+{"t": 183.188, "tid": 67001, "rawtid": 67, "pbox": [71, 339, 104, 462], "ph": 123, "split": false, "texts": []}
+{"t": 183.188, "tid": 69001, "rawtid": 69, "pbox": [787, 309, 847, 559], "ph": 250, "split": false, "texts": []}
+{"t": 183.188, "tid": 17001, "rawtid": 17, "pbox": [0, 364, 23, 511], "ph": 147, "split": false, "texts": null}
+{"t": 183.188, "tid": 79001, "rawtid": 79, "pbox": [871, 338, 917, 529], "ph": 191, "split": false, "texts": []}
+{"t": 183.25, "tid": 4001, "rawtid": 4, "pbox": [150, 343, 180, 446], "ph": 103, "split": false, "texts": null}
+{"t": 183.25, "tid": 5001, "rawtid": 5, "pbox": [112, 348, 143, 460], "ph": 112, "split": false, "texts": []}
+{"t": 183.25, "tid": 10001, "rawtid": 10, "pbox": [378, 318, 432, 480], "ph": 162, "split": false, "texts": []}
+{"t": 183.25, "tid": 13001, "rawtid": 13, "pbox": [21, 343, 64, 482], "ph": 139, "split": false, "texts": null}
+{"t": 183.25, "tid": 3001, "rawtid": 3, "pbox": [670, 341, 764, 568], "ph": 227, "split": false, "texts": null}
+{"t": 183.25, "tid": 11001, "rawtid": 11, "pbox": [747, 338, 794, 530], "ph": 192, "split": false, "texts": null}
+{"t": 183.25, "tid": 2001, "rawtid": 2, "pbox": [791, 292, 915, 618], "ph": 326, "split": false, "texts": []}
+{"t": 183.25, "tid": 67001, "rawtid": 67, "pbox": [68, 338, 101, 460], "ph": 122, "split": false, "texts": []}
+{"t": 183.25, "tid": 69001, "rawtid": 69, "pbox": [788, 310, 848, 558], "ph": 248, "split": false, "texts": []}
+{"t": 183.25, "tid": 17001, "rawtid": 17, "pbox": [1, 365, 25, 511], "ph": 146, "split": false, "texts": null}
+{"t": 183.25, "tid": 79001, "rawtid": 79, "pbox": [871, 338, 917, 529], "ph": 191, "split": false, "texts": []}
+{"t": 183.312, "tid": 4001, "rawtid": 4, "pbox": [150, 343, 180, 446], "ph": 103, "split": false, "texts": null}
+{"t": 183.312, "tid": 5001, "rawtid": 5, "pbox": [112, 348, 143, 460], "ph": 112, "split": false, "texts": []}
+{"t": 183.312, "tid": 10001, "rawtid": 10, "pbox": [372, 320, 427, 485], "ph": 165, "split": false, "texts": []}
+{"t": 183.312, "tid": 13001, "rawtid": 13, "pbox": [21, 343, 64, 480], "ph": 137, "split": false, "texts": null}
+{"t": 183.312, "tid": 3001, "rawtid": 3, "pbox": [669, 341, 765, 569], "ph": 228, "split": false, "texts": null}
+{"t": 183.312, "tid": 11001, "rawtid": 11, "pbox": [747, 338, 794, 529], "ph": 191, "split": false, "texts": null}
+{"t": 183.312, "tid": 2001, "rawtid": 2, "pbox": [790, 293, 914, 617], "ph": 324, "split": false, "texts": []}
+{"t": 183.312, "tid": 67001, "rawtid": 67, "pbox": [66, 338, 100, 462], "ph": 124, "split": false, "texts": []}
+{"t": 183.312, "tid": 69001, "rawtid": 69, "pbox": [789, 310, 850, 559], "ph": 249, "split": false, "texts": []}
+{"t": 183.312, "tid": 17001, "rawtid": 17, "pbox": [4, 360, 28, 502], "ph": 142, "split": false, "texts": []}
+{"t": 183.312, "tid": 79001, "rawtid": 79, "pbox": [872, 339, 918, 529], "ph": 190, "split": false, "texts": []}
+{"t": 183.375, "tid": 4001, "rawtid": 4, "pbox": [150, 343, 180, 446], "ph": 103, "split": false, "texts": null}
+{"t": 183.375, "tid": 5001, "rawtid": 5, "pbox": [113, 348, 144, 460], "ph": 112, "split": false, "texts": []}
+{"t": 183.375, "tid": 10001, "rawtid": 10, "pbox": [367, 320, 424, 488], "ph": 168, "split": false, "texts": []}
+{"t": 183.375, "tid": 13001, "rawtid": 13, "pbox": [19, 343, 58, 470], "ph": 127, "split": false, "texts": null}
+{"t": 183.375, "tid": 3001, "rawtid": 3, "pbox": [669, 340, 765, 569], "ph": 229, "split": false, "texts": null}
+{"t": 183.375, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 794, 528], "ph": 189, "split": false, "texts": null}
+{"t": 183.375, "tid": 2001, "rawtid": 2, "pbox": [790, 293, 912, 617], "ph": 324, "split": false, "texts": null}
+{"t": 183.375, "tid": 67001, "rawtid": 67, "pbox": [64, 339, 99, 464], "ph": 125, "split": false, "texts": []}
+{"t": 183.375, "tid": 69001, "rawtid": 69, "pbox": [789, 311, 850, 560], "ph": 249, "split": false, "texts": []}
+{"t": 183.375, "tid": 79001, "rawtid": 79, "pbox": [872, 339, 918, 529], "ph": 190, "split": false, "texts": []}
+{"t": 183.438, "tid": 4001, "rawtid": 4, "pbox": [150, 343, 180, 446], "ph": 103, "split": false, "texts": null}
+{"t": 183.438, "tid": 5001, "rawtid": 5, "pbox": [113, 350, 144, 460], "ph": 110, "split": false, "texts": []}
+{"t": 183.438, "tid": 10001, "rawtid": 10, "pbox": [358, 316, 419, 493], "ph": 177, "split": false, "texts": []}
+{"t": 183.438, "tid": 13001, "rawtid": 13, "pbox": [19, 344, 61, 479], "ph": 135, "split": false, "texts": null}
+{"t": 183.438, "tid": 3001, "rawtid": 3, "pbox": [669, 340, 765, 569], "ph": 229, "split": false, "texts": null}
+{"t": 183.438, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 793, 528], "ph": 189, "split": false, "texts": null}
+{"t": 183.438, "tid": 2001, "rawtid": 2, "pbox": [789, 293, 911, 618], "ph": 325, "split": false, "texts": null}
+{"t": 183.438, "tid": 67001, "rawtid": 67, "pbox": [61, 339, 96, 466], "ph": 127, "split": false, "texts": []}
+{"t": 183.438, "tid": 69001, "rawtid": 69, "pbox": [789, 311, 851, 559], "ph": 248, "split": false, "texts": []}
+{"t": 183.438, "tid": 79001, "rawtid": 79, "pbox": [871, 340, 918, 531], "ph": 191, "split": false, "texts": []}
+{"t": 183.5, "tid": 4001, "rawtid": 4, "pbox": [150, 343, 180, 446], "ph": 103, "split": false, "texts": null}
+{"t": 183.5, "tid": 5001, "rawtid": 5, "pbox": [114, 351, 144, 460], "ph": 109, "split": false, "texts": []}
+{"t": 183.5, "tid": 10001, "rawtid": 10, "pbox": [349, 313, 416, 509], "ph": 196, "split": false, "texts": []}
+{"t": 183.5, "tid": 13001, "rawtid": 13, "pbox": [20, 344, 53, 452], "ph": 108, "split": false, "texts": []}
+{"t": 183.5, "tid": 3001, "rawtid": 3, "pbox": [669, 338, 765, 569], "ph": 231, "split": false, "texts": null}
+{"t": 183.5, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 794, 528], "ph": 189, "split": false, "texts": null}
+{"t": 183.5, "tid": 2001, "rawtid": 2, "pbox": [790, 293, 910, 618], "ph": 325, "split": false, "texts": null}
+{"t": 183.5, "tid": 67001, "rawtid": 67, "pbox": [59, 341, 95, 466], "ph": 125, "split": false, "texts": []}
+{"t": 183.5, "tid": 69001, "rawtid": 69, "pbox": [790, 313, 851, 560], "ph": 247, "split": false, "texts": [["+", 0.629, [811, 378, 818, 390]]]}
+{"t": 183.5, "tid": 79001, "rawtid": 79, "pbox": [871, 339, 918, 531], "ph": 192, "split": false, "texts": []}
+{"t": 183.5, "tid": 86001, "rawtid": 86, "pbox": [3, 353, 49, 521], "ph": 168, "split": false, "texts": []}
+{"t": 183.562, "tid": 4001, "rawtid": 4, "pbox": [151, 343, 180, 446], "ph": 103, "split": false, "texts": null}
+{"t": 183.562, "tid": 5001, "rawtid": 5, "pbox": [114, 349, 145, 460], "ph": 111, "split": false, "texts": []}
+{"t": 183.562, "tid": 10001, "rawtid": 10, "pbox": [340, 312, 414, 525], "ph": 213, "split": false, "texts": []}
+{"t": 183.562, "tid": 13001, "rawtid": 13, "pbox": [14, 344, 57, 483], "ph": 139, "split": false, "texts": []}
+{"t": 183.562, "tid": 3001, "rawtid": 3, "pbox": [670, 342, 764, 569], "ph": 227, "split": false, "texts": null}
+{"t": 183.562, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 794, 527], "ph": 188, "split": false, "texts": null}
+{"t": 183.562, "tid": 2001, "rawtid": 2, "pbox": [789, 293, 910, 618], "ph": 325, "split": false, "texts": null}
+{"t": 183.562, "tid": 67001, "rawtid": 67, "pbox": [51, 340, 89, 469], "ph": 129, "split": false, "texts": []}
+{"t": 183.562, "tid": 69001, "rawtid": 69, "pbox": [789, 313, 851, 560], "ph": 247, "split": false, "texts": []}
+{"t": 183.562, "tid": 79001, "rawtid": 79, "pbox": [871, 339, 918, 531], "ph": 192, "split": false, "texts": []}
+{"t": 183.625, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 181, 446], "ph": 103, "split": false, "texts": null}
+{"t": 183.625, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 145, 460], "ph": 112, "split": false, "texts": []}
+{"t": 183.625, "tid": 10001, "rawtid": 10, "pbox": [333, 315, 410, 535], "ph": 220, "split": false, "texts": []}
+{"t": 183.625, "tid": 3001, "rawtid": 3, "pbox": [670, 344, 764, 569], "ph": 225, "split": false, "texts": null}
+{"t": 183.625, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 794, 527], "ph": 188, "split": false, "texts": null}
+{"t": 183.625, "tid": 2001, "rawtid": 2, "pbox": [789, 293, 908, 618], "ph": 325, "split": false, "texts": null}
+{"t": 183.625, "tid": 67001, "rawtid": 67, "pbox": [45, 339, 84, 469], "ph": 130, "split": false, "texts": []}
+{"t": 183.625, "tid": 69001, "rawtid": 69, "pbox": [789, 315, 851, 561], "ph": 246, "split": false, "texts": []}
+{"t": 183.625, "tid": 79001, "rawtid": 79, "pbox": [869, 340, 918, 531], "ph": 191, "split": false, "texts": []}
+{"t": 183.688, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 181, 446], "ph": 103, "split": false, "texts": null}
+{"t": 183.688, "tid": 5001, "rawtid": 5, "pbox": [114, 347, 145, 460], "ph": 113, "split": false, "texts": []}
+{"t": 183.688, "tid": 10001, "rawtid": 10, "pbox": [326, 315, 404, 539], "ph": 224, "split": false, "texts": [["ONIUI", 0.521, [338, 375, 369, 390]]]}
+{"t": 183.688, "tid": 3001, "rawtid": 3, "pbox": [670, 344, 763, 568], "ph": 224, "split": false, "texts": null}
+{"t": 183.688, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 794, 527], "ph": 188, "split": false, "texts": null}
+{"t": 183.688, "tid": 2001, "rawtid": 2, "pbox": [789, 293, 908, 618], "ph": 325, "split": false, "texts": null}
+{"t": 183.688, "tid": 67001, "rawtid": 67, "pbox": [42, 338, 82, 471], "ph": 133, "split": false, "texts": []}
+{"t": 183.688, "tid": 69001, "rawtid": 69, "pbox": [789, 313, 851, 562], "ph": 249, "split": false, "texts": []}
+{"t": 183.688, "tid": 79001, "rawtid": 79, "pbox": [868, 340, 917, 532], "ph": 192, "split": false, "texts": []}
+{"t": 183.688, "tid": 86001, "rawtid": 86, "pbox": [1, 348, 46, 510], "ph": 162, "split": false, "texts": []}
+{"t": 183.75, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 181, 446], "ph": 103, "split": false, "texts": null}
+{"t": 183.75, "tid": 5001, "rawtid": 5, "pbox": [114, 347, 145, 460], "ph": 113, "split": false, "texts": []}
+{"t": 183.75, "tid": 10001, "rawtid": 10, "pbox": [320, 313, 399, 541], "ph": 228, "split": false, "texts": []}
+{"t": 183.75, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 763, 566], "ph": 222, "split": false, "texts": null}
+{"t": 183.75, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 794, 527], "ph": 188, "split": false, "texts": null}
+{"t": 183.75, "tid": 2001, "rawtid": 2, "pbox": [791, 295, 909, 618], "ph": 323, "split": false, "texts": null}
+{"t": 183.75, "tid": 67001, "rawtid": 67, "pbox": [40, 338, 80, 473], "ph": 135, "split": false, "texts": []}
+{"t": 183.75, "tid": 69001, "rawtid": 69, "pbox": [788, 309, 852, 564], "ph": 255, "split": false, "texts": []}
+{"t": 183.75, "tid": 79001, "rawtid": 79, "pbox": [869, 340, 918, 532], "ph": 192, "split": false, "texts": []}
+{"t": 183.75, "tid": 91001, "rawtid": 91, "pbox": [2, 386, 72, 675], "ph": 289, "split": false, "texts": []}
+{"t": 183.75, "tid": 86001, "rawtid": 86, "pbox": [5, 345, 46, 495], "ph": 150, "split": false, "texts": []}
+{"t": 183.812, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 181, 447], "ph": 104, "split": false, "texts": null}
+{"t": 183.812, "tid": 5001, "rawtid": 5, "pbox": [115, 347, 146, 460], "ph": 113, "split": false, "texts": []}
+{"t": 183.812, "tid": 10001, "rawtid": 10, "pbox": [310, 305, 393, 548], "ph": 243, "split": false, "texts": []}
+{"t": 183.812, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 763, 564], "ph": 220, "split": false, "texts": null}
+{"t": 183.812, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 795, 529], "ph": 190, "split": false, "texts": null}
+{"t": 183.812, "tid": 2001, "rawtid": 2, "pbox": [789, 295, 907, 618], "ph": 323, "split": false, "texts": null}
+{"t": 183.812, "tid": 67001, "rawtid": 67, "pbox": [37, 338, 78, 473], "ph": 135, "split": false, "texts": []}
+{"t": 183.812, "tid": 69001, "rawtid": 69, "pbox": [788, 304, 853, 564], "ph": 260, "split": false, "texts": []}
+{"t": 183.812, "tid": 79001, "rawtid": 79, "pbox": [868, 339, 918, 532], "ph": 193, "split": false, "texts": []}
+{"t": 183.812, "tid": 91001, "rawtid": 91, "pbox": [4, 400, 71, 675], "ph": 275, "split": false, "texts": []}
+{"t": 183.875, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 181, 446], "ph": 103, "split": false, "texts": null}
+{"t": 183.875, "tid": 5001, "rawtid": 5, "pbox": [115, 347, 146, 460], "ph": 113, "split": false, "texts": []}
+{"t": 183.875, "tid": 10001, "rawtid": 10, "pbox": [294, 299, 387, 573], "ph": 274, "split": false, "texts": []}
+{"t": 183.875, "tid": 3001, "rawtid": 3, "pbox": [671, 343, 763, 564], "ph": 221, "split": false, "texts": null}
+{"t": 183.875, "tid": 11001, "rawtid": 11, "pbox": [747, 340, 795, 529], "ph": 189, "split": false, "texts": null}
+{"t": 183.875, "tid": 2001, "rawtid": 2, "pbox": [790, 294, 907, 617], "ph": 323, "split": false, "texts": null}
+{"t": 183.875, "tid": 67001, "rawtid": 67, "pbox": [28, 339, 75, 491], "ph": 152, "split": false, "texts": []}
+{"t": 183.875, "tid": 69001, "rawtid": 69, "pbox": [788, 302, 853, 564], "ph": 262, "split": false, "texts": []}
+{"t": 183.875, "tid": 79001, "rawtid": 79, "pbox": [868, 339, 918, 532], "ph": 193, "split": false, "texts": []}
+{"t": 183.875, "tid": 91001, "rawtid": 91, "pbox": [1, 414, 65, 675], "ph": 261, "split": false, "texts": []}
+{"t": 183.875, "tid": 86001, "rawtid": 86, "pbox": [1, 347, 43, 497], "ph": 150, "split": false, "texts": []}
+{"t": 183.938, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 181, 445], "ph": 102, "split": false, "texts": null}
+{"t": 183.938, "tid": 5001, "rawtid": 5, "pbox": [115, 347, 146, 460], "ph": 113, "split": false, "texts": []}
+{"t": 183.938, "tid": 10001, "rawtid": 10, "pbox": [277, 297, 380, 598], "ph": 301, "split": false, "texts": []}
+{"t": 183.938, "tid": 3001, "rawtid": 3, "pbox": [671, 343, 763, 564], "ph": 221, "split": false, "texts": null}
+{"t": 183.938, "tid": 11001, "rawtid": 11, "pbox": [747, 340, 795, 529], "ph": 189, "split": false, "texts": null}
+{"t": 183.938, "tid": 2001, "rawtid": 2, "pbox": [789, 292, 907, 618], "ph": 326, "split": false, "texts": null}
+{"t": 183.938, "tid": 67001, "rawtid": 67, "pbox": [31, 341, 74, 480], "ph": 139, "split": false, "texts": []}
+{"t": 183.938, "tid": 69001, "rawtid": 69, "pbox": [790, 300, 857, 567], "ph": 267, "split": false, "texts": [["6", 0.742, [848, 415, 861, 427]]]}
+{"t": 183.938, "tid": 79001, "rawtid": 79, "pbox": [868, 340, 918, 532], "ph": 192, "split": false, "texts": []}
+{"t": 183.938, "tid": 91001, "rawtid": 91, "pbox": [0, 430, 57, 675], "ph": 245, "split": false, "texts": []}
+{"t": 183.938, "tid": 95001, "rawtid": 95, "pbox": [785, 340, 817, 470], "ph": 130, "split": false, "texts": []}
+{"t": 183.938, "tid": 86001, "rawtid": 86, "pbox": [4, 346, 47, 498], "ph": 152, "split": false, "texts": []}
+{"t": 184.0, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 180, 445], "ph": 102, "split": false, "texts": null}
+{"t": 184.0, "tid": 5001, "rawtid": 5, "pbox": [115, 347, 146, 460], "ph": 113, "split": false, "texts": []}
+{"t": 184.0, "tid": 10001, "rawtid": 10, "pbox": [261, 300, 368, 617], "ph": 317, "split": false, "texts": [["CNHUS", 0.537, [263, 390, 297, 401]], ["110449", 0.692, [271, 440, 302, 453]]]}
+{"t": 184.0, "tid": 3001, "rawtid": 3, "pbox": [670, 344, 762, 564], "ph": 220, "split": false, "texts": null}
+{"t": 184.0, "tid": 11001, "rawtid": 11, "pbox": [746, 340, 794, 530], "ph": 190, "split": false, "texts": null}
+{"t": 184.0, "tid": 2001, "rawtid": 2, "pbox": [788, 290, 906, 618], "ph": 328, "split": false, "texts": null}
+{"t": 184.0, "tid": 67001, "rawtid": 67, "pbox": [35, 343, 76, 476], "ph": 133, "split": false, "texts": []}
+{"t": 184.0, "tid": 79001, "rawtid": 79, "pbox": [868, 340, 918, 531], "ph": 191, "split": false, "texts": []}
+{"t": 184.0, "tid": 95001, "rawtid": 95, "pbox": [785, 342, 816, 470], "ph": 128, "split": false, "texts": []}
+{"t": 184.0, "tid": 86001, "rawtid": 86, "pbox": [4, 349, 47, 500], "ph": 151, "split": false, "texts": []}
+{"t": 184.062, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 180, 445], "ph": 102, "split": false, "texts": null}
+{"t": 184.062, "tid": 5001, "rawtid": 5, "pbox": [115, 347, 146, 460], "ph": 113, "split": false, "texts": []}
+{"t": 184.062, "tid": 10001, "rawtid": 10, "pbox": [234, 302, 346, 625], "ph": 323, "split": false, "texts": [["YINUE", 0.652, [241, 398, 280, 412]]]}
+{"t": 184.062, "tid": 3001, "rawtid": 3, "pbox": [670, 344, 762, 564], "ph": 220, "split": false, "texts": null}
+{"t": 184.062, "tid": 11001, "rawtid": 11, "pbox": [747, 340, 796, 529], "ph": 189, "split": false, "texts": null}
+{"t": 184.062, "tid": 2001, "rawtid": 2, "pbox": [787, 290, 904, 617], "ph": 327, "split": false, "texts": null}
+{"t": 184.062, "tid": 79001, "rawtid": 79, "pbox": [867, 340, 918, 532], "ph": 192, "split": false, "texts": []}
+{"t": 184.062, "tid": 95001, "rawtid": 95, "pbox": [786, 341, 818, 470], "ph": 129, "split": false, "texts": []}
+{"t": 184.062, "tid": 86001, "rawtid": 86, "pbox": [3, 344, 48, 501], "ph": 157, "split": false, "texts": []}
+{"t": 184.125, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 181, 445], "ph": 102, "split": false, "texts": null}
+{"t": 184.125, "tid": 5001, "rawtid": 5, "pbox": [115, 347, 146, 461], "ph": 114, "split": false, "texts": []}
+{"t": 184.125, "tid": 10001, "rawtid": 10, "pbox": [204, 293, 328, 647], "ph": 354, "split": false, "texts": [["XINWUE-", 0.882, [212, 393, 262, 408]], ["\u4ec5304", 0.643, [225, 458, 259, 473]]]}
+{"t": 184.125, "tid": 3001, "rawtid": 3, "pbox": [671, 343, 762, 563], "ph": 220, "split": false, "texts": null}
+{"t": 184.125, "tid": 33001, "rawtid": 33, "pbox": [496, 331, 533, 432], "ph": 101, "split": false, "texts": []}
+{"t": 184.125, "tid": 11001, "rawtid": 11, "pbox": [747, 344, 795, 530], "ph": 186, "split": false, "texts": null}
+{"t": 184.125, "tid": 2001, "rawtid": 2, "pbox": [788, 290, 904, 617], "ph": 327, "split": false, "texts": null}
+{"t": 184.125, "tid": 79001, "rawtid": 79, "pbox": [867, 340, 918, 532], "ph": 192, "split": false, "texts": []}
+{"t": 184.125, "tid": 95001, "rawtid": 95, "pbox": [787, 340, 818, 470], "ph": 130, "split": false, "texts": []}
+{"t": 184.125, "tid": 86001, "rawtid": 86, "pbox": [5, 341, 52, 501], "ph": 160, "split": false, "texts": []}
+{"t": 184.188, "tid": 5001, "rawtid": 5, "pbox": [115, 347, 145, 460], "ph": 113, "split": false, "texts": []}
+{"t": 184.188, "tid": 10001, "rawtid": 10, "pbox": [166, 280, 310, 690], "ph": 410, "split": false, "texts": [["XINWUES-", 0.926, [176, 390, 235, 404]], ["X30449", 0.852, [191, 459, 236, 477]]]}
+{"t": 184.188, "tid": 3001, "rawtid": 3, "pbox": [671, 343, 763, 562], "ph": 219, "split": false, "texts": null}
+{"t": 184.188, "tid": 33001, "rawtid": 33, "pbox": [501, 332, 537, 435], "ph": 103, "split": false, "texts": []}
+{"t": 184.188, "tid": 11001, "rawtid": 11, "pbox": [747, 344, 795, 529], "ph": 185, "split": false, "texts": null}
+{"t": 184.188, "tid": 2001, "rawtid": 2, "pbox": [787, 290, 902, 617], "ph": 327, "split": false, "texts": null}
+{"t": 184.188, "tid": 79001, "rawtid": 79, "pbox": [867, 340, 918, 531], "ph": 191, "split": false, "texts": []}
+{"t": 184.188, "tid": 95001, "rawtid": 95, "pbox": [787, 340, 818, 469], "ph": 129, "split": false, "texts": []}
+{"t": 184.188, "tid": 86001, "rawtid": 86, "pbox": [6, 341, 54, 500], "ph": 159, "split": false, "texts": []}
+{"t": 184.25, "tid": 10001, "rawtid": 10, "pbox": [139, 272, 294, 707], "ph": 435, "split": false, "texts": [["XINWU-", 0.94, [155, 391, 218, 407]], ["230449", 0.95, [169, 465, 217, 485]]]}
+{"t": 184.25, "tid": 3001, "rawtid": 3, "pbox": [671, 343, 763, 562], "ph": 219, "split": false, "texts": null}
+{"t": 184.25, "tid": 33001, "rawtid": 33, "pbox": [504, 333, 540, 436], "ph": 103, "split": false, "texts": []}
+{"t": 184.25, "tid": 11001, "rawtid": 11, "pbox": [747, 343, 795, 528], "ph": 185, "split": false, "texts": null}
+{"t": 184.25, "tid": 2001, "rawtid": 2, "pbox": [788, 290, 902, 617], "ph": 327, "split": false, "texts": null}
+{"t": 184.25, "tid": 79001, "rawtid": 79, "pbox": [867, 340, 918, 532], "ph": 192, "split": false, "texts": []}
+{"t": 184.25, "tid": 95001, "rawtid": 95, "pbox": [786, 340, 818, 469], "ph": 129, "split": false, "texts": []}
+{"t": 184.25, "tid": 86001, "rawtid": 86, "pbox": [7, 345, 55, 500], "ph": 155, "split": false, "texts": []}
+{"t": 184.312, "tid": 10001, "rawtid": 10, "pbox": [107, 267, 270, 717], "ph": 450, "split": false, "texts": [["XINWUE", 0.939, [109, 408, 175, 431]], ["K30449", 0.874, [125, 491, 175, 517]]]}
+{"t": 184.312, "tid": 3001, "rawtid": 3, "pbox": [671, 343, 762, 561], "ph": 218, "split": false, "texts": null}
+{"t": 184.312, "tid": 33001, "rawtid": 33, "pbox": [504, 333, 542, 437], "ph": 104, "split": false, "texts": []}
+{"t": 184.312, "tid": 11001, "rawtid": 11, "pbox": [746, 343, 795, 528], "ph": 185, "split": false, "texts": null}
+{"t": 184.312, "tid": 2001, "rawtid": 2, "pbox": [789, 290, 902, 618], "ph": 328, "split": false, "texts": null}
+{"t": 184.312, "tid": 79001, "rawtid": 79, "pbox": [867, 341, 918, 532], "ph": 191, "split": false, "texts": []}
+{"t": 184.312, "tid": 95001, "rawtid": 95, "pbox": [786, 340, 818, 469], "ph": 129, "split": false, "texts": []}
+{"t": 184.312, "tid": 86001, "rawtid": 86, "pbox": [7, 345, 55, 500], "ph": 155, "split": false, "texts": []}
+{"t": 184.375, "tid": 10001, "rawtid": 10, "pbox": [59, 271, 228, 720], "ph": 449, "split": false, "texts": [["KINWUEE", 0.747, [56, 438, 121, 472]]]}
+{"t": 184.375, "tid": 3001, "rawtid": 3, "pbox": [670, 343, 763, 563], "ph": 220, "split": false, "texts": null}
+{"t": 184.375, "tid": 33001, "rawtid": 33, "pbox": [504, 333, 542, 437], "ph": 104, "split": false, "texts": []}
+{"t": 184.375, "tid": 11001, "rawtid": 11, "pbox": [746, 343, 795, 529], "ph": 186, "split": false, "texts": null}
+{"t": 184.375, "tid": 2001, "rawtid": 2, "pbox": [791, 290, 903, 618], "ph": 328, "split": false, "texts": null}
+{"t": 184.375, "tid": 79001, "rawtid": 79, "pbox": [867, 341, 918, 532], "ph": 191, "split": false, "texts": []}
+{"t": 184.375, "tid": 95001, "rawtid": 95, "pbox": [788, 340, 820, 468], "ph": 128, "split": false, "texts": []}
+{"t": 184.375, "tid": 86001, "rawtid": 86, "pbox": [5, 344, 54, 497], "ph": 153, "split": false, "texts": []}
+{"t": 184.438, "tid": 10001, "rawtid": 10, "pbox": [17, 265, 190, 720], "ph": 455, "split": false, "texts": [["ME", 0.72, [4, 453, 50, 492]]]}
+{"t": 184.438, "tid": 3001, "rawtid": 3, "pbox": [670, 343, 763, 565], "ph": 222, "split": false, "texts": null}
+{"t": 184.438, "tid": 33001, "rawtid": 33, "pbox": [505, 334, 543, 440], "ph": 106, "split": false, "texts": []}
+{"t": 184.438, "tid": 11001, "rawtid": 11, "pbox": [746, 343, 795, 529], "ph": 186, "split": false, "texts": null}
+{"t": 184.438, "tid": 2001, "rawtid": 2, "pbox": [793, 290, 904, 619], "ph": 329, "split": false, "texts": null}
+{"t": 184.438, "tid": 79001, "rawtid": 79, "pbox": [868, 341, 918, 531], "ph": 190, "split": false, "texts": []}
+{"t": 184.438, "tid": 95001, "rawtid": 95, "pbox": [788, 341, 819, 469], "ph": 128, "split": false, "texts": []}
+{"t": 184.438, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 180, 444], "ph": 101, "split": false, "texts": null}
+{"t": 184.5, "tid": 10001, "rawtid": 10, "pbox": [0, 251, 155, 716], "ph": 465, "split": false, "texts": []}
+{"t": 184.5, "tid": 3001, "rawtid": 3, "pbox": [670, 343, 763, 563], "ph": 220, "split": false, "texts": null}
+{"t": 184.5, "tid": 33001, "rawtid": 33, "pbox": [505, 329, 548, 444], "ph": 115, "split": false, "texts": []}
+{"t": 184.5, "tid": 11001, "rawtid": 11, "pbox": [744, 338, 795, 531], "ph": 193, "split": false, "texts": null}
+{"t": 184.5, "tid": 2001, "rawtid": 2, "pbox": [793, 290, 903, 619], "ph": 329, "split": false, "texts": null}
+{"t": 184.5, "tid": 79001, "rawtid": 79, "pbox": [868, 341, 919, 531], "ph": 190, "split": false, "texts": []}
+{"t": 184.5, "tid": 95001, "rawtid": 95, "pbox": [786, 342, 817, 468], "ph": 126, "split": false, "texts": []}
+{"t": 184.5, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 180, 444], "ph": 101, "split": false, "texts": null}
+{"t": 184.5, "tid": 5001, "rawtid": 5, "pbox": [116, 349, 146, 461], "ph": 112, "split": false, "texts": []}
+{"t": 184.562, "tid": 3001, "rawtid": 3, "pbox": [670, 342, 762, 561], "ph": 219, "split": false, "texts": null}
+{"t": 184.562, "tid": 33001, "rawtid": 33, "pbox": [508, 327, 553, 449], "ph": 122, "split": false, "texts": []}
+{"t": 184.562, "tid": 11001, "rawtid": 11, "pbox": [745, 336, 796, 528], "ph": 192, "split": false, "texts": null}
+{"t": 184.562, "tid": 2001, "rawtid": 2, "pbox": [793, 289, 902, 618], "ph": 329, "split": false, "texts": null}
+{"t": 184.562, "tid": 79001, "rawtid": 79, "pbox": [869, 343, 919, 531], "ph": 188, "split": false, "texts": []}
+{"t": 184.562, "tid": 95001, "rawtid": 95, "pbox": [786, 342, 817, 469], "ph": 127, "split": false, "texts": []}
+{"t": 184.562, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 179, 444], "ph": 101, "split": false, "texts": null}
+{"t": 184.562, "tid": 5001, "rawtid": 5, "pbox": [115, 346, 146, 461], "ph": 115, "split": false, "texts": []}
+{"t": 184.562, "tid": 67001, "rawtid": 67, "pbox": [18, 368, 61, 501], "ph": 133, "split": false, "texts": []}
+{"t": 184.625, "tid": 3001, "rawtid": 3, "pbox": [670, 342, 763, 562], "ph": 220, "split": false, "texts": null}
+{"t": 184.625, "tid": 33001, "rawtid": 33, "pbox": [510, 327, 557, 451], "ph": 124, "split": false, "texts": []}
+{"t": 184.625, "tid": 11001, "rawtid": 11, "pbox": [744, 336, 796, 527], "ph": 191, "split": false, "texts": null}
+{"t": 184.625, "tid": 2001, "rawtid": 2, "pbox": [793, 289, 902, 618], "ph": 329, "split": false, "texts": null}
+{"t": 184.625, "tid": 79001, "rawtid": 79, "pbox": [870, 343, 920, 532], "ph": 189, "split": false, "texts": []}
+{"t": 184.625, "tid": 95001, "rawtid": 95, "pbox": [786, 342, 817, 469], "ph": 127, "split": false, "texts": []}
+{"t": 184.625, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 180, 443], "ph": 100, "split": false, "texts": null}
+{"t": 184.625, "tid": 5001, "rawtid": 5, "pbox": [115, 347, 146, 461], "ph": 114, "split": false, "texts": []}
+{"t": 184.625, "tid": 67001, "rawtid": 67, "pbox": [16, 359, 62, 502], "ph": 143, "split": false, "texts": []}
+{"t": 184.625, "tid": 13002, "rawtid": 13, "pbox": [0, 355, 27, 480], "ph": 125, "split": true, "texts": []}
+{"t": 184.688, "tid": 3001, "rawtid": 3, "pbox": [669, 342, 764, 567], "ph": 225, "split": false, "texts": null}
+{"t": 184.688, "tid": 33001, "rawtid": 33, "pbox": [514, 327, 560, 452], "ph": 125, "split": false, "texts": []}
+{"t": 184.688, "tid": 11001, "rawtid": 11, "pbox": [743, 335, 795, 531], "ph": 196, "split": false, "texts": null}
+{"t": 184.688, "tid": 2001, "rawtid": 2, "pbox": [794, 290, 902, 618], "ph": 328, "split": false, "texts": null}
+{"t": 184.688, "tid": 79001, "rawtid": 79, "pbox": [869, 341, 920, 532], "ph": 191, "split": false, "texts": []}
+{"t": 184.688, "tid": 95001, "rawtid": 95, "pbox": [785, 342, 817, 469], "ph": 127, "split": false, "texts": []}
+{"t": 184.688, "tid": 4001, "rawtid": 4, "pbox": [154, 343, 181, 443], "ph": 100, "split": false, "texts": null}
+{"t": 184.688, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 145, 461], "ph": 113, "split": false, "texts": []}
+{"t": 184.688, "tid": 67001, "rawtid": 67, "pbox": [15, 356, 62, 503], "ph": 147, "split": false, "texts": []}
+{"t": 184.688, "tid": 13002, "rawtid": 13, "pbox": [0, 356, 28, 488], "ph": 132, "split": false, "texts": []}
+{"t": 184.75, "tid": 3001, "rawtid": 3, "pbox": [669, 342, 764, 569], "ph": 227, "split": false, "texts": null}
+{"t": 184.75, "tid": 33001, "rawtid": 33, "pbox": [515, 327, 562, 452], "ph": 125, "split": false, "texts": []}
+{"t": 184.75, "tid": 11001, "rawtid": 11, "pbox": [743, 337, 795, 532], "ph": 195, "split": false, "texts": null}
+{"t": 184.75, "tid": 2001, "rawtid": 2, "pbox": [793, 289, 901, 618], "ph": 329, "split": false, "texts": null}
+{"t": 184.75, "tid": 79001, "rawtid": 79, "pbox": [870, 343, 920, 532], "ph": 189, "split": false, "texts": []}
+{"t": 184.75, "tid": 95001, "rawtid": 95, "pbox": [785, 341, 817, 469], "ph": 128, "split": false, "texts": []}
+{"t": 184.75, "tid": 4001, "rawtid": 4, "pbox": [154, 343, 181, 443], "ph": 100, "split": false, "texts": null}
+{"t": 184.75, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 145, 461], "ph": 113, "split": false, "texts": null}
+{"t": 184.75, "tid": 67001, "rawtid": 67, "pbox": [15, 354, 63, 503], "ph": 149, "split": false, "texts": []}
+{"t": 184.75, "tid": 13002, "rawtid": 13, "pbox": [0, 357, 27, 488], "ph": 131, "split": false, "texts": []}
+{"t": 184.812, "tid": 3001, "rawtid": 3, "pbox": [669, 342, 765, 571], "ph": 229, "split": false, "texts": null}
+{"t": 184.812, "tid": 33001, "rawtid": 33, "pbox": [516, 325, 564, 452], "ph": 127, "split": false, "texts": []}
+{"t": 184.812, "tid": 11001, "rawtid": 11, "pbox": [743, 337, 795, 532], "ph": 195, "split": false, "texts": null}
+{"t": 184.812, "tid": 2001, "rawtid": 2, "pbox": [794, 290, 901, 618], "ph": 328, "split": false, "texts": null}
+{"t": 184.812, "tid": 79001, "rawtid": 79, "pbox": [870, 344, 920, 532], "ph": 188, "split": false, "texts": []}
+{"t": 184.812, "tid": 95001, "rawtid": 95, "pbox": [785, 341, 817, 469], "ph": 128, "split": false, "texts": []}
+{"t": 184.812, "tid": 4001, "rawtid": 4, "pbox": [154, 343, 181, 443], "ph": 100, "split": false, "texts": null}
+{"t": 184.812, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 145, 461], "ph": 113, "split": false, "texts": null}
+{"t": 184.812, "tid": 67001, "rawtid": 67, "pbox": [13, 353, 62, 503], "ph": 150, "split": false, "texts": []}
+{"t": 184.812, "tid": 13002, "rawtid": 13, "pbox": [0, 359, 24, 486], "ph": 127, "split": false, "texts": []}
+{"t": 184.875, "tid": 3001, "rawtid": 3, "pbox": [669, 341, 765, 571], "ph": 230, "split": false, "texts": null}
+{"t": 184.875, "tid": 33001, "rawtid": 33, "pbox": [517, 323, 568, 458], "ph": 135, "split": false, "texts": []}
+{"t": 184.875, "tid": 11001, "rawtid": 11, "pbox": [744, 338, 795, 532], "ph": 194, "split": false, "texts": null}
+{"t": 184.875, "tid": 2001, "rawtid": 2, "pbox": [793, 290, 901, 618], "ph": 328, "split": false, "texts": null}
+{"t": 184.875, "tid": 79001, "rawtid": 79, "pbox": [870, 345, 920, 532], "ph": 187, "split": false, "texts": []}
+{"t": 184.875, "tid": 95001, "rawtid": 95, "pbox": [787, 340, 819, 469], "ph": 129, "split": false, "texts": []}
+{"t": 184.875, "tid": 4001, "rawtid": 4, "pbox": [154, 343, 181, 443], "ph": 100, "split": false, "texts": null}
+{"t": 184.875, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 145, 461], "ph": 113, "split": false, "texts": null}
+{"t": 184.875, "tid": 67001, "rawtid": 67, "pbox": [14, 351, 63, 503], "ph": 152, "split": false, "texts": []}
+{"t": 184.875, "tid": 13002, "rawtid": 13, "pbox": [0, 360, 23, 482], "ph": 122, "split": false, "texts": []}
+{"t": 184.938, "tid": 3001, "rawtid": 3, "pbox": [670, 341, 766, 571], "ph": 230, "split": false, "texts": null}
+{"t": 184.938, "tid": 33001, "rawtid": 33, "pbox": [517, 322, 570, 463], "ph": 141, "split": false, "texts": []}
+{"t": 184.938, "tid": 11001, "rawtid": 11, "pbox": [744, 339, 795, 532], "ph": 193, "split": false, "texts": null}
+{"t": 184.938, "tid": 2001, "rawtid": 2, "pbox": [792, 289, 899, 618], "ph": 329, "split": false, "texts": null}
+{"t": 184.938, "tid": 79001, "rawtid": 79, "pbox": [870, 346, 920, 532], "ph": 186, "split": false, "texts": []}
+{"t": 184.938, "tid": 95001, "rawtid": 95, "pbox": [788, 338, 821, 469], "ph": 131, "split": false, "texts": []}
+{"t": 184.938, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 145, 461], "ph": 113, "split": false, "texts": null}
+{"t": 184.938, "tid": 67001, "rawtid": 67, "pbox": [18, 351, 59, 477], "ph": 126, "split": false, "texts": []}
+{"t": 185.0, "tid": 3001, "rawtid": 3, "pbox": [671, 343, 765, 571], "ph": 228, "split": false, "texts": null}
+{"t": 185.0, "tid": 33001, "rawtid": 33, "pbox": [521, 324, 575, 467], "ph": 143, "split": false, "texts": [["D", 0.579, [538, 365, 560, 384]]]}
+{"t": 185.0, "tid": 11001, "rawtid": 11, "pbox": [745, 339, 797, 531], "ph": 192, "split": false, "texts": null}
+{"t": 185.0, "tid": 2001, "rawtid": 2, "pbox": [790, 289, 897, 618], "ph": 329, "split": false, "texts": null}
+{"t": 185.0, "tid": 79001, "rawtid": 79, "pbox": [870, 349, 920, 532], "ph": 183, "split": false, "texts": []}
+{"t": 185.0, "tid": 95001, "rawtid": 95, "pbox": [788, 338, 821, 470], "ph": 132, "split": false, "texts": []}
+{"t": 185.0, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 145, 461], "ph": 113, "split": false, "texts": null}
+{"t": 185.0, "tid": 110001, "rawtid": 110, "pbox": [0, 445, 52, 674], "ph": 229, "split": false, "texts": []}
+{"t": 185.0, "tid": 86001, "rawtid": 86, "pbox": [14, 350, 62, 501], "ph": 151, "split": false, "texts": []}
+{"t": 185.062, "tid": 3001, "rawtid": 3, "pbox": [672, 343, 766, 570], "ph": 227, "split": false, "texts": null}
+{"t": 185.062, "tid": 33001, "rawtid": 33, "pbox": [521, 325, 576, 469], "ph": 144, "split": false, "texts": []}
+{"t": 185.062, "tid": 11001, "rawtid": 11, "pbox": [746, 340, 797, 531], "ph": 191, "split": false, "texts": null}
+{"t": 185.062, "tid": 2001, "rawtid": 2, "pbox": [790, 289, 897, 618], "ph": 329, "split": false, "texts": null}
+{"t": 185.062, "tid": 79001, "rawtid": 79, "pbox": [871, 349, 920, 532], "ph": 183, "split": false, "texts": null}
+{"t": 185.062, "tid": 95001, "rawtid": 95, "pbox": [790, 340, 822, 470], "ph": 130, "split": false, "texts": []}
+{"t": 185.062, "tid": 4001, "rawtid": 4, "pbox": [154, 343, 182, 443], "ph": 100, "split": false, "texts": null}
+{"t": 185.062, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 144, 461], "ph": 113, "split": false, "texts": null}
+{"t": 185.062, "tid": 110001, "rawtid": 110, "pbox": [1, 441, 53, 674], "ph": 233, "split": false, "texts": []}
+{"t": 185.062, "tid": 86001, "rawtid": 86, "pbox": [8, 354, 58, 502], "ph": 148, "split": false, "texts": []}
+{"t": 185.125, "tid": 3001, "rawtid": 3, "pbox": [674, 344, 766, 568], "ph": 224, "split": false, "texts": null}
+{"t": 185.125, "tid": 33001, "rawtid": 33, "pbox": [522, 325, 577, 469], "ph": 144, "split": false, "texts": []}
+{"t": 185.125, "tid": 11001, "rawtid": 11, "pbox": [747, 341, 798, 531], "ph": 190, "split": false, "texts": null}
+{"t": 185.125, "tid": 2001, "rawtid": 2, "pbox": [790, 289, 897, 618], "ph": 329, "split": false, "texts": null}
+{"t": 185.125, "tid": 79001, "rawtid": 79, "pbox": [871, 350, 920, 531], "ph": 181, "split": false, "texts": null}
+{"t": 185.125, "tid": 95001, "rawtid": 95, "pbox": [790, 340, 822, 470], "ph": 130, "split": false, "texts": [["\u5165", 0.569, [802, 383, 812, 391]]]}
+{"t": 185.125, "tid": 4001, "rawtid": 4, "pbox": [154, 343, 182, 443], "ph": 100, "split": false, "texts": null}
+{"t": 185.125, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 144, 461], "ph": 113, "split": false, "texts": null}
+{"t": 185.125, "tid": 110001, "rawtid": 110, "pbox": [0, 425, 56, 675], "ph": 250, "split": false, "texts": []}
+{"t": 185.188, "tid": 3001, "rawtid": 3, "pbox": [672, 345, 765, 570], "ph": 225, "split": false, "texts": null}
+{"t": 185.188, "tid": 33001, "rawtid": 33, "pbox": [524, 325, 579, 470], "ph": 145, "split": false, "texts": []}
+{"t": 185.188, "tid": 11001, "rawtid": 11, "pbox": [749, 351, 797, 528], "ph": 177, "split": false, "texts": null}
+{"t": 185.188, "tid": 2001, "rawtid": 2, "pbox": [790, 289, 896, 617], "ph": 328, "split": false, "texts": null}
+{"t": 185.188, "tid": 79001, "rawtid": 79, "pbox": [869, 339, 921, 531], "ph": 192, "split": false, "texts": null}
+{"t": 185.188, "tid": 95001, "rawtid": 95, "pbox": [790, 339, 822, 469], "ph": 130, "split": false, "texts": []}
+{"t": 185.188, "tid": 4001, "rawtid": 4, "pbox": [154, 343, 182, 443], "ph": 100, "split": false, "texts": null}
+{"t": 185.188, "tid": 5001, "rawtid": 5, "pbox": [114, 349, 144, 460], "ph": 111, "split": false, "texts": null}
+{"t": 185.188, "tid": 110001, "rawtid": 110, "pbox": [0, 390, 51, 676], "ph": 286, "split": false, "texts": []}
+{"t": 185.188, "tid": 86001, "rawtid": 86, "pbox": [16, 365, 62, 501], "ph": 136, "split": false, "texts": []}
+{"t": 185.25, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 764, 570], "ph": 226, "split": false, "texts": null}
+{"t": 185.25, "tid": 33001, "rawtid": 33, "pbox": [525, 325, 581, 470], "ph": 145, "split": false, "texts": []}
+{"t": 185.25, "tid": 11001, "rawtid": 11, "pbox": [749, 346, 797, 527], "ph": 181, "split": false, "texts": null}
+{"t": 185.25, "tid": 2001, "rawtid": 2, "pbox": [790, 289, 896, 617], "ph": 328, "split": false, "texts": null}
+{"t": 185.25, "tid": 79001, "rawtid": 79, "pbox": [869, 339, 920, 531], "ph": 192, "split": false, "texts": null}
+{"t": 185.25, "tid": 95001, "rawtid": 95, "pbox": [790, 338, 822, 469], "ph": 131, "split": false, "texts": []}
+{"t": 185.25, "tid": 5001, "rawtid": 5, "pbox": [114, 349, 143, 460], "ph": 111, "split": false, "texts": null}
+{"t": 185.25, "tid": 86001, "rawtid": 86, "pbox": [19, 373, 63, 501], "ph": 128, "split": false, "texts": []}
+{"t": 185.312, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 763, 570], "ph": 226, "split": false, "texts": null}
+{"t": 185.312, "tid": 33001, "rawtid": 33, "pbox": [525, 324, 584, 477], "ph": 153, "split": false, "texts": []}
+{"t": 185.312, "tid": 11001, "rawtid": 11, "pbox": [749, 357, 795, 525], "ph": 168, "split": false, "texts": null}
+{"t": 185.312, "tid": 2001, "rawtid": 2, "pbox": [790, 289, 895, 617], "ph": 328, "split": false, "texts": null}
+{"t": 185.312, "tid": 79001, "rawtid": 79, "pbox": [870, 341, 921, 530], "ph": 189, "split": false, "texts": null}
+{"t": 185.312, "tid": 95001, "rawtid": 95, "pbox": [790, 338, 823, 469], "ph": 131, "split": false, "texts": []}
+{"t": 185.312, "tid": 5001, "rawtid": 5, "pbox": [114, 349, 143, 460], "ph": 111, "split": false, "texts": null}
+{"t": 185.312, "tid": 86001, "rawtid": 86, "pbox": [18, 371, 63, 501], "ph": 130, "split": false, "texts": []}
+{"t": 185.375, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 763, 570], "ph": 226, "split": false, "texts": null}
+{"t": 185.375, "tid": 33001, "rawtid": 33, "pbox": [527, 325, 586, 481], "ph": 156, "split": false, "texts": []}
+{"t": 185.375, "tid": 11001, "rawtid": 11, "pbox": [748, 346, 797, 526], "ph": 180, "split": false, "texts": null}
+{"t": 185.375, "tid": 2001, "rawtid": 2, "pbox": [790, 289, 894, 617], "ph": 328, "split": false, "texts": null}
+{"t": 185.375, "tid": 79001, "rawtid": 79, "pbox": [870, 343, 920, 529], "ph": 186, "split": false, "texts": null}
+{"t": 185.375, "tid": 95001, "rawtid": 95, "pbox": [790, 338, 823, 469], "ph": 131, "split": false, "texts": []}
+{"t": 185.375, "tid": 4001, "rawtid": 4, "pbox": [155, 344, 183, 444], "ph": 100, "split": false, "texts": null}
+{"t": 185.375, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 143, 460], "ph": 112, "split": false, "texts": null}
+{"t": 185.375, "tid": 86001, "rawtid": 86, "pbox": [16, 367, 63, 501], "ph": 134, "split": false, "texts": []}
+{"t": 185.438, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 763, 570], "ph": 226, "split": false, "texts": null}
+{"t": 185.438, "tid": 33001, "rawtid": 33, "pbox": [530, 326, 591, 489], "ph": 163, "split": false, "texts": []}
+{"t": 185.438, "tid": 11001, "rawtid": 11, "pbox": [748, 341, 798, 526], "ph": 185, "split": false, "texts": null}
+{"t": 185.438, "tid": 2001, "rawtid": 2, "pbox": [790, 290, 894, 618], "ph": 328, "split": false, "texts": null}
+{"t": 185.438, "tid": 79001, "rawtid": 79, "pbox": [870, 343, 921, 528], "ph": 185, "split": false, "texts": null}
+{"t": 185.438, "tid": 95001, "rawtid": 95, "pbox": [792, 338, 825, 470], "ph": 132, "split": false, "texts": []}
+{"t": 185.438, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 144, 460], "ph": 112, "split": false, "texts": null}
+{"t": 185.438, "tid": 86001, "rawtid": 86, "pbox": [13, 357, 63, 501], "ph": 144, "split": false, "texts": []}
+{"t": 185.5, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 763, 569], "ph": 225, "split": false, "texts": null}
+{"t": 185.5, "tid": 33001, "rawtid": 33, "pbox": [533, 330, 594, 492], "ph": 162, "split": false, "texts": []}
+{"t": 185.5, "tid": 11001, "rawtid": 11, "pbox": [748, 339, 799, 527], "ph": 188, "split": false, "texts": null}
+{"t": 185.5, "tid": 2001, "rawtid": 2, "pbox": [790, 290, 894, 618], "ph": 328, "split": false, "texts": null}
+{"t": 185.5, "tid": 79001, "rawtid": 79, "pbox": [871, 342, 921, 528], "ph": 186, "split": false, "texts": null}
+{"t": 185.5, "tid": 95001, "rawtid": 95, "pbox": [794, 339, 826, 468], "ph": 129, "split": false, "texts": []}
+{"t": 185.5, "tid": 5001, "rawtid": 5, "pbox": [114, 349, 144, 460], "ph": 111, "split": false, "texts": null}
+{"t": 185.5, "tid": 86001, "rawtid": 86, "pbox": [12, 352, 63, 501], "ph": 149, "split": false, "texts": []}
+{"t": 185.562, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 762, 570], "ph": 226, "split": false, "texts": null}
+{"t": 185.562, "tid": 33001, "rawtid": 33, "pbox": [538, 332, 599, 493], "ph": 161, "split": false, "texts": []}
+{"t": 185.562, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 797, 527], "ph": 188, "split": false, "texts": null}
+{"t": 185.562, "tid": 2001, "rawtid": 2, "pbox": [790, 290, 892, 618], "ph": 328, "split": false, "texts": null}
+{"t": 185.562, "tid": 79001, "rawtid": 79, "pbox": [870, 342, 921, 528], "ph": 186, "split": false, "texts": null}
+{"t": 185.562, "tid": 95001, "rawtid": 95, "pbox": [795, 339, 827, 468], "ph": 129, "split": false, "texts": []}
+{"t": 185.562, "tid": 5001, "rawtid": 5, "pbox": [114, 349, 144, 460], "ph": 111, "split": false, "texts": null}
+{"t": 185.562, "tid": 86001, "rawtid": 86, "pbox": [10, 350, 63, 501], "ph": 151, "split": false, "texts": []}
+{"t": 185.625, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 762, 569], "ph": 225, "split": false, "texts": null}
+{"t": 185.625, "tid": 33001, "rawtid": 33, "pbox": [541, 332, 602, 495], "ph": 163, "split": false, "texts": []}
+{"t": 185.625, "tid": 11001, "rawtid": 11, "pbox": [745, 338, 796, 527], "ph": 189, "split": false, "texts": null}
+{"t": 185.625, "tid": 2001, "rawtid": 2, "pbox": [790, 290, 892, 618], "ph": 328, "split": false, "texts": null}
+{"t": 185.625, "tid": 79001, "rawtid": 79, "pbox": [870, 344, 921, 529], "ph": 185, "split": false, "texts": null}
+{"t": 185.625, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 144, 460], "ph": 112, "split": false, "texts": null}
+{"t": 185.625, "tid": 86001, "rawtid": 86, "pbox": [9, 348, 62, 501], "ph": 153, "split": false, "texts": null}
+{"t": 185.688, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 762, 569], "ph": 225, "split": false, "texts": null}
+{"t": 185.688, "tid": 33001, "rawtid": 33, "pbox": [542, 330, 603, 494], "ph": 164, "split": false, "texts": []}
+{"t": 185.688, "tid": 11001, "rawtid": 11, "pbox": [745, 338, 795, 528], "ph": 190, "split": false, "texts": null}
+{"t": 185.688, "tid": 2001, "rawtid": 2, "pbox": [790, 290, 892, 618], "ph": 328, "split": false, "texts": null}
+{"t": 185.688, "tid": 79001, "rawtid": 79, "pbox": [870, 345, 921, 529], "ph": 184, "split": false, "texts": null}
+{"t": 185.688, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 144, 460], "ph": 112, "split": false, "texts": null}
+{"t": 185.688, "tid": 86001, "rawtid": 86, "pbox": [8, 348, 62, 501], "ph": 153, "split": false, "texts": null}
+{"t": 185.75, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 762, 569], "ph": 225, "split": false, "texts": null}
+{"t": 185.75, "tid": 33001, "rawtid": 33, "pbox": [539, 327, 604, 498], "ph": 171, "split": false, "texts": []}
+{"t": 185.75, "tid": 11001, "rawtid": 11, "pbox": [745, 338, 795, 528], "ph": 190, "split": false, "texts": null}
+{"t": 185.75, "tid": 2001, "rawtid": 2, "pbox": [790, 291, 892, 618], "ph": 327, "split": false, "texts": null}
+{"t": 185.75, "tid": 79001, "rawtid": 79, "pbox": [870, 346, 921, 529], "ph": 183, "split": false, "texts": null}
+{"t": 185.75, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 144, 461], "ph": 113, "split": false, "texts": null}
+{"t": 185.75, "tid": 86001, "rawtid": 86, "pbox": [6, 347, 61, 502], "ph": 155, "split": false, "texts": null}
+{"t": 185.75, "tid": 95001, "rawtid": 95, "pbox": [799, 340, 829, 465], "ph": 125, "split": false, "texts": []}
+{"t": 185.812, "tid": 3001, "rawtid": 3, "pbox": [670, 345, 761, 569], "ph": 224, "split": false, "texts": null}
+{"t": 185.812, "tid": 33001, "rawtid": 33, "pbox": [537, 325, 608, 506], "ph": 181, "split": false, "texts": []}
+{"t": 185.812, "tid": 11001, "rawtid": 11, "pbox": [745, 338, 794, 528], "ph": 190, "split": false, "texts": null}
+{"t": 185.812, "tid": 2001, "rawtid": 2, "pbox": [791, 290, 892, 618], "ph": 328, "split": false, "texts": null}
+{"t": 185.812, "tid": 79001, "rawtid": 79, "pbox": [869, 346, 921, 529], "ph": 183, "split": false, "texts": null}
+{"t": 185.812, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 144, 461], "ph": 113, "split": false, "texts": null}
+{"t": 185.812, "tid": 86001, "rawtid": 86, "pbox": [5, 346, 60, 502], "ph": 156, "split": false, "texts": null}
+{"t": 185.812, "tid": 95001, "rawtid": 95, "pbox": [798, 340, 830, 464], "ph": 124, "split": false, "texts": []}
+{"t": 185.875, "tid": 3001, "rawtid": 3, "pbox": [670, 345, 760, 569], "ph": 224, "split": false, "texts": null}
+{"t": 185.875, "tid": 33001, "rawtid": 33, "pbox": [536, 323, 612, 514], "ph": 191, "split": false, "texts": [["\u4e00", 0.699, [577, 376, 610, 402]], ["\u798f", 0.73, [604, 389, 615, 401]]]}
+{"t": 185.875, "tid": 11001, "rawtid": 11, "pbox": [746, 338, 794, 528], "ph": 190, "split": false, "texts": null}
+{"t": 185.875, "tid": 2001, "rawtid": 2, "pbox": [792, 291, 893, 617], "ph": 326, "split": false, "texts": null}
+{"t": 185.875, "tid": 79001, "rawtid": 79, "pbox": [869, 347, 921, 529], "ph": 182, "split": false, "texts": null}
+{"t": 185.875, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 144, 461], "ph": 113, "split": false, "texts": null}
+{"t": 185.875, "tid": 86001, "rawtid": 86, "pbox": [3, 346, 59, 502], "ph": 156, "split": false, "texts": []}
+{"t": 185.875, "tid": 95001, "rawtid": 95, "pbox": [799, 339, 831, 463], "ph": 124, "split": false, "texts": []}
+{"t": 185.938, "tid": 3001, "rawtid": 3, "pbox": [671, 345, 759, 563], "ph": 218, "split": false, "texts": null}
+{"t": 185.938, "tid": 33001, "rawtid": 33, "pbox": [539, 325, 619, 523], "ph": 198, "split": false, "texts": []}
+{"t": 185.938, "tid": 11001, "rawtid": 11, "pbox": [746, 338, 795, 529], "ph": 191, "split": false, "texts": null}
+{"t": 185.938, "tid": 2001, "rawtid": 2, "pbox": [792, 291, 893, 617], "ph": 326, "split": false, "texts": null}
+{"t": 185.938, "tid": 79001, "rawtid": 79, "pbox": [868, 347, 920, 529], "ph": 182, "split": false, "texts": null}
+{"t": 185.938, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 144, 460], "ph": 112, "split": false, "texts": null}
+{"t": 185.938, "tid": 86001, "rawtid": 86, "pbox": [0, 347, 55, 503], "ph": 156, "split": false, "texts": []}
+{"t": 185.938, "tid": 95001, "rawtid": 95, "pbox": [800, 340, 833, 464], "ph": 124, "split": false, "texts": []}
+{"t": 186.0, "tid": 3001, "rawtid": 3, "pbox": [671, 345, 759, 562], "ph": 217, "split": false, "texts": null}
+{"t": 186.0, "tid": 33001, "rawtid": 33, "pbox": [542, 328, 625, 528], "ph": 200, "split": false, "texts": []}
+{"t": 186.0, "tid": 11001, "rawtid": 11, "pbox": [747, 338, 795, 529], "ph": 191, "split": false, "texts": null}
+{"t": 186.0, "tid": 2001, "rawtid": 2, "pbox": [792, 291, 893, 617], "ph": 326, "split": false, "texts": null}
+{"t": 186.0, "tid": 79001, "rawtid": 79, "pbox": [868, 347, 921, 529], "ph": 182, "split": false, "texts": null}
+{"t": 186.0, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 144, 461], "ph": 113, "split": false, "texts": null}
+{"t": 186.0, "tid": 86001, "rawtid": 86, "pbox": [0, 348, 54, 503], "ph": 155, "split": false, "texts": []}
+{"t": 186.0, "tid": 95001, "rawtid": 95, "pbox": [800, 340, 834, 463], "ph": 123, "split": false, "texts": []}
+{"t": 186.062, "tid": 3001, "rawtid": 3, "pbox": [670, 345, 758, 562], "ph": 217, "split": false, "texts": null}
+{"t": 186.062, "tid": 33001, "rawtid": 33, "pbox": [546, 327, 630, 530], "ph": 203, "split": false, "texts": []}
+{"t": 186.062, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 794, 529], "ph": 190, "split": false, "texts": null}
+{"t": 186.062, "tid": 2001, "rawtid": 2, "pbox": [792, 290, 893, 617], "ph": 327, "split": false, "texts": null}
+{"t": 186.062, "tid": 79001, "rawtid": 79, "pbox": [868, 346, 921, 528], "ph": 182, "split": false, "texts": null}
+{"t": 186.062, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 145, 460], "ph": 112, "split": false, "texts": null}
+{"t": 186.062, "tid": 86001, "rawtid": 86, "pbox": [0, 348, 54, 502], "ph": 154, "split": false, "texts": []}
+{"t": 186.062, "tid": 95001, "rawtid": 95, "pbox": [802, 341, 837, 464], "ph": 123, "split": false, "texts": []}
+{"t": 186.125, "tid": 3001, "rawtid": 3, "pbox": [670, 345, 759, 563], "ph": 218, "split": false, "texts": null}
+{"t": 186.125, "tid": 33001, "rawtid": 33, "pbox": [552, 327, 637, 531], "ph": 204, "split": false, "texts": []}
+{"t": 186.125, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 794, 529], "ph": 190, "split": false, "texts": null}
+{"t": 186.125, "tid": 2001, "rawtid": 2, "pbox": [791, 291, 892, 617], "ph": 326, "split": false, "texts": null}
+{"t": 186.125, "tid": 79001, "rawtid": 79, "pbox": [868, 347, 922, 528], "ph": 181, "split": false, "texts": null}
+{"t": 186.125, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 145, 460], "ph": 112, "split": false, "texts": null}
+{"t": 186.125, "tid": 86001, "rawtid": 86, "pbox": [0, 349, 53, 503], "ph": 154, "split": false, "texts": []}
+{"t": 186.125, "tid": 95001, "rawtid": 95, "pbox": [802, 340, 837, 462], "ph": 122, "split": false, "texts": []}
+{"t": 186.188, "tid": 3001, "rawtid": 3, "pbox": [671, 344, 759, 563], "ph": 219, "split": false, "texts": null}
+{"t": 186.188, "tid": 33001, "rawtid": 33, "pbox": [556, 324, 642, 531], "ph": 207, "split": false, "texts": []}
+{"t": 186.188, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 794, 529], "ph": 190, "split": false, "texts": null}
+{"t": 186.188, "tid": 2001, "rawtid": 2, "pbox": [790, 291, 891, 618], "ph": 327, "split": false, "texts": null}
+{"t": 186.188, "tid": 79001, "rawtid": 79, "pbox": [868, 345, 923, 529], "ph": 184, "split": false, "texts": null}
+{"t": 186.188, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 145, 460], "ph": 112, "split": false, "texts": null}
+{"t": 186.188, "tid": 86001, "rawtid": 86, "pbox": [0, 348, 53, 503], "ph": 155, "split": false, "texts": []}
+{"t": 186.188, "tid": 95001, "rawtid": 95, "pbox": [803, 340, 838, 460], "ph": 120, "split": false, "texts": []}
+{"t": 186.188, "tid": 131001, "rawtid": 131, "pbox": [26, 344, 55, 499], "ph": 155, "split": false, "texts": []}
+{"t": 186.25, "tid": 3001, "rawtid": 3, "pbox": [671, 345, 759, 563], "ph": 218, "split": false, "texts": null}
+{"t": 186.25, "tid": 33001, "rawtid": 33, "pbox": [562, 321, 648, 532], "ph": 211, "split": false, "texts": []}
+{"t": 186.25, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 793, 529], "ph": 190, "split": false, "texts": null}
+{"t": 186.25, "tid": 2001, "rawtid": 2, "pbox": [790, 291, 890, 618], "ph": 327, "split": false, "texts": null}
+{"t": 186.25, "tid": 79001, "rawtid": 79, "pbox": [868, 345, 923, 528], "ph": 183, "split": false, "texts": null}
+{"t": 186.25, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 145, 460], "ph": 112, "split": false, "texts": []}
+{"t": 186.25, "tid": 86001, "rawtid": 86, "pbox": [0, 348, 53, 502], "ph": 154, "split": false, "texts": []}
+{"t": 186.25, "tid": 95001, "rawtid": 95, "pbox": [808, 340, 842, 459], "ph": 119, "split": false, "texts": []}
+{"t": 186.25, "tid": 131001, "rawtid": 131, "pbox": [26, 344, 56, 498], "ph": 154, "split": false, "texts": []}
+{"t": 186.312, "tid": 3001, "rawtid": 3, "pbox": [670, 345, 758, 561], "ph": 216, "split": false, "texts": null}
+{"t": 186.312, "tid": 33001, "rawtid": 33, "pbox": [564, 318, 656, 544], "ph": 226, "split": false, "texts": []}
+{"t": 186.312, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 793, 529], "ph": 190, "split": false, "texts": null}
+{"t": 186.312, "tid": 2001, "rawtid": 2, "pbox": [790, 291, 890, 618], "ph": 327, "split": false, "texts": null}
+{"t": 186.312, "tid": 79001, "rawtid": 79, "pbox": [868, 345, 923, 528], "ph": 183, "split": false, "texts": null}
+{"t": 186.312, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 145, 460], "ph": 112, "split": false, "texts": []}
+{"t": 186.312, "tid": 86001, "rawtid": 86, "pbox": [0, 348, 53, 503], "ph": 155, "split": false, "texts": []}
+{"t": 186.312, "tid": 95001, "rawtid": 95, "pbox": [805, 340, 841, 461], "ph": 121, "split": false, "texts": []}
+{"t": 186.312, "tid": 131001, "rawtid": 131, "pbox": [26, 344, 55, 497], "ph": 153, "split": false, "texts": []}
+{"t": 186.375, "tid": 3001, "rawtid": 3, "pbox": [670, 344, 758, 564], "ph": 220, "split": false, "texts": null}
+{"t": 186.375, "tid": 33001, "rawtid": 33, "pbox": [569, 316, 664, 552], "ph": 236, "split": false, "texts": []}
+{"t": 186.375, "tid": 11001, "rawtid": 11, "pbox": [747, 339, 794, 529], "ph": 190, "split": false, "texts": null}
+{"t": 186.375, "tid": 2001, "rawtid": 2, "pbox": [790, 291, 890, 618], "ph": 327, "split": false, "texts": null}
+{"t": 186.375, "tid": 79001, "rawtid": 79, "pbox": [867, 345, 923, 528], "ph": 183, "split": false, "texts": null}
+{"t": 186.375, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 145, 460], "ph": 112, "split": false, "texts": []}
+{"t": 186.375, "tid": 86001, "rawtid": 86, "pbox": [0, 349, 52, 505], "ph": 156, "split": false, "texts": []}
+{"t": 186.375, "tid": 95001, "rawtid": 95, "pbox": [804, 339, 841, 462], "ph": 123, "split": false, "texts": []}
+{"t": 186.438, "tid": 3001, "rawtid": 3, "pbox": [670, 345, 758, 564], "ph": 219, "split": false, "texts": null}
+{"t": 186.438, "tid": 33001, "rawtid": 33, "pbox": [571, 317, 668, 564], "ph": 247, "split": false, "texts": []}
+{"t": 186.438, "tid": 11001, "rawtid": 11, "pbox": [746, 339, 792, 530], "ph": 191, "split": false, "texts": null}
+{"t": 186.438, "tid": 2001, "rawtid": 2, "pbox": [791, 290, 890, 618], "ph": 328, "split": false, "texts": null}
+{"t": 186.438, "tid": 79001, "rawtid": 79, "pbox": [868, 345, 924, 528], "ph": 183, "split": false, "texts": null}
+{"t": 186.438, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 460], "ph": 112, "split": false, "texts": null}
+{"t": 186.438, "tid": 86001, "rawtid": 86, "pbox": [0, 349, 52, 506], "ph": 157, "split": false, "texts": []}
+{"t": 186.438, "tid": 95001, "rawtid": 95, "pbox": [802, 334, 841, 464], "ph": 130, "split": false, "texts": []}
+{"t": 186.438, "tid": 131001, "rawtid": 131, "pbox": [25, 342, 53, 492], "ph": 150, "split": false, "texts": []}
+{"t": 186.5, "tid": 3001, "rawtid": 3, "pbox": [669, 345, 757, 564], "ph": 219, "split": false, "texts": null}
+{"t": 186.5, "tid": 33001, "rawtid": 33, "pbox": [575, 319, 674, 574], "ph": 255, "split": false, "texts": []}
+{"t": 186.5, "tid": 11001, "rawtid": 11, "pbox": [745, 340, 791, 531], "ph": 191, "split": false, "texts": null}
+{"t": 186.5, "tid": 2001, "rawtid": 2, "pbox": [791, 290, 890, 618], "ph": 328, "split": false, "texts": null}
+{"t": 186.5, "tid": 79001, "rawtid": 79, "pbox": [869, 345, 924, 528], "ph": 183, "split": false, "texts": null}
+{"t": 186.5, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 460], "ph": 112, "split": false, "texts": null}
+{"t": 186.5, "tid": 86001, "rawtid": 86, "pbox": [0, 352, 52, 508], "ph": 156, "split": false, "texts": []}
+{"t": 186.562, "tid": 3001, "rawtid": 3, "pbox": [670, 344, 757, 564], "ph": 220, "split": false, "texts": null}
+{"t": 186.562, "tid": 33001, "rawtid": 33, "pbox": [582, 320, 681, 577], "ph": 257, "split": false, "texts": []}
+{"t": 186.562, "tid": 11001, "rawtid": 11, "pbox": [745, 341, 790, 530], "ph": 189, "split": false, "texts": null}
+{"t": 186.562, "tid": 2001, "rawtid": 2, "pbox": [790, 290, 890, 617], "ph": 327, "split": false, "texts": null}
+{"t": 186.562, "tid": 79001, "rawtid": 79, "pbox": [869, 345, 924, 528], "ph": 183, "split": false, "texts": null}
+{"t": 186.562, "tid": 4001, "rawtid": 4, "pbox": [155, 344, 184, 445], "ph": 101, "split": false, "texts": null}
+{"t": 186.562, "tid": 5001, "rawtid": 5, "pbox": [115, 349, 146, 460], "ph": 111, "split": false, "texts": null}
+{"t": 186.562, "tid": 86001, "rawtid": 86, "pbox": [0, 353, 52, 508], "ph": 155, "split": false, "texts": []}
+{"t": 186.562, "tid": 131001, "rawtid": 131, "pbox": [24, 343, 53, 494], "ph": 151, "split": false, "texts": []}
+{"t": 186.625, "tid": 3001, "rawtid": 3, "pbox": [669, 345, 757, 565], "ph": 220, "split": false, "texts": null}
+{"t": 186.625, "tid": 33001, "rawtid": 33, "pbox": [589, 317, 689, 579], "ph": 262, "split": false, "texts": [["31031", 0.848, [639, 409, 664, 418]]]}
+{"t": 186.625, "tid": 11001, "rawtid": 11, "pbox": [750, 352, 793, 530], "ph": 178, "split": false, "texts": null}
+{"t": 186.625, "tid": 2001, "rawtid": 2, "pbox": [791, 290, 890, 617], "ph": 327, "split": false, "texts": null}
+{"t": 186.625, "tid": 79001, "rawtid": 79, "pbox": [869, 344, 925, 528], "ph": 184, "split": false, "texts": null}
+{"t": 186.625, "tid": 4001, "rawtid": 4, "pbox": [155, 344, 184, 445], "ph": 101, "split": false, "texts": null}
+{"t": 186.625, "tid": 5001, "rawtid": 5, "pbox": [115, 349, 146, 460], "ph": 111, "split": false, "texts": null}
+{"t": 186.625, "tid": 86001, "rawtid": 86, "pbox": [0, 369, 48, 511], "ph": 142, "split": false, "texts": []}
+{"t": 186.625, "tid": 131001, "rawtid": 131, "pbox": [26, 342, 54, 482], "ph": 140, "split": false, "texts": [["4", 0.887, [38, 388, 53, 397]]]}
+{"t": 186.688, "tid": 3001, "rawtid": 3, "pbox": [669, 345, 756, 564], "ph": 219, "split": false, "texts": null}
+{"t": 186.688, "tid": 33001, "rawtid": 33, "pbox": [594, 314, 695, 580], "ph": 266, "split": false, "texts": [["731030", 0.773, [640, 408, 668, 418]]]}
+{"t": 186.688, "tid": 11001, "rawtid": 11, "pbox": [751, 359, 794, 529], "ph": 170, "split": false, "texts": null}
+{"t": 186.688, "tid": 2001, "rawtid": 2, "pbox": [792, 290, 891, 617], "ph": 327, "split": false, "texts": null}
+{"t": 186.688, "tid": 79001, "rawtid": 79, "pbox": [869, 344, 925, 529], "ph": 185, "split": false, "texts": null}
+{"t": 186.688, "tid": 4001, "rawtid": 4, "pbox": [155, 344, 184, 445], "ph": 101, "split": false, "texts": null}
+{"t": 186.688, "tid": 5001, "rawtid": 5, "pbox": [115, 349, 146, 460], "ph": 111, "split": false, "texts": null}
+{"t": 186.688, "tid": 86001, "rawtid": 86, "pbox": [0, 378, 45, 511], "ph": 133, "split": false, "texts": []}
+{"t": 186.688, "tid": 131001, "rawtid": 131, "pbox": [26, 343, 54, 480], "ph": 137, "split": false, "texts": [["4", 0.954, [37, 388, 54, 398]]]}
+{"t": 186.688, "tid": 137001, "rawtid": 137, "pbox": [722, 338, 788, 530], "ph": 192, "split": false, "texts": [["\u4f5c\u4eba", 0.995, [718, 395, 755, 416]]]}
+{"t": 186.75, "tid": 3001, "rawtid": 3, "pbox": [669, 346, 756, 564], "ph": 218, "split": false, "texts": null}
+{"t": 186.75, "tid": 33001, "rawtid": 33, "pbox": [594, 308, 697, 579], "ph": 271, "split": false, "texts": [["1", 0.644, [686, 444, 696, 464]]]}
+{"t": 186.75, "tid": 11001, "rawtid": 11, "pbox": [747, 357, 789, 530], "ph": 173, "split": false, "texts": null}
+{"t": 186.75, "tid": 2001, "rawtid": 2, "pbox": [792, 290, 891, 617], "ph": 327, "split": false, "texts": null}
+{"t": 186.75, "tid": 79001, "rawtid": 79, "pbox": [869, 345, 925, 529], "ph": 184, "split": false, "texts": null}
+{"t": 186.75, "tid": 4001, "rawtid": 4, "pbox": [155, 344, 184, 445], "ph": 101, "split": false, "texts": null}
+{"t": 186.75, "tid": 5001, "rawtid": 5, "pbox": [115, 349, 146, 460], "ph": 111, "split": false, "texts": null}
+{"t": 186.75, "tid": 86001, "rawtid": 86, "pbox": [0, 367, 47, 511], "ph": 144, "split": false, "texts": []}
+{"t": 186.75, "tid": 131001, "rawtid": 131, "pbox": [26, 343, 55, 480], "ph": 137, "split": false, "texts": []}
+{"t": 186.75, "tid": 137001, "rawtid": 137, "pbox": [718, 336, 785, 531], "ph": 195, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.979, [713, 395, 754, 417]]]}
+{"t": 186.812, "tid": 3001, "rawtid": 3, "pbox": [670, 342, 759, 567], "ph": 225, "split": false, "texts": null}
+{"t": 186.812, "tid": 33001, "rawtid": 33, "pbox": [594, 304, 706, 595], "ph": 291, "split": false, "texts": []}
+{"t": 186.812, "tid": 11001, "rawtid": 11, "pbox": [743, 349, 786, 529], "ph": 180, "split": false, "texts": null}
+{"t": 186.812, "tid": 2001, "rawtid": 2, "pbox": [793, 290, 892, 617], "ph": 327, "split": false, "texts": null}
+{"t": 186.812, "tid": 79001, "rawtid": 79, "pbox": [870, 345, 925, 529], "ph": 184, "split": false, "texts": null}
+{"t": 186.812, "tid": 4001, "rawtid": 4, "pbox": [155, 345, 183, 445], "ph": 100, "split": false, "texts": null}
+{"t": 186.812, "tid": 5001, "rawtid": 5, "pbox": [115, 349, 146, 460], "ph": 111, "split": false, "texts": null}
+{"t": 186.812, "tid": 86001, "rawtid": 86, "pbox": [0, 365, 46, 512], "ph": 147, "split": false, "texts": []}
+{"t": 186.812, "tid": 131001, "rawtid": 131, "pbox": [26, 346, 57, 480], "ph": 134, "split": false, "texts": []}
+{"t": 186.875, "tid": 3001, "rawtid": 3, "pbox": [673, 340, 764, 569], "ph": 229, "split": false, "texts": null}
+{"t": 186.875, "tid": 33001, "rawtid": 33, "pbox": [596, 303, 720, 619], "ph": 316, "split": false, "texts": [["3T0", 0.577, [666, 411, 693, 426]]]}
+{"t": 186.875, "tid": 11001, "rawtid": 11, "pbox": [741, 347, 784, 529], "ph": 182, "split": false, "texts": null}
+{"t": 186.875, "tid": 2001, "rawtid": 2, "pbox": [793, 290, 893, 617], "ph": 327, "split": false, "texts": null}
+{"t": 186.875, "tid": 79001, "rawtid": 79, "pbox": [870, 345, 926, 529], "ph": 184, "split": false, "texts": null}
+{"t": 186.875, "tid": 4001, "rawtid": 4, "pbox": [155, 345, 184, 445], "ph": 100, "split": false, "texts": null}
+{"t": 186.875, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 460], "ph": 112, "split": false, "texts": null}
+{"t": 186.875, "tid": 86001, "rawtid": 86, "pbox": [0, 367, 46, 512], "ph": 145, "split": false, "texts": []}
+{"t": 186.875, "tid": 131001, "rawtid": 131, "pbox": [25, 345, 57, 481], "ph": 136, "split": false, "texts": []}
+{"t": 186.938, "tid": 3001, "rawtid": 3, "pbox": [670, 343, 759, 571], "ph": 228, "split": false, "texts": null}
+{"t": 186.938, "tid": 33001, "rawtid": 33, "pbox": [602, 305, 735, 637], "ph": 332, "split": false, "texts": [["\u65b0\u5c4b", 0.573, [702, 421, 730, 439]]]}
+{"t": 186.938, "tid": 2001, "rawtid": 2, "pbox": [793, 290, 893, 617], "ph": 327, "split": false, "texts": null}
+{"t": 186.938, "tid": 79001, "rawtid": 79, "pbox": [871, 345, 926, 529], "ph": 184, "split": false, "texts": null}
+{"t": 186.938, "tid": 4001, "rawtid": 4, "pbox": [155, 344, 184, 445], "ph": 101, "split": false, "texts": []}
+{"t": 186.938, "tid": 5001, "rawtid": 5, "pbox": [115, 349, 146, 460], "ph": 111, "split": false, "texts": null}
+{"t": 186.938, "tid": 86001, "rawtid": 86, "pbox": [0, 359, 45, 512], "ph": 153, "split": false, "texts": []}
+{"t": 186.938, "tid": 131001, "rawtid": 131, "pbox": [25, 344, 59, 481], "ph": 137, "split": false, "texts": [["\u54c1", 0.706, [52, 395, 59, 405]]]}
+{"t": 186.938, "tid": 137001, "rawtid": 137, "pbox": [711, 336, 778, 530], "ph": 194, "split": false, "texts": []}
+{"t": 187.0, "tid": 3001, "rawtid": 3, "pbox": [672, 339, 763, 573], "ph": 234, "split": false, "texts": null}
+{"t": 187.0, "tid": 33001, "rawtid": 33, "pbox": [607, 308, 746, 652], "ph": 344, "split": false, "texts": []}
+{"t": 187.0, "tid": 2001, "rawtid": 2, "pbox": [793, 290, 893, 617], "ph": 327, "split": false, "texts": null}
+{"t": 187.0, "tid": 79001, "rawtid": 79, "pbox": [871, 345, 925, 529], "ph": 184, "split": false, "texts": null}
+{"t": 187.0, "tid": 4001, "rawtid": 4, "pbox": [155, 344, 184, 445], "ph": 101, "split": false, "texts": null}
+{"t": 187.0, "tid": 5001, "rawtid": 5, "pbox": [115, 349, 146, 460], "ph": 111, "split": false, "texts": null}
+{"t": 187.0, "tid": 86001, "rawtid": 86, "pbox": [0, 356, 42, 513], "ph": 157, "split": false, "texts": []}
+{"t": 187.0, "tid": 131001, "rawtid": 131, "pbox": [25, 343, 60, 482], "ph": 139, "split": false, "texts": []}
+{"t": 187.0, "tid": 139001, "rawtid": 139, "pbox": [771, 361, 805, 478], "ph": 117, "split": false, "texts": []}
+{"t": 187.0, "tid": 137001, "rawtid": 137, "pbox": [714, 333, 781, 529], "ph": 196, "split": false, "texts": [["\u4e0a", 0.907, [711, 398, 729, 416]]]}
+{"t": 187.062, "tid": 3001, "rawtid": 3, "pbox": [683, 336, 773, 572], "ph": 236, "split": false, "texts": null}
+{"t": 187.062, "tid": 33001, "rawtid": 33, "pbox": [613, 307, 757, 660], "ph": 353, "split": false, "texts": [["T310", 0.957, [686, 435, 716, 449]]]}
+{"t": 187.062, "tid": 2001, "rawtid": 2, "pbox": [793, 290, 894, 617], "ph": 327, "split": false, "texts": null}
+{"t": 187.062, "tid": 79001, "rawtid": 79, "pbox": [870, 344, 925, 527], "ph": 183, "split": false, "texts": null}
+{"t": 187.062, "tid": 4001, "rawtid": 4, "pbox": [155, 344, 183, 445], "ph": 101, "split": false, "texts": null}
+{"t": 187.062, "tid": 5001, "rawtid": 5, "pbox": [115, 349, 146, 460], "ph": 111, "split": false, "texts": null}
+{"t": 187.062, "tid": 86001, "rawtid": 86, "pbox": [0, 356, 41, 513], "ph": 157, "split": false, "texts": []}
+{"t": 187.062, "tid": 131001, "rawtid": 131, "pbox": [25, 343, 60, 482], "ph": 139, "split": false, "texts": []}
+{"t": 187.062, "tid": 139001, "rawtid": 139, "pbox": [771, 359, 806, 479], "ph": 120, "split": false, "texts": []}
+{"t": 187.125, "tid": 33001, "rawtid": 33, "pbox": [622, 303, 769, 662], "ph": 359, "split": false, "texts": [["T310", 0.924, [695, 433, 729, 449]]]}
+{"t": 187.125, "tid": 2001, "rawtid": 2, "pbox": [793, 290, 894, 617], "ph": 327, "split": false, "texts": null}
+{"t": 187.125, "tid": 79001, "rawtid": 79, "pbox": [871, 344, 925, 529], "ph": 185, "split": false, "texts": null}
+{"t": 187.125, "tid": 4001, "rawtid": 4, "pbox": [154, 344, 183, 445], "ph": 101, "split": false, "texts": null}
+{"t": 187.125, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 187.125, "tid": 86001, "rawtid": 86, "pbox": [0, 356, 39, 514], "ph": 158, "split": false, "texts": [["2", 0.522, [19, 394, 31, 410]]]}
+{"t": 187.125, "tid": 131001, "rawtid": 131, "pbox": [25, 344, 60, 481], "ph": 137, "split": false, "texts": []}
+{"t": 187.188, "tid": 33001, "rawtid": 33, "pbox": [629, 301, 777, 663], "ph": 362, "split": false, "texts": [["T31030", 0.838, [701, 431, 735, 449]]]}
+{"t": 187.188, "tid": 2001, "rawtid": 2, "pbox": [793, 290, 894, 617], "ph": 327, "split": false, "texts": null}
+{"t": 187.188, "tid": 79001, "rawtid": 79, "pbox": [871, 344, 925, 529], "ph": 185, "split": false, "texts": null}
+{"t": 187.188, "tid": 4001, "rawtid": 4, "pbox": [154, 344, 183, 445], "ph": 101, "split": false, "texts": null}
+{"t": 187.188, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 187.188, "tid": 86001, "rawtid": 86, "pbox": [0, 355, 38, 514], "ph": 159, "split": false, "texts": []}
+{"t": 187.188, "tid": 131001, "rawtid": 131, "pbox": [24, 344, 60, 481], "ph": 137, "split": false, "texts": [["E", 0.805, [54, 387, 59, 393]]]}
+{"t": 187.188, "tid": 139001, "rawtid": 139, "pbox": [766, 348, 805, 482], "ph": 134, "split": false, "texts": []}
+{"t": 187.25, "tid": 33001, "rawtid": 33, "pbox": [636, 296, 786, 664], "ph": 368, "split": false, "texts": [["T3103", 0.809, [708, 430, 744, 447]]]}
+{"t": 187.25, "tid": 2001, "rawtid": 2, "pbox": [792, 290, 893, 617], "ph": 327, "split": false, "texts": null}
+{"t": 187.25, "tid": 79001, "rawtid": 79, "pbox": [871, 345, 925, 529], "ph": 184, "split": false, "texts": null}
+{"t": 187.25, "tid": 4001, "rawtid": 4, "pbox": [154, 344, 182, 445], "ph": 101, "split": false, "texts": [["M", 0.651, [168, 381, 178, 390]]]}
+{"t": 187.25, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 187.25, "tid": 86001, "rawtid": 86, "pbox": [0, 356, 38, 514], "ph": 158, "split": false, "texts": []}
+{"t": 187.25, "tid": 131001, "rawtid": 131, "pbox": [25, 344, 60, 481], "ph": 137, "split": false, "texts": []}
+{"t": 187.312, "tid": 33001, "rawtid": 33, "pbox": [644, 293, 794, 663], "ph": 370, "split": false, "texts": [["T31033", 0.91, [716, 428, 756, 446]]]}
+{"t": 187.312, "tid": 2001, "rawtid": 2, "pbox": [791, 291, 891, 617], "ph": 326, "split": false, "texts": null}
+{"t": 187.312, "tid": 79001, "rawtid": 79, "pbox": [870, 345, 924, 529], "ph": 184, "split": false, "texts": null}
+{"t": 187.312, "tid": 4001, "rawtid": 4, "pbox": [154, 344, 182, 445], "ph": 101, "split": false, "texts": null}
+{"t": 187.312, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 187.312, "tid": 86001, "rawtid": 86, "pbox": [0, 356, 37, 513], "ph": 157, "split": false, "texts": []}
+{"t": 187.312, "tid": 131001, "rawtid": 131, "pbox": [25, 345, 60, 481], "ph": 136, "split": false, "texts": []}
+{"t": 187.375, "tid": 33001, "rawtid": 33, "pbox": [646, 290, 804, 683], "ph": 393, "split": false, "texts": [["T31033", 0.975, [727, 433, 768, 451]]]}
+{"t": 187.375, "tid": 2001, "rawtid": 2, "pbox": [790, 291, 890, 617], "ph": 326, "split": false, "texts": null}
+{"t": 187.375, "tid": 79001, "rawtid": 79, "pbox": [869, 345, 923, 528], "ph": 183, "split": false, "texts": null}
+{"t": 187.375, "tid": 4001, "rawtid": 4, "pbox": [154, 344, 182, 445], "ph": 101, "split": false, "texts": null}
+{"t": 187.375, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 187.375, "tid": 86001, "rawtid": 86, "pbox": [0, 354, 37, 514], "ph": 160, "split": false, "texts": []}
+{"t": 187.375, "tid": 131001, "rawtid": 131, "pbox": [25, 346, 61, 481], "ph": 135, "split": false, "texts": []}
+{"t": 187.438, "tid": 33001, "rawtid": 33, "pbox": [655, 291, 821, 705], "ph": 414, "split": false, "texts": [["T31033", 0.97, [739, 444, 781, 461]]]}
+{"t": 187.438, "tid": 2001, "rawtid": 2, "pbox": [791, 291, 890, 617], "ph": 326, "split": false, "texts": null}
+{"t": 187.438, "tid": 79001, "rawtid": 79, "pbox": [868, 346, 922, 528], "ph": 182, "split": false, "texts": null}
+{"t": 187.438, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 182, 445], "ph": 102, "split": false, "texts": [["M", 0.893, [162, 381, 177, 390]]]}
+{"t": 187.438, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 187.438, "tid": 86001, "rawtid": 86, "pbox": [0, 353, 38, 514], "ph": 161, "split": false, "texts": []}
+{"t": 187.438, "tid": 131001, "rawtid": 131, "pbox": [24, 345, 61, 481], "ph": 136, "split": false, "texts": []}
+{"t": 187.5, "tid": 33001, "rawtid": 33, "pbox": [665, 295, 835, 714], "ph": 419, "split": false, "texts": null}
+{"t": 187.5, "tid": 2001, "rawtid": 2, "pbox": [793, 291, 892, 617], "ph": 326, "split": false, "texts": null}
+{"t": 187.5, "tid": 79001, "rawtid": 79, "pbox": [868, 347, 922, 528], "ph": 181, "split": false, "texts": null}
+{"t": 187.5, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 182, 445], "ph": 102, "split": false, "texts": [["M", 0.524, [161, 380, 177, 390]]]}
+{"t": 187.5, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 187.5, "tid": 86001, "rawtid": 86, "pbox": [0, 353, 37, 512], "ph": 159, "split": false, "texts": []}
+{"t": 187.5, "tid": 131001, "rawtid": 131, "pbox": [24, 344, 61, 481], "ph": 137, "split": false, "texts": []}
+{"t": 187.562, "tid": 33001, "rawtid": 33, "pbox": [678, 301, 852, 717], "ph": 416, "split": false, "texts": null}
+{"t": 187.562, "tid": 2001, "rawtid": 2, "pbox": [801, 289, 897, 616], "ph": 327, "split": false, "texts": null}
+{"t": 187.562, "tid": 79001, "rawtid": 79, "pbox": [867, 346, 922, 528], "ph": 182, "split": false, "texts": null}
+{"t": 187.562, "tid": 83001, "rawtid": 83, "pbox": [425, 338, 458, 438], "ph": 100, "split": false, "texts": []}
+{"t": 187.562, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 182, 445], "ph": 102, "split": false, "texts": [["M", 0.929, [161, 380, 177, 390]]]}
+{"t": 187.562, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 187.562, "tid": 86001, "rawtid": 86, "pbox": [0, 353, 37, 511], "ph": 158, "split": false, "texts": []}
+{"t": 187.562, "tid": 131001, "rawtid": 131, "pbox": [24, 345, 61, 481], "ph": 136, "split": false, "texts": []}
+{"t": 187.562, "tid": 3001, "rawtid": 3, "pbox": [662, 343, 740, 555], "ph": 212, "split": false, "texts": []}
+{"t": 187.625, "tid": 33001, "rawtid": 33, "pbox": [690, 294, 873, 718], "ph": 424, "split": false, "texts": null}
+{"t": 187.625, "tid": 79001, "rawtid": 79, "pbox": [867, 349, 921, 528], "ph": 179, "split": false, "texts": null}
+{"t": 187.625, "tid": 83001, "rawtid": 83, "pbox": [420, 339, 456, 443], "ph": 104, "split": false, "texts": []}
+{"t": 187.625, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 182, 445], "ph": 102, "split": false, "texts": []}
+{"t": 187.625, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 187.625, "tid": 86001, "rawtid": 86, "pbox": [0, 355, 38, 513], "ph": 158, "split": false, "texts": []}
+{"t": 187.625, "tid": 131001, "rawtid": 131, "pbox": [21, 344, 59, 482], "ph": 138, "split": false, "texts": []}
+{"t": 187.625, "tid": 3001, "rawtid": 3, "pbox": [662, 343, 738, 556], "ph": 213, "split": false, "texts": []}
+{"t": 187.688, "tid": 33001, "rawtid": 33, "pbox": [699, 292, 890, 718], "ph": 426, "split": false, "texts": null}
+{"t": 187.688, "tid": 79001, "rawtid": 79, "pbox": [868, 365, 919, 528], "ph": 163, "split": false, "texts": null}
+{"t": 187.688, "tid": 83001, "rawtid": 83, "pbox": [418, 339, 456, 446], "ph": 107, "split": false, "texts": []}
+{"t": 187.688, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 181, 445], "ph": 102, "split": false, "texts": [["M", 0.877, [163, 381, 176, 389]]]}
+{"t": 187.688, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 187.688, "tid": 86001, "rawtid": 86, "pbox": [0, 356, 38, 513], "ph": 157, "split": false, "texts": []}
+{"t": 187.688, "tid": 131001, "rawtid": 131, "pbox": [20, 344, 58, 482], "ph": 138, "split": false, "texts": []}
+{"t": 187.688, "tid": 3001, "rawtid": 3, "pbox": [664, 344, 738, 556], "ph": 212, "split": false, "texts": []}
+{"t": 187.75, "tid": 33001, "rawtid": 33, "pbox": [715, 292, 914, 720], "ph": 428, "split": false, "texts": null}
+{"t": 187.75, "tid": 79001, "rawtid": 79, "pbox": [870, 374, 919, 528], "ph": 154, "split": false, "texts": []}
+{"t": 187.75, "tid": 83001, "rawtid": 83, "pbox": [419, 340, 458, 447], "ph": 107, "split": false, "texts": []}
+{"t": 187.75, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 182, 445], "ph": 102, "split": false, "texts": [["M", 0.834, [166, 381, 176, 389]]]}
+{"t": 187.75, "tid": 5001, "rawtid": 5, "pbox": [114, 349, 146, 461], "ph": 112, "split": false, "texts": null}
+{"t": 187.75, "tid": 86001, "rawtid": 86, "pbox": [0, 355, 38, 513], "ph": 158, "split": false, "texts": []}
+{"t": 187.75, "tid": 131001, "rawtid": 131, "pbox": [20, 343, 57, 482], "ph": 139, "split": false, "texts": []}
+{"t": 187.75, "tid": 3001, "rawtid": 3, "pbox": [668, 343, 746, 566], "ph": 223, "split": false, "texts": null}
+{"t": 187.812, "tid": 33001, "rawtid": 33, "pbox": [731, 292, 934, 719], "ph": 427, "split": false, "texts": null}
+{"t": 187.812, "tid": 83001, "rawtid": 83, "pbox": [418, 338, 459, 454], "ph": 116, "split": false, "texts": []}
+{"t": 187.812, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 182, 445], "ph": 102, "split": false, "texts": [["M", 0.563, [166, 380, 176, 389]]]}
+{"t": 187.812, "tid": 5001, "rawtid": 5, "pbox": [114, 349, 146, 461], "ph": 112, "split": false, "texts": null}
+{"t": 187.812, "tid": 86001, "rawtid": 86, "pbox": [0, 354, 37, 512], "ph": 158, "split": false, "texts": []}
+{"t": 187.812, "tid": 131001, "rawtid": 131, "pbox": [20, 344, 57, 482], "ph": 138, "split": false, "texts": []}
+{"t": 187.812, "tid": 3001, "rawtid": 3, "pbox": [670, 342, 750, 570], "ph": 228, "split": false, "texts": null}
+{"t": 187.875, "tid": 33001, "rawtid": 33, "pbox": [747, 288, 953, 718], "ph": 430, "split": false, "texts": null}
+{"t": 187.875, "tid": 83001, "rawtid": 83, "pbox": [418, 338, 460, 461], "ph": 123, "split": false, "texts": []}
+{"t": 187.875, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 181, 445], "ph": 102, "split": false, "texts": [["M", 0.953, [164, 379, 176, 390]]]}
+{"t": 187.875, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 187.875, "tid": 86001, "rawtid": 86, "pbox": [0, 354, 36, 512], "ph": 158, "split": false, "texts": []}
+{"t": 187.875, "tid": 130001, "rawtid": 130, "pbox": [563, 333, 600, 442], "ph": 109, "split": false, "texts": []}
+{"t": 187.875, "tid": 131001, "rawtid": 131, "pbox": [20, 343, 57, 482], "ph": 139, "split": false, "texts": []}
+{"t": 187.875, "tid": 3001, "rawtid": 3, "pbox": [673, 342, 754, 570], "ph": 228, "split": false, "texts": null}
+{"t": 187.938, "tid": 33001, "rawtid": 33, "pbox": [759, 289, 960, 718], "ph": 429, "split": false, "texts": null}
+{"t": 187.938, "tid": 83001, "rawtid": 83, "pbox": [416, 339, 462, 469], "ph": 130, "split": false, "texts": []}
+{"t": 187.938, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 181, 445], "ph": 102, "split": false, "texts": [["M", 0.927, [163, 379, 176, 390]]]}
+{"t": 187.938, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 187.938, "tid": 86001, "rawtid": 86, "pbox": [0, 354, 36, 512], "ph": 158, "split": false, "texts": null}
+{"t": 187.938, "tid": 130001, "rawtid": 130, "pbox": [565, 336, 604, 450], "ph": 114, "split": false, "texts": [["\u4e8c", 0.689, [579, 368, 596, 380]]]}
+{"t": 187.938, "tid": 131001, "rawtid": 131, "pbox": [20, 343, 57, 482], "ph": 139, "split": false, "texts": []}
+{"t": 187.938, "tid": 3001, "rawtid": 3, "pbox": [674, 341, 756, 568], "ph": 227, "split": false, "texts": null}
+{"t": 188.0, "tid": 33001, "rawtid": 33, "pbox": [766, 290, 960, 718], "ph": 428, "split": false, "texts": null}
+{"t": 188.0, "tid": 83001, "rawtid": 83, "pbox": [413, 340, 461, 473], "ph": 133, "split": false, "texts": []}
+{"t": 188.0, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 181, 445], "ph": 102, "split": false, "texts": [["M", 0.795, [163, 379, 177, 391]]]}
+{"t": 188.0, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 188.0, "tid": 93001, "rawtid": 93, "pbox": [504, 326, 541, 426], "ph": 100, "split": false, "texts": [["\u56fd", 0.513, [514, 351, 534, 369]]]}
+{"t": 188.0, "tid": 86001, "rawtid": 86, "pbox": [0, 354, 36, 513], "ph": 159, "split": false, "texts": null}
+{"t": 188.0, "tid": 130001, "rawtid": 130, "pbox": [571, 340, 611, 454], "ph": 114, "split": false, "texts": []}
+{"t": 188.0, "tid": 131001, "rawtid": 131, "pbox": [20, 342, 57, 482], "ph": 140, "split": false, "texts": []}
+{"t": 188.0, "tid": 3001, "rawtid": 3, "pbox": [673, 341, 758, 570], "ph": 229, "split": false, "texts": null}
+{"t": 188.0, "tid": 139001, "rawtid": 139, "pbox": [768, 364, 801, 481], "ph": 117, "split": false, "texts": []}
+{"t": 188.062, "tid": 33001, "rawtid": 33, "pbox": [786, 325, 960, 718], "ph": 393, "split": false, "texts": null}
+{"t": 188.062, "tid": 83001, "rawtid": 83, "pbox": [408, 337, 460, 484], "ph": 147, "split": false, "texts": []}
+{"t": 188.062, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 181, 445], "ph": 102, "split": false, "texts": [["M", 0.926, [163, 380, 176, 390]]]}
+{"t": 188.062, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 188.062, "tid": 93001, "rawtid": 93, "pbox": [504, 326, 542, 426], "ph": 100, "split": false, "texts": []}
+{"t": 188.062, "tid": 86001, "rawtid": 86, "pbox": [0, 354, 35, 513], "ph": 159, "split": false, "texts": null}
+{"t": 188.062, "tid": 130001, "rawtid": 130, "pbox": [574, 340, 616, 456], "ph": 116, "split": false, "texts": []}
+{"t": 188.062, "tid": 131001, "rawtid": 131, "pbox": [20, 342, 57, 482], "ph": 140, "split": false, "texts": []}
+{"t": 188.062, "tid": 3001, "rawtid": 3, "pbox": [675, 339, 764, 572], "ph": 233, "split": false, "texts": null}
+{"t": 188.062, "tid": 139001, "rawtid": 139, "pbox": [770, 366, 802, 480], "ph": 114, "split": false, "texts": []}
+{"t": 188.062, "tid": 2001, "rawtid": 2, "pbox": [792, 291, 889, 619], "ph": 328, "split": false, "texts": null}
+{"t": 188.125, "tid": 33001, "rawtid": 33, "pbox": [784, 356, 957, 717], "ph": 361, "split": false, "texts": null}
+{"t": 188.125, "tid": 83001, "rawtid": 83, "pbox": [400, 334, 458, 496], "ph": 162, "split": false, "texts": []}
+{"t": 188.125, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 182, 445], "ph": 102, "split": false, "texts": [["M", 0.839, [162, 379, 176, 390]]]}
+{"t": 188.125, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 188.125, "tid": 93001, "rawtid": 93, "pbox": [507, 328, 545, 428], "ph": 100, "split": false, "texts": []}
+{"t": 188.125, "tid": 86001, "rawtid": 86, "pbox": [0, 355, 35, 517], "ph": 162, "split": false, "texts": null}
+{"t": 188.125, "tid": 130001, "rawtid": 130, "pbox": [576, 335, 621, 459], "ph": 124, "split": false, "texts": []}
+{"t": 188.125, "tid": 131001, "rawtid": 131, "pbox": [20, 342, 58, 482], "ph": 140, "split": false, "texts": null}
+{"t": 188.125, "tid": 3001, "rawtid": 3, "pbox": [678, 339, 769, 573], "ph": 234, "split": false, "texts": [["\u65b0\u51f0", 0.641, [746, 435, 774, 460]]]}
+{"t": 188.125, "tid": 139001, "rawtid": 139, "pbox": [769, 345, 805, 480], "ph": 135, "split": false, "texts": []}
+{"t": 188.125, "tid": 2001, "rawtid": 2, "pbox": [790, 290, 887, 617], "ph": 327, "split": false, "texts": null}
+{"t": 188.188, "tid": 33001, "rawtid": 33, "pbox": [786, 374, 953, 717], "ph": 343, "split": false, "texts": null}
+{"t": 188.188, "tid": 83001, "rawtid": 83, "pbox": [396, 333, 458, 505], "ph": 172, "split": false, "texts": []}
+{"t": 188.188, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 182, 445], "ph": 102, "split": false, "texts": [["M", 0.876, [162, 380, 176, 390]]]}
+{"t": 188.188, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 188.188, "tid": 86001, "rawtid": 86, "pbox": [0, 355, 34, 517], "ph": 162, "split": false, "texts": null}
+{"t": 188.188, "tid": 130001, "rawtid": 130, "pbox": [575, 332, 623, 463], "ph": 131, "split": false, "texts": []}
+{"t": 188.188, "tid": 131001, "rawtid": 131, "pbox": [20, 342, 58, 481], "ph": 139, "split": false, "texts": null}
+{"t": 188.188, "tid": 3001, "rawtid": 3, "pbox": [680, 339, 773, 573], "ph": 234, "split": false, "texts": [["\u65b0\u661f", 0.81, [750, 434, 779, 459]]]}
+{"t": 188.188, "tid": 139001, "rawtid": 139, "pbox": [769, 338, 806, 479], "ph": 141, "split": false, "texts": []}
+{"t": 188.188, "tid": 2001, "rawtid": 2, "pbox": [790, 290, 887, 617], "ph": 327, "split": false, "texts": null}
+{"t": 188.25, "tid": 33001, "rawtid": 33, "pbox": [809, 409, 959, 716], "ph": 307, "split": false, "texts": null}
+{"t": 188.25, "tid": 83001, "rawtid": 83, "pbox": [388, 334, 454, 515], "ph": 181, "split": false, "texts": []}
+{"t": 188.25, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 182, 445], "ph": 102, "split": false, "texts": [["M", 0.744, [165, 381, 176, 389]]]}
+{"t": 188.25, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 188.25, "tid": 93001, "rawtid": 93, "pbox": [511, 329, 549, 430], "ph": 101, "split": false, "texts": []}
+{"t": 188.25, "tid": 86001, "rawtid": 86, "pbox": [0, 353, 35, 516], "ph": 163, "split": false, "texts": null}
+{"t": 188.25, "tid": 130001, "rawtid": 130, "pbox": [576, 332, 625, 468], "ph": 136, "split": false, "texts": []}
+{"t": 188.25, "tid": 131001, "rawtid": 131, "pbox": [20, 342, 58, 481], "ph": 139, "split": false, "texts": null}
+{"t": 188.25, "tid": 3001, "rawtid": 3, "pbox": [684, 340, 778, 573], "ph": 233, "split": false, "texts": [["\u65b0\u9c9c", 0.604, [760, 433, 782, 456]]]}
+{"t": 188.25, "tid": 139001, "rawtid": 139, "pbox": [769, 349, 803, 479], "ph": 130, "split": false, "texts": []}
+{"t": 188.25, "tid": 2001, "rawtid": 2, "pbox": [790, 290, 887, 617], "ph": 327, "split": false, "texts": null}
+{"t": 188.25, "tid": 79001, "rawtid": 79, "pbox": [863, 341, 921, 530], "ph": 189, "split": false, "texts": null}
+{"t": 188.312, "tid": 83001, "rawtid": 83, "pbox": [386, 332, 453, 519], "ph": 187, "split": false, "texts": []}
+{"t": 188.312, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 182, 445], "ph": 102, "split": false, "texts": [["M", 0.886, [166, 381, 176, 390]]]}
+{"t": 188.312, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 188.312, "tid": 93001, "rawtid": 93, "pbox": [511, 326, 552, 433], "ph": 107, "split": false, "texts": []}
+{"t": 188.312, "tid": 86001, "rawtid": 86, "pbox": [0, 352, 34, 513], "ph": 161, "split": false, "texts": null}
+{"t": 188.312, "tid": 130001, "rawtid": 130, "pbox": [577, 333, 629, 476], "ph": 143, "split": false, "texts": []}
+{"t": 188.312, "tid": 131001, "rawtid": 131, "pbox": [20, 343, 59, 481], "ph": 138, "split": false, "texts": null}
+{"t": 188.312, "tid": 3001, "rawtid": 3, "pbox": [686, 343, 783, 576], "ph": 233, "split": false, "texts": [["\u65b0", 1.0, [769, 435, 784, 454]]]}
+{"t": 188.312, "tid": 2001, "rawtid": 2, "pbox": [790, 291, 887, 618], "ph": 327, "split": false, "texts": null}
+{"t": 188.312, "tid": 79001, "rawtid": 79, "pbox": [862, 339, 921, 530], "ph": 191, "split": false, "texts": null}
+{"t": 188.375, "tid": 83001, "rawtid": 83, "pbox": [375, 327, 451, 535], "ph": 208, "split": false, "texts": []}
+{"t": 188.375, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 182, 445], "ph": 102, "split": false, "texts": [["M", 0.898, [166, 382, 176, 390]]]}
+{"t": 188.375, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 188.375, "tid": 93001, "rawtid": 93, "pbox": [510, 323, 555, 442], "ph": 119, "split": false, "texts": [["\u53f8", 0.838, [519, 349, 547, 375]]]}
+{"t": 188.375, "tid": 86001, "rawtid": 86, "pbox": [0, 352, 35, 517], "ph": 165, "split": false, "texts": null}
+{"t": 188.375, "tid": 130001, "rawtid": 130, "pbox": [579, 336, 632, 479], "ph": 143, "split": false, "texts": []}
+{"t": 188.375, "tid": 131001, "rawtid": 131, "pbox": [19, 343, 59, 481], "ph": 138, "split": false, "texts": null}
+{"t": 188.375, "tid": 3001, "rawtid": 3, "pbox": [688, 344, 788, 582], "ph": 238, "split": false, "texts": [["\u5de5", 0.974, [726, 399, 739, 413]], ["\u65b0", 0.86, [778, 436, 790, 454]]]}
+{"t": 188.375, "tid": 2001, "rawtid": 2, "pbox": [791, 291, 887, 618], "ph": 327, "split": false, "texts": null}
+{"t": 188.375, "tid": 79001, "rawtid": 79, "pbox": [862, 339, 920, 530], "ph": 191, "split": false, "texts": null}
+{"t": 188.375, "tid": 137001, "rawtid": 137, "pbox": [675, 339, 741, 539], "ph": 200, "split": false, "texts": [["\u5de5", 0.894, [726, 398, 740, 414]]]}
+{"t": 188.438, "tid": 83001, "rawtid": 83, "pbox": [363, 325, 448, 556], "ph": 231, "split": false, "texts": []}
+{"t": 188.438, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 182, 445], "ph": 102, "split": false, "texts": [["M", 0.875, [166, 381, 176, 390]]]}
+{"t": 188.438, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 460], "ph": 112, "split": false, "texts": null}
+{"t": 188.438, "tid": 93001, "rawtid": 93, "pbox": [511, 323, 558, 447], "ph": 124, "split": false, "texts": [["C", 0.628, [543, 393, 548, 399]]]}
+{"t": 188.438, "tid": 86001, "rawtid": 86, "pbox": [0, 352, 35, 523], "ph": 171, "split": false, "texts": null}
+{"t": 188.438, "tid": 130001, "rawtid": 130, "pbox": [582, 336, 636, 481], "ph": 145, "split": false, "texts": []}
+{"t": 188.438, "tid": 131001, "rawtid": 131, "pbox": [19, 343, 58, 482], "ph": 139, "split": false, "texts": null}
+{"t": 188.438, "tid": 3001, "rawtid": 3, "pbox": [688, 344, 793, 588], "ph": 244, "split": false, "texts": [["\u5de5\u4f5c", 0.625, [726, 398, 745, 414]]]}
+{"t": 188.438, "tid": 2001, "rawtid": 2, "pbox": [791, 291, 887, 618], "ph": 327, "split": false, "texts": null}
+{"t": 188.438, "tid": 79001, "rawtid": 79, "pbox": [863, 338, 920, 530], "ph": 192, "split": false, "texts": null}
+{"t": 188.438, "tid": 137001, "rawtid": 137, "pbox": [676, 339, 742, 541], "ph": 202, "split": false, "texts": [["\u5de5\u4f5c", 0.625, [726, 398, 745, 414]]]}
+{"t": 188.5, "tid": 83001, "rawtid": 83, "pbox": [355, 325, 447, 579], "ph": 254, "split": false, "texts": [["\u7535", 0.552, [378, 441, 388, 447]]]}
+{"t": 188.5, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 182, 445], "ph": 102, "split": false, "texts": null}
+{"t": 188.5, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 460], "ph": 112, "split": false, "texts": null}
+{"t": 188.5, "tid": 93001, "rawtid": 93, "pbox": [511, 325, 558, 451], "ph": 126, "split": false, "texts": []}
+{"t": 188.5, "tid": 86001, "rawtid": 86, "pbox": [0, 352, 33, 523], "ph": 171, "split": false, "texts": null}
+{"t": 188.5, "tid": 130001, "rawtid": 130, "pbox": [583, 334, 638, 483], "ph": 149, "split": false, "texts": []}
+{"t": 188.5, "tid": 131001, "rawtid": 131, "pbox": [18, 343, 58, 481], "ph": 138, "split": false, "texts": null}
+{"t": 188.5, "tid": 3001, "rawtid": 3, "pbox": [695, 345, 802, 594], "ph": 249, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.681, [728, 399, 747, 413]]]}
+{"t": 188.5, "tid": 2001, "rawtid": 2, "pbox": [793, 291, 888, 618], "ph": 327, "split": false, "texts": null}
+{"t": 188.5, "tid": 79001, "rawtid": 79, "pbox": [863, 337, 921, 530], "ph": 193, "split": false, "texts": null}
+{"t": 188.5, "tid": 137001, "rawtid": 137, "pbox": [678, 339, 744, 541], "ph": 202, "split": false, "texts": [["\u5de5\u4f5c", 0.957, [726, 398, 747, 414]], ["T", 0.878, [696, 408, 723, 426]]]}
+{"t": 188.562, "tid": 83001, "rawtid": 83, "pbox": [335, 331, 432, 595], "ph": 264, "split": false, "texts": []}
+{"t": 188.562, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 182, 445], "ph": 102, "split": false, "texts": null}
+{"t": 188.562, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 460], "ph": 112, "split": false, "texts": null}
+{"t": 188.562, "tid": 93001, "rawtid": 93, "pbox": [512, 327, 558, 452], "ph": 125, "split": false, "texts": []}
+{"t": 188.562, "tid": 86001, "rawtid": 86, "pbox": [0, 353, 34, 523], "ph": 170, "split": false, "texts": null}
+{"t": 188.562, "tid": 130001, "rawtid": 130, "pbox": [583, 332, 641, 491], "ph": 159, "split": false, "texts": []}
+{"t": 188.562, "tid": 131001, "rawtid": 131, "pbox": [19, 343, 60, 482], "ph": 139, "split": false, "texts": null}
+{"t": 188.562, "tid": 3001, "rawtid": 3, "pbox": [700, 346, 808, 600], "ph": 254, "split": false, "texts": []}
+{"t": 188.562, "tid": 2001, "rawtid": 2, "pbox": [795, 290, 889, 618], "ph": 328, "split": false, "texts": null}
+{"t": 188.562, "tid": 79001, "rawtid": 79, "pbox": [864, 337, 921, 530], "ph": 193, "split": false, "texts": null}
+{"t": 188.562, "tid": 137001, "rawtid": 137, "pbox": [679, 347, 742, 541], "ph": 194, "split": false, "texts": [["\u5de5\u4f5c", 0.879, [727, 398, 745, 414]]]}
+{"t": 188.625, "tid": 83001, "rawtid": 83, "pbox": [321, 327, 421, 605], "ph": 278, "split": false, "texts": [["0827", 0.945, [341, 468, 367, 481]]]}
+{"t": 188.625, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 182, 444], "ph": 101, "split": false, "texts": null}
+{"t": 188.625, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 460], "ph": 112, "split": false, "texts": null}
+{"t": 188.625, "tid": 93001, "rawtid": 93, "pbox": [512, 326, 559, 453], "ph": 127, "split": false, "texts": [["\u53f8", 0.787, [524, 355, 554, 385]]]}
+{"t": 188.625, "tid": 86001, "rawtid": 86, "pbox": [0, 351, 32, 522], "ph": 171, "split": false, "texts": null}
+{"t": 188.625, "tid": 130001, "rawtid": 130, "pbox": [586, 333, 648, 504], "ph": 171, "split": false, "texts": []}
+{"t": 188.625, "tid": 131001, "rawtid": 131, "pbox": [19, 344, 60, 482], "ph": 138, "split": false, "texts": null}
+{"t": 188.625, "tid": 3001, "rawtid": 3, "pbox": [712, 344, 820, 603], "ph": 259, "split": false, "texts": [["\u5de5\u4eba", 0.682, [728, 401, 750, 412]]]}
+{"t": 188.625, "tid": 2001, "rawtid": 2, "pbox": [796, 290, 890, 618], "ph": 328, "split": false, "texts": null}
+{"t": 188.625, "tid": 79001, "rawtid": 79, "pbox": [864, 338, 920, 530], "ph": 192, "split": false, "texts": null}
+{"t": 188.625, "tid": 137001, "rawtid": 137, "pbox": [682, 358, 744, 541], "ph": 183, "split": false, "texts": [["\u5de5\u673a", 0.592, [726, 399, 747, 414]]]}
+{"t": 188.688, "tid": 83001, "rawtid": 83, "pbox": [303, 323, 414, 634], "ph": 311, "split": false, "texts": [["40827", 0.918, [325, 470, 354, 486]]]}
+{"t": 188.688, "tid": 4001, "rawtid": 4, "pbox": [152, 343, 182, 444], "ph": 101, "split": false, "texts": null}
+{"t": 188.688, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 460], "ph": 112, "split": false, "texts": null}
+{"t": 188.688, "tid": 93001, "rawtid": 93, "pbox": [512, 325, 560, 453], "ph": 128, "split": false, "texts": []}
+{"t": 188.688, "tid": 86001, "rawtid": 86, "pbox": [0, 351, 30, 524], "ph": 173, "split": false, "texts": null}
+{"t": 188.688, "tid": 130001, "rawtid": 130, "pbox": [588, 335, 651, 509], "ph": 174, "split": false, "texts": []}
+{"t": 188.688, "tid": 131001, "rawtid": 131, "pbox": [19, 343, 61, 481], "ph": 138, "split": false, "texts": null}
+{"t": 188.688, "tid": 3001, "rawtid": 3, "pbox": [719, 343, 826, 603], "ph": 260, "split": false, "texts": [["\u65b0", 0.999, [713, 417, 747, 437]]]}
+{"t": 188.688, "tid": 2001, "rawtid": 2, "pbox": [797, 290, 890, 618], "ph": 328, "split": false, "texts": null}
+{"t": 188.688, "tid": 79001, "rawtid": 79, "pbox": [864, 338, 920, 530], "ph": 192, "split": false, "texts": null}
+{"t": 188.688, "tid": 137001, "rawtid": 137, "pbox": [682, 349, 748, 542], "ph": 193, "split": false, "texts": [["\u5de5\u4eba", 0.557, [726, 398, 752, 414]], ["\u65b0", 0.998, [713, 418, 744, 437]]]}
+{"t": 188.75, "tid": 83001, "rawtid": 83, "pbox": [273, 318, 400, 678], "ph": 360, "split": false, "texts": []}
+{"t": 188.75, "tid": 4001, "rawtid": 4, "pbox": [152, 344, 182, 444], "ph": 100, "split": false, "texts": null}
+{"t": 188.75, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 460], "ph": 112, "split": false, "texts": null}
+{"t": 188.75, "tid": 93001, "rawtid": 93, "pbox": [512, 322, 562, 456], "ph": 134, "split": false, "texts": []}
+{"t": 188.75, "tid": 86001, "rawtid": 86, "pbox": [0, 351, 29, 524], "ph": 173, "split": false, "texts": null}
+{"t": 188.75, "tid": 130001, "rawtid": 130, "pbox": [590, 337, 654, 511], "ph": 174, "split": false, "texts": []}
+{"t": 188.75, "tid": 131001, "rawtid": 131, "pbox": [18, 343, 61, 481], "ph": 138, "split": false, "texts": null}
+{"t": 188.75, "tid": 3001, "rawtid": 3, "pbox": [723, 342, 829, 604], "ph": 262, "split": false, "texts": [["\u5de5\u673a", 0.637, [727, 400, 752, 413]], ["\u65b0\u5c4b\u9152", 0.686, [716, 418, 748, 435]]]}
+{"t": 188.75, "tid": 2001, "rawtid": 2, "pbox": [798, 290, 890, 618], "ph": 328, "split": false, "texts": null}
+{"t": 188.75, "tid": 79001, "rawtid": 79, "pbox": [863, 339, 920, 530], "ph": 191, "split": false, "texts": null}
+{"t": 188.75, "tid": 137001, "rawtid": 137, "pbox": [682, 342, 751, 542], "ph": 200, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.684, [727, 398, 753, 414]], ["\u65b0\u5c4b", 0.965, [714, 419, 744, 436]]]}
+{"t": 188.812, "tid": 83001, "rawtid": 83, "pbox": [238, 317, 376, 706], "ph": 389, "split": false, "texts": []}
+{"t": 188.812, "tid": 4001, "rawtid": 4, "pbox": [152, 344, 182, 445], "ph": 101, "split": false, "texts": null}
+{"t": 188.812, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 460], "ph": 112, "split": false, "texts": null}
+{"t": 188.812, "tid": 93001, "rawtid": 93, "pbox": [512, 319, 565, 460], "ph": 141, "split": false, "texts": []}
+{"t": 188.812, "tid": 86001, "rawtid": 86, "pbox": [0, 352, 28, 526], "ph": 174, "split": false, "texts": null}
+{"t": 188.812, "tid": 130001, "rawtid": 130, "pbox": [592, 335, 657, 511], "ph": 176, "split": false, "texts": []}
+{"t": 188.812, "tid": 131001, "rawtid": 131, "pbox": [18, 343, 61, 481], "ph": 138, "split": false, "texts": null}
+{"t": 188.812, "tid": 3001, "rawtid": 3, "pbox": [726, 343, 832, 603], "ph": 260, "split": false, "texts": [["\u65b0\u5c4b", 0.954, [718, 417, 750, 435]]]}
+{"t": 188.812, "tid": 2001, "rawtid": 2, "pbox": [799, 290, 891, 618], "ph": 328, "split": false, "texts": null}
+{"t": 188.812, "tid": 79001, "rawtid": 79, "pbox": [864, 339, 920, 530], "ph": 191, "split": false, "texts": null}
+{"t": 188.812, "tid": 137001, "rawtid": 137, "pbox": [682, 341, 753, 543], "ph": 202, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.784, [727, 397, 753, 414]], ["\u65b0\u5c4b", 0.892, [714, 417, 750, 435]]]}
+{"t": 188.875, "tid": 83001, "rawtid": 83, "pbox": [191, 318, 340, 718], "ph": 400, "split": false, "texts": []}
+{"t": 188.875, "tid": 4001, "rawtid": 4, "pbox": [152, 344, 182, 444], "ph": 100, "split": false, "texts": null}
+{"t": 188.875, "tid": 5001, "rawtid": 5, "pbox": [114, 349, 145, 460], "ph": 111, "split": false, "texts": null}
+{"t": 188.875, "tid": 93001, "rawtid": 93, "pbox": [514, 320, 568, 467], "ph": 147, "split": false, "texts": []}
+{"t": 188.875, "tid": 86001, "rawtid": 86, "pbox": [0, 352, 27, 524], "ph": 172, "split": false, "texts": null}
+{"t": 188.875, "tid": 130001, "rawtid": 130, "pbox": [591, 329, 661, 520], "ph": 191, "split": false, "texts": []}
+{"t": 188.875, "tid": 131001, "rawtid": 131, "pbox": [18, 343, 61, 481], "ph": 138, "split": false, "texts": null}
+{"t": 188.875, "tid": 3001, "rawtid": 3, "pbox": [731, 342, 837, 603], "ph": 261, "split": false, "texts": []}
+{"t": 188.875, "tid": 2001, "rawtid": 2, "pbox": [800, 289, 893, 617], "ph": 328, "split": false, "texts": null}
+{"t": 188.875, "tid": 79001, "rawtid": 79, "pbox": [865, 339, 921, 531], "ph": 192, "split": false, "texts": null}
+{"t": 188.875, "tid": 137001, "rawtid": 137, "pbox": [682, 339, 755, 543], "ph": 204, "split": false, "texts": [["\u5de5\u4f5c", 0.917, [727, 397, 753, 414]], ["\u65b0\u5c4b", 0.877, [714, 417, 751, 435]]]}
+{"t": 188.875, "tid": 172001, "rawtid": 172, "pbox": [739, 340, 777, 527], "ph": 187, "split": false, "texts": [["\u4f5c\u4eba", 0.736, [736, 397, 753, 413]]]}
+{"t": 188.938, "tid": 83001, "rawtid": 83, "pbox": [135, 313, 299, 720], "ph": 407, "split": false, "texts": [["-1l", 0.592, [180, 455, 196, 471]]]}
+{"t": 188.938, "tid": 5001, "rawtid": 5, "pbox": [114, 349, 144, 460], "ph": 111, "split": false, "texts": null}
+{"t": 188.938, "tid": 93001, "rawtid": 93, "pbox": [517, 322, 572, 471], "ph": 149, "split": false, "texts": []}
+{"t": 188.938, "tid": 86001, "rawtid": 86, "pbox": [0, 353, 27, 525], "ph": 172, "split": false, "texts": null}
+{"t": 188.938, "tid": 130001, "rawtid": 130, "pbox": [587, 326, 663, 533], "ph": 207, "split": false, "texts": []}
+{"t": 188.938, "tid": 131001, "rawtid": 131, "pbox": [16, 343, 59, 481], "ph": 138, "split": false, "texts": null}
+{"t": 188.938, "tid": 3001, "rawtid": 3, "pbox": [737, 342, 841, 602], "ph": 260, "split": false, "texts": []}
+{"t": 188.938, "tid": 2001, "rawtid": 2, "pbox": [800, 290, 893, 617], "ph": 327, "split": false, "texts": null}
+{"t": 188.938, "tid": 79001, "rawtid": 79, "pbox": [866, 338, 922, 532], "ph": 194, "split": false, "texts": null}
+{"t": 188.938, "tid": 137001, "rawtid": 137, "pbox": [682, 340, 755, 543], "ph": 203, "split": false, "texts": [["\u65b0\u5c4b", 0.944, [714, 417, 751, 435]]]}
+{"t": 188.938, "tid": 172001, "rawtid": 172, "pbox": [741, 341, 779, 527], "ph": 186, "split": false, "texts": []}
+{"t": 189.0, "tid": 83001, "rawtid": 83, "pbox": [80, 293, 264, 720], "ph": 427, "split": false, "texts": []}
+{"t": 189.0, "tid": 93001, "rawtid": 93, "pbox": [520, 324, 574, 473], "ph": 149, "split": false, "texts": []}
+{"t": 189.0, "tid": 130001, "rawtid": 130, "pbox": [589, 326, 669, 544], "ph": 218, "split": false, "texts": [["S", 0.51, [606, 395, 659, 444]]]}
+{"t": 189.0, "tid": 131001, "rawtid": 131, "pbox": [14, 343, 56, 480], "ph": 137, "split": false, "texts": null}
+{"t": 189.0, "tid": 3001, "rawtid": 3, "pbox": [741, 341, 845, 602], "ph": 261, "split": false, "texts": []}
+{"t": 189.0, "tid": 2001, "rawtid": 2, "pbox": [801, 291, 893, 617], "ph": 326, "split": false, "texts": null}
+{"t": 189.0, "tid": 79001, "rawtid": 79, "pbox": [867, 335, 923, 532], "ph": 197, "split": false, "texts": null}
+{"t": 189.0, "tid": 137001, "rawtid": 137, "pbox": [681, 340, 756, 544], "ph": 204, "split": false, "texts": [["\u65b0\u5c4b\u819c", 0.705, [715, 416, 751, 436]]]}
+{"t": 189.0, "tid": 172001, "rawtid": 172, "pbox": [742, 341, 780, 528], "ph": 187, "split": false, "texts": []}
+{"t": 189.062, "tid": 83001, "rawtid": 83, "pbox": [40, 274, 239, 720], "ph": 446, "split": false, "texts": []}
+{"t": 189.062, "tid": 93001, "rawtid": 93, "pbox": [521, 323, 576, 474], "ph": 151, "split": false, "texts": []}
+{"t": 189.062, "tid": 130001, "rawtid": 130, "pbox": [589, 331, 670, 551], "ph": 220, "split": false, "texts": []}
+{"t": 189.062, "tid": 3001, "rawtid": 3, "pbox": [744, 340, 847, 602], "ph": 262, "split": false, "texts": []}
+{"t": 189.062, "tid": 2001, "rawtid": 2, "pbox": [803, 290, 896, 617], "ph": 327, "split": false, "texts": null}
+{"t": 189.062, "tid": 79001, "rawtid": 79, "pbox": [867, 340, 921, 531], "ph": 191, "split": false, "texts": null}
+{"t": 189.062, "tid": 137001, "rawtid": 137, "pbox": [682, 339, 757, 543], "ph": 204, "split": false, "texts": [["\u5de5\u4f5c\u4eba\u4ece", 0.709, [728, 396, 754, 414]], ["\u65b0\u96c1\u811a", 0.523, [715, 416, 752, 435]]]}
+{"t": 189.062, "tid": 172001, "rawtid": 172, "pbox": [744, 340, 782, 527], "ph": 187, "split": false, "texts": [["4", 0.545, [768, 445, 772, 452]]]}
+{"t": 189.125, "tid": 93001, "rawtid": 93, "pbox": [524, 320, 580, 475], "ph": 155, "split": false, "texts": []}
+{"t": 189.125, "tid": 130001, "rawtid": 130, "pbox": [591, 333, 672, 552], "ph": 219, "split": false, "texts": [["YNNUE", 0.582, [619, 400, 652, 410]]]}
+{"t": 189.125, "tid": 3001, "rawtid": 3, "pbox": [747, 339, 851, 601], "ph": 262, "split": false, "texts": [["\u4eba", 0.745, [740, 398, 753, 414]]]}
+{"t": 189.125, "tid": 2001, "rawtid": 2, "pbox": [804, 290, 897, 618], "ph": 328, "split": false, "texts": null}
+{"t": 189.125, "tid": 79001, "rawtid": 79, "pbox": [868, 341, 922, 532], "ph": 191, "split": false, "texts": null}
+{"t": 189.125, "tid": 137001, "rawtid": 137, "pbox": [680, 338, 756, 543], "ph": 205, "split": false, "texts": [["\u5de5", 0.978, [729, 397, 754, 413]], ["\u65b0\u5c4b\u811a", 0.697, [715, 416, 752, 435]]]}
+{"t": 189.125, "tid": 172001, "rawtid": 172, "pbox": [744, 339, 782, 523], "ph": 184, "split": false, "texts": []}
+{"t": 189.125, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 146, 460], "ph": 112, "split": false, "texts": null}
+{"t": 189.188, "tid": 93001, "rawtid": 93, "pbox": [524, 318, 583, 479], "ph": 161, "split": false, "texts": []}
+{"t": 189.188, "tid": 130001, "rawtid": 130, "pbox": [593, 332, 675, 553], "ph": 221, "split": false, "texts": [["KINWU", 0.922, [624, 399, 658, 409]]]}
+{"t": 189.188, "tid": 3001, "rawtid": 3, "pbox": [748, 339, 852, 601], "ph": 262, "split": false, "texts": []}
+{"t": 189.188, "tid": 2001, "rawtid": 2, "pbox": [804, 290, 898, 618], "ph": 328, "split": false, "texts": null}
+{"t": 189.188, "tid": 79001, "rawtid": 79, "pbox": [868, 340, 922, 532], "ph": 192, "split": false, "texts": null}
+{"t": 189.188, "tid": 137001, "rawtid": 137, "pbox": [678, 338, 756, 543], "ph": 205, "split": false, "texts": [["\u5de5", 0.967, [729, 396, 754, 413]], ["\u65b0\u5c4b\u7f8e", 0.72, [716, 416, 751, 435]]]}
+{"t": 189.188, "tid": 172001, "rawtid": 172, "pbox": [745, 340, 783, 524], "ph": 184, "split": false, "texts": []}
+{"t": 189.188, "tid": 4001, "rawtid": 4, "pbox": [153, 343, 182, 444], "ph": 101, "split": false, "texts": null}
+{"t": 189.188, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 147, 460], "ph": 112, "split": false, "texts": null}
+{"t": 189.188, "tid": 131001, "rawtid": 131, "pbox": [16, 344, 57, 471], "ph": 127, "split": false, "texts": null}
+{"t": 189.188, "tid": 86001, "rawtid": 86, "pbox": [0, 353, 30, 518], "ph": 165, "split": false, "texts": null}
+{"t": 189.25, "tid": 93001, "rawtid": 93, "pbox": [525, 316, 586, 485], "ph": 169, "split": false, "texts": []}
+{"t": 189.25, "tid": 130001, "rawtid": 130, "pbox": [591, 327, 682, 575], "ph": 248, "split": false, "texts": [["XINWUE", 0.912, [637, 396, 671, 405]]]}
+{"t": 189.25, "tid": 3001, "rawtid": 3, "pbox": [748, 339, 852, 601], "ph": 262, "split": false, "texts": []}
+{"t": 189.25, "tid": 2001, "rawtid": 2, "pbox": [806, 291, 902, 617], "ph": 326, "split": false, "texts": null}
+{"t": 189.25, "tid": 137001, "rawtid": 137, "pbox": [680, 339, 757, 543], "ph": 204, "split": false, "texts": [["\u5de5\u5236", 0.847, [729, 396, 754, 413]], ["\u65b0\u5c4b\u7f8e", 0.699, [716, 416, 752, 435]]]}
+{"t": 189.25, "tid": 172001, "rawtid": 172, "pbox": [746, 340, 783, 523], "ph": 183, "split": false, "texts": []}
+{"t": 189.25, "tid": 4001, "rawtid": 4, "pbox": [153, 344, 182, 444], "ph": 100, "split": false, "texts": null}
+{"t": 189.25, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 147, 460], "ph": 112, "split": false, "texts": null}
+{"t": 189.25, "tid": 131001, "rawtid": 131, "pbox": [15, 344, 58, 478], "ph": 134, "split": false, "texts": null}
+{"t": 189.25, "tid": 86001, "rawtid": 86, "pbox": [0, 352, 30, 515], "ph": 163, "split": false, "texts": null}
+{"t": 189.312, "tid": 93001, "rawtid": 93, "pbox": [525, 316, 588, 492], "ph": 176, "split": false, "texts": []}
+{"t": 189.312, "tid": 130001, "rawtid": 130, "pbox": [593, 323, 694, 599], "ph": 276, "split": false, "texts": [["XINWU", 0.954, [650, 400, 679, 411]]]}
+{"t": 189.312, "tid": 3001, "rawtid": 3, "pbox": [748, 339, 852, 602], "ph": 263, "split": false, "texts": []}
+{"t": 189.312, "tid": 2001, "rawtid": 2, "pbox": [809, 292, 907, 616], "ph": 324, "split": false, "texts": null}
+{"t": 189.312, "tid": 137001, "rawtid": 137, "pbox": [684, 340, 760, 543], "ph": 203, "split": false, "texts": [["\u5de5\u5370", 0.557, [729, 397, 754, 413]]]}
+{"t": 189.312, "tid": 172001, "rawtid": 172, "pbox": [744, 341, 783, 525], "ph": 184, "split": false, "texts": [["EU", 0.509, [741, 398, 754, 412]]]}
+{"t": 189.312, "tid": 4001, "rawtid": 4, "pbox": [153, 344, 182, 444], "ph": 100, "split": false, "texts": null}
+{"t": 189.312, "tid": 5001, "rawtid": 5, "pbox": [115, 347, 147, 460], "ph": 113, "split": false, "texts": null}
+{"t": 189.312, "tid": 131001, "rawtid": 131, "pbox": [15, 344, 59, 481], "ph": 137, "split": false, "texts": null}
+{"t": 189.312, "tid": 86001, "rawtid": 86, "pbox": [1, 352, 30, 512], "ph": 160, "split": false, "texts": null}
+{"t": 189.375, "tid": 93001, "rawtid": 93, "pbox": [526, 319, 589, 495], "ph": 176, "split": false, "texts": []}
+{"t": 189.375, "tid": 130001, "rawtid": 130, "pbox": [600, 327, 706, 618], "ph": 291, "split": false, "texts": [["XINWU", 0.938, [662, 413, 694, 426]]]}
+{"t": 189.375, "tid": 3001, "rawtid": 3, "pbox": [747, 339, 850, 602], "ph": 263, "split": false, "texts": []}
+{"t": 189.375, "tid": 2001, "rawtid": 2, "pbox": [810, 293, 909, 616], "ph": 323, "split": false, "texts": null}
+{"t": 189.375, "tid": 137001, "rawtid": 137, "pbox": [689, 341, 763, 543], "ph": 202, "split": false, "texts": [["\u5de5", 0.866, [730, 397, 754, 413]], ["\u65b0\u5c4b", 0.827, [717, 416, 752, 435]]]}
+{"t": 189.375, "tid": 172001, "rawtid": 172, "pbox": [743, 340, 783, 526], "ph": 186, "split": false, "texts": []}
+{"t": 189.375, "tid": 4001, "rawtid": 4, "pbox": [153, 344, 182, 444], "ph": 100, "split": false, "texts": null}
+{"t": 189.375, "tid": 5001, "rawtid": 5, "pbox": [115, 347, 147, 460], "ph": 113, "split": false, "texts": null}
+{"t": 189.375, "tid": 131001, "rawtid": 131, "pbox": [16, 344, 60, 482], "ph": 138, "split": false, "texts": null}
+{"t": 189.375, "tid": 86001, "rawtid": 86, "pbox": [1, 351, 30, 510], "ph": 159, "split": false, "texts": null}
+{"t": 189.438, "tid": 93001, "rawtid": 93, "pbox": [526, 320, 590, 498], "ph": 178, "split": false, "texts": []}
+{"t": 189.438, "tid": 130001, "rawtid": 130, "pbox": [611, 332, 718, 625], "ph": 293, "split": false, "texts": [["XINWUE", 0.916, [671, 427, 709, 438]]]}
+{"t": 189.438, "tid": 3001, "rawtid": 3, "pbox": [746, 337, 850, 601], "ph": 264, "split": false, "texts": []}
+{"t": 189.438, "tid": 2001, "rawtid": 2, "pbox": [810, 295, 911, 617], "ph": 322, "split": false, "texts": null}
+{"t": 189.438, "tid": 137001, "rawtid": 137, "pbox": [694, 339, 767, 542], "ph": 203, "split": false, "texts": [["\u5de5", 0.866, [730, 396, 755, 413]], ["WU", 0.969, [689, 427, 709, 440]], ["\u65b0\u5c4b", 0.86, [719, 416, 752, 436]]]}
+{"t": 189.438, "tid": 172001, "rawtid": 172, "pbox": [742, 340, 783, 526], "ph": 186, "split": false, "texts": []}
+{"t": 189.438, "tid": 4001, "rawtid": 4, "pbox": [152, 344, 182, 444], "ph": 100, "split": false, "texts": null}
+{"t": 189.438, "tid": 5001, "rawtid": 5, "pbox": [114, 347, 147, 460], "ph": 113, "split": false, "texts": null}
+{"t": 189.438, "tid": 131001, "rawtid": 131, "pbox": [15, 343, 59, 483], "ph": 140, "split": false, "texts": null}
+{"t": 189.438, "tid": 86001, "rawtid": 86, "pbox": [2, 362, 30, 510], "ph": 148, "split": false, "texts": null}
+{"t": 189.5, "tid": 93001, "rawtid": 93, "pbox": [526, 318, 590, 498], "ph": 180, "split": false, "texts": []}
+{"t": 189.5, "tid": 130001, "rawtid": 130, "pbox": [625, 328, 735, 629], "ph": 301, "split": false, "texts": [["XINWUE", 0.962, [679, 425, 724, 442]]]}
+{"t": 189.5, "tid": 3001, "rawtid": 3, "pbox": [742, 335, 847, 601], "ph": 266, "split": false, "texts": []}
+{"t": 189.5, "tid": 2001, "rawtid": 2, "pbox": [810, 297, 912, 617], "ph": 320, "split": false, "texts": null}
+{"t": 189.5, "tid": 172001, "rawtid": 172, "pbox": [744, 343, 784, 524], "ph": 181, "split": false, "texts": []}
+{"t": 189.5, "tid": 4001, "rawtid": 4, "pbox": [152, 344, 181, 444], "ph": 100, "split": false, "texts": null}
+{"t": 189.5, "tid": 5001, "rawtid": 5, "pbox": [115, 347, 147, 460], "ph": 113, "split": false, "texts": null}
+{"t": 189.5, "tid": 131001, "rawtid": 131, "pbox": [16, 344, 59, 482], "ph": 138, "split": false, "texts": null}
+{"t": 189.5, "tid": 86001, "rawtid": 86, "pbox": [0, 361, 29, 510], "ph": 149, "split": false, "texts": null}
+{"t": 189.562, "tid": 93001, "rawtid": 93, "pbox": [526, 315, 594, 505], "ph": 190, "split": false, "texts": []}
+{"t": 189.562, "tid": 130001, "rawtid": 130, "pbox": [634, 320, 760, 664], "ph": 344, "split": false, "texts": [["XINWUE", 0.897, [692, 419, 746, 439]], ["T40O7Y", 0.686, [687, 487, 730, 501]]]}
+{"t": 189.562, "tid": 3001, "rawtid": 3, "pbox": [737, 335, 842, 602], "ph": 267, "split": false, "texts": []}
+{"t": 189.562, "tid": 2001, "rawtid": 2, "pbox": [810, 298, 913, 617], "ph": 319, "split": false, "texts": null}
+{"t": 189.562, "tid": 4001, "rawtid": 4, "pbox": [152, 344, 181, 445], "ph": 101, "split": false, "texts": null}
+{"t": 189.562, "tid": 5001, "rawtid": 5, "pbox": [115, 347, 147, 460], "ph": 113, "split": false, "texts": null}
+{"t": 189.562, "tid": 131001, "rawtid": 131, "pbox": [16, 343, 59, 482], "ph": 139, "split": false, "texts": null}
+{"t": 189.562, "tid": 86001, "rawtid": 86, "pbox": [0, 362, 28, 511], "ph": 149, "split": false, "texts": null}
+{"t": 189.625, "tid": 93001, "rawtid": 93, "pbox": [527, 312, 599, 514], "ph": 202, "split": false, "texts": []}
+{"t": 189.625, "tid": 130001, "rawtid": 130, "pbox": [645, 312, 788, 700], "ph": 388, "split": false, "texts": [["XINWUES", 0.887, [709, 424, 771, 448]], ["T40599", 0.885, [709, 496, 757, 517]]]}
+{"t": 189.625, "tid": 3001, "rawtid": 3, "pbox": [734, 335, 838, 603], "ph": 268, "split": false, "texts": [["WUE", 0.859, [728, 427, 771, 446]]]}
+{"t": 189.625, "tid": 2001, "rawtid": 2, "pbox": [814, 299, 918, 619], "ph": 320, "split": false, "texts": []}
+{"t": 189.625, "tid": 4001, "rawtid": 4, "pbox": [152, 344, 181, 445], "ph": 101, "split": false, "texts": null}
+{"t": 189.625, "tid": 5001, "rawtid": 5, "pbox": [114, 347, 147, 460], "ph": 113, "split": false, "texts": null}
+{"t": 189.625, "tid": 131001, "rawtid": 131, "pbox": [16, 344, 58, 482], "ph": 138, "split": false, "texts": null}
+{"t": 189.625, "tid": 86001, "rawtid": 86, "pbox": [0, 359, 28, 508], "ph": 149, "split": false, "texts": null}
+{"t": 189.688, "tid": 93001, "rawtid": 93, "pbox": [529, 311, 603, 521], "ph": 210, "split": false, "texts": []}
+{"t": 189.688, "tid": 130001, "rawtid": 130, "pbox": [656, 311, 807, 713], "ph": 402, "split": false, "texts": [["XINWUE", 0.9, [719, 433, 782, 457]], ["T40699", 0.892, [719, 508, 769, 530]]]}
+{"t": 189.688, "tid": 2001, "rawtid": 2, "pbox": [816, 300, 922, 621], "ph": 321, "split": false, "texts": []}
+{"t": 189.688, "tid": 4001, "rawtid": 4, "pbox": [152, 344, 181, 445], "ph": 101, "split": false, "texts": null}
+{"t": 189.688, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 147, 460], "ph": 112, "split": false, "texts": null}
+{"t": 189.688, "tid": 131001, "rawtid": 131, "pbox": [17, 344, 58, 482], "ph": 138, "split": false, "texts": null}
+{"t": 189.688, "tid": 86001, "rawtid": 86, "pbox": [0, 358, 29, 508], "ph": 150, "split": false, "texts": null}
+{"t": 189.75, "tid": 93001, "rawtid": 93, "pbox": [533, 313, 608, 528], "ph": 215, "split": false, "texts": []}
+{"t": 189.75, "tid": 130001, "rawtid": 130, "pbox": [673, 318, 827, 719], "ph": 401, "split": false, "texts": [["XINWUE", 0.904, [745, 463, 811, 488]], ["T40699", 0.945, [741, 541, 796, 568]]]}
+{"t": 189.75, "tid": 2001, "rawtid": 2, "pbox": [823, 300, 928, 626], "ph": 326, "split": false, "texts": []}
+{"t": 189.75, "tid": 4001, "rawtid": 4, "pbox": [152, 344, 181, 445], "ph": 101, "split": false, "texts": null}
+{"t": 189.75, "tid": 5001, "rawtid": 5, "pbox": [114, 347, 147, 460], "ph": 113, "split": false, "texts": null}
+{"t": 189.75, "tid": 131001, "rawtid": 131, "pbox": [17, 344, 58, 482], "ph": 138, "split": false, "texts": null}
+{"t": 189.75, "tid": 86001, "rawtid": 86, "pbox": [1, 357, 30, 508], "ph": 151, "split": false, "texts": null}
+{"t": 189.812, "tid": 93001, "rawtid": 93, "pbox": [539, 316, 613, 530], "ph": 214, "split": false, "texts": []}
+{"t": 189.812, "tid": 130001, "rawtid": 130, "pbox": [702, 326, 855, 720], "ph": 394, "split": false, "texts": [["\u65b0\u5c4b", 0.592, [717, 415, 755, 435]], ["XINWUE", 0.972, [782, 491, 849, 510]]]}
+{"t": 189.812, "tid": 2001, "rawtid": 2, "pbox": [830, 300, 934, 626], "ph": 326, "split": false, "texts": [["UE", 0.788, [822, 490, 852, 510]]]}
+{"t": 189.812, "tid": 4001, "rawtid": 4, "pbox": [152, 344, 181, 445], "ph": 101, "split": false, "texts": null}
+{"t": 189.812, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 147, 460], "ph": 112, "split": false, "texts": null}
+{"t": 189.812, "tid": 131001, "rawtid": 131, "pbox": [18, 343, 58, 482], "ph": 139, "split": false, "texts": null}
+{"t": 189.812, "tid": 86001, "rawtid": 86, "pbox": [2, 356, 33, 507], "ph": 151, "split": false, "texts": null}
+{"t": 189.812, "tid": 137001, "rawtid": 137, "pbox": [684, 338, 757, 542], "ph": 204, "split": false, "texts": [["\u5de5\u5217", 0.51, [732, 397, 755, 413]], ["\u65b0\u5c4b", 0.983, [718, 416, 754, 435]]]}
+{"t": 189.875, "tid": 93001, "rawtid": 93, "pbox": [543, 315, 619, 531], "ph": 216, "split": false, "texts": [["XINNU", 0.716, [573, 373, 600, 381]]]}
+{"t": 189.875, "tid": 130001, "rawtid": 130, "pbox": [722, 309, 890, 720], "ph": 411, "split": false, "texts": [["\u65b0\u5c4b", 0.955, [717, 415, 753, 435]], ["XINWUE", 0.98, [840, 494, 902, 526]]]}
+{"t": 189.875, "tid": 4001, "rawtid": 4, "pbox": [151, 344, 181, 445], "ph": 101, "split": false, "texts": null}
+{"t": 189.875, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 147, 460], "ph": 112, "split": false, "texts": null}
+{"t": 189.875, "tid": 131001, "rawtid": 131, "pbox": [19, 343, 58, 479], "ph": 136, "split": false, "texts": null}
+{"t": 189.875, "tid": 86001, "rawtid": 86, "pbox": [4, 356, 35, 507], "ph": 151, "split": false, "texts": null}
+{"t": 189.875, "tid": 137001, "rawtid": 137, "pbox": [683, 338, 756, 544], "ph": 206, "split": false, "texts": [["\u65b0\u5c4b", 0.983, [718, 416, 753, 435]]]}
+{"t": 189.875, "tid": 3001, "rawtid": 3, "pbox": [720, 337, 811, 576], "ph": 239, "split": false, "texts": [["\u65b0\u5c4b", 0.935, [718, 416, 753, 435]]]}
+{"t": 189.938, "tid": 93001, "rawtid": 93, "pbox": [547, 313, 626, 535], "ph": 222, "split": false, "texts": [["TINEUZS", 0.57, [575, 369, 605, 377]]]}
+{"t": 189.938, "tid": 130001, "rawtid": 130, "pbox": [738, 299, 917, 720], "ph": 421, "split": false, "texts": [["\u5de5", 0.851, [732, 397, 750, 417]], ["\u65b0", 0.86, [779, 444, 792, 463]]]}
+{"t": 189.938, "tid": 4001, "rawtid": 4, "pbox": [151, 344, 181, 446], "ph": 102, "split": false, "texts": null}
+{"t": 189.938, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 147, 460], "ph": 112, "split": false, "texts": null}
+{"t": 189.938, "tid": 131001, "rawtid": 131, "pbox": [20, 343, 58, 478], "ph": 135, "split": false, "texts": null}
+{"t": 189.938, "tid": 86001, "rawtid": 86, "pbox": [7, 357, 40, 505], "ph": 148, "split": false, "texts": null}
+{"t": 189.938, "tid": 137001, "rawtid": 137, "pbox": [679, 338, 752, 545], "ph": 207, "split": false, "texts": [["\u5de5", 0.965, [732, 398, 745, 412]], ["\u65b0\u5c4b", 0.74, [719, 418, 745, 434]]]}
+{"t": 189.938, "tid": 3001, "rawtid": 3, "pbox": [715, 338, 809, 588], "ph": 250, "split": false, "texts": [["\u5de5", 0.827, [731, 396, 749, 414]], ["\u65b0\u5708", 0.736, [718, 417, 747, 434]], ["\u65b0", 0.589, [777, 444, 794, 465]]]}
+{"t": 190.0, "tid": 93001, "rawtid": 93, "pbox": [550, 307, 636, 550], "ph": 243, "split": false, "texts": [["XINWUS", 0.864, [577, 365, 611, 379]]]}
+{"t": 190.0, "tid": 130001, "rawtid": 130, "pbox": [799, 390, 942, 720], "ph": 330, "split": false, "texts": []}
+{"t": 190.0, "tid": 4001, "rawtid": 4, "pbox": [150, 344, 181, 446], "ph": 102, "split": false, "texts": null}
+{"t": 190.0, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 147, 460], "ph": 112, "split": false, "texts": null}
+{"t": 190.0, "tid": 131001, "rawtid": 131, "pbox": [21, 343, 58, 482], "ph": 139, "split": false, "texts": null}
+{"t": 190.0, "tid": 86001, "rawtid": 86, "pbox": [7, 359, 41, 505], "ph": 146, "split": false, "texts": null}
+{"t": 190.0, "tid": 137001, "rawtid": 137, "pbox": [676, 341, 748, 545], "ph": 204, "split": false, "texts": [["\u5de5", 0.982, [732, 397, 744, 412]], ["\u65b0", 0.998, [719, 418, 740, 434]]]}
+{"t": 190.0, "tid": 3001, "rawtid": 3, "pbox": [710, 334, 803, 588], "ph": 254, "split": false, "texts": [["\u5de5", 0.988, [732, 398, 744, 412]], ["\u65b0", 0.998, [719, 418, 740, 434]], ["\u65b0", 0.565, [768, 441, 786, 461]]]}
+{"t": 190.0, "tid": 190001, "rawtid": 190, "pbox": [810, 311, 886, 554], "ph": 243, "split": false, "texts": []}
+{"t": 190.0, "tid": 2001, "rawtid": 2, "pbox": [832, 296, 934, 611], "ph": 315, "split": false, "texts": []}
+{"t": 190.062, "tid": 93001, "rawtid": 93, "pbox": [552, 304, 645, 566], "ph": 262, "split": false, "texts": [["XINWUE", 0.852, [583, 368, 618, 382]]]}
+{"t": 190.062, "tid": 4001, "rawtid": 4, "pbox": [150, 344, 180, 446], "ph": 102, "split": false, "texts": null}
+{"t": 190.062, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 147, 460], "ph": 112, "split": false, "texts": null}
+{"t": 190.062, "tid": 131001, "rawtid": 131, "pbox": [21, 343, 58, 483], "ph": 140, "split": false, "texts": null}
+{"t": 190.062, "tid": 86001, "rawtid": 86, "pbox": [6, 357, 42, 505], "ph": 148, "split": false, "texts": null}
+{"t": 190.062, "tid": 137001, "rawtid": 137, "pbox": [674, 341, 746, 546], "ph": 205, "split": false, "texts": [["\u65b0", 0.993, [719, 418, 738, 434]]]}
+{"t": 190.062, "tid": 3001, "rawtid": 3, "pbox": [706, 337, 795, 584], "ph": 247, "split": false, "texts": [["\u65b0", 0.997, [719, 418, 737, 434]], ["\u65b0\u5c4b", 0.814, [755, 434, 787, 461]]]}
+{"t": 190.062, "tid": 190001, "rawtid": 190, "pbox": [807, 311, 885, 560], "ph": 249, "split": false, "texts": []}
+{"t": 190.062, "tid": 2001, "rawtid": 2, "pbox": [829, 294, 939, 630], "ph": 336, "split": false, "texts": []}
+{"t": 190.125, "tid": 93001, "rawtid": 93, "pbox": [554, 306, 650, 575], "ph": 269, "split": false, "texts": [["NWUE", 0.724, [585, 372, 622, 386]]]}
+{"t": 190.125, "tid": 4001, "rawtid": 4, "pbox": [150, 343, 180, 446], "ph": 103, "split": false, "texts": null}
+{"t": 190.125, "tid": 5001, "rawtid": 5, "pbox": [115, 348, 147, 460], "ph": 112, "split": false, "texts": null}
+{"t": 190.125, "tid": 131001, "rawtid": 131, "pbox": [20, 343, 58, 486], "ph": 143, "split": false, "texts": null}
+{"t": 190.125, "tid": 86001, "rawtid": 86, "pbox": [6, 349, 45, 505], "ph": 156, "split": false, "texts": []}
+{"t": 190.125, "tid": 137001, "rawtid": 137, "pbox": [676, 346, 745, 547], "ph": 201, "split": false, "texts": [["\u65b0", 0.999, [720, 418, 735, 434]]]}
+{"t": 190.125, "tid": 3001, "rawtid": 3, "pbox": [705, 337, 792, 580], "ph": 243, "split": false, "texts": [["\u65b0", 0.998, [719, 418, 735, 434]], ["\u65b0\u5c4b", 0.958, [751, 434, 783, 460]]]}
+{"t": 190.125, "tid": 190001, "rawtid": 190, "pbox": [805, 311, 883, 560], "ph": 249, "split": false, "texts": []}
+{"t": 190.125, "tid": 193001, "rawtid": 193, "pbox": [774, 344, 812, 466], "ph": 122, "split": false, "texts": []}
+{"t": 190.125, "tid": 2001, "rawtid": 2, "pbox": [829, 293, 942, 636], "ph": 343, "split": false, "texts": []}
+{"t": 190.188, "tid": 93001, "rawtid": 93, "pbox": [559, 310, 654, 579], "ph": 269, "split": false, "texts": [["XINWU", 0.956, [592, 382, 630, 398]], ["P3167", 0.845, [600, 413, 625, 424]]]}
+{"t": 190.188, "tid": 4001, "rawtid": 4, "pbox": [149, 343, 180, 446], "ph": 103, "split": false, "texts": null}
+{"t": 190.188, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 145, 460], "ph": 112, "split": false, "texts": null}
+{"t": 190.188, "tid": 86001, "rawtid": 86, "pbox": [7, 348, 47, 504], "ph": 156, "split": false, "texts": [["\u5b81", 0.908, [37, 384, 48, 398]]]}
+{"t": 190.188, "tid": 3001, "rawtid": 3, "pbox": [695, 337, 781, 575], "ph": 238, "split": false, "texts": [["\u65b0\u5c4b\u98df", 0.577, [743, 431, 781, 459]]]}
+{"t": 190.188, "tid": 190001, "rawtid": 190, "pbox": [803, 311, 880, 560], "ph": 249, "split": false, "texts": []}
+{"t": 190.188, "tid": 193001, "rawtid": 193, "pbox": [770, 344, 813, 482], "ph": 138, "split": false, "texts": []}
+{"t": 190.188, "tid": 2001, "rawtid": 2, "pbox": [830, 291, 945, 639], "ph": 348, "split": false, "texts": []}
+{"t": 190.25, "tid": 93001, "rawtid": 93, "pbox": [564, 311, 660, 581], "ph": 270, "split": false, "texts": [["XINWUS", 0.905, [601, 385, 640, 401]], ["312", 0.761, [614, 419, 631, 429]]]}
+{"t": 190.25, "tid": 4001, "rawtid": 4, "pbox": [149, 343, 180, 445], "ph": 102, "split": false, "texts": null}
+{"t": 190.25, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 190.25, "tid": 86001, "rawtid": 86, "pbox": [7, 348, 49, 503], "ph": 155, "split": false, "texts": []}
+{"t": 190.25, "tid": 3001, "rawtid": 3, "pbox": [688, 336, 775, 573], "ph": 237, "split": false, "texts": [["\u65b0\u5c4b\u72d0", 0.525, [736, 429, 778, 457]]]}
+{"t": 190.25, "tid": 190001, "rawtid": 190, "pbox": [804, 311, 881, 559], "ph": 248, "split": false, "texts": []}
+{"t": 190.25, "tid": 193001, "rawtid": 193, "pbox": [768, 344, 812, 488], "ph": 144, "split": false, "texts": []}
+{"t": 190.25, "tid": 2001, "rawtid": 2, "pbox": [831, 291, 948, 641], "ph": 350, "split": false, "texts": []}
+{"t": 190.312, "tid": 93001, "rawtid": 93, "pbox": [570, 307, 667, 582], "ph": 275, "split": false, "texts": [["XINWU", 0.97, [613, 381, 652, 398]]]}
+{"t": 190.312, "tid": 4001, "rawtid": 4, "pbox": [148, 343, 179, 445], "ph": 102, "split": false, "texts": null}
+{"t": 190.312, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 190.312, "tid": 86001, "rawtid": 86, "pbox": [6, 348, 49, 503], "ph": 155, "split": false, "texts": []}
+{"t": 190.312, "tid": 3001, "rawtid": 3, "pbox": [682, 338, 771, 572], "ph": 234, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.821, [738, 404, 768, 426]]]}
+{"t": 190.312, "tid": 190001, "rawtid": 190, "pbox": [803, 311, 881, 560], "ph": 249, "split": false, "texts": []}
+{"t": 190.312, "tid": 193001, "rawtid": 193, "pbox": [766, 343, 811, 489], "ph": 146, "split": false, "texts": []}
+{"t": 190.312, "tid": 2001, "rawtid": 2, "pbox": [832, 291, 951, 641], "ph": 350, "split": false, "texts": []}
+{"t": 190.375, "tid": 93001, "rawtid": 93, "pbox": [573, 299, 679, 602], "ph": 303, "split": false, "texts": [["XINNU", 0.873, [628, 375, 667, 392]]]}
+{"t": 190.375, "tid": 4001, "rawtid": 4, "pbox": [148, 343, 179, 445], "ph": 102, "split": false, "texts": null}
+{"t": 190.375, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 190.375, "tid": 86001, "rawtid": 86, "pbox": [5, 346, 50, 504], "ph": 158, "split": false, "texts": []}
+{"t": 190.375, "tid": 3001, "rawtid": 3, "pbox": [678, 339, 768, 572], "ph": 233, "split": false, "texts": [["\u5de5\u4f5c\u706b", 0.778, [728, 403, 760, 427]], ["\u65b0\u5c4b\u6052", 0.633, [718, 429, 764, 456]]]}
+{"t": 190.375, "tid": 190001, "rawtid": 190, "pbox": [796, 310, 874, 560], "ph": 250, "split": false, "texts": []}
+{"t": 190.375, "tid": 193001, "rawtid": 193, "pbox": [766, 342, 811, 489], "ph": 147, "split": false, "texts": []}
+{"t": 190.375, "tid": 2001, "rawtid": 2, "pbox": [832, 291, 952, 641], "ph": 350, "split": false, "texts": []}
+{"t": 190.438, "tid": 93001, "rawtid": 93, "pbox": [577, 293, 693, 623], "ph": 330, "split": false, "texts": [["XINWUE", 0.828, [644, 373, 685, 391]]]}
+{"t": 190.438, "tid": 4001, "rawtid": 4, "pbox": [148, 344, 178, 445], "ph": 101, "split": false, "texts": null}
+{"t": 190.438, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 190.438, "tid": 86001, "rawtid": 86, "pbox": [5, 346, 51, 504], "ph": 158, "split": false, "texts": []}
+{"t": 190.438, "tid": 3001, "rawtid": 3, "pbox": [677, 340, 769, 571], "ph": 231, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.983, [717, 404, 755, 428]], ["\u65b0\u661f\u56fe\u8d60", 0.563, [709, 429, 758, 455]]]}
+{"t": 190.438, "tid": 190001, "rawtid": 190, "pbox": [795, 310, 874, 559], "ph": 249, "split": false, "texts": []}
+{"t": 190.438, "tid": 193001, "rawtid": 193, "pbox": [766, 342, 811, 489], "ph": 147, "split": false, "texts": []}
+{"t": 190.438, "tid": 2001, "rawtid": 2, "pbox": [832, 291, 953, 642], "ph": 351, "split": false, "texts": []}
+{"t": 190.5, "tid": 93001, "rawtid": 93, "pbox": [588, 292, 714, 645], "ph": 353, "split": false, "texts": [["XINWU", 0.931, [660, 382, 701, 399]], ["\u75333162", 0.748, [662, 420, 693, 435]]]}
+{"t": 190.5, "tid": 4001, "rawtid": 4, "pbox": [147, 344, 178, 445], "ph": 101, "split": false, "texts": null}
+{"t": 190.5, "tid": 5001, "rawtid": 5, "pbox": [114, 348, 146, 461], "ph": 113, "split": false, "texts": null}
+{"t": 190.5, "tid": 86001, "rawtid": 86, "pbox": [5, 346, 51, 504], "ph": 158, "split": false, "texts": []}
+{"t": 190.5, "tid": 3001, "rawtid": 3, "pbox": [685, 339, 776, 569], "ph": 230, "split": false, "texts": [["\u5de5\u4f5c\u4eba", 0.977, [702, 390, 763, 433]]]}
+{"t": 190.5, "tid": 190001, "rawtid": 190, "pbox": [791, 310, 871, 559], "ph": 249, "split": false, "texts": []}
+{"t": 190.5, "tid": 193001, "rawtid": 193, "pbox": [768, 355, 808, 488], "ph": 133, "split": false, "texts": []}
+{"t": 190.5, "tid": 2001, "rawtid": 2, "pbox": [831, 290, 953, 642], "ph": 352, "split": false, "texts": []}
+{"t": 190.562, "tid": 93001, "rawtid": 93, "pbox": [598, 295, 730, 654], "ph": 359, "split": false, "texts": [["XINWUE", 0.862, [675, 396, 717, 412]]]}

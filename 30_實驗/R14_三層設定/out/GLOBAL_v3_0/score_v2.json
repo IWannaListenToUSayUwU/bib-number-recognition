@@ -1,0 +1,274 @@
+{
+ "total": {
+  "clips": [
+   "tpe_C_600",
+   "tpe_D_1800"
+  ],
+  "n_gt": 122,
+  "n_gt_sure": 96,
+  "n_sys": 123,
+  "main_bib_and_time": {
+   "k": 91,
+   "n": 122,
+   "value": 0.746,
+   "ci95": [
+    0.662,
+    0.815
+   ]
+  },
+  "ceiling_sure_share": {
+   "k": 96,
+   "n": 122,
+   "value": 0.787,
+   "ci95": [
+    0.706,
+    0.85
+   ]
+  },
+  "detection": {
+   "k": 122,
+   "n": 122,
+   "value": 1.0,
+   "ci95": [
+    0.969,
+    1.0
+   ]
+  },
+  "false_crossings": 1,
+  "sure_bib_correct": {
+   "k": 91,
+   "n": 96,
+   "value": 0.948,
+   "ci95": [
+    0.884,
+    0.978
+   ]
+  },
+  "bib_output_error": {
+   "k": 11,
+   "n": 102,
+   "value": 0.108,
+   "ci95": [
+    0.061,
+    0.183
+   ]
+  },
+  "time_error": {
+   "n": 91,
+   "median_abs": 0.063,
+   "p95_abs": 0.137,
+   "mean_signed": 0.049,
+   "within_0_2": {
+    "k": 91,
+    "n": 91,
+    "value": 1.0,
+    "ci95": [
+     0.959,
+     1.0
+    ]
+   },
+   "within_0_5": {
+    "k": 91,
+    "n": 91,
+    "value": 1.0,
+    "ci95": [
+     0.959,
+     1.0
+    ]
+   }
+  },
+  "unknown_events": 7,
+  "latency": {
+   "median": 1.799,
+   "max": 2.868
+  }
+ },
+ "per_clip": {
+  "tpe_C_600": {
+   "n_gt": 45,
+   "n_gt_sure": 32,
+   "n_sys": 45,
+   "main_bib_and_time": {
+    "k": 32,
+    "n": 45,
+    "value": 0.711,
+    "ci95": [
+     0.566,
+     0.823
+    ]
+   },
+   "ceiling_sure_share": {
+    "k": 32,
+    "n": 45,
+    "value": 0.711,
+    "ci95": [
+     0.566,
+     0.823
+    ]
+   },
+   "detection": {
+    "k": 45,
+    "n": 45,
+    "value": 1.0,
+    "ci95": [
+     0.921,
+     1.0
+    ]
+   },
+   "false_crossings": 0,
+   "sure_bib_correct": {
+    "k": 32,
+    "n": 32,
+    "value": 1.0,
+    "ci95": [
+     0.893,
+     1.0
+    ]
+   },
+   "bib_output_error": {
+    "k": 3,
+    "n": 35,
+    "value": 0.086,
+    "ci95": [
+     0.03,
+     0.224
+    ]
+   },
+   "wrong_breakdown": {
+    "wrong_bib": 3,
+    "dup": 0,
+    "no_crossing": 0,
+    "ignored": 9
+   },
+   "time_error": {
+    "n": 32,
+    "median_abs": 0.069,
+    "p95_abs": 0.144,
+    "mean_signed": 0.075,
+    "within_0_2": {
+     "k": 32,
+     "n": 32,
+     "value": 1.0,
+     "ci95": [
+      0.893,
+      1.0
+     ]
+    },
+    "within_0_5": {
+     "k": 32,
+     "n": 32,
+     "value": 1.0,
+     "ci95": [
+      0.893,
+      1.0
+     ]
+    }
+   },
+   "unknown": {
+    "n": 1,
+    "matched_unreadable_or_nobib": 1
+   },
+   "latency": {
+    "median": 1.79,
+    "max": 2.868
+   }
+  },
+  "tpe_D_1800": {
+   "n_gt": 77,
+   "n_gt_sure": 64,
+   "n_sys": 78,
+   "main_bib_and_time": {
+    "k": 59,
+    "n": 77,
+    "value": 0.766,
+    "ci95": [
+     0.66,
+     0.847
+    ]
+   },
+   "ceiling_sure_share": {
+    "k": 64,
+    "n": 77,
+    "value": 0.831,
+    "ci95": [
+     0.732,
+     0.899
+    ]
+   },
+   "detection": {
+    "k": 77,
+    "n": 77,
+    "value": 1.0,
+    "ci95": [
+     0.952,
+     1.0
+    ]
+   },
+   "false_crossings": 1,
+   "sure_bib_correct": {
+    "k": 59,
+    "n": 64,
+    "value": 0.922,
+    "ci95": [
+     0.83,
+     0.966
+    ]
+   },
+   "bib_output_error": {
+    "k": 8,
+    "n": 67,
+    "value": 0.119,
+    "ci95": [
+     0.062,
+     0.218
+    ]
+   },
+   "wrong_breakdown": {
+    "wrong_bib": 3,
+    "dup": 5,
+    "no_crossing": 0,
+    "ignored": 5
+   },
+   "time_error": {
+    "n": 59,
+    "median_abs": 0.06,
+    "p95_abs": 0.122,
+    "mean_signed": 0.036,
+    "within_0_2": {
+     "k": 59,
+     "n": 59,
+     "value": 1.0,
+     "ci95": [
+      0.939,
+      1.0
+     ]
+    },
+    "within_0_5": {
+     "k": 59,
+     "n": 59,
+     "value": 1.0,
+     "ci95": [
+      0.939,
+      1.0
+     ]
+    }
+   },
+   "unknown": {
+    "n": 6,
+    "matched_unreadable_or_nobib": 1
+   },
+   "latency": {
+    "median": 1.81,
+    "max": 2.382
+   }
+  }
+ },
+ "scorer": "20_測試基準/score_v2.py",
+ "gt_dir": "gt_crossing",
+ "gt_version": "v1",
+ "rules": {
+  "match_dt": 1.0,
+  "match_du": 0.3,
+  "ok_dt": 0.5
+ }
+}

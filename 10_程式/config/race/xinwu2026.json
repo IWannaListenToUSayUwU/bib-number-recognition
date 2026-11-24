@@ -1,0 +1,13 @@
+{
+ "schema": "layered_v1",
+ "race": "2026 新屋魚米之鄉馬拉松（10K＋21K）",
+ "date": "2026-10-04",
+ "bib_len": 5,
+ "bib_list": "xinwu2026_bibs.txt",
+ "bib_list_n": 3315,
+ "bib_list_note": "只放號碼（不放時間）。來源：樂活報名網成績公告的 10K、21K 完賽者（R17 抓取；3K 未收）。真實部署應換成主辦單位報名名單。",
+ "clock": {
+  "shows": "none",
+  "note": "畫面沒有時鐘；評分時用讀到的號碼估計片段時間和槍聲時間的差（R17 r17_eval.py）"
+ }
+}

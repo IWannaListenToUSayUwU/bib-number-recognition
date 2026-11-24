@@ -45,7 +45,8 @@ def main():
         recs = [json.loads(l) for l in open(os.path.join(p, 'raw.jsonl'), encoding='utf-8')]
         rp = replay(c); nd = sum(1 for r, t in zip(recs, rp) if r['texts'] != t)
         st = json.load(open(os.path.join(p, 'stats.json')))
-        ev = [dict(r, t_cross=float(r['t_cross']), u=float(r['u'])) for r in csv.DictReader(open(os.path.join(p, 'events.csv'), encoding='utf-8'))]
+        ev = [dict(r, t_cross=float(r['t_cross']), u=float(r['u']), latency=float(r['latency']) if r.get('latency') not in (None, '') else None)
+              for r in csv.DictReader(open(os.path.join(p, 'events.csv'), encoding='utf-8'))]   # latency 也要轉數字（11-23 GPU 跑完才發現）
         sc = L.official_eval(c, ev)['found'] if c.startswith('tpe2t') else L.gt_eval(c, ev)['full']
         res[c] = dict(records=len(recs), replay_len=len(rp), texts_diff=nd, ocr=st['stats']['ocr'], extract_sec=st['extract_sec'],
                       base_sec=base.get(c), score=sc)

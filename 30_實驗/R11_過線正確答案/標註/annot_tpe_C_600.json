@@ -456,13 +456,21 @@
    "dup": false,
    "verdict": "runner",
    "t_gt": 28.567,
-   "bib": "?182",
-   "status": "partial",
+   "bib": "04182",
+   "status": "sure",
    "note": "",
    "prefill_bib": "04182",
    "reviewed": true,
    "reviewed_at": "2026-11-22T11:33:03.765Z",
-   "bib_edited": true
+   "bib_edited": false,
+   "v1_1_fix": {
+    "from_bib": "?182",
+    "from_status": "partial",
+    "reason": "#5 4 碼 partial；25.75～26.38 秒清楚",
+    "ref": "分析/v1_1修正建議.md",
+    "at": "2026-11-23 11:28:14",
+    "approved": "使用者 2026-11-23「全部照建議」"
+   }
   },
   {
    "key": "sys-24",
@@ -496,13 +504,21 @@
    "dup": false,
    "verdict": "runner",
    "t_gt": 31.3,
-   "bib": "014?",
-   "status": "partial",
+   "bib": "01434",
+   "status": "sure",
    "note": "",
    "prefill_bib": "01434",
    "reviewed": true,
    "reviewed_at": "2026-11-22T11:33:25.526Z",
-   "bib_edited": true
+   "bib_edited": false,
+   "v1_1_fix": {
+    "from_bib": "014?",
+    "from_status": "partial",
+    "reason": "#6 4 碼 partial；28.44～30.31 秒清楚",
+    "ref": "分析/v1_1修正建議.md",
+    "at": "2026-11-23 11:28:14",
+    "approved": "使用者 2026-11-23「全部照建議」"
+   }
   },
   {
    "key": "sys-26",
@@ -836,13 +852,21 @@
    "dup": false,
    "verdict": "runner",
    "t_gt": 56,
-   "bib": "073?",
-   "status": "partial",
+   "bib": "07381",
+   "status": "sure",
    "note": "",
    "prefill_bib": "07381",
    "reviewed": true,
    "reviewed_at": "2026-11-22T11:36:31.238Z",
-   "bib_edited": true
+   "bib_edited": false,
+   "v1_1_fix": {
+    "from_bib": "073?",
+    "from_status": "partial",
+    "reason": "#7 4 碼 partial；52.44～54.69 秒清楚",
+    "ref": "分析/v1_1修正建議.md",
+    "at": "2026-11-23 11:28:14",
+    "approved": "使用者 2026-11-23「全部照建議」"
+   }
   },
   {
    "key": "sys-43",
@@ -905,5 +929,5 @@
    "bib_edited": false
   }
  ],
- "updated": "2026-11-22 21:55:33"
+ "updated": "2026-11-23 11:28:14"
 }

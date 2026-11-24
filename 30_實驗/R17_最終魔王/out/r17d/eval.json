@@ -1,0 +1,59 @@
+{
+ "tag": "r17d",
+ "segments": [
+  [
+   0.0,
+   60.0
+  ]
+ ],
+ "offsets": {
+  "10K": {
+   "offset": 3154.73,
+   "support": 13,
+   "n_candidates": 13
+  }
+ },
+ "n_expected": 14,
+ "n_events": 13,
+ "n_out_bib": 4,
+ "found": {
+  "k": 4,
+  "n": 14,
+  "value": 0.286,
+  "ci95": [
+   0.117,
+   0.546
+  ]
+ },
+ "out_correct": {
+  "k": 4,
+  "n": 4,
+  "value": 1.0,
+  "ci95": [
+   0.51,
+   1.0
+  ]
+ },
+ "out_in_list": {
+  "k": 4,
+  "n": 4
+ },
+ "wrong_out": 0,
+ "events_per_expected": 0.93,
+ "time_err": {
+  "median": 0.11,
+  "abs_med": 0.12
+ },
+ "per_segment": [
+  {
+   "seg": [
+    0.0,
+    60.0
+   ],
+   "expected": 14,
+   "events": 13,
+   "out_bib": 4,
+   "found": 4
+  }
+ ]
+}

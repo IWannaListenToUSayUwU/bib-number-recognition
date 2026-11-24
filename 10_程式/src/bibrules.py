@@ -8,6 +8,8 @@
   cons_color cons＋號碼布顏色：文字框內偏藍比例 ≥ blue_hi → 只考慮 hi_lead 開頭；≤ blue_lo → 只考慮 lo_lead 開頭；
              已定案但開頭和顏色矛盾 → 讀不出。只在名單上兩種開頭都存在時才用顏色。
 R13 結果：新機位檢查集官方名單找到率 v22 0.150 → cons_color 0.225、錯誤輸出 25 → 3；C+D score_v2 92 → 91。
+選項 decision.long_trim（2026-11-24，R17；預設關閉）：比 bib_len 長的讀數（號碼前多印組別字，OCR 讀成 130042）→ 取名單上唯一的 bib_len 碼片段；
+  沒有名單時取最後 bib_len 碼。關閉時結果和原本逐字相同（R17 重算 R14 的 C、D 段驗證）。
 """
 import json, os
 from crossing import LineCrossing
@@ -101,19 +103,38 @@ class RuleCrossing(LineCrossing):
         self.colors_rule = colors_rule; self.colors = colors or {}
         self.fix = completer(self.reg, bib_len) if self.reg else None
         self.idx = SubIndex(self.reg, bib_len) if mode in ('cons', 'cons_color') else None
+        self.long_trim = bool(D.get('long_trim', False))   # R17：號碼前多印一個字（組別字）→ OCR 讀成 6 碼（例 130042）
+
+    def _trim(self, rows):
+        """long_trim：比 bib_len 長的讀數 → 取其中「在名單上」的 bib_len 碼片段（唯一才取）；沒有名單時取最後 bib_len 碼。"""
+        if not self.long_trim: return rows
+        out = []
+        for x in rows:
+            s = norm(x['txt'])
+            if len(s) > self.bib_len:
+                w = {s[i:i + self.bib_len] for i in range(len(s) - self.bib_len + 1)}
+                if self.reg:
+                    w &= self.reg
+                    if len(w) == 1: x = dict(x, txt=w.pop())
+                else:
+                    x = dict(x, txt=s[-self.bib_len:])
+            out.append(x)
+        return out
 
     def _blue(self, rows):
         v = sorted(self.colors[(x['t'], tuple(x['bbox']))] for x in rows if (x['t'], tuple(x['bbox'])) in self.colors)
         return v[len(v) // 2] if v else None
 
     def _decide(self, e, horizon, why):
-        vid = e['vid']; orig = self.reads.get(vid, [])
+        vid = e['vid']; orig0 = self.reads.get(vid, []); orig = self._trim(orig0)
         if self.mode in ('pre_keep', 'cons', 'cons_color'):
             self.reads[vid] = [x for x in orig if not (len(norm(x['txt'])) == self.bib_len and norm(x['txt']) not in self.reg)]
+        elif self.long_trim:
+            self.reads[vid] = orig
         try:
             super()._decide(e, horizon, why)
         finally:
-            self.reads[vid] = orig
+            self.reads[vid] = orig0
         b = e['bib']
         if self.mode == 'len5' and b and len(b) != self.bib_len: e['bib'] = ''
         if self.mode in ('pre_keep', 'cons', 'cons_color') and b: e['bib'] = self.fix(b) or ''

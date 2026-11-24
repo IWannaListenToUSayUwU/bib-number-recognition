@@ -1,0 +1,1 @@
+{"stats": {"frames": 960, "ocr": 4164, "splits": 60, "small": 10267, "skipped": 4481, "skip_static": 10065, "skip_zone": 0}, "extract_sec": 545.8, "seg": [60.0, 120.0], "n_events": 25, "n_bib": 10, "replay_of": "r17a"}

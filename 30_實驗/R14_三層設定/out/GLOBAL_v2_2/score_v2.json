@@ -1,0 +1,183 @@
+{
+ "total": {
+  "clips": [
+   "tpe_C_600"
+  ],
+  "n_gt": 45,
+  "n_gt_sure": 32,
+  "n_sys": 45,
+  "main_bib_and_time": {
+   "k": 32,
+   "n": 45,
+   "value": 0.711,
+   "ci95": [
+    0.566,
+    0.823
+   ]
+  },
+  "ceiling_sure_share": {
+   "k": 32,
+   "n": 45,
+   "value": 0.711,
+   "ci95": [
+    0.566,
+    0.823
+   ]
+  },
+  "detection": {
+   "k": 45,
+   "n": 45,
+   "value": 1.0,
+   "ci95": [
+    0.921,
+    1.0
+   ]
+  },
+  "false_crossings": 0,
+  "sure_bib_correct": {
+   "k": 32,
+   "n": 32,
+   "value": 1.0,
+   "ci95": [
+    0.893,
+    1.0
+   ]
+  },
+  "bib_output_error": {
+   "k": 3,
+   "n": 35,
+   "value": 0.086,
+   "ci95": [
+    0.03,
+    0.224
+   ]
+  },
+  "time_error": {
+   "n": 32,
+   "median_abs": 0.069,
+   "p95_abs": 0.144,
+   "mean_signed": 0.075,
+   "within_0_2": {
+    "k": 32,
+    "n": 32,
+    "value": 1.0,
+    "ci95": [
+     0.893,
+     1.0
+    ]
+   },
+   "within_0_5": {
+    "k": 32,
+    "n": 32,
+    "value": 1.0,
+    "ci95": [
+     0.893,
+     1.0
+    ]
+   }
+  },
+  "unknown_events": 0,
+  "latency": {
+   "median": 1.79,
+   "max": 2.868
+  }
+ },
+ "per_clip": {
+  "tpe_C_600": {
+   "n_gt": 45,
+   "n_gt_sure": 32,
+   "n_sys": 45,
+   "main_bib_and_time": {
+    "k": 32,
+    "n": 45,
+    "value": 0.711,
+    "ci95": [
+     0.566,
+     0.823
+    ]
+   },
+   "ceiling_sure_share": {
+    "k": 32,
+    "n": 45,
+    "value": 0.711,
+    "ci95": [
+     0.566,
+     0.823
+    ]
+   },
+   "detection": {
+    "k": 45,
+    "n": 45,
+    "value": 1.0,
+    "ci95": [
+     0.921,
+     1.0
+    ]
+   },
+   "false_crossings": 0,
+   "sure_bib_correct": {
+    "k": 32,
+    "n": 32,
+    "value": 1.0,
+    "ci95": [
+     0.893,
+     1.0
+    ]
+   },
+   "bib_output_error": {
+    "k": 3,
+    "n": 35,
+    "value": 0.086,
+    "ci95": [
+     0.03,
+     0.224
+    ]
+   },
+   "wrong_breakdown": {
+    "wrong_bib": 3,
+    "dup": 0,
+    "no_crossing": 0,
+    "ignored": 10
+   },
+   "time_error": {
+    "n": 32,
+    "median_abs": 0.069,
+    "p95_abs": 0.144,
+    "mean_signed": 0.075,
+    "within_0_2": {
+     "k": 32,
+     "n": 32,
+     "value": 1.0,
+     "ci95": [
+      0.893,
+      1.0
+     ]
+    },
+    "within_0_5": {
+     "k": 32,
+     "n": 32,
+     "value": 1.0,
+     "ci95": [
+      0.893,
+      1.0
+     ]
+    }
+   },
+   "unknown": {
+    "n": 0,
+    "matched_unreadable_or_nobib": 0
+   },
+   "latency": {
+    "median": 1.79,
+    "max": 2.868
+   }
+  }
+ },
+ "scorer": "20_測試基準/score_v2.py",
+ "gt_dir": "gt_crossing",
+ "rules": {
+  "match_dt": 1.0,
+  "match_du": 0.3,
+  "ok_dt": 0.5
+ }
+}

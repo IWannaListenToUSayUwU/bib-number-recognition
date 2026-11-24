@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>抽樣讀號（多人）</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1d2433; --muted:#667085; --line:#d0d5dd; --ok:#12b76a; --bad:#f04438; --sel:#7a5af8; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:14px/1.5 "Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif; color:var(--ink); background:var(--bg); }
+  header { position:sticky; top:0; z-index:5; display:flex; gap:12px; align-items:center; flex-wrap:wrap; padding:8px 16px; background:var(--card); border-bottom:1px solid var(--line); }
+  header h1 { font-size:16px; margin:0 8px 0 0; } header a { color:inherit; text-decoration:none; }
+  button, select, input { font:inherit; }
+  button { padding:4px 10px; border:1px solid var(--line); background:#fff; border-radius:6px; cursor:pointer; }
+  button.primary { background:var(--sel); color:#fff; border-color:var(--sel); }
+  .muted { color:var(--muted); } .err { color:var(--bad); } .ok { color:var(--ok); }
+  #status { margin-left:auto; }
+  main { display:grid; grid-template-columns:170px 1fr; gap:12px; padding:12px 16px; }
+  @media (max-width:800px) { main { grid-template-columns:1fr; } #list { max-height:160px; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px 12px; }
+  #list { max-height:calc(100vh - 120px); overflow-y:auto; }
+  .it { display:flex; gap:6px; align-items:center; padding:3px 6px; border-radius:5px; cursor:pointer; white-space:nowrap; }
+  .it:hover { background:#f2f4f7; } .it.sel { background:#ede9fe; }
+  .dot { width:10px; height:10px; border-radius:50%; flex:none; background:#98a2b3; } .dot.done { background:var(--ok); }
+  .thumbs { display:flex; gap:6px; flex-wrap:wrap; margin:6px 0; }
+  .th { position:relative; border:3px solid transparent; border-radius:6px; cursor:pointer; }
+  .th.cur { border-color:var(--sel); } .th img { display:block; width:200px; border-radius:3px; }
+  .lab { position:absolute; left:0; top:0; background:rgba(0,0,0,.65); color:#fff; font-size:12px; padding:1px 5px; border-radius:3px 0 3px 0; }
+  #bigWrap { position:relative; margin-top:6px; } #big { display:block; width:100%; max-width:1500px; cursor:zoom-in; border-radius:4px; }
+  #zoom { display:block; max-width:100%; border-radius:4px; border:1px solid var(--line); margin-top:6px; }
+  .row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin:6px 0; }
+  .bibrow input[type=text] { width:120px; font-size:18px; letter-spacing:2px; padding:2px 6px; }
+  kbd { border:1px solid var(--line); border-bottom-width:2px; border-radius:4px; padding:0 4px; font-size:12px; background:#fff; }
+  #help { display:none; } #help.show { display:block; }
+  .inwin { color:var(--ok); font-weight:bold; } .outwin { color:var(--bad); }
+</style>
+</head>
+<body>
+<header>
+  <h1><a href="/">← 首頁</a>　抽樣讀號</h1>
+  <span>標註者：<b id="whoName"></b></span>
+  <span id="progress" class="muted"></span>
+  <button id="helpBtn">說明</button>
+  <span id="status" class="muted">載入中…</span>
+</header>
+<div id="help" class="card" style="margin:12px 16px 0">
+  <b>要做什麼</b>：每一題是一小段影片（約 3 秒）。請寫下這段時間內<b>跨過洋紅色計時線</b>的跑者中，<b>號碼看得清的號碼</b>。<br>
+  1. 上面 7 張縮圖是這段時間（每 0.5 秒一張）；點縮圖會在下面放大。大圖可以用 <kbd>←</kbd> <kbd>→</kbd> 一格一格看，<kbd>Shift</kbd>＋方向鍵一次 5 格。<br>
+  2. <b>在大圖上點一下，會把那個位置再放大</b>（看號碼用）。<br>
+  3. 號碼一律 5 碼。看不清的位數寫 <kbd>?</kbd>（例 0530?）。完全讀不出的人就不用寫。<b>寧可寫 ?，不可猜。</b><br>
+  4. 只寫「跨過線」的人；還沒到線、或這段時間之前已經過線的不用寫。時間標籤是<span class="inwin">綠色</span>的畫面才在這段時間內。<br>
+  5. 這段時間如果沒有看得清的號碼（沒人過線、或全部讀不出），勾選「沒有看得清的號碼」再儲存。<br>
+  6. 不要用其他資料（例如成績網站）查號碼。<kbd>Enter</kbd>＝儲存並下一題。答案存在伺服器，可以隨時關掉、下次用同一個名字繼續。
+</div>
+<main>
+  <div class="card"><div class="muted">題目</div><div id="list"></div></div>
+  <div class="card" id="editor"></div>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const WHO = (() => { try { return localStorage.getItem('r15_who') || ''; } catch (e) { return ''; } })();
+if (!WHO) location.href = '/';
+let S = null, wins = [], answers = {}, baseUpdated = null, cur = null, cf = 0, zoomAt = null, rows = [];
+const FW = 1920, FH = 1080;
+
+async function api(path, opt) { const r = await fetch(path, opt); const j = await r.json().catch(() => ({})); if (!r.ok) throw new Error(j.error || r.status); return j; }
+function setStatus(t, err) { const s = $('#status'); s.textContent = t; s.className = err ? 'err' : 'muted'; }
+function W() { return S.view.wide; }     // [cx, cy, w, h]
+function origin() { const [cx, cy, w, h] = W(); return [Math.min(Math.max(cx - w / 2, 0), FW - w), Math.min(Math.max(cy - h / 2, 0), FH - h)]; }
+function url(clip, f, cx, cy, w, h, scale) { return `/api/frame?clip=${clip}&f=${f}&cx=${Math.round(cx)}&cy=${Math.round(cy)}&w=${Math.round(w)}&h=${Math.round(h)}&scale=${scale.toFixed(3)}`; }
+
+async function init() {
+  $('#whoName').textContent = WHO;
+  $('#helpBtn').onclick = () => $('#help').classList.toggle('show');
+  S = await api('/api/sample?who=' + encodeURIComponent(WHO)); wins = S.windows;
+  answers = (S.mine && S.mine.answers) || {}; baseUpdated = S.mine ? S.mine.updated : null;
+  document.addEventListener('keydown', onKey);
+  if (!Object.keys(answers).length) $('#help').classList.add('show');
+  renderList(); select(wins.find(w => !answers[w.id]) || wins[0]);
+  setStatus(S.mine ? '已載入上次的答案（' + S.mine.updated + '）' : '尚未作答');
+}
+function renderList() {
+  const n = wins.filter(w => answers[w.id]).length;
+  $('#progress').textContent = `已完成 ${n}/${wins.length}`;
+  $('#list').innerHTML = wins.map((w, k) => `<div class="it ${w === cur ? 'sel' : ''}" data-k="${k}"><span class="dot ${answers[w.id] ? 'done' : ''}"></span>${w.id} <span class="muted">${w.clip.replace('tpe2', '')}</span></div>`).join('');
+  $('#list').querySelectorAll('.it').forEach(el => el.onclick = () => select(wins[+el.dataset.k]));
+  const s = $('#list .sel'); if (s) s.scrollIntoView({ block: 'nearest' });
+}
+function select(w) {
+  cur = w; cf = Math.round(w.t * S.fps); zoomAt = null;
+  const a = answers[w.id]; rows = a ? a.bibs.map(b => ({ ...b })) : [{ bib: '', status: '' }];
+  renderList(); renderEditor(a);
+}
+function inWin(f) { const t = f / S.fps; return t >= cur.t - S.half - 1e-6 && t <= cur.t + S.half + 1e-6; }
+function renderEditor(a) {
+  const w = cur, [cx, cy, ww, hh] = W(); let th = '';
+  for (let k = -3; k <= 3; k++) {
+    const f = Math.round((w.t + k * S.half / 3) * S.fps); if (f < 0) continue;
+    th += `<div class="th ${f === cf ? 'cur' : ''}" data-f="${f}"><img src="${url(w.clip, f, cx, cy, ww, hh, 200 / ww)}"><span class="lab">${(f / S.fps).toFixed(2)}s</span></div>`;
+  }
+  $('#editor').innerHTML = `
+    <div><b>${w.id}</b>　${w.clip}　這段時間：<b>${(w.t - S.half).toFixed(2)} ～ ${(w.t + S.half).toFixed(2)} 秒</b>${answers[w.id] ? '　<span class="ok">✓ 已儲存</span>' : ''}</div>
+    <div class="thumbs">${th}</div>
+    <div class="row"><button data-sh="-5">◀◀ 5 格</button><button data-sh="-1">◀ 1 格</button><button data-sh="1">1 格 ▶</button><button data-sh="5">5 格 ▶▶</button>
+      <span id="curT"></span><span class="muted">（在大圖上點一下可以放大那個位置）</span></div>
+    <div id="bigWrap"><img id="big" alt=""></div><img id="zoom" alt="" style="display:none">
+    <fieldset style="border:1px solid var(--line);border-radius:6px;margin-top:8px"><legend class="muted">這段時間跨過線、號碼看得清的跑者（每人一行；看不清的位數寫 ?）</legend>
+      <div id="rows"></div>
+      <div class="row"><button id="addRow">＋ 再加一位</button>
+        <label><input type="checkbox" id="none" ${a && a.none ? 'checked' : ''}> 沒有看得清的號碼（沒人過線，或全部讀不出）</label></div>
+      <div class="row"><input type="text" id="note" placeholder="備註（可空白）" value="${((a && a.note) || '').replace(/"/g, '&quot;')}" style="flex:1;min-width:200px">
+        <button class="primary" id="saveBtn">儲存並下一題（Enter）</button></div>
+      <div id="msg" class="err"></div></fieldset>`;
+  $('#editor').querySelectorAll('.th').forEach(el => el.onclick = () => { cf = +el.dataset.f; showBig(); });
+  $('#editor').querySelectorAll('[data-sh]').forEach(el => el.onclick = () => step(+el.dataset.sh));
+  $('#big').onclick = onBigClick; $('#addRow').onclick = () => { rows.push({ bib: '', status: '' }); renderRows(true); };
+  $('#saveBtn').onclick = saveCur; $('#none').onchange = () => { if ($('#none').checked) { rows = []; renderRows(); } };
+  renderRows(); showBig();
+}
+function renderRows(focusLast) {
+  if (!rows.length && !$('#none').checked) rows = [{ bib: '', status: '' }];
+  $('#rows').innerHTML = rows.map((r, k) => `<div class="row bibrow" data-k="${k}"><input type="text" maxlength="5" value="${r.bib}" autocomplete="off">
+    <label><input type="radio" name="st${k}" value="sure" ${r.status === 'sure' ? 'checked' : ''}> 全部看清</label>
+    <label><input type="radio" name="st${k}" value="partial" ${r.status === 'partial' ? 'checked' : ''}> 部分看清（有 ?）</label>
+    <button data-del="${k}">刪除</button></div>`).join('');
+  $('#rows').querySelectorAll('.bibrow').forEach(el => {
+    const k = +el.dataset.k, inp = el.querySelector('input[type=text]');
+    inp.oninput = () => { const v = inp.value.trim(); rows[k].bib = v; if (v) $('#none').checked = false;
+      const st = v.includes('?') ? 'partial' : (/^\d{5}$/.test(v) ? 'sure' : ''); if (st) { rows[k].status = st; el.querySelector(`input[value=${st}]`).checked = true; } };
+    el.querySelectorAll('input[type=radio]').forEach(rb => rb.onchange = () => rows[k].status = rb.value);
+  });
+  $('#rows').querySelectorAll('[data-del]').forEach(b => b.onclick = () => { rows.splice(+b.dataset.del, 1); renderRows(); });
+  if (focusLast) { const ins = $('#rows').querySelectorAll('input[type=text]'); if (ins.length) ins[ins.length - 1].focus(); }
+}
+function step(d) {
+  const lo = Math.round((cur.t - S.half - 1) * S.fps), hi = Math.round((cur.t + S.half + 1) * S.fps);
+  cf = Math.min(Math.max(cf + d, Math.max(0, lo)), hi); showBig();
+}
+function showBig() {
+  const [cx, cy, ww, hh] = W(), box = $('#bigWrap').clientWidth || 1000, sc = Math.min(1, box / ww);
+  $('#big').src = url(cur.clip, cf, cx, cy, ww, hh, sc); $('#big').dataset.sc = sc;
+  $('#curT').innerHTML = `大圖：<span class="${inWin(cf) ? 'inwin' : 'outwin'}">${(cf / S.fps).toFixed(2)} 秒${inWin(cf) ? '（在這段時間內）' : '（在這段時間外）'}</span>`;
+  document.querySelectorAll('.th').forEach(el => el.classList.toggle('cur', +el.dataset.f === cf));
+  if (zoomAt) showZoom();
+}
+function onBigClick(ev) {
+  const img = $('#big'), r = img.getBoundingClientRect(), [ox, oy] = origin(), ww = W()[2];
+  const k = ww / r.width; zoomAt = [ox + (ev.clientX - r.left) * k, oy + (ev.clientY - r.top) * k]; showZoom();
+}
+function showZoom() {
+  const z = $('#zoom'); z.style.display = 'block';
+  z.src = url(cur.clip, cf, zoomAt[0], zoomAt[1], 440, 260, 2.2);
+}
+function validate() {
+  const none = $('#none').checked, rs = rows.filter(r => r.bib.trim() !== '' || r.status);
+  if (none && rs.length) return '勾了「沒有看得清的號碼」就不要再寫號碼';
+  if (!none && !rs.length) return '請寫下看得清的號碼，或勾選「沒有看得清的號碼」';
+  const seen = new Set();
+  for (const r of rs) {
+    const b = r.bib.trim();
+    if (!/^[\d?]{5}$/.test(b)) return `「${b}」：號碼一律 5 碼，看不清的每一位寫一個 ?`;
+    if (/^\?+$/.test(b)) return '全部都是 ? 的不用寫';
+    if (!r.status) return `「${b}」：請選全部看清或部分看清`;
+    if (r.status === 'sure' && b.includes('?')) return `「${b}」有 ?，請選「部分看清」`;
+    if (r.status === 'partial' && !b.includes('?')) return `「${b}」沒有 ?，請選「全部看清」`;
+    if (seen.has(b)) return `「${b}」重複了`; seen.add(b);
+  }
+  return '';
+}
+async function saveCur() {
+  const e = validate(); if (e) { $('#msg').textContent = e; return; }
+  const a = { bibs: rows.filter(r => r.bib.trim()).map(r => ({ bib: r.bib.trim(), status: r.status })), none: $('#none').checked,
+              note: $('#note').value.trim(), at: new Date().toISOString() };
+  const prev = answers[cur.id]; answers[cur.id] = a;
+  let r;
+  try { r = await fetch('/api/sample_save', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ who: WHO, base_updated: baseUpdated, answers }) }); }
+  catch (err) { r = null; }
+  const j = r ? await r.json().catch(() => ({})) : {};
+  if (!r || !r.ok) { if (prev) answers[cur.id] = prev; else delete answers[cur.id]; const m = r ? (j.error || r.status) : '連不到伺服器（請確認 Tailscale 有連上）';
+    setStatus('存檔失敗：' + m, true); $('#msg').textContent = '存檔失敗：' + m; return; }
+  baseUpdated = j.updated; setStatus(`已存檔 ${j.saved}（${cur.id}）`);
+  const k = wins.indexOf(cur), nx = wins.slice(k + 1).find(w => !answers[w.id]) || wins.find(w => !answers[w.id]);
+  if (nx) select(nx); else { renderList(); renderEditor(answers[cur.id]); setStatus('全部完成，謝謝！'); }
+}
+function onKey(ev) {
+  if (!cur) return;
+  if (ev.key === 'Enter') { ev.preventDefault(); saveCur(); return; }
+  if (document.activeElement && document.activeElement.type === 'text') return;
+  if (ev.key === 'ArrowLeft') { ev.preventDefault(); step(ev.shiftKey ? -5 : -1); }
+  if (ev.key === 'ArrowRight') { ev.preventDefault(); step(ev.shiftKey ? 5 : 1); }
+}
+init().catch(e => setStatus('載入失敗：' + e.message, true));
+</script>
+</body>
+</html>

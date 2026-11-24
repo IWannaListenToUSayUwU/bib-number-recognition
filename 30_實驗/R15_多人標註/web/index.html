@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>號碼牌標註</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1d2433; --muted:#667085; --line:#d0d5dd; --ok:#12b76a; --bad:#f04438; --sel:#7a5af8; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.6 "Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif; color:var(--ink); background:var(--bg); }
+  .wrap { max-width:960px; margin:0 auto; padding:16px; }
+  h1 { font-size:22px; margin:8px 0 4px; } h2 { font-size:17px; margin:0 0 6px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin:12px 0; }
+  .muted { color:var(--muted); } .err { color:var(--bad); } .ok { color:var(--ok); }
+  input, button { font:inherit; } input[type=text] { padding:4px 8px; border:1px solid var(--line); border-radius:6px; width:200px; }
+  button, a.btn { display:inline-block; padding:5px 12px; border:1px solid var(--line); background:#fff; border-radius:6px; cursor:pointer; color:inherit; text-decoration:none; }
+  button.primary, a.btn.primary { background:var(--sel); color:#fff; border-color:var(--sel); }
+  .tasks { display:grid; grid-template-columns:repeat(auto-fit, minmax(270px, 1fr)); gap:12px; }
+  .task { border:1px solid var(--line); border-radius:8px; padding:10px 12px; }
+  .task .links { display:flex; gap:8px; flex-wrap:wrap; margin-top:6px; }
+  .bar { height:6px; background:#eaecf0; border-radius:3px; overflow:hidden; margin-top:3px; } .bar > i { display:block; height:100%; background:var(--ok); }
+  table { border-collapse:collapse; width:100%; } td, th { padding:4px 8px; border-bottom:1px solid #eaecf0; text-align:left; white-space:nowrap; }
+  .tblwrap { overflow-x:auto; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>馬拉松號碼牌標註</h1>
+  <div class="muted">幫忙確認影片中每位跑者「什麼時候跨過計時線」和「號碼牌上的號碼」。每個人的答案分開存，互相看不到。</div>
+
+  <div class="card">
+    <h2>1. 你的名字</h2>
+    <div id="nameBox"></div>
+    <div class="muted" style="font-size:13px;margin-top:4px">同一個人每次都用同一個名字（答案依名字存）。可以用中文、英文、數字、- 和 _，最多 20 字。同一個名字不要同時在兩台電腦標。</div>
+  </div>
+
+  <div class="card" id="taskCard" style="display:none">
+    <h2>2. 選一個工作</h2>
+    <div class="tasks">
+      <div class="task">
+        <b>A. 抽樣讀號</b>（建議先做這個）<div class="muted">50 題，每題看約 3 秒的影片，寫下跨過終點線、號碼看得清的人。約 40～60 分鐘。</div>
+        <div id="pSample"></div>
+        <div class="links"><a class="btn primary" href="/sample">開始</a></div>
+      </div>
+      <div class="task">
+        <b>B. 過線標註（終點線機位）</b><div class="muted">每段 60 秒影片，替每一位跨過線的跑者點出過線的那一格、寫下號碼。每段約 1～1.5 小時。</div>
+        <div id="pLabel1"></div>
+      </div>
+      <div class="task">
+        <b>C. 獨立重標（轉角機位）</b><div class="muted">和 B 一樣的工作，換另一個機位。已經有人標過，這次是第二個人獨立再標一次，用來比對。每段約 30～90 分鐘。</div>
+        <div id="pLabel2"></div>
+      </div>
+    </div>
+    <div class="muted" style="font-size:13px;margin-top:8px">每個工作頁面上方都有「說明」。重點：<b>看得清才寫，看不清的位數寫 ?，寧可寫 ?，不可猜</b>；不要用成績網站等其他資料查號碼。答案會自動存到伺服器，可以隨時關掉、下次繼續。</div>
+  </div>
+
+  <div class="card">
+    <h2>大家的進度</h2>
+    <div class="tblwrap"><table id="allTbl"></table></div>
+  </div>
+</div>
+<script>
+const $ = s => document.querySelector(s);
+const NAME_RE = /^[0-9A-Za-z_\-一-鿿]{1,20}$/;
+function getWho() { try { return localStorage.getItem('r15_who') || ''; } catch (e) { return ''; } }
+function setWho(v) { try { localStorage.setItem('r15_who', v); } catch (e) { alert('瀏覽器不允許存名字（無痕模式？）'); } }
+let TASKS = null, PROG = {};
+
+function nameBox() {
+  const who = getWho();
+  if (who) {
+    $('#nameBox').innerHTML = `目前是 <b>${who}</b>　<button id="chg">換名字</button>`;
+    $('#chg').onclick = () => { $('#nameBox').innerHTML = form(who); bindForm(); };
+  } else { $('#nameBox').innerHTML = form(''); bindForm(); }
+  $('#taskCard').style.display = who ? 'block' : 'none';
+}
+function form(v) { return `<input type="text" id="nm" value="${v}" placeholder="例如：小明" maxlength="20"> <button class="primary" id="ok">確定</button> <span id="nmErr" class="err"></span>`; }
+function bindForm() {
+  const go = () => { const v = $('#nm').value.trim(); if (!NAME_RE.test(v)) { $('#nmErr').textContent = '名字只能用中英文、數字、- 和 _（最多 20 字）'; return; } setWho(v); render(); };
+  $('#ok').onclick = go; $('#nm').onkeydown = e => { if (e.key === 'Enter') go(); }; $('#nm').focus();
+}
+function bar(d, t) { const p = t ? Math.round(100 * d / t) : 0; return `<div class="bar"><i style="width:${p}%"></i></div>`; }
+function render() {
+  nameBox();
+  const who = getWho(), me = PROG[who] || {};
+  const s = me.sample || { done: 0, total: TASKS.sample_total };
+  $('#pSample').innerHTML = `<div style="margin-top:6px">我的進度：${s.done}/${s.total}${s.done === s.total ? ' <span class="ok">✓ 完成</span>' : ''}</div>${bar(s.done, s.total)}`;
+  const block = task => TASKS.label.filter(x => x.task === task).map(x => {
+    const p = me[x.clip] || { done: 0, total: '?', slit: false, added: 0 };
+    return `<div style="margin-top:6px">${x.clip}：我已看 ${p.done}/${p.total}${p.added ? `（補 ${p.added} 人）` : ''}${p.slit ? '　光帶圖 ✓' : ''}${bar(p.done, p.total)}
+      <div class="links"><a class="btn ${p.done ? '' : 'primary'}" href="/label?clip=${x.clip}">${p.done ? '繼續' : '開始'}</a></div></div>`; }).join('');
+  $('#pLabel1').innerHTML = block('過線標註'); $('#pLabel2').innerHTML = block('獨立重標');
+  const whos = Object.keys(PROG);
+  const cols = [['sample', '抽樣讀號']].concat(TASKS.label.map(x => [x.clip, x.clip]));
+  $('#allTbl').innerHTML = whos.length ? `<tr><th>標註者</th>${cols.map(c => `<th>${c[1]}</th>`).join('')}</tr>` +
+    whos.map(w => `<tr><td>${w === who ? '<b>' + w + '</b>' : w}</td>${cols.map(([k]) => { const p = PROG[w][k] || {}; return `<td>${p.done || 0}/${p.total || '?'}${p.slit ? ' ✓' : ''}</td>`; }).join('')}</tr>`).join('')
+    : '<tr><td class="muted">還沒有人開始</td></tr>';
+}
+async function init() {
+  TASKS = await (await fetch('/api/tasks')).json();
+  PROG = await (await fetch('/api/progress')).json();
+  render();
+}
+init().catch(e => { document.body.insertAdjacentHTML('afterbegin', `<div class="err" style="padding:12px">載入失敗：${e.message}（請確認 Tailscale 有連上）</div>`); });
+</script>
+</body>
+</html>

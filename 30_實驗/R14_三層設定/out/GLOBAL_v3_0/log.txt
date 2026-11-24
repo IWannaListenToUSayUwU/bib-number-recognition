@@ -1,0 +1,44 @@
+2026-11-23 11:02:17 [tpe_C_600] 開始 GPU=NVIDIA GeForce RTX 3050 Ti Laptop GPU extract8 fps=16
+2026-11-23 11:03:17 [tpe_C_600]   進度 4.1/60s {'frames': 66, 'ocr': 246, 'splits': 2, 'skipped': 59, 'skip_static': 5, 'skip_zone': 54}
+2026-11-23 11:04:17 [tpe_C_600]   進度 14.5/60s {'frames': 232, 'ocr': 540, 'splits': 2, 'skipped': 287, 'skip_static': 151, 'skip_zone': 136}
+2026-11-23 11:05:17 [tpe_C_600]   進度 20.4/60s {'frames': 326, 'ocr': 827, 'splits': 2, 'skipped': 453, 'skip_static': 285, 'skip_zone': 168}
+2026-11-23 11:06:17 [tpe_C_600]   進度 27.6/60s {'frames': 441, 'ocr': 1090, 'splits': 5, 'skipped': 593, 'skip_static': 364, 'skip_zone': 229}
+2026-11-23 11:07:17 [tpe_C_600]   進度 39.4/60s {'frames': 630, 'ocr': 1379, 'splits': 5, 'skipped': 793, 'skip_static': 476, 'skip_zone': 317}
+2026-11-23 11:08:17 [tpe_C_600]   進度 46.2/60s {'frames': 740, 'ocr': 1665, 'splits': 5, 'skipped': 903, 'skip_static': 557, 'skip_zone': 346}
+2026-11-23 11:09:18 [tpe_C_600]   進度 54.8/60s {'frames': 876, 'ocr': 1947, 'splits': 5, 'skipped': 1031, 'skip_static': 643, 'skip_zone': 388}
+2026-11-23 11:10:18 [tpe_C_600]   進度 59.9/60s {'frames': 958, 'ocr': 2221, 'splits': 6, 'skipped': 1116, 'skip_static': 685, 'skip_zone': 431}
+2026-11-23 11:10:18 [tpe_C_600] 抽取 481s，定案 48 個號碼
+2026-11-23 11:10:25 [tpe_C_600] 過線事件 45 個（有號碼 44；定案規則 cons_color；7s）
+2026-11-23 11:10:25 [tpe_D_1800] 開始 GPU=NVIDIA GeForce RTX 3050 Ti Laptop GPU extract8 fps=16
+2026-11-23 11:11:25 [tpe_D_1800]   進度 8.2/60s {'frames': 132, 'ocr': 268, 'splits': 2, 'skipped': 83, 'skip_static': 0, 'skip_zone': 83}
+2026-11-23 11:12:26 [tpe_D_1800]   進度 13.1/60s {'frames': 209, 'ocr': 574, 'splits': 3, 'skipped': 121, 'skip_static': 12, 'skip_zone': 109}
+2026-11-23 11:13:26 [tpe_D_1800]   進度 19.4/60s {'frames': 311, 'ocr': 825, 'splits': 4, 'skipped': 292, 'skip_static': 19, 'skip_zone': 273}
+2026-11-23 11:14:26 [tpe_D_1800]   進度 26.4/60s {'frames': 423, 'ocr': 1106, 'splits': 6, 'skipped': 444, 'skip_static': 19, 'skip_zone': 425}
+2026-11-23 11:15:26 [tpe_D_1800]   進度 31.8/60s {'frames': 509, 'ocr': 1402, 'splits': 10, 'skipped': 560, 'skip_static': 19, 'skip_zone': 541}
+2026-11-23 11:16:26 [tpe_D_1800]   進度 35.4/60s {'frames': 566, 'ocr': 1711, 'splits': 11, 'skipped': 612, 'skip_static': 19, 'skip_zone': 593}
+2026-11-23 11:17:26 [tpe_D_1800]   進度 41.5/60s {'frames': 664, 'ocr': 2000, 'splits': 18, 'skipped': 746, 'skip_static': 25, 'skip_zone': 721}
+2026-11-23 11:18:26 [tpe_D_1800]   進度 49.2/60s {'frames': 787, 'ocr': 2280, 'splits': 31, 'skipped': 972, 'skip_static': 59, 'skip_zone': 913}
+2026-11-23 11:19:26 [tpe_D_1800]   進度 55.6/60s {'frames': 889, 'ocr': 2583, 'splits': 33, 'skipped': 1087, 'skip_static': 74, 'skip_zone': 1013}
+2026-11-23 11:20:08 [tpe_D_1800] 抽取 583s，定案 80 個號碼
+2026-11-23 11:20:14 [tpe_D_1800] 過線事件 78 個（有號碼 72；定案規則 cons_color；6s）
+2026-11-23 11:20:14 [tpe2t_2700] 開始 GPU=NVIDIA GeForce RTX 3050 Ti Laptop GPU extract8 fps=16
+2026-11-23 11:21:14 [tpe2t_2700]   進度 2.8/60s {'frames': 45, 'ocr': 254, 'splits': 0, 'skipped': 18, 'skip_static': 5, 'skip_zone': 13}
+2026-11-23 11:22:15 [tpe2t_2700]   進度 6.9/60s {'frames': 110, 'ocr': 456, 'splits': 0, 'skipped': 112, 'skip_static': 50, 'skip_zone': 62}
+2026-11-23 11:23:16 [tpe2t_2700]   進度 11.7/60s {'frames': 187, 'ocr': 658, 'splits': 0, 'skipped': 206, 'skip_static': 119, 'skip_zone': 87}
+2026-11-23 11:24:16 [tpe2t_2700]   進度 16.2/60s {'frames': 260, 'ocr': 919, 'splits': 0, 'skipped': 287, 'skip_static': 180, 'skip_zone': 107}
+2026-11-23 11:25:16 [tpe2t_2700]   進度 20.0/60s {'frames': 320, 'ocr': 1168, 'splits': 2, 'skipped': 386, 'skip_static': 230, 'skip_zone': 156}
+2026-11-23 11:26:16 [tpe2t_2700]   進度 23.6/60s {'frames': 378, 'ocr': 1456, 'splits': 2, 'skipped': 512, 'skip_static': 269, 'skip_zone': 243}
+2026-11-23 11:27:16 [tpe2t_2700]   進度 27.9/60s {'frames': 447, 'ocr': 1742, 'splits': 2, 'skipped': 649, 'skip_static': 388, 'skip_zone': 261}
+2026-11-23 11:28:16 [tpe2t_2700]   進度 31.4/60s {'frames': 503, 'ocr': 2020, 'splits': 2, 'skipped': 741, 'skip_static': 451, 'skip_zone': 290}
+2026-11-23 11:29:16 [tpe2t_2700]   進度 36.0/60s {'frames': 576, 'ocr': 2254, 'splits': 2, 'skipped': 918, 'skip_static': 595, 'skip_zone': 323}
+2026-11-23 11:30:16 [tpe2t_2700]   進度 38.9/60s {'frames': 623, 'ocr': 2485, 'splits': 2, 'skipped': 1002, 'skip_static': 675, 'skip_zone': 327}
+2026-11-23 11:31:17 [tpe2t_2700]   進度 42.1/60s {'frames': 674, 'ocr': 2746, 'splits': 2, 'skipped': 1142, 'skip_static': 778, 'skip_zone': 364}
+2026-11-23 11:32:17 [tpe2t_2700]   進度 45.2/60s {'frames': 724, 'ocr': 3018, 'splits': 2, 'skipped': 1233, 'skip_static': 848, 'skip_zone': 385}
+2026-11-23 11:33:17 [tpe2t_2700]   進度 47.9/60s {'frames': 767, 'ocr': 3206, 'splits': 3, 'skipped': 1332, 'skip_static': 884, 'skip_zone': 448}
+2026-11-23 11:34:17 [tpe2t_2700]   進度 52.0/60s {'frames': 832, 'ocr': 3432, 'splits': 3, 'skipped': 1471, 'skip_static': 1009, 'skip_zone': 462}
+2026-11-23 11:35:17 [tpe2t_2700]   進度 56.0/60s {'frames': 896, 'ocr': 3707, 'splits': 3, 'skipped': 1651, 'skip_static': 1145, 'skip_zone': 506}
+2026-11-23 11:36:17 [tpe2t_2700]   進度 59.5/60s {'frames': 952, 'ocr': 3972, 'splits': 3, 'skipped': 1763, 'skip_static': 1245, 'skip_zone': 518}
+2026-11-23 11:36:25 [tpe2t_2700] 抽取 971s，定案 12 個號碼
+2026-11-23 11:36:32 [tpe2t_2700] 過線事件 44 個（有號碼 13；定案規則 cons_color；7s）
+2026-11-23 11:36:32 評分完成 → score.json
+2026-11-23 11:36:32 過線評分完成 → score_v2.json（只算有過線正確答案的片段）

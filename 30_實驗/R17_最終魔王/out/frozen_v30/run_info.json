@@ -1,0 +1,39 @@
+{
+ "tag": "frozen_v30",
+ "global_file": "10_程式\\config\\global\\GLOBAL_v3_0.json",
+ "mode": "cons",
+ "gpu_ocr": false,
+ "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+ "extract": "extract8",
+ "extract_kwargs": {
+  "imgsz": 960,
+  "min_h": 100,
+  "top": 0.22,
+  "bot": 0.72,
+  "early_stop": 3,
+  "hist_thr": 0.45,
+  "jump_thr": 0.8,
+  "static_s": 2.0,
+  "static_p": 0.1
+ },
+ "fps": 16,
+ "segments": [
+  [
+   180,
+   240
+  ],
+  [
+   420,
+   480
+  ],
+  [
+   660,
+   720
+  ],
+  [
+   900,
+   960
+  ]
+ ],
+ "start": "2026-11-24 07:45:35"
+}
